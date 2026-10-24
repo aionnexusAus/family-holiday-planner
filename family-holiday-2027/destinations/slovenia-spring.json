@@ -1,0 +1,89 @@
+{
+  "id": "slovenia-spring",
+  "pool": "main",
+  "name": "Slovenia",
+  "regionLabel": "Ljubljana, Bohinj, Soča and the Karst",
+  "regions": ["europe"],
+  "summary": "A small country of a quiet lake, an emerald river, and a cave you enter by train. Two weeks is enough if you stay in four bases and stay off the high passes.",
+  "why": "It gives the group Alps, water and a genuine science cave without the scale of Italy or France. Lake Bohinj is the calmer base. Postojna is the hour all three children can share. April is green and cool, with rain built into the plan.",
+  "distinctive": "A karst underworld and a river the colour of glass, in a country you can cross in an afternoon and should not.",
+  "scores": {
+    "nature": 5, "quiet": 4, "culture": 4, "history": 4, "adventure": 3,
+    "wildlife": 3, "science": 5, "family": 4, "mild": 3, "road": 4, "rail": 2,
+    "relaxed": 5, "variety": 4, "child6": 4, "child12": 5, "child14": 4,
+    "scenery": 5, "april": 4, "practical": 3, "mobility": 4, "unique": 4, "conventional": 3
+  },
+  "stairs": 2,
+  "labels": {
+    "april": "Very Good",
+    "crowds": "Light outside Bled",
+    "family": "Very Good",
+    "practical": "Good",
+    "scenery": "Excellent"
+  },
+  "weather": "April in Slovenia is green, changeable and often wet. Valley days are cool rather than cold, often around the mid-teens, and mountain nights are colder. The sea at Piran is too cold for swimming. High trails and passes can still hold snow. Treat any specific degree figure as a seasonal expectation.",
+  "weatherStatus": "seasonal",
+  "crowds": "Lake Bled is the busy postcard. Bohinj, Kobarid and the Karst are calmer. Easter 2027 is 28 March, so a mid-April trip misses Holy Week. European school holidays can still spill into the first days of April.",
+  "crowdStatus": "opinion",
+  "natureExperiences": [
+    "Lake Bohinj and the Savica waterfall at an easy pace",
+    "The Soča river from Kobarid or Bovec, without relying on the Vršič Pass",
+    "Kozjak waterfall near Kobarid",
+    "Postojna Cave, 10°C inside, by cave train"
+  ],
+  "age6": "The cave train, a lake shore, a castle courtyard at Predjama, and Ljubljana's old town at walking pace. No rafting.",
+  "age12": "Postojna's karst exhibition, the Soča colour, and the Kobarid World War I museum.",
+  "age14": "The same museum, Škocjan Caves if you want a wilder and steeper cave than Postojna, and the map of a country this small.",
+  "adults": "Ljubljana's river, the history in the Soča valley, and food that is hearty rather than formal. Wine is optional and not the children's day.",
+  "gettingAround": "A car is the right tool. Two cars for seven people. Slovenia drives on the right, which is new for both families. A vignette is required on motorways. Do not plan the trip over the Vršič Pass. In April 2026 it was not described as a full winter closure, and a works notice covered May to November 2026. Snow can still shut it. Use the lower road via Tolmin.",
+  "meetingPoint": "Ljubljana is the simple meeting airport, with fewer long-haul seats than Vienna, Zurich or Venice. Both parties should expect a European connection. Melbourne is a long way. The Indian city with the better Europe fare can decide the Indian departure airport.",
+  "visaAu": "Australian passports can enter Slovenia visa-free for a short Schengen stay. Since 10 April 2026 the EU Entry/Exit System has been recording biometrics at the Schengen border. You do not apply for EES in advance. ETIAS, the online authorisation for visa-free passports, was not operating as of this research. The EU said it would announce a start date months ahead. Recheck before 2027.",
+  "visaIn": "Indian passports need a Schengen visa. Apply to Slovenia if Slovenia is the main destination. Appointments, insurance and funds rules are the slow part. Start several months ahead and use the official consulate or VFS channel, not a forum checklist from a previous year.",
+  "visaStatus": "verified-rule-recheck-process",
+  "disadvantages": [
+    "Both families fly a long way for a small country. The payoff is that you stop rushing once you land.",
+    "April is not swimming weather and not high-alpine hiking weather.",
+    "Rafting and canyoning on the Soča are a warmer-month activity. Cold, high spring water is a reason to watch the river, not ride it.",
+    "Lake Bled's famous view is real and busy. Sleep at Bohinj."
+  ],
+  "uncertainties": [
+    "Vršič and other alpine roads in April 2027. Check promet.si.",
+    "Vintgar Gorge's opening date. It is often seasonal. Do not build a day on it until the park confirms 2027.",
+    "Whether ETIAS will be in force for the Australian passports."
+  ],
+  "childTags": ["science", "walks", "stories", "water"],
+  "climate": "mild",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg/1280px-Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg",
+    "alt": "Aerial view of Lake Bohinj and the Julian Alps",
+    "credit": "Wikimedia Commons: Aerial image of Lake Bohinj",
+    "href": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Lake_Bohinj_(view_from_the_south).jpg"
+  },
+  "gain": "The most compact mix of lake, river and a world-class cave, at a pace that suits a 6-year-old.",
+  "miss": "An easy journey from Melbourne and India, and any promise of beach weather or high snow-free ridges.",
+  "stretch16": "Add a free day at Bohinj and a free day in Ljubljana. Do not add Venice.",
+  "days": [
+    {"show": 10, "base": "Ljubljana", "experience": "Land and walk the river. Castle funicular only if everyone is awake.", "optional": "The market for fruit and burek", "highlight": "A capital you can cross on foot", "kids": "The dragons on the bridge are the first story.", "intensity": "light", "transfer": "Airport to the old town is a short bus or taxi. The international flights are the long part.", "seasonal": "April rain is normal. A compact hotel saves the evening.", "wet": "The castle is reached by funicular. A cafe on the river is enough."},
+    {"show": 10, "base": "Ljubljana", "experience": "Old town, the castle, and Metelkova only from the outside.", "optional": "The puppet museum or the House of Illusions for a rainy hour", "highlight": "A human-scale capital", "kids": "Ljubljana Castle has views and a short visit. The puppet museum is the 6-year-old's indoor choice.", "intensity": "light", "transfer": "On foot.", "seasonal": "The city is calm outside event weekends.", "wet": "Puppet museum and a covered market."},
+    {"show": 12, "base": "Ljubljana", "experience": "A free city day. One museum the 14-year-old chooses.", "optional": "A bike for the older two along the river path", "highlight": "Not filling every hour", "kids": "The 6-year-old gets the playgrounds by the river.", "intensity": "light", "transfer": "None.", "seasonal": "Tivoli Park works in light rain.", "wet": "Stay with the museum."},
+    {"show": 10, "base": "Lake Bohinj", "experience": "Drive to Bohinj and walk the shore.", "optional": "A boat only if it is running and the wind is down", "highlight": "The quieter lake in the Julian Alps", "kids": "Flat shore path. No summit.", "intensity": "moderate", "transfer": "About 1 hour 15 minutes from Ljubljana in normal conditions.", "seasonal": "Snow can still sit on the ridges above the lake. The shore is the April walk.", "wet": "The drive and a lakeside lunch. The view does not require a summit."},
+    {"show": 10, "base": "Lake Bohinj", "experience": "Savica waterfall, or Vogel cable car if it is open and the cloud is above the valley.", "optional": "A second shore walk", "highlight": "A waterfall in a hanging valley, reached by a stepped path", "kids": "Savica has stairs. Turn around if the 6-year-old is done. Vogel is a ride, then a short meadow walk only.", "intensity": "moderate", "transfer": "A short drive to the waterfall car park.", "seasonal": "Cable-car dates change. Confirm Vogel for April 2027.", "wet": "Stay low. Do not ride into cloud for a view that is not there."},
+    {"show": 12, "base": "Lake Bohinj", "experience": "A day trip to Lake Bled and the island by pletna boat, then leave.", "optional": "Bled Castle ramparts", "highlight": "The famous view, seen once, without sleeping in the crowds", "kids": "The boat and the island church bell. The 6-year-old does not need the castle as well.", "intensity": "moderate", "transfer": "About 30–40 minutes from Bohinj to Bled.", "seasonal": "Go early. Bled is the busy hour of this country.", "wet": "The castle is the sheltered part. Or skip Bled and keep Bohinj."},
+    {"show": 14, "base": "Lake Bohinj", "experience": "A free alpine-valley day.", "optional": "Vintgar Gorge only if the 2027 opening notice says it is open", "highlight": "Repetition, which is how a 6-year-old enjoys a place", "kids": "Shore, playground, hot chocolate.", "intensity": "light", "transfer": "None unless Vintgar is confirmed.", "seasonal": "Do not promise Vintgar. It has had seasonal closures.", "wet": "Board games and the lake from the window."},
+    {"show": 10, "base": "Kobarid or Bovec", "experience": "Drive to the Soča valley on the lower road, not over Vršič.", "optional": "Stop in the gorge where there is a safe pull-off", "highlight": "The river turning green", "kids": "Look from the bank. The water is cold and fast in April.", "intensity": "moderate", "transfer": "About 2.5–3.5 hours from Bohinj via Tolmin. Confirm the route the week you travel.", "seasonal": "Check promet.si for the mountain roads even if you are not using Vršič.", "wet": "The colour of the river shows up in cloud too."},
+    {"show": 10, "base": "Kobarid or Bovec", "experience": "Kozjak waterfall and the Kobarid Museum.", "optional": "A short section of the history walk, not the full outdoor museum", "highlight": "A waterfall in a gorge, and a serious war museum that the older children can handle", "kids": "The waterfall walk is the family piece. The museum is for ages 12 and 14, in a short visit.", "intensity": "moderate", "transfer": "Local.", "seasonal": "Paths are slippery after rain. Shoes with grip.", "wet": "The museum becomes the main event. It is excellent."},
+    {"show": 12, "base": "Kobarid or Bovec", "experience": "A free river day. No rafting booking.", "optional": "A thermals spa in the valley if you want a warm hour", "highlight": "Watching the Soča without turning it into an activity product", "kids": "Stones on the bank, a short walk, an early finish.", "intensity": "light", "transfer": "None.", "seasonal": "Commercial rafting usually waits for warmer, safer water. April is the wrong month to insist.", "wet": "Spa or museum cafe."},
+    {"show": 10, "base": "Postojna", "experience": "Drive south to Postojna. Arrive before a late cave slot if you have booked one.", "optional": "The karst exhibition if the cave is tomorrow", "highlight": "The cave train and the chambers", "kids": "Postojna says the tour suits families and visitors with mobility needs. It is about 90 minutes, train plus an easy path, at about 10°C.", "intensity": "moderate", "transfer": "About 2 hours from the Soča valley to Postojna. Allow longer with stops.", "seasonal": "The cave is open every day, including holidays. April tour times should be read on the official timetable, which changes by month.", "wet": "The cave is the wet-weather prize. Take a warm layer."},
+    {"show": 10, "base": "Postojna", "experience": "Predjama Castle, then a second look at the exhibition if the cave was yesterday.", "optional": "The olm display. The cave animal is the science story.", "highlight": "A castle in the mouth of a cliff cave", "kids": "All three ages. There are stairs inside the castle. Take it slowly.", "intensity": "light", "transfer": "About 10–15 minutes from Postojna Cave.", "seasonal": "Official advice is often to do the castle earlier and the cave later. Either order works if you have tickets.", "wet": "Both sights are sheltered."},
+    {"show": 14, "base": "Piran or Postojna", "experience": "The coast at Piran for lanes and gelato, not a swim.", "optional": "Salt pans at Sečovlje if the group likes a flat strange landscape", "highlight": "A Venetian harbour on a very short coastline", "kids": "Ice cream and a square. The sea is cold.", "intensity": "moderate", "transfer": "About an hour from Postojna to Piran.", "seasonal": "Many coastal businesses are open in April. The beach season is not.", "wet": "Stay in Postojna and do Škocjan only for the older children, with a parent. It is more walking and more stairs than Postojna."},
+    {"show": 10, "base": "Ljubljana airport", "experience": "Back to Ljubljana and fly.", "optional": "A last river walk if the flight is late", "highlight": "You are never far from the airport", "kids": "Keep the morning empty.", "intensity": "light", "transfer": "Postojna to Ljubljana is about 45–60 minutes. Piran adds an hour.", "seasonal": "Long-haul connections from Ljubljana can be awkward. Build a buffer night in Ljubljana if the flight leaves early.", "wet": "Drive to the airport."}
+  ],
+  "sources": [
+    {"tag": "verified", "title": "Postojna Cave is open daily and suits families", "url": "https://www.postojnska-jama.eu/en/postojna-cave/", "note": "Official park page. About 90 minutes, about 10°C, train and an easy path."},
+    {"tag": "recheck", "title": "April cave tour clock", "url": "https://www.postojnska-jama.eu/en/information/tour-timetables/", "note": "The official grid is the source to read in 2027. Secondary sites have quoted April slots; do not treat those hours as fixed."},
+    {"tag": "verified", "title": "Australian passports, EES, and Schengen entry", "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia", "note": "Smartraveller. Biometrics on arrival. No pre-registration for EES."},
+    {"tag": "recheck", "title": "ETIAS is not operating yet", "url": "https://travel-europe.europa.eu/etias", "note": "Official EU page, checked in this research pass. A start date may be announced before April 2027."},
+    {"tag": "recheck", "title": "Indian passports need a Schengen visa", "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia", "note": "The Australian page describes the system. The Indian party must use the Slovenian consulate or its visa centre for the actual application."},
+    {"tag": "recheck", "title": "Vršič road works notice from 2026", "url": "https://socasnik.si/obcinske-novice/obvestilo-o-izvajanju-del-na-prelazu-vrsic/", "note": "A 2026 municipal notice about partial closures from 4 May to 16 November 2026. It is not a 2027 status. Check promet.si."}
+  ]
+}

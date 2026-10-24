@@ -1,0 +1,54 @@
+{
+  "researchDate": "2026-10-25",
+  "whatThisIs": "A research file for a local travel planner. The website does not look up live visas, weather, opening hours or fares. Anything that can change before April 2027 is marked recheck.",
+  "evidenceLabels": {
+    "verified": "Read from an official or primary page during this research pass.",
+    "seasonal": "A repeated climate or season pattern from tourism, meteorological or guidebook sources. It describes a typical April, not a forecast for April 2027.",
+    "opinion": "A traveller, guidebook or tourism-trade view. Useful for pacing and crowds. Not a rule.",
+    "recheck": "True when researched, but the 2027 rule, date, timetable or price still has to be checked before booking.",
+    "thin": "Considered, but not checked to the same standard. Not used as a main recommendation."
+  },
+  "howRankingWorks": "The page scores each destination from the saved research every time a preference changes. April suitability, the split-passport journey, time together as a family, and how unfamiliar the place feels are always part of the score, because they are part of this trip. Selected interests add weight. Regions that are switched off are removed. There is no stored league table.",
+  "searchedBeyondFamousCities": [
+    "South Island valleys rather than a New Zealand highlights dash",
+    "Kyushu rather than the Tokyo–Kyoto week",
+    "Ürgüp or Ortahisar rather than only Göreme, and Selçuk rather than a resort strip",
+    "Lake Bohinj, the Soča valley and the Karst rather than only Lake Bled",
+    "Chengdu, Sanxingdui, Dujiangyan and Jiuzhaigou rather than Beijing and Shanghai",
+    "São Miguel rather than Lisbon and the Algarve",
+    "Porto, the Douro and Peneda-Gerês rather than a capital-city loop",
+    "Punakha as well as Paro and Thimphu",
+    "Plitvice and Istria rather than the Dalmatian islands in April",
+    "Jeju rather than only Seoul",
+    "Iceland's south coast, with highland roads treated as closed",
+    "Bergen and the Flåm railway, with April mountain-road closures treated as a real limit"
+  ],
+  "thinOrSetAside": [
+    {
+      "place": "Finland, Lapland",
+      "status": "thin",
+      "reason": "April in the far north is a thaw month: winter activities are ending, summer trails have not started, and the nights get too bright for a reliable aurora. This pass did not add a separate official Finland source, so Lapland is not scored."
+    },
+    {
+      "place": "Madeira",
+      "status": "thin",
+      "reason": "April weather is mild, but the walks that define the island are often narrow and exposed. That is a poor match for a 6-year-old. Trail-by-trail rules were not rechecked, so Madeira is not scored."
+    },
+    {
+      "place": "Nepal",
+      "status": "thin",
+      "reason": "April can be clear before the monsoon, and Indian passports have a simpler entry path than many other destinations. The walking is at altitude. This pass did not build a sourced family plan around Pokhara."
+    },
+    {
+      "place": "Morocco, Costa Rica, the Canary Islands, Dubai, Laos",
+      "status": "thin",
+      "reason": "Set aside early because April is already hot, humid, or more urban than the nature-first brief. They were not given the same source check."
+    }
+  ],
+  "pageDoesNotDo": [
+    "Live prices, a budget, or a cost calculator",
+    "Live flight or train timetables",
+    "A visa application",
+    "Sending personal data anywhere"
+  ]
+}

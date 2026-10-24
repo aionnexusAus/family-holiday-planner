@@ -1,0 +1,53 @@
+{
+  "title": "April 2027 international family holiday",
+  "researchDate": "2026-10-25",
+  "group": {
+    "adults": 4,
+    "children": [
+      {"age": 6, "label": "6-year-old"},
+      {"age": 12, "label": "12-year-old"},
+      {"age": 14, "label": "14-year-old"}
+    ],
+    "total": 7,
+    "households": 2
+  },
+  "passports": {
+    "australian": {
+      "count": 3,
+      "departureCity": "Melbourne",
+      "departureStatus": "likely, not finally booked"
+    },
+    "indian": {
+      "count": 4,
+      "departureCity": null,
+      "departureStatus": "not decided"
+    }
+  },
+  "when": {
+    "month": "April 2027",
+    "durationDays": "about 14",
+    "durationOptions": [10, 12, 14, 16]
+  },
+  "alreadyExplored": "Australia, extensively. Recommendations are international.",
+  "priorities": [
+    "Beautiful natural scenery: mountains, lakes, forests, waterfalls, coast, wildlife, distinctive landscapes",
+    "Pleasant April weather, not excessively hot",
+    "Peaceful days and fewer crowds where that is realistic",
+    "Activities that work for ages 6, 12 and 14",
+    "A mix of nature, adventure, culture, history, science, technology and local life",
+    "Adults and children doing things together",
+    "Somewhere unfamiliar and memorable",
+    "A comfortable pace, without a new hotel every night",
+    "A practical meeting plan for two families leaving from different countries"
+  ],
+  "defaultPreferences": {
+    "chips": ["nature", "quiet", "family", "mild", "variety", "relaxed"],
+    "days": 14,
+    "climate": "mild",
+    "pace": "relaxed",
+    "startDate": "2027-04-12",
+    "mobility": "none",
+    "regions": ["oceania", "east-asia", "europe", "west-asia", "himalaya", "atlantic"],
+    "childFocus": []
+  }
+}

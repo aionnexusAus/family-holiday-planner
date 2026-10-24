@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>April 2027 — Seven travellers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,520;9..144,640&family=Outfit:wght@380;520;640&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1c1915;
+  --muted: #5e574c;
+  --paper: #f4efe6;
+  --card: #fffdf9;
+  --line: #e3d7c6;
+  --forest: #1b3f34;
+  --fern: #2f6b52;
+  --clay: #9a4630;
+  --gold: #8d6a32;
+  --sea: #1d3f4e;
+  --shadow: 0 18px 40px rgba(48, 36, 22, 0.08);
+  --serif: Fraunces, "Iowan Old Style", Palatino, Georgia, serif;
+  --sans: Outfit, "Avenir Next", "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 500px at 10% -10%, #efe4d2 0%, transparent 55%),
+    var(--paper);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.5;
+}
+img { max-width: 100%; display: block; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: var(--sea); }
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 560; letter-spacing: -0.03em; line-height: 1.08; }
+.wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+.top {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  padding: 14px 0;
+  background: rgba(244, 239, 230, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid transparent;
+}
+.top.scrolled { border-bottom-color: var(--line); }
+.brand { display: flex; flex-direction: column; text-decoration: none; color: inherit; }
+.brand small { color: var(--gold); letter-spacing: 0.14em; text-transform: uppercase; font-size: 11px; }
+.brand strong { font-family: var(--serif); font-size: 22px; font-weight: 560; }
+nav { display: flex; flex-wrap: wrap; gap: 6px; }
+nav button, .text-btn {
+  border: 0; background: transparent; padding: 8px 10px; border-radius: 999px; color: var(--muted);
+}
+nav button[aria-current="page"] { background: var(--forest); color: white; }
+.hero { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 28px; align-items: end; padding: 28px 0 10px; }
+.hero h1 { font-size: clamp(42px, 6vw, 76px); margin: 8px 0 12px; }
+.lede { font-size: 19px; max-width: 40rem; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0; }
+.facts span, .pill {
+  border: 1px solid var(--line); background: rgba(255,253,249,0.7);
+  border-radius: 999px; padding: 6px 10px; font-size: 14px;
+}
+.hero-photo {
+  min-height: 320px; border-radius: 28px; overflow: hidden; position: relative;
+  background: linear-gradient(160deg, #234237, #8d6a32);
+  box-shadow: var(--shadow);
+}
+.hero-photo img { width: 100%; height: 420px; object-fit: cover; }
+.hero-photo figcaption {
+  position: absolute; left: 12px; right: 12px; bottom: 12px;
+  color: white; font-size: 12px; text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.panel, .card, .detail, .notice {
+  background: var(--card); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow);
+}
+.panel { padding: 18px; margin: 18px 0; }
+.panel h2 { margin: 0 0 6px; font-size: 32px; }
+.help { color: var(--muted); margin-top: 0; }
+.chips, .checks { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip, .check {
+  border: 1px solid var(--line); background: #faf7f2; border-radius: 999px; padding: 8px 12px;
+}
+.chip[aria-pressed="true"] { background: var(--forest); color: white; border-color: var(--forest); }
+.check { display: flex; gap: 6px; align-items: center; }
+.controls { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 14px; }
+label.field { display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: var(--muted); }
+label.field select, label.field input[type="date"] {
+  border: 1px solid var(--line); background: white; border-radius: 12px; padding: 10px;
+}
+.row-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 14px; }
+.primary, .ghost {
+  border-radius: 999px; padding: 10px 14px; border: 1px solid var(--forest);
+}
+.primary { background: var(--forest); color: white; }
+.ghost { background: transparent; }
+.live {
+  min-height: 3.2em; border-left: 3px solid var(--gold); padding: 4px 0 4px 12px; margin: 12px 0;
+}
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.card { overflow: hidden; display: flex; flex-direction: column; }
+.card figure { margin: 0; min-height: 180px; background: linear-gradient(145deg, #1b3f34, #c4b49a); position: relative; }
+.card img { width: 100%; height: 210px; object-fit: cover; }
+.card figure span {
+  position: absolute; left: 12px; top: 12px; background: rgba(255,253,249,.92);
+  border-radius: 999px; padding: 4px 8px; font-size: 12px;
+}
+.card .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.card h3 { margin: 0; font-size: 28px; }
+.meta { color: var(--gold); font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; }
+.labels { display: flex; flex-wrap: wrap; gap: 6px; }
+.labels b { font-weight: 520; color: var(--forest); }
+.card p { margin: 0; }
+.card .actions { display: flex; gap: 8px; margin-top: auto; }
+.fit { font-family: var(--serif); font-size: 18px; }
+.notice { padding: 14px 16px; margin: 8px 0 16px; }
+.section-title { display: flex; justify-content: space-between; gap: 12px; align-items: end; }
+.detail { margin: 12px 0 28px; overflow: hidden; }
+.detail-hero { position: relative; background: #1b3f34; }
+.detail-hero img { width: 100%; height: min(460px, 52vw); object-fit: cover; }
+.detail-hero .caption { position: absolute; left: 16px; bottom: 12px; color: white; font-size: 13px; text-shadow: 0 1px 2px #000; }
+.detail-body { padding: 8px 22px 28px; }
+.detail-body h2 { font-size: clamp(36px, 5vw, 60px); margin-bottom: 8px; }
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.block { background: #faf7f2; border-radius: 16px; padding: 12px 14px; }
+.block h3 { margin: 0 0 6px; font-size: 22px; }
+.block p, .block li { margin: 0 0 6px; }
+.days { display: flex; flex-direction: column; gap: 10px; }
+.day { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 12px 0; border-top: 1px solid var(--line); }
+.day strong { font-family: var(--serif); font-size: 20px; }
+.intensity { display: inline-block; border-radius: 999px; padding: 2px 8px; font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
+.light { background: #e5f2ea; color: #1b3f34; }
+.moderate { background: #f4ead2; color: #6a4b12; }
+.demanding { background: #f6e1d8; color: #7a2e1d; }
+.sources a { display: inline-block; margin: 4px 8px 4px 0; }
+.tag { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+table { width: 100%; border-collapse: collapse; background: var(--card); }
+th, td { text-align: left; vertical-align: top; padding: 10px; border-bottom: 1px solid var(--line); }
+th { font-size: 13px; color: var(--muted); font-weight: 520; }
+.decision { display: grid; gap: 12px; }
+.decision article { padding: 16px; border-radius: 18px; background: var(--card); border: 1px solid var(--line); }
+.muted { color: var(--muted); }
+.footer { padding: 28px 0 48px; color: var(--muted); font-size: 14px; }
+.saved-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--fern); display: inline-block; }
+#print-root { display: none; }
+@media (max-width: 860px) {
+  .hero, .grid, .split, .controls, .day { grid-template-columns: 1fr; }
+  .hero-photo img, .detail-hero img { height: 240px; }
+  .top { flex-direction: column; align-items: flex-start; }
+}
+@media print {
+  body { background: white; }
+  .top, .no-print, .hero-photo { display: none !important; }
+  #print-root { display: block; }
+  .view { display: none !important; }
+  .day { break-inside: avoid; }
+  a { color: black; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+<header class="wrap top" id="topbar">
+  <a class="brand" href="#discover"><small>April 2027</small><strong>Seven travellers</strong></a>
+  <nav aria-label="Sections">
+    <button type="button" data-view="discover" aria-current="page">Discover</button>
+    <button type="button" data-view="shortlist">Shortlist</button>
+    <button type="button" data-view="compare">Compare</button>
+    <button type="button" data-view="decide">Decide</button>
+    <button type="button" data-view="research">Research</button>
+  </nav>
+</header>
+<main class="wrap">
+  <section id="discover" class="view">
+    <div class="hero">
+      <div>
+        <p class="meta">Two families · Melbourne and India · about two weeks</p>
+        <h1>Where should the seven of us go?</h1>
+        <p class="lede">Four adults and three children, aged 6, 12 and 14. Three Australian passports, four Indian passports. The trip is international, in April 2027, and it should feel like a place rather than a checklist.</p>
+        <div class="facts" id="fact-row"></div>
+      </div>
+      <figure class="hero-photo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1280px-Milford_Sound_%28New_Zealand%29.JPG" alt="Milford Sound, a steep fiord in New Zealand">
+        <figcaption>Milford Sound. Wikimedia Commons. A starting image, not a decision.</figcaption>
+      </figure>
+    </div>
+    <section class="panel no-print" aria-labelledby="pref-title">
+      <h2 id="pref-title">Tell the page what matters</h2>
+      <p class="help">Choose as many interests as you like. The order of places is calculated again each time. April weather, the two-passport journey, and how unfamiliar the place feels stay in the score, because they are part of this trip.</p>
+      <div class="chips" id="chips"></div>
+      <div class="controls">
+        <label class="field">Length
+          <select id="days"><option>10</option><option>12</option><option selected>14</option><option>16</option></select>
+        </label>
+        <label class="field">Start date
+          <input id="start" type="date" min="2027-03-20" max="2027-05-05" value="2027-04-12">
+        </label>
+        <label class="field">Climate
+          <select id="climate"><option value="mild">Mild, not hot</option><option value="cool">Cool is fine</option><option value="either">Either, as long as it is not hot</option></select>
+        </label>
+        <label class="field">Pace
+          <select id="pace"><option value="relaxed">Relaxed, with free days</option><option value="moderate">Moderate</option><option value="active">Active outdoors</option></select>
+        </label>
+      </div>
+      <p class="meta" style="margin-top:16px">Regions to include</p>
+      <div class="checks" id="regions"></div>
+      <p class="meta">Especially good for the children</p>
+      <div class="checks" id="children"></div>
+      <div class="controls">
+        <label class="field">Walking
+          <select id="mobility">
+            <option value="none">No special limit</option>
+            <option value="short">Prefer shorter walks</option>
+            <option value="stairs">Avoid long stair climbs</option>
+          </select>
+        </label>
+      </div>
+      <div class="row-actions">
+        <button type="button" class="ghost" id="reset">Reset this search</button>
+        <label class="check"><input type="checkbox" id="show-aside"> Include places we held back</label>
+        <span class="muted"><span class="saved-dot"></span> <span id="save-state">Saved in this browser</span></span>
+      </div>
+      <div class="live" id="why-line" aria-live="polite"></div>
+      <div id="timing-notes"></div>
+    </section>
+    <div class="section-title">
+      <h2>Places that fit</h2>
+      <p class="muted" id="result-count"></p>
+    </div>
+    <div id="aside-banner"></div>
+    <div class="grid" id="results"></div>
+  </section>
+
+  <section id="detail" class="view" hidden></section>
+
+  <section id="shortlist" class="view" hidden>
+    <h2>Shortlist</h2>
+    <p class="help">Saved only in this browser. Nothing is sent anywhere.</p>
+    <div class="row-actions no-print">
+      <button type="button" class="primary" id="print-short">Print shortlist and plans</button>
+      <button type="button" class="ghost" id="clear-short">Clear shortlist</button>
+    </div>
+    <div id="short-list"></div>
+  </section>
+
+  <section id="compare" class="view" hidden>
+    <h2>Compare the shortlist</h2>
+    <p class="help">This is a comparison of the trip you would have, not of prices.</p>
+    <div id="compare-picks" class="checks no-print"></div>
+    <div id="compare-table"></div>
+  </section>
+
+  <section id="decide" class="view" hidden>
+    <h2>How to choose</h2>
+    <p class="help" id="decide-intro"></p>
+    <div class="decision" id="decision"></div>
+  </section>
+
+  <section id="research" class="view" hidden>
+    <h2>What was checked</h2>
+    <div id="research-body"></div>
+  </section>
+</main>
+<footer class="wrap footer">
+  <p>Research compiled 25 October 2026 and stored in the JSON files beside this project. The page does not look up live visas, weather, opening hours or fares. Recheck anything marked that way before you book.</p>
+</footer>
+<div id="print-root"></div>
+<script>
+const DATA = /*__DATA__*/ null;
+const CHIP_DEFS = [
+  ["nature", "Nature and dramatic scenery"],
+  ["quiet", "Quiet places"],
+  ["culture", "Cultural discovery"],
+  ["history", "History and architecture"],
+  ["adventure", "Adventure outdoors"],
+  ["wildlife", "Wildlife"],
+  ["science", "Science and technology"],
+  ["family", "Family-friendly days"],
+  ["mild", "Mild or cool weather"],
+  ["road", "Scenic road trips"],
+  ["rail", "Trains and public transport"],
+  ["relaxed", "Relaxed pace"],
+  ["variety", "A mixture of activities"]
+];
+const REGION_DEFS = [
+  ["oceania", "Oceania"],
+  ["east-asia", "East Asia"],
+  ["europe", "Europe"],
+  ["west-asia", "Türkiye and the Caucasus"],
+  ["himalaya", "Himalaya"],
+  ["atlantic", "Atlantic islands"]
+];
+const CHILD_DEFS = [
+  ["wildlife", "Wildlife"],
+  ["walks", "Easy walks"],
+  ["trains", "Trains and boats"],
+  ["stories", "Stories, castles, myths"],
+  ["science", "Hands-on science"],
+  ["water", "Lakes, coasts, waterfalls"],
+  ["food", "Food they can share"]
+];
+const CHIP_LABEL = Object.fromEntries(CHIP_DEFS);
+
+const state = load();
+let lastLeader = null;
+
+function load() {
+  const fallback = {
+    chips: DATA.trip.defaultPreferences.chips.slice(),
+    days: DATA.trip.defaultPreferences.days,
+    climate: DATA.trip.defaultPreferences.climate,
+    pace: DATA.trip.defaultPreferences.pace,
+    start: DATA.trip.defaultPreferences.startDate,
+    mobility: DATA.trip.defaultPreferences.mobility,
+    regions: DATA.trip.defaultPreferences.regions.slice(),
+    child: [],
+    showAside: false,
+    shortlist: [],
+    compare: []
+  };
+  try {
+    const saved = JSON.parse(localStorage.getItem("familyHolidayApril2027") || "null");
+    if (!saved) return fallback;
+    return Object.assign(fallback, saved);
+  } catch (err) {
+    return fallback;
+  }
+}
+function persist() {
+  const copy = {
+    chips: state.chips, days: state.days, climate: state.climate, pace: state.pace,
+    start: state.start, mobility: state.mobility, regions: state.regions,
+    child: state.child, showAside: state.showAside, shortlist: state.shortlist, compare: state.compare
+  };
+  localStorage.setItem("familyHolidayApril2027", JSON.stringify(copy));
+  const el = document.getElementById("save-state");
+  if (el) el.textContent = "Saved in this browser";
+}
+function byId(id) { return DATA.destinations.find(d => d.id === id); }
+function regionOk(d) { return d.regions.some(r => state.regions.includes(r)); }
+function poolOk(d) { return d.pool === "main" || state.showAside; }
+
+function scoreOf(d) {
+  let s = d.scores.april * 2.2 + d.scores.practical * 2 + d.scores.family + d.scores.unique * 0.55;
+  state.chips.forEach(c => { s += (d.scores[c] || 0) * 1.15; });
+  if (state.climate === "mild") s += (d.scores.mild - 2) * 1.35;
+  if (state.climate === "cool") s += (d.climate === "cool" ? 5 : 0) + (5 - d.scores.mild) * 0.35;
+  if (state.pace === "relaxed") s += d.scores.relaxed * 0.85;
+  if (state.pace === "active") s += d.scores.adventure * 0.9;
+  state.child.forEach(tag => { if ((d.childTags || []).includes(tag)) s += 1.5; });
+  if (state.mobility === "short") s += (d.scores.mobility - 3) * 1.3;
+  if (state.mobility === "stairs") s -= (d.stairs || 0) * 0.8;
+  if (state.days <= 10 && d.days.length > 12) s -= 0.6;
+  if (state.days >= 14) s += d.scores.relaxed * 0.15;
+  return s;
+}
+function ranked(includeAside) {
+  return DATA.destinations
+    .filter(d => regionOk(d) && (includeAside || d.pool === "main" || state.showAside))
+    .map(d => ({ d, s: scoreOf(d) }))
+    .sort((a, b) => b.s - a.s);
+}
+function fitWord(score, top) {
+  if (!top) return "Mixed";
+  const ratio = score / top;
+  if (ratio >= 0.9) return "Excellent";
+  if (ratio >= 0.8) return "Very Good";
+  if (ratio >= 0.68) return "Good";
+  return "Mixed";
+}
+function visibleDays(d) {
+  const days = d.days.filter(day => (day.show || 10) <= state.days);
+  return days.length ? days : d.days.slice();
+}
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, ch => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[ch]));
+}
+function timingNotes() {
+  const start = new Date(state.start + "T12:00:00");
+  const end = new Date(start);
+  end.setDate(end.getDate() + Number(state.days) - 1);
+  const notes = [];
+  if (start <= new Date("2027-04-11T12:00:00")) {
+    notes.push("These dates overlap the published Victorian autumn school holiday, which runs to 11 April 2027.");
+  } else {
+    notes.push("Victorian government schools resume on 12 April 2027. A trip starting then is leave from Term 2 unless your own school differs.");
+  }
+  if (start <= new Date("2027-04-07T12:00:00")) {
+    notes.push("The first week of April is the busier window: the end of Japan's spring break, early blossom, and China's Qingming period.");
+  }
+  if (end >= new Date("2027-04-29T12:00:00")) {
+    notes.push("This reaches 29 April 2027, the start of Japan's Golden Week.");
+  }
+  notes.push("Indian school calendars often still run through April. Confirm the actual schools. The Indian departure city is still open.");
+  return notes;
+}
+function strongChips(d) {
+  return state.chips
+    .map(c => ({ c, v: d.scores[c] || 0 }))
+    .filter(x => x.v >= 4)
+    .sort((a, b) => b.v - a.v)
+    .slice(0, 3)
+    .map(x => CHIP_LABEL[x.c]);
+}
+
+function renderFacts() {
+  const g = DATA.trip.group;
+  document.getElementById("fact-row").innerHTML = [
+    g.adults + " adults",
+    "Children " + g.children.map(c => c.age).join(", "),
+    "3 Australian passports from Melbourne",
+    "4 Indian passports, city not chosen",
+    state.days + " days from " + state.start
+  ].map(t => `<span>${esc(t)}</span>`).join("");
+}
+function renderControls() {
+  document.getElementById("chips").innerHTML = CHIP_DEFS.map(([id, label]) =>
+    `<button type="button" class="chip" data-chip="${id}" aria-pressed="${state.chips.includes(id)}">${label}</button>`
+  ).join("");
+  document.getElementById("regions").innerHTML = REGION_DEFS.map(([id, label]) =>
+    `<label class="check"><input type="checkbox" data-region="${id}" ${state.regions.includes(id) ? "checked" : ""}> ${label}</label>`
+  ).join("");
+  document.getElementById("children").innerHTML = CHILD_DEFS.map(([id, label]) =>
+    `<label class="check"><input type="checkbox" data-child="${id}" ${state.child.includes(id) ? "checked" : ""}> ${label}</label>`
+  ).join("");
+  document.getElementById("days").value = String(state.days);
+  document.getElementById("start").value = state.start;
+  document.getElementById("climate").value = state.climate;
+  document.getElementById("pace").value = state.pace;
+  document.getElementById("mobility").value = state.mobility;
+  document.getElementById("show-aside").checked = state.showAside;
+  document.getElementById("timing-notes").innerHTML = timingNotes().map(n => `<p class="notice">${esc(n)}</p>`).join("");
+}
+function card(entry, top) {
+  const d = entry.d;
+  const fit = fitWord(entry.s, top);
+  const interests = strongChips(d);
+  const held = d.pool === "aside" ? `<span>Held back</span>` : "";
+  return `<article class="card">
+    <figure>
+      ${held}
+      <img alt="${esc(d.image.alt)}" src="${esc(d.image.src)}">
+    </figure>
+    <div class="body">
+      <p class="meta">${esc(d.regionLabel)}</p>
+      <h3>${esc(d.name)}</h3>
+      <p class="fit">Fit for this search: ${fit}</p>
+      <div class="labels">
+        <span class="pill">April <b>${esc(d.labels.april)}</b></span>
+        <span class="pill">Crowds <b>${esc(d.labels.crowds)}</b></span>
+        <span class="pill">Family <b>${esc(d.labels.family)}</b></span>
+        <span class="pill">Journey <b>${esc(d.labels.practical)}</b></span>
+      </div>
+      <p>${esc(d.summary)}</p>
+      <p class="muted">${interests.length ? "Matches you on " + esc(interests.join(", ")) + ". " : ""}${esc(d.why)}</p>
+      <div class="actions">
+        <button type="button" class="primary" data-open="${d.id}">Open the plan</button>
+        <button type="button" class="ghost" data-save="${d.id}">${state.shortlist.includes(d.id) ? "Saved" : "Save"}</button>
+      </div>
+    </div>
+  </article>`;
+}
+function renderResults() {
+  const list = ranked(false);
+  const top = list.length ? list[0].s : 1;
+  const leader = list[0] ? list[0].d : null;
+  document.getElementById("results").innerHTML = list.length
+    ? list.map(entry => card(entry, top)).join("")
+    : `<p class="notice">No place is left with those regions. Turn a region back on.</p>`;
+  document.getElementById("result-count").textContent = list.length + (list.length === 1 ? " place" : " places");
+  if (leader) {
+    const move = lastLeader && lastLeader !== leader.id
+      ? `${leader.name} moved to the front.`
+      : `${leader.name} leads this search.`;
+    const chips = strongChips(leader);
+    document.getElementById("why-line").textContent = `${move} ${chips.length ? "The interests it serves best are " + chips.join(", ") + "." : ""} April is rated ${leader.labels.april.toLowerCase()}, and the two-family journey is ${leader.labels.practical.toLowerCase()}.`;
+    lastLeader = leader.id;
+  } else {
+    document.getElementById("why-line").textContent = "Turn at least one region on to see places.";
+  }
+  const hidden = DATA.destinations.filter(d => d.pool === "aside" && regionOk(d) && !state.showAside);
+  const withHidden = ranked(true);
+  const surprises = hidden.filter(d => withHidden.findIndex(x => x.d.id === d.id) < 4);
+  const banner = document.getElementById("aside-banner");
+  if (!state.showAside && (surprises.length || hidden.length)) {
+    const surpriseText = surprises.length
+      ? surprises.map(d => `${d.name} would sit near the top`).join("; ") + ". "
+      : "";
+    banner.innerHTML = `<div class="notice"><strong>Held back on purpose.</strong> ${esc(surpriseText)} ${hidden.map(d => esc(d.name) + ": " + esc(d.asideReason)).join(" ")} <button type="button" class="text-btn" id="reveal-aside">Show them in the list</button></div>`;
+    document.getElementById("reveal-aside").onclick = () => {
+      state.showAside = true;
+      document.getElementById("show-aside").checked = true;
+      persist();
+      renderResults();
+    };
+  } else banner.innerHTML = "";
+  document.querySelectorAll(".card img").forEach(img => {
+    img.addEventListener("error", () => { img.style.display = "none"; });
+  });
+}
+
+function dayCard(day, index) {
+  return `<article class="day">
+    <div><strong>Day ${index + 1}</strong><div class="intensity ${day.intensity}">${esc(day.intensity)}</div><div class="muted">${esc(day.base)}</div></div>
+    <div>
+      <p><strong>${esc(day.experience)}</strong></p>
+      <p>Optional: ${esc(day.optional)}</p>
+      <p>Highlight: ${esc(day.highlight)}</p>
+      <p>Children: ${esc(day.kids)}</p>
+      <p>Transfer: ${esc(day.transfer)}</p>
+      <p>Season: ${esc(day.seasonal)}</p>
+      <p>If the weather turns: ${esc(day.wet)}</p>
+    </div>
+  </article>`;
+}
+function detailHtml(d) {
+  const days = visibleDays(d);
+  const stretch = state.days >= 16 && d.stretch16 ? `<p class="notice">${esc(d.stretch16)}</p>` : "";
+  const shorter = days.length < d.days.length
+    ? `<p class="notice">Showing ${days.length} days for a ${state.days}-day trip. The full notes cover ${d.days.length} days. Lengthen the trip in the controls to reveal the slower days.</p>`
+    : "";
+  return `<article class="detail">
+    <div class="detail-hero">
+      <img alt="${esc(d.image.alt)}" src="${esc(d.image.src)}">
+      <div class="caption">${esc(d.image.credit)} · <a href="${esc(d.image.href)}" style="color:white">Image file</a></div>
+    </div>
+    <div class="detail-body">
+      <p class="meta">${esc(d.regionLabel)}</p>
+      <h2>${esc(d.name)}</h2>
+      <p class="lede">${esc(d.summary)}</p>
+      <div class="labels">
+        <span class="pill">April <b>${esc(d.labels.april)}</b></span>
+        <span class="pill">Crowds <b>${esc(d.labels.crowds)}</b></span>
+        <span class="pill">Family <b>${esc(d.labels.family)}</b></span>
+        <span class="pill">Journey <b>${esc(d.labels.practical)}</b></span>
+        <span class="pill">Scenery <b>${esc(d.labels.scenery)}</b></span>
+      </div>
+      <div class="row-actions no-print">
+        <button type="button" class="ghost" id="back">Back to the list</button>
+        <button type="button" class="primary" data-save="${d.id}">${state.shortlist.includes(d.id) ? "Saved" : "Save to shortlist"}</button>
+        <button type="button" class="ghost" data-print="${d.id}">Print this plan</button>
+      </div>
+      <div class="split">
+        <div class="block"><h3>Why this group</h3><p>${esc(d.why)}</p><p>${esc(d.distinctive)}</p></div>
+        <div class="block"><h3>April weather</h3><p>${esc(d.weather)}</p><p class="tag">${esc(d.weatherStatus)}</p><h3>Crowds</h3><p>${esc(d.crowds)}</p></div>
+        <div class="block"><h3>Nature</h3><ul>${d.natureExperiences.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+        <div class="block"><h3>Age 6</h3><p>${esc(d.age6)}</p><h3>Age 12</h3><p>${esc(d.age12)}</p><h3>Age 14</h3><p>${esc(d.age14)}</p><h3>Adults</h3><p>${esc(d.adults)}</p></div>
+        <div class="block"><h3>Getting around</h3><p>${esc(d.gettingAround)}</p><h3>Where to meet</h3><p>${esc(d.meetingPoint)}</p></div>
+        <div class="block"><h3>Australian passports</h3><p>${esc(d.visaAu)}</p><h3>Indian passports</h3><p>${esc(d.visaIn)}</p></div>
+      </div>
+      <div class="split" style="margin-top:14px">
+        <div class="block"><h3>You would gain</h3><p>${esc(d.gain)}</p></div>
+        <div class="block"><h3>You would miss</h3><p>${esc(d.miss)}</p></div>
+      </div>
+      <h3>Limits and open questions</h3>
+      <ul>${d.disadvantages.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+      <ul>${d.uncertainties.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+      <h3>Plan for ${state.days} days</h3>
+      ${shorter}${stretch}
+      <div class="days">${days.map(dayCard).join("")}</div>
+      <h3>Sources</h3>
+      <div class="sources">${d.sources.map(src => `<p><span class="tag">${esc(src.tag)}</span> <a href="${esc(src.url)}">${esc(src.title)}</a><br>${esc(src.note)}</p>`).join("")}</div>
+    </div>
+  </article>`;
+}
+function openDetail(id) {
+  const d = byId(id);
+  if (!d) return;
+  document.getElementById("detail").innerHTML = detailHtml(d);
+  document.getElementById("detail").querySelectorAll("img").forEach(img => {
+    img.addEventListener("error", () => { img.style.display = "none"; });
+  });
+  document.getElementById("back").onclick = () => show("discover");
+  location.hash = id;
+  show("detail");
+}
+
+function renderShort() {
+  const box = document.getElementById("short-list");
+  if (!state.shortlist.length) {
+    box.innerHTML = `<p class="notice">Nothing saved yet. Use Save on a place you want to keep.</p>`;
+    return;
+  }
+  box.innerHTML = state.shortlist.map(id => {
+    const d = byId(id);
+    if (!d) return "";
+    return `<article class="notice"><h3>${esc(d.name)}</h3><p>${esc(d.summary)}</p><p>${esc(d.gain)} ${esc(d.miss)}</p>
+      <button type="button" class="primary" data-open="${id}">Open</button>
+      <button type="button" class="ghost" data-save="${id}">Remove</button></article>`;
+  }).join("");
+}
+function renderCompare() {
+  const picks = document.getElementById("compare-picks");
+  const table = document.getElementById("compare-table");
+  if (state.shortlist.length < 2) {
+    picks.innerHTML = "";
+    table.innerHTML = `<p class="notice">Save at least two places, then come back to compare them.</p>`;
+    return;
+  }
+  if (!state.compare.length) state.compare = state.shortlist.slice(0, 3);
+  state.compare = state.compare.filter(id => state.shortlist.includes(id)).slice(0, 3);
+  picks.innerHTML = state.shortlist.map(id => {
+    const d = byId(id);
+    return `<label class="check"><input type="checkbox" data-compare="${id}" ${state.compare.includes(id) ? "checked" : ""}> ${esc(d.name)}</label>`;
+  }).join("");
+  const cols = state.compare.map(byId).filter(Boolean);
+  if (cols.length < 2) {
+    table.innerHTML = `<p class="notice">Tick two or three saved places.</p>`;
+    return;
+  }
+  const rows = [
+    ["The feeling of the trip", d => d.summary],
+    ["Scenery", d => d.labels.scenery + ". " + d.natureExperiences[0]],
+    ["April", d => d.labels.april + ". " + d.weather],
+    ["Crowds", d => d.labels.crowds + ". " + d.crowds],
+    ["Age 6", d => d.age6],
+    ["Age 12", d => d.age12],
+    ["Age 14", d => d.age14],
+    ["How you travel", d => d.gettingAround],
+    ["Two passports", d => "Australia: " + d.visaAu + " India: " + d.visaIn],
+    ["You gain", d => d.gain],
+    ["You miss", d => d.miss]
+  ];
+  table.innerHTML = `<table><thead><tr><th></th>${cols.map(d => `<th>${esc(d.name)}</th>`).join("")}</tr></thead><tbody>
+    ${rows.map(([label, fn]) => `<tr><th>${label}</th>${cols.map(d => `<td>${esc(fn(d))}</td>`).join("")}</tr>`).join("")}
+  </tbody></table>`;
+}
+
+function categoryList() {
+  const list = ranked(false).map(x => x.d);
+  const pick = (fn, test) => {
+    const ordered = list.filter(test || (() => true)).sort((a, b) => fn(b) - fn(a));
+    return ordered;
+  };
+  return [
+    { key: "overall", title: "Best overall for this search", ordered: list, blurb: (w, r) => `${w.name} leads on the interests and constraints now selected. ${w.gain} ${r ? "The next place is " + r.name + ". " + r.miss : ""}` },
+    { key: "scenery", title: "Best dramatic scenery you can use in April", ordered: pick(d => d.scores.scenery * 2 + d.scores.nature + d.scores.april * 0.6, d => d.scores.scenery >= 4 && d.scores.april >= 3), blurb: (w, r) => `${w.name} is the landscape that still works in April. ${r ? r.name + " is close for scenery and weaker on the April practicalities: " + r.miss : ""}` },
+    { key: "quiet", title: "Best for quiet exploration", ordered: pick(d => d.scores.quiet * 2 + d.scores.relaxed, d => d.scores.quiet >= 4), blurb: (w, r) => `${w.name} is the calmest place that still clears the April and family bar. ${w.miss}` },
+    { key: "both", title: "Best mix of nature and culture", ordered: pick(d => d.scores.nature + d.scores.culture + d.scores.history, d => d.scores.nature >= 4 && d.scores.culture >= 4), blurb: (w, r) => `${w.name} is where the walks and the human story are both the point. ${w.gain}` },
+    { key: "kids", title: "Best for the 6-, 12- and 14-year-olds together", ordered: pick(d => d.scores.family + d.scores.child6 + d.scores.child12 + d.scores.child14), blurb: (w, r) => `${w.name} gives each child a different kind of day without splitting the family. ${w.age14}` },
+    { key: "unusual", title: "Best unusual or educational trip", ordered: pick(d => d.scores.unique * 2 + d.scores.science, d => d.scores.unique >= 4), blurb: (w, r) => `${w.name} is the one you would describe afterwards as unlike the others. ${w.distinctive}` },
+    { key: "alt", title: "Best step away from the usual circuit", ordered: pick(d => d.scores.unique * 1.6 + d.scores.quiet + d.scores.nature - d.scores.conventional, d => d.scores.conventional <= 3 && d.scores.unique >= 3), blurb: (w, r) => `${w.name} avoids the capital-city circuit. ${w.summary}` }
+  ].filter(cat => cat.ordered.length);
+}
+function renderDecision() {
+  const cats = categoryList();
+  document.getElementById("decide-intro").textContent = "These headings are recalculated from the interests, regions, dates and pace currently selected. A heading is omitted when no place in the current list supports it.";
+  document.getElementById("decision").innerHTML = cats.map(cat => {
+    const w = cat.ordered[0];
+    const r = cat.ordered[1];
+    return `<article>
+      <p class="meta">${esc(cat.title)}</p>
+      <h3>${esc(w.name)}</h3>
+      <p>${esc(cat.blurb(w, r))}</p>
+      <p><strong>Tradeoff.</strong> ${esc(w.miss)}</p>
+      <button type="button" class="primary" data-open="${w.id}">Open ${esc(w.name)}</button>
+    </article>`;
+  }).join("") + `<article><h3>The short list to argue about</h3><ol>${ranked(false).slice(0, 4).map(x => `<li><strong>${esc(x.d.name)}</strong> — ${esc(x.d.gain)} What you give up: ${esc(x.d.miss)}</li>`).join("")}</ol></article>`;
+}
+function renderResearch() {
+  const m = DATA.method;
+  const t = DATA.timing;
+  document.getElementById("research-body").innerHTML = `
+    <p>${esc(m.whatThisIs)}</p>
+    <h3>How a place rises or falls</h3>
+    <p>${esc(m.howRankingWorks)}</p>
+    <h3>Evidence labels</h3>
+    <ul>${Object.entries(m.evidenceLabels).map(([k, v]) => `<li><strong>${esc(k)}.</strong> ${esc(v)}</li>`).join("")}</ul>
+    <h3>The April window</h3>
+    <p>${esc(t.whyThisWindow)}</p>
+    <ul>${t.facts.map(f => `<li><span class="tag">${esc(f.status)}</span> ${esc(f.text)} ${f.source ? `<a href="${esc(f.source)}">Source</a>` : ""}</li>`).join("")}</ul>
+    <h3>Routes that were preferred to the famous circuit</h3>
+    <ul>${m.searchedBeyondFamousCities.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+    <h3>Noted and not scored</h3>
+    <ul>${m.thinOrSetAside.map(x => `<li><strong>${esc(x.place)}.</strong> ${esc(x.reason)}</li>`).join("")}</ul>
+    <h3>Every source attached to a place</h3>
+    ${DATA.destinations.map(d => `<h4>${esc(d.name)}</h4>` + d.sources.map(s => `<p><span class="tag">${esc(s.tag)}</span> <a href="${esc(s.url)}">${esc(s.title)}</a> — ${esc(s.note)}</p>`).join("")).join("")}
+  `;
+}
+
+function show(view) {
+  document.querySelectorAll(".view").forEach(section => {
+    section.hidden = section.id !== view;
+  });
+  document.querySelectorAll("nav button").forEach(btn => {
+    btn.setAttribute("aria-current", btn.dataset.view === view ? "page" : "false");
+  });
+  if (view === "shortlist") renderShort();
+  if (view === "compare") renderCompare();
+  if (view === "decide") renderDecision();
+  if (view === "research") renderResearch();
+  window.scrollTo(0, 0);
+}
+function toggleSave(id) {
+  if (state.shortlist.includes(id)) {
+    state.shortlist = state.shortlist.filter(x => x !== id);
+    state.compare = state.compare.filter(x => x !== id);
+  } else state.shortlist.push(id);
+  persist();
+  renderResults();
+  renderShort();
+  const open = document.getElementById("detail");
+  if (!open.hidden && location.hash.replace("#", "") === id) openDetail(id);
+}
+function printPlans(ids) {
+  const root = document.getElementById("print-root");
+  root.innerHTML = `<h1>April 2027 family plans</h1><p>Interests: ${esc(state.chips.map(c => CHIP_LABEL[c]).join(", ") || "none")}. ${esc(state.days)} days from ${esc(state.start)}.</p>` +
+    ids.map(id => {
+      const d = byId(id);
+      const days = visibleDays(d);
+      return `<h2>${esc(d.name)}</h2><p>${esc(d.summary)}</p><p>${esc(d.why)}</p><p><strong>Australian passports.</strong> ${esc(d.visaAu)}</p><p><strong>Indian passports.</strong> ${esc(d.visaIn)}</p>` +
+        days.map((day, i) => `<p><strong>Day ${i + 1} · ${esc(day.base)} · ${esc(day.intensity)}</strong><br>${esc(day.experience)} Optional: ${esc(day.optional)} If the weather turns: ${esc(day.wet)}</p>`).join("") +
+        `<p>Sources: ${d.sources.map(s => esc(s.title)).join("; ")}</p>`;
+    }).join("");
+  window.print();
+}
+
+function refresh() {
+  persist();
+  renderFacts();
+  renderControls();
+  renderResults();
+}
+
+document.getElementById("chips").addEventListener("click", event => {
+  const btn = event.target.closest("[data-chip]");
+  if (!btn) return;
+  const id = btn.dataset.chip;
+  state.chips = state.chips.includes(id) ? state.chips.filter(x => x !== id) : state.chips.concat(id);
+  refresh();
+});
+document.getElementById("regions").addEventListener("change", event => {
+  const id = event.target.dataset.region;
+  if (!id) return;
+  state.regions = event.target.checked ? state.regions.concat(id) : state.regions.filter(x => x !== id);
+  refresh();
+});
+document.getElementById("children").addEventListener("change", event => {
+  const id = event.target.dataset.child;
+  if (!id) return;
+  state.child = event.target.checked ? state.child.concat(id) : state.child.filter(x => x !== id);
+  refresh();
+});
+["days", "climate", "pace", "mobility"].forEach(id => {
+  document.getElementById(id).addEventListener("change", event => {
+    state[id] = id === "days" ? Number(event.target.value) : event.target.value;
+    refresh();
+  });
+});
+document.getElementById("start").addEventListener("change", event => {
+  state.start = event.target.value;
+  refresh();
+});
+document.getElementById("show-aside").addEventListener("change", event => {
+  state.showAside = event.target.checked;
+  refresh();
+});
+document.getElementById("reset").addEventListener("click", () => {
+  if (!confirm("Clear saved interests, dates and the shortlist in this browser?")) return;
+  localStorage.removeItem("familyHolidayApril2027");
+  const fresh = load();
+  Object.keys(state).forEach(key => delete state[key]);
+  Object.assign(state, fresh);
+  lastLeader = null;
+  refresh();
+  show("discover");
+});
+document.body.addEventListener("click", event => {
+  const open = event.target.closest("[data-open]");
+  const save = event.target.closest("[data-save]");
+  const print = event.target.closest("[data-print]");
+  const view = event.target.closest("nav [data-view]");
+  if (open) openDetail(open.dataset.open);
+  if (save) toggleSave(save.dataset.save);
+  if (print) printPlans([print.dataset.print]);
+  if (view) show(view.dataset.view);
+});
+document.getElementById("compare-picks").addEventListener("change", event => {
+  const id = event.target.dataset.compare;
+  if (!id) return;
+  if (event.target.checked) {
+    if (state.compare.length >= 3) {
+      event.target.checked = false;
+      return;
+    }
+    state.compare.push(id);
+  } else state.compare = state.compare.filter(x => x !== id);
+  persist();
+  renderCompare();
+});
+document.getElementById("print-short").addEventListener("click", () => {
+  if (state.shortlist.length) printPlans(state.shortlist);
+});
+document.getElementById("clear-short").addEventListener("click", () => {
+  state.shortlist = [];
+  state.compare = [];
+  persist();
+  renderShort();
+  renderResults();
+});
+document.querySelector(".brand").addEventListener("click", event => {
+  event.preventDefault();
+  show("discover");
+});
+window.addEventListener("scroll", () => {
+  document.getElementById("topbar").classList.toggle("scrolled", window.scrollY > 8);
+});
+
+refresh();
+if (location.hash && byId(location.hash.slice(1))) openDetail(location.hash.slice(1));
+</script>
+</body>
+</html>

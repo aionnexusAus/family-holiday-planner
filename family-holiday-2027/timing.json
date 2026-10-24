@@ -1,0 +1,46 @@
+{
+  "researchDate": "2026-10-25",
+  "suggestedStart": "2027-04-12",
+  "suggestedEnd": "2027-04-25",
+  "whyThisWindow": "A 12–25 April 2027 trip sits after Easter, after the published Victorian autumn school holiday, after the usual early-April blossom and spring-break peak in Japan, and before Japan's Golden Week begins on 29 April 2027. It also sits after the usual Qingming period in China. It does mean the Melbourne children would be out of Term 2 unless their own school dates differ.",
+  "facts": [
+    {
+      "id": "easter-2027",
+      "status": "verified",
+      "text": "In Victoria, Good Friday is 26 March 2027, Easter Sunday is 28 March 2027, and Easter Monday is 29 March 2027.",
+      "source": "https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2027"
+    },
+    {
+      "id": "vic-school-2027",
+      "status": "verified",
+      "text": "Victorian government school Term 1 in 2027 ends on Thursday 25 March. The autumn break runs from Friday 26 March to Sunday 11 April. Term 2 starts Monday 12 April and runs to Friday 25 June. Independent and Catholic schools can differ.",
+      "source": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+    },
+    {
+      "id": "anzac-2027",
+      "status": "verified",
+      "text": "ANZAC Day 2027 falls on Sunday 25 April. Victoria's public-holiday notice says it is marked on that day and there is no replacement weekday holiday.",
+      "source": "https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2027"
+    },
+    {
+      "id": "japan-golden-week-2027",
+      "status": "verified-calendar",
+      "text": "29 April 2027 is a Thursday. Showa Day is 29 April, and Constitution Memorial Day, Greenery Day and Children's Day follow on 3–5 May. Treat 29 April through 5 May 2027 as Japan's Golden Week travel peak and recheck the official holiday calendar.",
+      "source": "https://littlekyushuadventures.com/kyushu-in-april-with-kids/"
+    },
+    {
+      "id": "china-qingming",
+      "status": "recheck",
+      "text": "Qingming usually falls on 4 or 5 April. In 2027 that is around Sunday 4 April or Monday 5 April. The State Council's actual days off for 2027 were not published at the time of this research. Avoid assuming a normal working week until that notice exists.",
+      "source": null
+    },
+    {
+      "id": "india-school",
+      "status": "unverified",
+      "text": "Many CBSE-style schools in India are still in term through April, with a long summer break starting in May. That is a common pattern, not a 2027 national date. Confirm the three children's actual schools. The Indian departure city is also still open.",
+      "source": "https://www.cbseguidanceweb.com/cbse-academic-calendar-2026-27-exam-dates-holidays-key-updates/"
+    }
+  ],
+  "earlyAprilCost": "A trip that uses the Victorian school holiday, roughly 27 March to 11 April 2027, is easier for school attendance and harder for crowds. It overlaps Easter's aftermath in Europe and Japan's spring break plus early blossom season.",
+  "midAprilGain": "12–25 April 2027 asks for school leave from Victorian Term 2, and it is the calmer window for Japan, China and much of Europe."
+}

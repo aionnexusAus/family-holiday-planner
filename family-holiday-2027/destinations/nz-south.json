@@ -1,0 +1,88 @@
+{
+  "id": "nz-south",
+  "pool": "main",
+  "name": "South Island, New Zealand",
+  "regionLabel": "Mackenzie, Wānaka and Fiordland",
+  "regions": ["oceania"],
+  "summary": "Autumn lakes, a high mountain, and a fiord, linked by a slow road trip. Four bases. The Melbourne party has the shortest flight of any option in this set.",
+  "why": "April is a real season here, not a gap between seasons. The walks, boat days and towns used in this plan are generally open, the colours in Central Otago are the reason to come, and summer crowds have dropped. Both families already drive on the left.",
+  "distinctive": "Glacial lakes under a single mountain range, a dark-sky basin, and a fiord reached through a long mountain road. The trip is the landscape itself.",
+  "scores": {
+    "nature": 5, "quiet": 4, "culture": 3, "history": 2, "adventure": 4,
+    "wildlife": 4, "science": 3, "family": 5, "mild": 5, "road": 5, "rail": 1,
+    "relaxed": 4, "variety": 4, "child6": 5, "child12": 5, "child14": 4,
+    "scenery": 5, "april": 5, "practical": 5, "mobility": 4, "unique": 3, "conventional": 3
+  },
+  "stairs": 2,
+  "labels": {
+    "april": "Excellent",
+    "crowds": "Quieter than summer",
+    "family": "Excellent",
+    "practical": "Very Good",
+    "scenery": "Excellent"
+  },
+  "weather": "Typical April on the South Island is mild by day and cold at night. A commonly cited range is about 8–19°C, with Queenstown and Central Otago often nearer 16°C by day and about 5°C at night. Fiordland is wetter than Mackenzie. This is a seasonal pattern, not a forecast.",
+  "weatherStatus": "seasonal",
+  "crowds": "March still feels busy. April and May are when tour traffic and prices ease, according to South Island seasonal guides. Milford and the Wānaka lakefront still draw people on fine days. They are not July-in-Dubrovnik crowds.",
+  "crowdStatus": "opinion",
+  "natureExperiences": [
+    "Aoraki / Mount Cook and the Tasman Valley, with Hooker Valley only if the track is open",
+    "Lake Tekapo and the Mackenzie dark-sky basin",
+    "Lake Wānaka and the Arrowtown autumn trees",
+    "Milford Sound by boat, with Doubtful Sound as the quieter backup"
+  ],
+  "age6": "Lakefronts, short flat walks, a boat cruise, and the Te Anau glowworm cave. Skip bungy, canyon swings and long alpine tracks.",
+  "age12": "The glowworm cave, a fiord cruise, Mount John if the weather is kind, and a choice of one bigger walk with an adult.",
+  "age14": "The same landscapes, plus the geology of the Alps and the option to split off for a harder walk while the younger child stays by the lake.",
+  "adults": "Driving days with real scenery, dark skies, and time in small towns. Māori place names and glacier stories are part of the trip, not a separate city break.",
+  "gettingAround": "This is a road trip. Seven people plus bags means two cars, not one. Book a child seat for the 6-year-old and confirm the rental rule. The open-jaw that fits the map is into Christchurch and out of Queenstown.",
+  "meetingPoint": "Christchurch. Melbourne–Christchurch is often about 3.5–4 hours nonstop. The Indian party connects through a hub such as Singapore, Kuala Lumpur or an Australian city. Confirm the 2027 timetable before treating any flight as direct.",
+  "visaAu": "Australian citizens travelling on an Australian passport do not need a visa or an NZeTA. Immigration New Zealand says an Australian Resident Visa is normally granted on arrival if character requirements are met.",
+  "visaIn": "Indian passports are not visa-waiver passports. They need a visitor visa before travel, not an NZeTA. Tourism New Zealand's India page says the passport should be valid for at least 3 months after the planned departure from New Zealand. Early 2026 processing for Indian visitor visas averaged about 7 working days, with an 84% approval rate from January to April 2026. That is a recent statistic, not a promise for 2027.",
+  "visaStatus": "verified-rule-recheck-timing",
+  "disadvantages": [
+    "The Indian party has a long flight and a real visa application. Do not buy the non-refundable tickets until that visa is approved.",
+    "Culture and ancient history are lighter here than in Türkiye, Japan or Sichuan.",
+    "Milford is a full day in the car and on a boat. The road closes for snow, avalanche control and crashes.",
+    "April is not ski season. Do not plan the trip around snow sports."
+  ],
+  "uncertainties": [
+    "2027 airfares, rental-vehicle supply for a group of seven, and the Milford Road status on the day.",
+    "Which short walks are open. Check the Department of Conservation pages before Hooker Valley or Rob Roy."
+  ],
+  "childTags": ["wildlife", "walks", "water", "science"],
+  "climate": "mild",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1280px-Milford_Sound_%28New_Zealand%29.JPG",
+    "alt": "Milford Sound, with steep forested walls falling into the fiord",
+    "credit": "Wikimedia Commons: Milford Sound (New Zealand).JPG",
+    "href": "https://commons.wikimedia.org/wiki/File:Milford_Sound_(New_Zealand).JPG"
+  },
+  "gain": "The strongest mix of April weather, open landscapes, and a workable flight from Melbourne.",
+  "miss": "Deep cities, rail travel, and an easy visa path for the Indian passports.",
+  "stretch16": "Add a free day in Wānaka and a free day in Te Anau. Do not add the North Island.",
+  "days": [
+    {"show": 10, "base": "Christchurch", "experience": "Land and stop. Avon walk or the Botanic Gardens only if everyone is awake.", "optional": "Canterbury Museum", "highlight": "A city of gardens used as a soft landing, not as the point of the trip", "kids": "Playground time for the 6-year-old. The older two can do a short loop.", "intensity": "light", "transfer": "Melbourne–Christchurch is often about 3.5–4 hours nonstop. The Indian itinerary is a long-haul connection. Confirm 2027 schedules.", "seasonal": "Fine in any April week. Early April still overlaps the Victorian school holiday.", "wet": "Museum and a bakery, then an early night."},
+    {"show": 10, "base": "Lake Tekapo", "experience": "Drive inland to the Mackenzie basin and stay put.", "optional": "Church of the Good Shepherd at the lake edge", "highlight": "First sight of the turquoise lake and the mountain line", "kids": "Short stops. No summit walk today.", "intensity": "moderate", "transfer": "About 3 hours from Christchurch in normal conditions.", "seasonal": "Nights are cold. Book heating and ask for a family layout before you arrive.", "wet": "The drive is still the day. Hot pools later if a local pool is open."},
+    {"show": 10, "base": "Lake Tekapo", "experience": "Lake shore and Mount John, or a shorter lakefront walk if the wind is up.", "optional": "Dark Sky Project. Check the current age guidance before booking the 6-year-old.", "highlight": "A dry basin under a big sky", "kids": "All three can do the lake. Mount John is for the day the 6-year-old is walking well.", "intensity": "moderate", "transfer": "No hotel change.", "seasonal": "April nights are good for stars because the dark comes earlier than in summer.", "wet": "Stay in town. The lake is the view from the window."},
+    {"show": 10, "base": "Lake Tekapo", "experience": "Day trip toward Aoraki / Mount Cook. Use lookouts if the long track is closed or the group is tired.", "optional": "Hooker Valley walk", "highlight": "The mountain, the glacier valley, and the blue lake at its foot", "kids": "Lookouts work for age 6. Hooker Valley is only if the track is open and everyone still wants to walk.", "intensity": "moderate", "transfer": "About 1.5–2 hours each way from Tekapo to Aoraki village. Confirm on the day.", "seasonal": "High tracks can close. Read the DOC advisory that morning.", "wet": "Tasman Valley shelter and the visitor centre, then back before dark."},
+    {"show": 12, "base": "Lake Tekapo", "experience": "A free day. No new place.", "optional": "A calm-water activity only if the operator accepts all three ages", "highlight": "Time to notice the basin instead of collecting sights", "kids": "Bikes, the lake edge, or nothing planned.", "intensity": "light", "transfer": "None.", "seasonal": "Wind is the thing that cancels boat time, not the calendar.", "wet": "Lodge day. This is the spare day you will be glad you kept."},
+    {"show": 10, "base": "Wānaka", "experience": "Cross the Lindis Pass and stop for the afternoon in Wānaka.", "optional": "A short walk at the lake edge only", "highlight": "The pass, then autumn trees", "kids": "Car day. Build in a long lunch stop.", "intensity": "moderate", "transfer": "About 3–3.5 hours Tekapo to Wānaka in normal conditions.", "seasonal": "The pass can be affected by ice early in the month. Check the road report.", "wet": "Drive anyway if the road is open, and keep the afternoon indoors."},
+    {"show": 10, "base": "Wānaka", "experience": "Lake Wānaka, the town, and one easy waterside walk.", "optional": "The lone tree is a ten-minute stop, not an event", "highlight": "Autumn colour on a lake with mountains behind it", "kids": "All three ages can do this day together.", "intensity": "light", "transfer": "None.", "seasonal": "Mid to late April is when Central Otago colour is most often talked about. Trees do not follow a booking.", "wet": "National Transport and Toy Museum, or a long cafe lunch."},
+    {"show": 10, "base": "Wānaka", "experience": "A second easy lake day, or a boat if one is running.", "optional": "One adult takes the 14-year-old on a harder local track", "highlight": "Staying long enough to walk the same shore twice", "kids": "Do not plan Diamond Lake–Rocky Mountain for the 6-year-old.", "intensity": "light", "transfer": "None.", "seasonal": "Rob Roy and other gorge tracks need a DOC check for avalanche and slip risk.", "wet": "Swap the walk for the museum or a swim at the local pool."},
+    {"show": 14, "base": "Wānaka", "experience": "Arrowtown for the autumn trees, then back.", "optional": "A short main-street walk only", "highlight": "A small gold-mining town under gold and red leaves", "kids": "Ice cream and a riverbank. Skip a long shopping wander.", "intensity": "light", "transfer": "A bit over an hour each way from Wānaka, plus time in Arrowtown.", "seasonal": "Weekends draw more people. A weekday is calmer.", "wet": "Go anyway. The trees do not require sun. Take a warm layer."},
+    {"show": 10, "base": "Te Anau", "experience": "Drive to Te Anau and stay. The fiord is tomorrow.", "optional": "Lake Te Anau shore at the end of the day", "highlight": "The gateway lake to Fiordland", "kids": "Arrive with daylight left.", "intensity": "moderate", "transfer": "About 3–3.5 hours from Wānaka via the Queenstown corridor. You do not need a Queenstown night.", "seasonal": "Queenstown itself is the party town. Sleeping in Te Anau keeps the trip quieter.", "wet": "The drive is the day. Te Anau has indoor options."},
+    {"show": 10, "base": "Te Anau", "experience": "Milford Sound cruise. Start early.", "optional": "Short stops at Mirror Lakes or The Chasm on the way back, if energy remains", "highlight": "The fiord walls, waterfalls and, on a wet day, more waterfalls", "kids": "This is a sitting-and-looking day. It is long. Take snacks.", "intensity": "demanding", "transfer": "About 2 hours each way, plus Homer Tunnel waits. A cruise is often about 1.5–2 hours. These are typical times, not a 2027 timetable.", "seasonal": "The Milford Road closes for snow, avalanche work and accidents. Book a cruise that can move, and keep Doubtful Sound or a lake day as the backup.", "wet": "Rain improves the waterfalls. Wind and road closure are the problems, not drizzle."},
+    {"show": 12, "base": "Te Anau", "experience": "Te Anau glowworm cave by boat.", "optional": "A free afternoon", "highlight": "A dark cave and a ceiling of glowworms. This is the science hour of the trip.", "kids": "All three ages. It is guided and mostly seated or on a short walk.", "intensity": "light", "transfer": "A short drive from town to the cave departure. Confirm the day's tour time.", "seasonal": "Caves run more steadily than mountain tracks. Still confirm the operator.", "wet": "This is already the wet-weather plan."},
+    {"show": 14, "base": "Te Anau", "experience": "Doubtful Sound if you want the quieter fiord, or a short piece of the Kepler lakeshore.", "optional": "One fiord is enough if Milford was already a big day", "highlight": "A second fiord with fewer people, reached by a coach-and-boat day", "kids": "Doubtful Sound is another long day. Choose it only if the children liked the boat.", "intensity": "moderate", "transfer": "Doubtful Sound day trips from Te Anau take most of the day. Book ahead. Recheck the 2027 product.", "seasonal": "Use this day if Milford was cancelled earlier in the stay.", "wet": "Kepler shelter section, or a second cave slot if one exists."},
+    {"show": 10, "base": "Queenstown airport", "experience": "Drive out and fly. If the flight is late, one Queenstown night is enough.", "optional": "Gondola only if the flight time allows a calm morning", "highlight": "Leaving from the south, so nobody drives back to Christchurch", "kids": "Keep the morning simple.", "intensity": "light", "transfer": "Te Anau to Queenstown is about 2 hours. International flights from Queenstown are fewer than from Christchurch. Confirm seats for seven.", "seasonal": "School-holiday weekends fill Queenstown. Mid-April is easier than early April.", "wet": "Go straight to the airport."}
+  ],
+  "sources": [
+    {"tag": "verified", "title": "Australian citizens do not need a visa or NZeTA", "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/", "note": "Immigration New Zealand. Character requirements still apply on arrival."},
+    {"tag": "verified", "title": "Indian passports need a visitor visa, not an NZeTA", "url": "https://www.newzealand.com/in/visas-and-immigration/", "note": "100% Pure New Zealand, India page. Passport validity guidance included."},
+    {"tag": "verified", "title": "India visitor-visa processing snapshot, early 2026", "url": "https://www.byata.org.nz/assets/_site_/downloads/Immigration_Key_Messages_-_Tourism_May_2026.pdf", "note": "Tourism industry briefing of Immigration New Zealand figures, May 2026. Recheck before lodging."},
+    {"tag": "seasonal", "title": "April weather and quieter autumn travel", "url": "https://www.roughguides.com/new-zealand/when-to-go/april/", "note": "Guidebook climate description, not a 2027 forecast."},
+    {"tag": "opinion", "title": "South Island autumn crowds ease in April and May", "url": "https://nzpocketguide.com/the-best-time-to-visit-the-south-island/", "note": "Travel guide, not an official visitor count."},
+    {"tag": "recheck", "title": "Milford Road conditions", "url": "https://www.milfordroad.co.nz/", "note": "Check the morning you drive. Closures are operational, not seasonal theory."}
+  ]
+}

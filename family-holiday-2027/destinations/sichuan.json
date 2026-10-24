@@ -1,0 +1,89 @@
+{
+  "id": "sichuan",
+  "pool": "main",
+  "name": "Sichuan, China",
+  "regionLabel": "Chengdu, Sanxingdui and Jiuzhaigou",
+  "regions": ["east-asia"],
+  "summary": "Pandas at opening time, a bronze-age mystery pit, an ancient irrigation works, and a valley of coloured lakes. The most unusual education in this set, with a visa question mark for 2027.",
+  "why": "The 12- and 14-year-olds get Sanxingdui and Dujiangyan, which are real science and history. The 6-year-old gets pandas and a boardwalk valley. You can do it from Chengdu plus two side bases, by train and one short flight.",
+  "distinctive": "A conservation centre for giant pandas beside an archaeological site that rewrote early Chinese history, and a high valley of mineral lakes.",
+  "scores": {
+    "nature": 5, "quiet": 3, "culture": 4, "history": 5, "adventure": 3,
+    "wildlife": 5, "science": 5, "family": 4, "mild": 4, "road": 2, "rail": 4,
+    "relaxed": 3, "variety": 5, "child6": 4, "child12": 5, "child14": 5,
+    "scenery": 5, "april": 4, "practical": 3, "mobility": 3, "unique": 5, "conventional": 3
+  },
+  "stairs": 2,
+  "labels": {
+    "april": "Very Good",
+    "crowds": "Avoid the holiday peaks",
+    "family": "Very Good",
+    "practical": "Mixed",
+    "scenery": "Excellent"
+  },
+  "weather": "Chengdu in April is often mild and cloudy, roughly the mid-teens to mid-20s. Jiuzhaigou's valley is cooler. One spring guide cited about 11–24°C there in a past April. Nights at the park towns are cold. This is seasonal, not a forecast.",
+  "weatherStatus": "seasonal",
+  "crowds": "Jiuzhaigou's own 2026 peak-season notice set a daily capacity of 41,000 and full-valley opening from 1 April, with entry 08:00–14:00. Capacity that high means the park can still feel busy. The calmer aim is the middle of April, after Qingming and before the Labour Day holiday. The 2027 holiday dates need the State Council notice.",
+  "crowdStatus": "verified-capacity-opinion-on-timing",
+  "natureExperiences": [
+    "Jiuzhaigou's lakes and waterfalls, using the park buses rather than trying to walk the whole valley",
+    "Dujiangyan and the wooded paths of nearby Qingcheng Mountain, kept short",
+    "A dawn visit to the Chengdu panda base",
+    "Leshan's river cliff and giant Buddha, seen without rushing the same day as Chengdu"
+  ],
+  "age6": "Pandas first, then the Jiuzhaigou buses and short boardwalks. Skip Huanglong. It sits higher, around 3,000 metres.",
+  "age12": "Sanxingdui's masks, the panda science, and the coloured lakes.",
+  "age14": "Dujiangyan's 2,000-year-old flood works, Sanxingdui, and the question of how a landscape makes lakes that colour.",
+  "adults": "Teahouses, the archaeology, and a national park that does not look like anywhere else. Sichuan food is spicy. Ask for mild plates for the children.",
+  "gettingAround": "High-speed rail for Leshan. A flight of about an hour from Chengdu to Jiuzhai Huanglong Airport, then a ground transfer of about 1–1.5 hours. Confirm both in 2027. China drives on the right. You do not need a car for this plan.",
+  "meetingPoint": "Chengdu Tianfu or Shuangliu. Melbourne usually connects via a Chinese or Southeast Asian hub. Indian cities have more one-stop options. Meet in Chengdu and give the long-haul party a free first afternoon.",
+  "visaAu": "In February 2026, China's visa-free entry for ordinary Australian passports, for up to 30 days and for tourism, was described as running until 31 December 2026. April 2027 is after that date. Unless Beijing extends it, the Australian party will need a visa too. Do not book as if the waiver still exists.",
+  "visaIn": "India was not on that visa-free list. Indian passports should plan on a tourist visa. The 240-hour transit scheme is not a way to spend two weeks in Sichuan, and Jiuzhaigou's prefecture has been excluded from some transit areas. Use a proper visa.",
+  "visaStatus": "recheck",
+  "disadvantages": [
+    "The Australian visa waiver, as published, expires before this trip. Both passport groups should plan on visas until an extension is official.",
+    "Jiuzhaigou's entrance is about 1,990 metres. The park says altitude sickness is uncommon and still possible. Take the first afternoon slowly. Skip Huanglong with a 6-year-old.",
+    "The food is part of the pleasure and a problem for cautious children. Build in plain rice, dumplings and mild dishes.",
+    "English is thinner on the ground than in Japan or New Zealand. Offline maps and the hotel card in Chinese matter."
+  ],
+  "uncertainties": [
+    "Whether the Australian 30-day waiver is extended past 31 December 2026.",
+    "The 2027 Qingming and Labour Day holiday lengths.",
+    "Jiuzhaigou ticket rules and which lakes are open in April 2027. Read en.jiuzhai.com the month you book."
+  ],
+  "childTags": ["wildlife", "science", "stories", "walks"],
+  "climate": "mild",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg/1280px-1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg",
+    "alt": "Turquoise terraced lakes in Jiuzhaigou Valley",
+    "credit": "Wikimedia Commons: Jiuzhaigou Five Flower Lake area",
+    "href": "https://commons.wikimedia.org/wiki/File:1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg"
+  },
+  "gain": "The strangest and most educational mix: living animals, ancient engineering, and a lake valley.",
+  "miss": "A settled visa rule for April 2027, and the ease of travelling with young children in English.",
+  "stretch16": "Add a free day in Chengdu and a free day at Jiuzhaigou. Do not add Beijing.",
+  "days": [
+    {"show": 10, "base": "Chengdu", "experience": "Land and walk People's Park or a nearby teahouse.", "optional": "Map the panda morning for tomorrow and go to sleep", "highlight": "A city of teahouses used as recovery", "kids": "Playground if one is close. No museum today.", "intensity": "light", "transfer": "Both families fly into Chengdu. Allow for a long airport transfer.", "seasonal": "Air quality varies. Have an indoor backup for the first day without treating it as an emergency.", "wet": "Hotel and a mild dinner."},
+    {"show": 10, "base": "Chengdu", "experience": "Chengdu Research Base of Giant Panda Breeding at opening.", "optional": "The red panda paths if the children still have legs", "highlight": "Pandas while they are active, which means early", "kids": "All three ages. Leave by late morning. The animals sleep and the paths fill up.", "intensity": "moderate", "transfer": "About 10–15 kilometres from central Chengdu. A taxi or metro-plus-taxi. Official March–October morning entry starts at 7:30.", "seasonal": "Book ahead. The base's own site is panda.org.cn.", "wet": "Go anyway. Pandas do not mind drizzle. Take a light coat."},
+    {"show": 10, "base": "Chengdu", "experience": "Sanxingdui Museum in Guanghan.", "optional": "The bronze masks are the whole point. Do not add a second museum.", "highlight": "A pit culture with masks and trees of bronze that still surprise archaeologists", "kids": "The 6-year-old will take the faces and the scale. The 12- and 14-year-olds can take the labels.", "intensity": "moderate", "transfer": "About 40–60 minutes from Chengdu. Confirm the 2027 rail or museum shuttle.", "seasonal": "Weekends draw local families. A weekday is kinder.", "wet": "The museum is indoors."},
+    {"show": 12, "base": "Chengdu", "experience": "Dujiangyan irrigation system, and a short walk at Qingcheng only if energy remains.", "optional": "Skip the mountain and keep the water works", "highlight": "A flood-control system still in use after more than 2,000 years", "kids": "The models and the river splitting in two are the lesson. Qingcheng's stairs are optional.", "intensity": "moderate", "transfer": "Under an hour by fast train or car from Chengdu. Confirm the station.", "seasonal": "This is a day trip, not a new hotel.", "wet": "The irrigation museum and the covered walkways. Skip the mountain."},
+    {"show": 14, "base": "Chengdu", "experience": "A free day. Jinli or Kuanzhai for an hour, then a cooking class that includes mild dishes.", "optional": "Chengdu Museum if it is raining", "highlight": "Learning to order food, which is the local skill", "kids": "Dumplings they help shape. Chili on the side.", "intensity": "light", "transfer": "None.", "seasonal": "Teahouse culture is the adult pleasure. Give it an hour, not a schedule.", "wet": "The museum and the cooking class."},
+    {"show": 10, "base": "Leshan", "experience": "Train to Leshan and see the Giant Buddha in the late afternoon if the light and the queue allow, or the next morning.", "optional": "The river view from the cliff path", "highlight": "A seated Buddha carved into a cliff above the rivers", "kids": "There are stairs. Take the route that matches the 6-year-old, and do not combine this with a same-day return to Chengdu.", "intensity": "moderate", "transfer": "Chengdu to Leshan by high-speed train is often about an hour, plus a local ride to the Buddha. Confirm 2027 times.", "seasonal": "Go early on the Buddha morning. Midday tour groups are the crowd.", "wet": "The statue is outdoors. A light rain is fine. A storm is a reason to wait for the next morning."},
+    {"show": 12, "base": "Leshan", "experience": "A slower Buddha morning if you did not finish, then a free afternoon.", "optional": "Nothing", "highlight": "One monument, properly seen", "kids": "Park time or the hotel pool if it has one.", "intensity": "light", "transfer": "None.", "seasonal": "Use the spare hours if the train was delayed yesterday.", "wet": "Stay in."},
+    {"show": 10, "base": "Chengdu", "experience": "Back to Chengdu. Rest and repack for the mountains.", "optional": "A last mild hotpot for the adults, with a plain pot for the children", "highlight": "A buffer before the altitude change", "kids": "Early night.", "intensity": "light", "transfer": "About an hour back by train.", "seasonal": "Do not fly to Jiuzhaigou the same day you climb the Buddha stairs.", "wet": "This is already an indoor day."},
+    {"show": 10, "base": "Jiuzhaigou", "experience": "Fly to Jiuzhai Huanglong and transfer to the park town. Walk nowhere ambitious.", "optional": "Look at the entrance area only", "highlight": "Arriving high and stopping", "kids": "Watch for headaches. The park's own note says drink water and avoid hard exercise. Oxygen is sold at the entrance clinic if needed.", "intensity": "moderate", "transfer": "Flight about an hour, then about 1–1.5 hours by road. These are typical figures. Confirm.", "seasonal": "Peak season on the park's notices starts 1 April. Book the entry slot before you fly.", "wet": "Settle in. The park day is tomorrow."},
+    {"show": 10, "base": "Jiuzhaigou", "experience": "One full park day on the sightseeing buses. Pick a few lakes, not every boardwalk.", "optional": "Five Flower Lake and one waterfall", "highlight": "Blue, green and gold water in a forest valley", "kids": "Buses between stops are how a 6-year-old sees this park. Do not try to hike it.", "intensity": "moderate", "transfer": "Inside the park, the bus ticket is separate from entry. The 2026 peak notice listed entry and a bus fare. Recheck 2027 prices rather than budgeting from that notice.", "seasonal": "Last entry has been early afternoon in peak season, with the park closing at 18:00. Read the current notice.", "wet": "The colours survive cloud. Heavy rain makes boardwalks slippery. Take it slower."},
+    {"show": 12, "base": "Jiuzhaigou", "experience": "A second, shorter park visit to the corner you missed, or a free morning.", "optional": "Skip Huanglong", "highlight": "Seeing one lake twice", "kids": "If anyone slept badly, this becomes a rest day. That is the right call at this altitude.", "intensity": "light", "transfer": "None.", "seasonal": "Some side valleys have closed in winter and reopen with the peak season. Confirm what is actually open.", "wet": "Hotel balcony if the first park day was already wet and long."},
+    {"show": 14, "base": "Jiuzhaigou", "experience": "A Tibetan village walk close to town, kept short.", "optional": "Nothing ticketed", "highlight": "The valley outside the park fence", "kids": "Flat walking and a chance to buy nothing.", "intensity": "light", "transfer": "A short local ride.", "seasonal": "Be polite in monasteries. A short visit is better than a tour speech.", "wet": "Stay in town."},
+    {"show": 10, "base": "Chengdu", "experience": "Fly back to Chengdu. Do not sightsee.", "optional": "A pharmacy and a calm dinner", "highlight": "Coming down to a lower city before the long-haul flight", "kids": "Snack and a film.", "intensity": "moderate", "transfer": "Reverse the inbound flight and road transfer. Build in a buffer. Mountain airports delay.", "seasonal": "Do not fly home the same day you leave Jiuzhaigou.", "wet": "The buffer day is the point."},
+    {"show": 10, "base": "Chengdu", "experience": "Fly out.", "optional": "A last panda only if the flight is in the evening and everyone is well", "highlight": "Leaving with a spare morning", "kids": "No new attraction if the flight is before noon.", "intensity": "light", "transfer": "International connections from Chengdu. Seven seats.", "seasonal": "Visa papers in carry-on, printed.", "wet": "Go to the airport."}
+  ],
+  "sources": [
+    {"tag": "recheck", "title": "Visa-free entry for Australians was published through 31 December 2026", "url": "https://www.visaforchina.cn/SYD3_EN/tongzhigonggao/265975107544027136.html", "note": "China Visa Application Service Centre FAQ, 16 February 2026. Australia is on the list. India is not. The FAQ says the waiver for those countries runs until 31 December 2026. Recheck for any extension."},
+    {"tag": "verified", "title": "Jiuzhaigou altitude", "url": "https://en.jiuzhai.com/about/altitude", "note": "Official English page. Entrance about 1,990 metres. Peak much higher. Buses run between sights."},
+    {"tag": "verified", "title": "Jiuzhaigou visitor hours and peak-season pattern", "url": "https://en.jiuzhai.com/about/visitor-information", "note": "Official page. Peak season described as 1 April to 15 November. Recheck 2027 tickets and hours."},
+    {"tag": "verified", "title": "Panda base opening hours", "url": "https://www.panda.org.cn/en/service/opentime/", "note": "March to October morning entry 7:30–12:00. Minors need a guardian."},
+    {"tag": "seasonal", "title": "Jiuzhaigou spring temperatures", "url": "https://www.chinadiscovery.com/sichuan/jiuzhaigou/spring-season.html", "note": "Tour operator page using historic temperatures. Not an official climate series."},
+    {"tag": "recheck", "title": "Do not use 240-hour transit for this trip", "url": "https://en.nia.gov.cn/index.html", "note": "National Immigration Administration. A two-week holiday needs a visa, especially for Jiuzhaigou."}
+  ]
+}

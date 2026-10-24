@@ -1,0 +1,88 @@
+{
+  "id": "japan-kyushu",
+  "pool": "main",
+  "name": "Kyushu, Japan",
+  "regionLabel": "Fukuoka, Yufuin, Aso and Nagasaki",
+  "regions": ["east-asia"],
+  "summary": "Volcanoes, a rural hot-spring valley, a restored castle town and a harbour city, tied together without the Kyoto blossom crush. Best if you travel after 8 April and leave before 29 April 2027.",
+  "why": "The children get trains, food, myths and a real landscape. The adults get design, history and onsen towns. A group of seven is easier on trains and one rental car than in a string of European hire vans. Mid-April is the quiet part of Kyushu's spring.",
+  "distinctive": "A giant caldera, a gorge tied to founding myths, and Nagasaki's layered history, in a part of Japan that most first trips skip.",
+  "scores": {
+    "nature": 4, "quiet": 3, "culture": 5, "history": 5, "adventure": 3,
+    "wildlife": 2, "science": 4, "family": 5, "mild": 5, "road": 3, "rail": 5,
+    "relaxed": 4, "variety": 5, "child6": 5, "child12": 5, "child14": 5,
+    "scenery": 4, "april": 4, "practical": 4, "mobility": 4, "unique": 4, "conventional": 2
+  },
+  "stairs": 2,
+  "labels": {
+    "april": "Very Good",
+    "crowds": "Calm in mid-April",
+    "family": "Excellent",
+    "practical": "Very Good",
+    "scenery": "Very Good"
+  },
+  "weather": "A family guide to Kyushu cites Fukuoka around 20°C by day and 12°C at night in April. That matches the usual spring pattern: mild, sometimes wet, good for walking. Confirm the year with the Japan Meteorological Agency.",
+  "weatherStatus": "seasonal",
+  "crowds": "Kyushu lowland cherries often peak in late March or the first days of April. In 2026, full bloom was recorded in the first week of April in Fukuoka, Kumamoto, Nagasaki and nearby cities. The first week also catches the end of Japanese spring break. Golden Week 2027 starts on Thursday 29 April. The useful gap is about 8–25 April.",
+  "crowdStatus": "opinion",
+  "natureExperiences": [
+    "Mount Aso's grasslands, if volcanic-gas levels allow",
+    "Takachiho Gorge and its myth caves, as a long day rather than a new country",
+    "Yufuin's rural valley",
+    "Beppu's steaming vents, from the paths only"
+  ],
+  "age6": "Trains, castle grounds, a river or seaside promenade, and a private family bath. Public mixed onsen is not the plan.",
+  "age12": "The Aso caldera, Takachiho's story, castle museums, and choosing the day's noodles.",
+  "age14": "Nagasaki's history, in the dose they can handle, plus the rail network itself. This is the destination where the 14-year-old has the most to do.",
+  "adults": "Food, design, onsen etiquette, and two serious histories: a castle town and an international port. Kyoto is not required.",
+  "gettingAround": "Trains between the cities. One rental car for the Aso and Takachiho days, because rural buses will exhaust a group of seven. Japan drives on the left, like both families. An International Driving Permit is worth confirming with the rental company rather than assuming.",
+  "meetingPoint": "Fukuoka (Hakata). Both parties usually connect via Seoul, Singapore, Hong Kong or Tokyo. Direct Fukuoka flights from India or Melbourne should be treated as unconfirmed until the 2027 schedule is published.",
+  "visaAu": "Australian passports do not need a visa for a short tourist stay of up to 90 days. Japan's Ministry of Foreign Affairs lists Australia among the visa-exempt nationalities.",
+  "visaIn": "Indian passports are not on Japan's visa-exempt list. Apply through the Japanese embassy or consulate that covers the applicant's home city, usually via their visa centre. Document lists and processing times change. Start months ahead.",
+  "visaStatus": "verified-rule-recheck-process",
+  "disadvantages": [
+    "The first week of April and anything from 29 April onward are the wrong weeks.",
+    "Takachiho is a long drive. It is the one demanding transfer in an otherwise gentle route.",
+    "Public baths are often not set up for a mixed-age family. Book a room with a private bath.",
+    "Cherry blossom is mostly over in the cities by mid-April. Come for green hills and late flowers, not a hanami festival."
+  ],
+  "uncertainties": [
+    "JR Kyushu times for 2027.",
+    "Whether Aso is open to visitors that week. Gas levels close the crater rim without much notice.",
+    "International seats out of Nagasaki. If they are poor, spend the last night back in Fukuoka."
+  ],
+  "childTags": ["trains", "stories", "science", "food", "walks"],
+  "climate": "mild",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/20140516%E9%98%BF%E8%98%87%E5%B1%B1%E5%BA%83%E5%9F%9F.jpg/1280px-20140516%E9%98%BF%E8%98%87%E5%B1%B1%E5%BA%83%E5%9F%9F.jpg",
+    "alt": "The wide green caldera of Mount Aso in Kyushu",
+    "credit": "Wikimedia Commons: Mount Aso caldera photograph",
+    "href": "https://commons.wikimedia.org/wiki/File:20140516%E9%98%BF%E8%98%87%E5%B1%B1%E5%BA%83%E5%9F%9F.jpg"
+  },
+  "gain": "The best shared trip for the 12- and 14-year-olds, with trains doing the hard logistics.",
+  "miss": "Wild empty nature on the scale of Fiordland or Jiuzhaigou, and a visa-free path for Indian passports.",
+  "stretch16": "Add a free day in Yufuin and a free day in Fukuoka. Do not add Tokyo.",
+  "days": [
+    {"show": 10, "base": "Fukuoka", "experience": "Arrive and walk Ohori Park or the canal if the timing is kind.", "optional": "A department-store meal, which solves the first dinner", "highlight": "A compact city that is easy after a long flight", "kids": "Park first. No sightseeing list today.", "intensity": "light", "transfer": "Both families aim for Fukuoka Airport or Hakata. Confirm 2027 connections.", "seasonal": "Do not land into the 29 April holiday if you can choose.", "wet": "Canal City and an early night."},
+    {"show": 10, "base": "Fukuoka", "experience": "Castle ruins, Maizuru Park, and the Momochi seaside.", "optional": "Fukuoka Tower only if the children ask", "highlight": "A city beach and a castle ground in one afternoon", "kids": "Space to run, then food they can point at.", "intensity": "light", "transfer": "Subway and short taxis. No car yet.", "seasonal": "City cherries are usually finished by the second week of April.", "wet": "A covered shopping street and a science or children's museum if one is open nearby."},
+    {"show": 10, "base": "Fukuoka", "experience": "Dazaifu shrine and the approach street.", "optional": "Kyushu National Museum if the 12- and 14-year-olds want the indoor hour", "highlight": "A shrine town that feels like a story, close to the city", "kids": "The 6-year-old gets the street and the grounds. The museum is optional for the older two.", "intensity": "moderate", "transfer": "About half an hour by train from Fukuoka. Confirm the line on the day.", "seasonal": "Weekends are busier than midweek.", "wet": "The museum becomes the main event."},
+    {"show": 12, "base": "Fukuoka", "experience": "Itoshima coast. A slow day of sea, bakeries and a short walk.", "optional": "Nothing", "highlight": "A quieter shoreline west of the city", "kids": "The sea will be cool. This is looking and paddling at the edge, not a swim holiday.", "intensity": "light", "transfer": "Train or a hired car for the day. Roughly under an hour.", "seasonal": "April beaches are for walking.", "wet": "Stay in Fukuoka and repeat a favourite meal."},
+    {"show": 10, "base": "Yufuin", "experience": "Limited express into the hot-spring valley. Walk the town once and stop.", "optional": "Lake Kinrin at dusk", "highlight": "A small valley town built around steam and guesthouses", "kids": "The train is the activity.", "intensity": "moderate", "transfer": "Hakata to Yufuin is about 2 hours by limited express. Confirm the JR Kyushu 2027 time.", "seasonal": "Book the room with a private bath. Do not rely on a public mixed bath.", "wet": "The bath is the plan."},
+    {"show": 10, "base": "Yufuin", "experience": "A floral park or a lakeside loop, then nothing else.", "optional": "Rent cycles if the 6-year-old has a seat option", "highlight": "Countryside at a walking pace", "kids": "All three can do a short loop. End before anyone is bored.", "intensity": "light", "transfer": "On foot from the station area.", "seasonal": "Mid-April is green and floral rather than peak cherry.", "wet": "Craft shops and the private bath."},
+    {"show": 12, "base": "Yufuin", "experience": "Beppu's hells: viewing paths around steaming vents.", "optional": "A foot bath, not a swim in a volcanic pool", "highlight": "The ground itself is hot. Stay on the marked paths.", "kids": "Hold the 6-year-old's hand. The drama is real and so is the risk if anyone climbs a fence.", "intensity": "moderate", "transfer": "About an hour from Yufuin. A local bus or taxi loop is enough.", "seasonal": "Steam is year-round. Rain makes paths slippery.", "wet": "Go anyway with shoes that grip, or skip it and keep the valley day."},
+    {"show": 10, "base": "Aso / Kumamoto", "experience": "Pick up a car and drive to a base near Aso, not a new city every night.", "optional": "One easy grassland stop if you arrive early", "highlight": "The scale of the caldera as you drop into it", "kids": "Car day. Snacks and a clear stop.", "intensity": "moderate", "transfer": "Allow about 2.5–3.5 hours depending on the exact base. This is an estimate.", "seasonal": "Rural Japan is the reason for the car. Return it in Kumamoto before Nagasaki.", "wet": "Drive to the hotel and use the indoor onsen plan."},
+    {"show": 10, "base": "Aso / Kumamoto", "experience": "Aso caldera and Kusasenri meadow, if the gas report is safe.", "optional": "A short horse-riding loop only with an operator who takes age 6", "highlight": "Walking inside a volcano", "kids": "Meadows suit all three. The crater rim is a decision on the morning.", "intensity": "moderate", "transfer": "Local driving.", "seasonal": "The Japan Meteorological Agency and the local Aso page decide closures. Have Kumamoto city ready as the backup.", "wet": "Kumamoto Castle and Suizenji Garden a day early."},
+    {"show": 10, "base": "Aso / Kumamoto", "experience": "Kumamoto Castle and Suizenji Garden.", "optional": "The castle reconstruction story for the 14-year-old", "highlight": "A castle rebuilt after the 2016 earthquakes, and a garden modelled on famous landscapes", "kids": "Grounds for the 6-year-old. Museums for the older two.", "intensity": "moderate", "transfer": "Under an hour from an Aso base to the city, depending where you slept.", "seasonal": "Castle hours change. Check the morning of the visit.", "wet": "This is the indoor day."},
+    {"show": 14, "base": "Aso / Kumamoto", "experience": "Takachiho Gorge. Go early, row the gorge boat if it is running, see one shrine, drive back.", "optional": "Amano Iwato shrine, told as a story rather than a long temple tour", "highlight": "A narrow gorge and the myth of the sun goddess", "kids": "The boat and the story work for all three. The day is long because of the drive, not the walk.", "intensity": "demanding", "transfer": "Roughly 2.5–3 hours each way from the Aso–Kumamoto area. Confirm the route. Drop this day on a 10- or 12-day trip.", "seasonal": "Boat operations stop in high water or wind.", "wet": "If the gorge is raining heavily, keep the castle day and do not add a slippery gorge."},
+    {"show": 12, "base": "Aso / Kumamoto", "experience": "A free day in the countryside or a second pass at a favourite Aso viewpoint.", "optional": "Nothing booked", "highlight": "Space after the long gorge day", "kids": "Let the 6-year-old set the pace.", "intensity": "light", "transfer": "None if you skip the car.", "seasonal": "Use this day first if Aso was closed earlier.", "wet": "Hotel and an early dinner."},
+    {"show": 10, "base": "Nagasaki", "experience": "Train to Nagasaki. Glover Garden and the harbour slopes.", "optional": "A tram ride, which is enough adventure by itself", "highlight": "A steep port city with a foreign-trading past", "kids": "Glover Garden is the right scale for age 6. Use the slope car or tram rather than forcing every stair.", "intensity": "moderate", "transfer": "Return the car in Kumamoto. Kumamoto to Nagasaki is often about 2–3 hours with a change. Confirm JR or highway bus.", "seasonal": "Neighbourhood slopes are always stairs. The tram is the kindness.", "wet": "Glover Garden's indoor houses and a covered market."},
+    {"show": 10, "base": "Nagasaki", "experience": "Peace Park in the morning for the older children. A harbour hour for the 6-year-old.", "optional": "The atomic-bomb museum only if the 12- and 14-year-olds want it, with a parent who can leave", "highlight": "A serious place, taken in a small dose", "kids": "Do not walk the 6-year-old through the full museum. The park and the paper cranes are enough at that age.", "intensity": "moderate", "transfer": "If the flight home is from Fukuoka, allow about 2 hours back by train and do not sightsee that morning. Confirm which airport has seven seats.", "seasonal": "This day is emotional, not seasonal. Keep it short.", "wet": "The museum is indoors. Still keep the visit short."}
+  ],
+  "sources": [
+    {"tag": "verified", "title": "Japan visa exemptions, including Australia", "url": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html", "note": "Ministry of Foreign Affairs of Japan. India is not on the exempt list."},
+    {"tag": "verified", "title": "Australian short stays do not need a tourist visa", "url": "https://www.brisbane.au.emb-japan.go.jp/itpr_en/visa_whoneedsavisa.html", "note": "Consulate-General of Japan in Brisbane."},
+    {"tag": "recheck", "title": "Indian passport visa applications", "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html", "note": "Use the consulate for the city where the Indian party lives. Ignore agency sites."},
+    {"tag": "opinion", "title": "Kyushu in April with children: weather, blossom and Golden Week", "url": "https://littlekyushuadventures.com/kyushu-in-april-with-kids/", "note": "Family-travel article. 2026 bloom dates are cited there from JMA observations. Recheck 2027."},
+    {"tag": "recheck", "title": "Mount Aso access and volcanic gas", "url": "https://www.jma.go.jp/jma/indexe.html", "note": "Check the week you travel. Closures are operational."}
+  ]
+}
