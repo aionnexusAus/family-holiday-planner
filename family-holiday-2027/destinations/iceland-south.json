@@ -3,23 +3,55 @@
   "pool": "main",
   "name": "South Coast, Iceland",
   "regionLabel": "Reykjavík, the Golden Circle and the south coast",
-  "regions": ["europe", "atlantic"],
+  "regions": [
+    "europe",
+    "atlantic"
+  ],
   "summary": "Waterfalls, a black coast and a glacier lagoon, in a month when the highlands are still shut and the weather is still winter's cousin. Magnificent, and a hard fortnight for a 6-year-old.",
   "why": "Choose this if dramatic scenery outranks comfort. April has long daylight and fewer visitors than July. It does not have pleasant spring weather, open highland roads, or easy walking for a mixed-age group.",
   "distinctive": "A coast where waterfalls, black sand and ice sit in one day's drive, and almost no trees to soften it.",
   "scores": {
-    "nature": 5, "quiet": 4, "culture": 2, "history": 2, "adventure": 4,
-    "wildlife": 3, "science": 4, "family": 3, "mild": 1, "road": 4, "rail": 1,
-    "relaxed": 2, "variety": 3, "child6": 2, "child12": 4, "child14": 4,
-    "scenery": 5, "april": 2, "practical": 3, "mobility": 2, "unique": 4, "conventional": 4
+    "nature": 5,
+    "quiet": 4,
+    "culture": 2,
+    "history": 2,
+    "adventure": 4,
+    "wildlife": 3,
+    "science": 4,
+    "family": 3,
+    "mild": 1,
+    "road": 4,
+    "rail": 1,
+    "relaxed": 2,
+    "variety": 3,
+    "child6": 2,
+    "child12": 4,
+    "child14": 4,
+    "scenery": 5,
+    "april": 2,
+    "practical": 3,
+    "mobility": 2,
+    "unique": 4,
+    "conventional": 4
   },
   "stairs": 3,
-  "labels": {"april": "Mixed", "crowds": "Quieter than summer", "family": "Good", "practical": "Good", "scenery": "Excellent"},
+  "labels": {
+    "april": "Mixed",
+    "crowds": "Quieter than summer",
+    "family": "Good",
+    "practical": "Good",
+    "scenery": "Excellent"
+  },
   "weather": "April is often about 1–7°C, wet, and windy. Daylight runs long. Highland F-roads stay closed into June or July. Natural ice caves on Vatnajökull close for the season. Some guided ice tunnels still run. This is the published shoulder-season pattern.",
   "weatherStatus": "seasonal",
   "crowds": "Fewer visitors than midsummer. The Golden Circle and Skógafoss still get buses. Easter can tighten hotels. Easter 2027 is 28 March, so early April can still feel the edge of it.",
   "crowdStatus": "opinion",
-  "natureExperiences": ["Seljalandsfoss and Skógafoss from the safe paths", "Reynisfjara from the cliff, not the waterline", "Jökulsárlón and the diamond beach", "A geothermal pool every day, which is the family constant"],
+  "natureExperiences": [
+    "Seljalandsfoss and Skógafoss from the safe paths",
+    "Reynisfjara from the cliff, not the waterline",
+    "Jökulsárlón and the diamond beach",
+    "A geothermal pool every day, which is the family constant"
+  ],
   "age6": "Waterfall viewpoints, pools, and short stops. No black-sand wave games. No highland roads. No long glacier hikes.",
   "age12": "The lagoon, the earthquake-and-volcano story, and a pool with a waterslide if the town has one.",
   "age14": "The same landscapes, plus why the road reports matter. They can read road.is.",
@@ -29,43 +61,234 @@
   "visaAu": "Schengen visa-free, EES on entry, ETIAS not yet operating at research time.",
   "visaIn": "Schengen visa via Iceland if Iceland is the main destination.",
   "visaStatus": "verified-rule-recheck-process",
-  "disadvantages": ["The weather fails the 'pleasant April' test.", "F-roads and many famous hiking trails are shut or still technical.", "Wind at the black beaches is a safety issue for children.", "One week is enough. Two weeks needs pools, Reykjavík, and rest, or it becomes a grind."],
-  "uncertainties": ["Which pools and south-coast cafes are fully open in April 2027.", "Puffin arrival is a late-April beginning, not a guarantee.", "Car hire for seven, including a child seat, in shoulder season."],
-  "childTags": ["science", "walks", "water"],
+  "disadvantages": [
+    "The weather fails the 'pleasant April' test.",
+    "F-roads and many famous hiking trails are shut or still technical.",
+    "Wind at the black beaches is a safety issue for children.",
+    "One week is enough. Two weeks needs pools, Reykjavík, and rest, or it becomes a grind."
+  ],
+  "uncertainties": [
+    "Which pools and south-coast cafes are fully open in April 2027.",
+    "Puffin arrival is a late-April beginning, not a guarantee.",
+    "Car hire for seven, including a child seat, in shoulder season."
+  ],
+  "childTags": [
+    "science",
+    "walks",
+    "water"
+  ],
   "climate": "cool",
-  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/2008-05-24_35_Sk%C3%B3gafoss.jpg", "alt": "Skógafoss waterfall in south Iceland", "credit": "Wikimedia Commons: Skógafoss", "href": "https://commons.wikimedia.org/wiki/File:2008-05-24_35_Sk%C3%B3gafoss.jpg"},
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/2008-05-24_35_Sk%C3%B3gafoss.jpg",
+    "alt": "Skógafoss waterfall in south Iceland",
+    "credit": "Wikimedia Commons: Skógafoss",
+    "href": "https://commons.wikimedia.org/wiki/File:2008-05-24_35_Sk%C3%B3gafoss.jpg"
+  },
   "gain": "The most dramatic coast per hour of driving.",
   "miss": "Mild weather, a relaxed pace, and much to do when the wind pins you indoors.",
   "cost": {
     "summary": "Melbourne to Keflavík is about ₹3.7–5.3 lakh for three adult returns. Bengaluru is about ₹3.0–4.1 lakh for four. Together that is about ₹6.7–9.4 lakh before the Schengen visa fee.",
     "lines": [
-      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s typical return fare, Melbourne to Keflavík, was A$1,872–$2,636 for one adult, with two stops. Three adult fares are about ₹3.7–5.3 lakh. Not an April 2027 quote."},
-      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Keflavík, was ₹75,499–₹101,823 for one adult, with two stops. Four adult fares are about ₹3.0–4.1 lakh. Not an April 2027 quote."},
-      {"item": "Visas", "tag": "verified", "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+      {
+        "item": "Flights from Melbourne",
+        "tag": "recheck",
+        "text": "Kayak.com.au’s typical return fare, Melbourne to Keflavík, was A$1,872–$2,636 for one adult, with two stops. Three adult fares are about ₹3.7–5.3 lakh. Not an April 2027 quote."
+      },
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "recheck",
+        "text": "Kayak.co.in’s typical return fare, Bengaluru to Keflavík, was ₹75,499–₹101,823 for one adult, with two stops. Four adult fares are about ₹3.0–4.1 lakh. Not an April 2027 quote."
+      },
+      {
+        "item": "Visas",
+        "tag": "verified",
+        "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+      }
     ],
-    "leftOut": "Hotels, meals, the car and international flights are not included."
+    "leftOut": "Hotels, meals, the car and international flights are not included.",
+    "trip": {
+      "band": "about ₹18–39 lakh",
+      "note": "Flights from both cities and the Schengen visa fee are inside this. The high end is three mid-range Reykjavík rooms.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Reykjavík's, from Budget Your Trip on 19 August 2026. A cabin on the south coast can come in lower. Seven local-transport fares are not the same thing as one hire car."
+    }
   },
   "stretch16": "Do not add the Westfjords or the highlands. Add pool days in Reykjavík.",
   "days": [
-    {"show": 10, "base": "Reykjavík", "experience": "Land, pool, sleep.", "optional": "Hallgrímskirkja from the outside", "highlight": "Hot water on a cold arrival day", "kids": "The pool is the welcome.", "intensity": "light", "transfer": "Keflavík to the city is under an hour.", "seasonal": "Wind on the lava plain can be the first impression.", "wet": "The pool is indoors or geothermally hot. Go anyway."},
-    {"show": 10, "base": "Reykjavík", "experience": "A short city day and another pool.", "optional": "A whale watch only if the harbour operator is running and the 6-year-old is keen", "highlight": "A small capital", "kids": "A museum hour and the pool.", "intensity": "light", "transfer": "On foot.", "seasonal": "Harbour boats cancel in swell.", "wet": "Already the plan."},
-    {"show": 10, "base": "Golden Circle or Hvolsvöllur", "experience": "Golden Circle: Þingvellir, Geysir, Gullfoss. Start early.", "optional": "Skip the extra stops", "highlight": "A rift, a geyser and a wide fall", "kids": "Viewpoints. Hold hands near geothermal water and cliff edges.", "intensity": "moderate", "transfer": "A full loop back toward the south. About a day's driving with stops.", "seasonal": "This is the busiest classic day, even in April.", "wet": "The sights are outdoors. Cut the loop if the wind is dangerous."},
-    {"show": 10, "base": "Vík or nearby", "experience": "Seljalandsfoss and Skógafoss, then the town.", "optional": "The path behind Seljalandsfoss only if it is open and the 6-year-old is steady", "highlight": "Two great falls in one afternoon", "kids": "Spray and slippery rock. The base of the falls is enough.", "intensity": "moderate", "transfer": "Drive the south coast. About 2–2.5 hours from Reykjavík to Skógafoss, plus stops.", "seasonal": "Paths close when ice makes them unsafe.", "wet": "You will get wet from the falls even in sunshine. Real rain means a shorter stop."},
-    {"show": 10, "base": "Vík", "experience": "Reynisfjara from the cliff path, not the surf line.", "optional": "A black-sand viewpoint and a pool", "highlight": "Basalt and a dangerous beach, treated with respect", "kids": "Waves can sweep the sand with no warning. Nobody plays at the waterline.", "intensity": "moderate", "transfer": "Minutes from Vík.", "seasonal": "This rule is year-round.", "wet": "If the wind is strong, stay in the village."},
-    {"show": 12, "base": "Jökulsárlón", "experience": "Drive to the glacier lagoon and back as far as a sensible base, or stay near Höfn.", "optional": "Diamond beach for twenty minutes", "highlight": "Ice on a black shore", "kids": "A long car day. It is the big reward and the tiring one.", "intensity": "demanding", "transfer": "Vík to the lagoon is about 2.5 hours each way if you do not move the hotel. Moving to Höfn makes it kinder and adds a base.", "seasonal": "Do this only on the 12- and 14-day versions.", "wet": "Ice still shows in rain. Wind is the cancel."},
-    {"show": 10, "base": "Reykjavík", "experience": "Drive back west. Pool. Nothing else.", "optional": "A bakery", "highlight": "Recovering", "kids": "Car snacks and the pool.", "intensity": "moderate", "transfer": "Several hours. Do not add a new region.", "seasonal": "Check road.is for ice.", "wet": "Drive only if the road report is calm."},
-    {"show": 10, "base": "Reykjavík", "experience": "A free day. Pool, a bakery, a short harbour walk.", "optional": "Perlan's exhibits if you want an indoor science hour", "highlight": "The day that keeps the trip humane", "kids": "Let the 6-year-old choose the pool.", "intensity": "light", "transfer": "None.", "seasonal": "Use this day if a south-coast day was blown out.", "wet": "Indoor."},
-    {"show": 14, "base": "Reykjavík", "experience": "Another free day, or a second Golden Circle stop you skipped.", "optional": "Nothing", "highlight": "Not adding the Westfjords", "kids": "Rest.", "intensity": "light", "transfer": "None.", "seasonal": "April is not the month to invent a new region.", "wet": "Pool."},
-    {"show": 10, "base": "Keflavík", "experience": "Fly out.", "optional": "The Blue Lagoon only if it sits calmly before the flight and a child who is unwell can skip it", "highlight": "Leaving before the weather gets a vote", "kids": "Simple morning.", "intensity": "light", "transfer": "Under an hour to Keflavík.", "seasonal": "Storms delay flights. A buffer in Reykjavík the day before is already in the plan.", "wet": "Airport."}
+    {
+      "show": 10,
+      "base": "Reykjavík",
+      "experience": "Land, pool, sleep.",
+      "optional": "Hallgrímskirkja from the outside",
+      "highlight": "Hot water on a cold arrival day",
+      "kids": "The pool is the welcome.",
+      "intensity": "light",
+      "transfer": "Keflavík to the city is under an hour.",
+      "seasonal": "Wind on the lava plain can be the first impression.",
+      "wet": "The pool is indoors or geothermally hot. Go anyway."
+    },
+    {
+      "show": 10,
+      "base": "Reykjavík",
+      "experience": "A short city day and another pool.",
+      "optional": "A whale watch only if the harbour operator is running and the 6-year-old is keen",
+      "highlight": "A small capital",
+      "kids": "A museum hour and the pool.",
+      "intensity": "light",
+      "transfer": "On foot.",
+      "seasonal": "Harbour boats cancel in swell.",
+      "wet": "Already the plan."
+    },
+    {
+      "show": 10,
+      "base": "Golden Circle or Hvolsvöllur",
+      "experience": "Golden Circle: Þingvellir, Geysir, Gullfoss. Start early.",
+      "optional": "Skip the extra stops",
+      "highlight": "A rift, a geyser and a wide fall",
+      "kids": "Viewpoints. Hold hands near geothermal water and cliff edges.",
+      "intensity": "moderate",
+      "transfer": "A full loop back toward the south. About a day's driving with stops.",
+      "seasonal": "This is the busiest classic day, even in April.",
+      "wet": "The sights are outdoors. Cut the loop if the wind is dangerous."
+    },
+    {
+      "show": 10,
+      "base": "Vík or nearby",
+      "experience": "Seljalandsfoss and Skógafoss, then the town.",
+      "optional": "The path behind Seljalandsfoss only if it is open and the 6-year-old is steady",
+      "highlight": "Two great falls in one afternoon",
+      "kids": "Spray and slippery rock. The base of the falls is enough.",
+      "intensity": "moderate",
+      "transfer": "Drive the south coast. About 2–2.5 hours from Reykjavík to Skógafoss, plus stops.",
+      "seasonal": "Paths close when ice makes them unsafe.",
+      "wet": "You will get wet from the falls even in sunshine. Real rain means a shorter stop."
+    },
+    {
+      "show": 10,
+      "base": "Vík",
+      "experience": "Reynisfjara from the cliff path, not the surf line.",
+      "optional": "A black-sand viewpoint and a pool",
+      "highlight": "Basalt and a dangerous beach, treated with respect",
+      "kids": "Waves can sweep the sand with no warning. Nobody plays at the waterline.",
+      "intensity": "moderate",
+      "transfer": "Minutes from Vík.",
+      "seasonal": "This rule is year-round.",
+      "wet": "If the wind is strong, stay in the village."
+    },
+    {
+      "show": 12,
+      "base": "Jökulsárlón",
+      "experience": "Drive to the glacier lagoon and back as far as a sensible base, or stay near Höfn.",
+      "optional": "Diamond beach for twenty minutes",
+      "highlight": "Ice on a black shore",
+      "kids": "A long car day. It is the big reward and the tiring one.",
+      "intensity": "demanding",
+      "transfer": "Vík to the lagoon is about 2.5 hours each way if you do not move the hotel. Moving to Höfn makes it kinder and adds a base.",
+      "seasonal": "Do this only on the 12- and 14-day versions.",
+      "wet": "Ice still shows in rain. Wind is the cancel."
+    },
+    {
+      "show": 10,
+      "base": "Reykjavík",
+      "experience": "Drive back west. Pool. Nothing else.",
+      "optional": "A bakery",
+      "highlight": "Recovering",
+      "kids": "Car snacks and the pool.",
+      "intensity": "moderate",
+      "transfer": "Several hours. Do not add a new region.",
+      "seasonal": "Check road.is for ice.",
+      "wet": "Drive only if the road report is calm."
+    },
+    {
+      "show": 10,
+      "base": "Reykjavík",
+      "experience": "A free day. Pool, a bakery, a short harbour walk.",
+      "optional": "Perlan's exhibits if you want an indoor science hour",
+      "highlight": "The day that keeps the trip humane",
+      "kids": "Let the 6-year-old choose the pool.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Use this day if a south-coast day was blown out.",
+      "wet": "Indoor."
+    },
+    {
+      "show": 14,
+      "base": "Reykjavík",
+      "experience": "Another free day, or a second Golden Circle stop you skipped.",
+      "optional": "Nothing",
+      "highlight": "Not adding the Westfjords",
+      "kids": "Rest.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "April is not the month to invent a new region.",
+      "wet": "Pool."
+    },
+    {
+      "show": 10,
+      "base": "Keflavík",
+      "experience": "Fly out.",
+      "optional": "The Blue Lagoon only if it sits calmly before the flight and a child who is unwell can skip it",
+      "highlight": "Leaving before the weather gets a vote",
+      "kids": "Simple morning.",
+      "intensity": "light",
+      "transfer": "Under an hour to Keflavík.",
+      "seasonal": "Storms delay flights. A buffer in Reykjavík the day before is already in the plan.",
+      "wet": "Airport."
+    }
   ],
   "sources": [
-    {"tag": "seasonal", "title": "April weather, closed highlands, fading aurora", "url": "https://icelandloop.com/guides/iceland-in-april", "note": "Shoulder-season guide. Highland closure into June or July is the planning assumption. Confirm road.is."},
-    {"tag": "recheck", "title": "Road and weather reports", "url": "https://www.road.is/", "note": "Also vedur.is and safetravel.is the morning you drive."},
-    {"tag": "opinion", "title": "April driving still needs a winter mindset", "url": "https://www.goicetravel.is/en/guides/iceland-in-april", "note": "Operator guide. Useful on conditions. Not an official forecast."},
-    {"tag": "recheck", "title": "Schengen entry", "url": "https://travel-europe.europa.eu/etias", "note": "Australian visa-free. Indian visa required. ETIAS status can change."},
-    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "€90 from age 12. €45 from age 6 until the 12th birthday."},
-    {"tag": "recheck", "title": "Rupee amount a German mission was collecting", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."},
-    {"tag": "recheck", "title": "Typical Melbourne–Keflavík return fare", "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Reykjavik-Keflavik-Intl-KEF", "note": "Kayak Australia typical band. Not an April 2027 fare."},
-    {"tag": "recheck", "title": "Typical Bengaluru–Keflavík return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Reykjavik-Keflavik-Intl-KEF", "note": "Kayak India typical band. Not an April 2027 fare."}
+    {
+      "tag": "seasonal",
+      "title": "April weather, closed highlands, fading aurora",
+      "url": "https://icelandloop.com/guides/iceland-in-april",
+      "note": "Shoulder-season guide. Highland closure into June or July is the planning assumption. Confirm road.is."
+    },
+    {
+      "tag": "recheck",
+      "title": "Road and weather reports",
+      "url": "https://www.road.is/",
+      "note": "Also vedur.is and safetravel.is the morning you drive."
+    },
+    {
+      "tag": "opinion",
+      "title": "April driving still needs a winter mindset",
+      "url": "https://www.goicetravel.is/en/guides/iceland-in-april",
+      "note": "Operator guide. Useful on conditions. Not an official forecast."
+    },
+    {
+      "tag": "recheck",
+      "title": "Schengen entry",
+      "url": "https://travel-europe.europa.eu/etias",
+      "note": "Australian visa-free. Indian visa required. ETIAS status can change."
+    },
+    {
+      "tag": "verified",
+      "title": "Schengen visa fee",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+      "note": "€90 from age 12. €45 from age 6 until the 12th birthday."
+    },
+    {
+      "tag": "recheck",
+      "title": "Rupee amount a German mission was collecting",
+      "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+      "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Melbourne–Keflavík return fare",
+      "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Reykjavik-Keflavik-Intl-KEF",
+      "note": "Kayak Australia typical band. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Bengaluru–Keflavík return fare",
+      "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Reykjavik-Keflavik-Intl-KEF",
+      "note": "Kayak India typical band. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Reykjavík traveler costs",
+      "url": "https://www.budgetyourtrip.com/iceland/reykjavik",
+      "note": "Budget and mid-range columns. Updated 19 August 2026."
+    }
   ]
 }

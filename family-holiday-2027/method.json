@@ -46,17 +46,15 @@
     }
   ],
   "comparisonNote": "A separate cost ranking put a Beijing, Xi'an, Chengdu and Zhangjiajie circuit first, using unpublished rupee ranges. Those ranges are not quotations, and that circuit is not this plan. China here means Sichuan only. Japan means Kyushu, not Tokyo and Kyoto. Finland stays unscored because April there is a thaw month. The indicative costs now on each place are also not part of the score. Three Australian passports leave from Melbourne and four Indian passports leave from Bengaluru. They meet in the destination. Ordinary Indian passports are not on Australia's transit-without-visa list, so Melbourne is not the meeting city unless those four already hold Australian visas. New Zealand is a short flight from Melbourne and a long connection from Bengaluru. Sichuan and Kyushu are one-stop journeys from both cities. That evenness is in the meeting notes. It does not outrank April weather, visas, or a pace with few hotel changes.",
-  "costBasis": "Flight lines are return fares for the international trip only. Group totals assume an adult fare. The 6-year-old is sometimes cheaper, and that discount was not priced. Ages 12 and 14 are treated as adults. Rupee conversions use the Reserve Bank of Australia on 23 October 2026, at rba.gov.au/statistics/frequency/exchange-rates.html: ₹66.47 per Australian dollar, ₹94.86 per US dollar from that day's rate of 0.7006, and ₹53.98 per New Zealand dollar. That is not a bank's selling rate. Group totals are rounded to the nearest ₹10,000. None of this changes the order of the places.",
+  "costBasis": "Each place now shows one wide trip band for seven people and about 13 nights. It is rounded to the nearest lakh. It is not a quote, and a cheaper band does not move a place up the list. The low end uses Budget Your Trip's budget column and the high end uses the mid-range column: three rooms at the published double-occupancy rate, meals for seven, local transport and tickets. Where that site had no usable city table, the place note says which other figure was used. Flights already priced are added. A fare or visa fee that was not published is left out, and the band says so. Ages 12 and 14 are treated as adults. The 6-year-old is sometimes cheaper on a flight, and that discount was not priced. Rupee conversions still use the Reserve Bank of Australia on 23 October 2026: ₹94.86 per US dollar. That is not a bank's selling rate.",
   "excluded": [
-    "Hotels and apartments",
-    "Meals and groceries",
     "Travel insurance",
     "Checked bags, seat selection and other airline extras",
-    "Any cheaper fare for the 6-year-old. The flight lines use adult fares.",
-    "Trains, hire cars, fuel, drivers and taxis",
-    "Domestic and inter-island flights",
-    "Activity tickets, park entries, guides and boat cruises",
-    "Visa-centre service charges, courier and visa photos, unless a line above already includes the service charge",
+    "Any cheaper fare for the 6-year-old. The flight lines use adult fares",
+    "Domestic and inter-island flights, including Seoul to Jeju",
+    "A private driver or a second hire car, where the band used a per-person local-transport figure instead",
+    "Visa-centre service charges, courier and visa photos, unless a fee line already includes the service charge",
+    "Any international fare or visa fee the band says was not published",
     "Shopping and a spare amount for surprises"
   ],
   "pageDoesNotDo": [

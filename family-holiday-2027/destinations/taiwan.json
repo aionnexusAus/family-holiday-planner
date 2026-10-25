@@ -4,23 +4,54 @@
   "asideReason": "The Taroko gorge road between Taroko and Tianxiang was still closed when the park's own page was read, with no firm reopening date. Indian visitor visas also sit in a heavier designated-country process. The rest of the island is good. The famous landscape this group would cross the world for was not available.",
   "name": "Taiwan",
   "regionLabel": "Taipei, Tainan and Sun Moon Lake",
-  "regions": ["east-asia"],
+  "regions": [
+    "east-asia"
+  ],
   "summary": "Three bases even while the gorge is shut: Taipei, Tainan, and Sun Moon Lake or Alishan. Held out of the main list because the gorge that would make the trip was closed.",
   "why": "Taipei is the easy landing and the museums. Tainan is the older city and the food. The lake or the mountain railway is the nature day that does not depend on Taroko. If the gorge has reopened by 2027, swap the lake for Hualien. Until then this is a note, not a recommendation.",
   "distinctive": "A dense, kind, food-centred island with real mountains, currently missing its signature walk.",
   "scores": {
-    "nature": 3, "quiet": 3, "culture": 4, "history": 3, "adventure": 3,
-    "wildlife": 2, "science": 4, "family": 4, "mild": 4, "road": 2, "rail": 4,
-    "relaxed": 4, "variety": 4, "child6": 4, "child12": 4, "child14": 4,
-    "scenery": 3, "april": 4, "practical": 2, "mobility": 4, "unique": 3, "conventional": 2
+    "nature": 3,
+    "quiet": 3,
+    "culture": 4,
+    "history": 3,
+    "adventure": 3,
+    "wildlife": 2,
+    "science": 4,
+    "family": 4,
+    "mild": 4,
+    "road": 2,
+    "rail": 4,
+    "relaxed": 4,
+    "variety": 4,
+    "child6": 4,
+    "child12": 4,
+    "child14": 4,
+    "scenery": 3,
+    "april": 4,
+    "practical": 2,
+    "mobility": 4,
+    "unique": 3,
+    "conventional": 2
   },
   "stairs": 2,
-  "labels": {"april": "Very Good", "crowds": "Moderate", "family": "Very Good", "practical": "Mixed", "scenery": "Good"},
+  "labels": {
+    "april": "Very Good",
+    "crowds": "Moderate",
+    "family": "Very Good",
+    "practical": "Mixed",
+    "scenery": "Good"
+  },
   "weather": "April is mild and can be wet. Seasonal expectation only.",
   "weatherStatus": "seasonal",
   "crowds": "Taipei is a working city. Taroko, when open, has busy viewpoints. Not researched as a crowd calendar.",
   "crowdStatus": "thin",
-  "natureExperiences": ["Alishan or a forest railway if you go without Taroko", "Yehliu's rock coast", "Hot springs chosen for families", "Taroko only after the park reopens the gorge road"],
+  "natureExperiences": [
+    "Alishan or a forest railway if you go without Taroko",
+    "Yehliu's rock coast",
+    "Hot springs chosen for families",
+    "Taroko only after the park reopens the gorge road"
+  ],
   "age6": "Taipei museums, night markets in small doses, and short coastal walks.",
   "age12": "The science museums are a strength.",
   "age14": "The same, plus the food and the train system.",
@@ -30,40 +61,221 @@
   "visaAu": "Australian passports can enter visa-free for up to 90 days for tourism, with a passport valid at least six months and a return ticket, according to the Bureau of Consular Affairs and Smartraveller. A Taiwan Arrival Card is part of the process. Recheck.",
   "visaIn": "India is on Taiwan's designated-country list for visitor visas. The Bureau of Consular Affairs describes an extra procedure, including an identity certificate. This is a harder visa than Japan's ordinary tourist visa. Read the current BOCA page before anyone plans around it.",
   "visaStatus": "verified-rule-recheck-process",
-  "disadvantages": ["Taroko's Taroko–Tianxiang section, including bus service, was closed with an uncertain reopening after the 2024 earthquake and a later typhoon.", "The Indian visa process is heavier than for the other East Asian options.", "Without the gorge, the trip is a good city-and-food holiday and a weaker nature holiday."],
-  "uncertainties": ["Whether the gorge road has reopened by April 2027.", "The exact Indian visa checklist in 2027."],
-  "childTags": ["food", "science", "trains", "walks"],
+  "disadvantages": [
+    "Taroko's Taroko–Tianxiang section, including bus service, was closed with an uncertain reopening after the 2024 earthquake and a later typhoon.",
+    "The Indian visa process is heavier than for the other East Asian options.",
+    "Without the gorge, the trip is a good city-and-food holiday and a weaker nature holiday."
+  ],
+  "uncertainties": [
+    "Whether the gorge road has reopened by April 2027.",
+    "The exact Indian visa checklist in 2027."
+  ],
+  "childTags": [
+    "food",
+    "science",
+    "trains",
+    "walks"
+  ],
   "climate": "mild",
-  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Taroko_Gorge4.jpg/1280px-Taroko_Gorge4.jpg", "alt": "Taroko Gorge. The road through this section was still closed at the time of research.", "credit": "Wikimedia Commons: Taroko Gorge. Closure status must be rechecked.", "href": "https://commons.wikimedia.org/wiki/File:Taroko_Gorge4.jpg"},
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Taroko_Gorge4.jpg/1280px-Taroko_Gorge4.jpg",
+    "alt": "Taroko Gorge. The road through this section was still closed at the time of research.",
+    "credit": "Wikimedia Commons: Taroko Gorge. Closure status must be rechecked.",
+    "href": "https://commons.wikimedia.org/wiki/File:Taroko_Gorge4.jpg"
+  },
   "gain": "A kind, food-rich, museum-rich island if the gorge is open again.",
   "miss": "Certainty that the landscape in the photograph is something you can visit.",
   "cost": {
     "summary": "Bengaluru to Taipei is about ₹1.7–2.4 lakh for four adult typical returns. A Melbourne typical fare was not published. The Indian visa fee was not priced.",
     "lines": [
-      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Taipei, was ₹41,303–₹59,769 for one adult, with two stops. Four adult fares are about ₹1.7–2.4 lakh. Not an April 2027 quote."},
-      {"item": "Flights from Melbourne", "tag": "thin", "text": "A typical Melbourne–Taipei return fare was not published in this pass."},
-      {"item": "Visas", "tag": "thin", "text": "Australian passports have a visa-exempt short stay. Indian passports need a visitor visa. The fee was not read from an official table in this pass."}
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "recheck",
+        "text": "Kayak.co.in’s typical return fare, Bengaluru to Taipei, was ₹41,303–₹59,769 for one adult, with two stops. Four adult fares are about ₹1.7–2.4 lakh. Not an April 2027 quote."
+      },
+      {
+        "item": "Flights from Melbourne",
+        "tag": "thin",
+        "text": "A typical Melbourne–Taipei return fare was not published in this pass."
+      },
+      {
+        "item": "Visas",
+        "tag": "thin",
+        "text": "Australian passports have a visa-exempt short stay. Indian passports need a visitor visa. The fee was not read from an official table in this pass."
+      }
     ],
-    "leftOut": "Hotels, meals and international flights are not included."
+    "leftOut": "Hotels, meals and international flights are not included.",
+    "trip": {
+      "band": "about ₹7–18 lakh before the Melbourne flights",
+      "note": "Bengaluru flights are inside this. A Melbourne fare and the Indian visa fee were not published.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Taipei's, from Budget Your Trip on 2 September 2026. The high end is wide because the mid-range hotel figure is much higher than the budget figure. Tainan and the lake can differ."
+    }
   },
   "stretch16": "Add a free day in Tainan and a free day at the lake. Add Hualien only if Taroko has reopened.",
   "days": [
-    {"show": 10, "base": "Taipei", "experience": "Land and eat.", "optional": "A night-market hour, then leave", "highlight": "The food", "kids": "Point at dishes. Keep it short.", "intensity": "light", "transfer": "Taoyuan airport is a long way from the city. Allow the bus.", "seasonal": "April rain.", "wet": "Eat indoors."},
-    {"show": 10, "base": "Taipei", "experience": "A science museum and a short city walk.", "optional": "Elephant Mountain only if the stairs suit the day", "highlight": "Indoor science, which Taipei does well", "kids": "All three.", "intensity": "light", "transfer": "Metro.", "seasonal": "Pick the museum that is actually open.", "wet": "The museum."},
-    {"show": 12, "base": "Taipei", "experience": "North coast at Yehliu, or Jiufen for a short lane walk. Sleep back in Taipei.", "optional": "Skip Yehliu in heavy rain. The rocks are slippery.", "highlight": "A strange coast, seen as a day trip", "kids": "Stay on the path. Jiufen's lanes are steep and crowded. Leave before anyone is tired.", "intensity": "moderate", "transfer": "A day trip of about an hour or a bit more. Confirm the bus or driver.", "seasonal": "Wind on the coast.", "wet": "Stay in Taipei and use the museum again."},
-    {"show": 10, "base": "Tainan", "experience": "High-speed rail south and stop. A short walk in the old town if you arrive in daylight.", "optional": "Nothing else", "highlight": "An older, lower city than Taipei", "kids": "The train is the activity.", "intensity": "moderate", "transfer": "Taipei to Tainan by high-speed rail is often under two hours, plus the local ride. Confirm 2027 times.", "seasonal": "April is warm enough for a slow evening.", "wet": "The train, then the hotel."},
-    {"show": 10, "base": "Tainan", "experience": "Anping and one temple courtyard. Then food.", "optional": "A second temple only if the 6-year-old is still willing", "highlight": "Forts, lanes and a city that eats well", "kids": "Short stops. Pointing at snacks is the point.", "intensity": "moderate", "transfer": "Taxis or a local day car. The old streets are not a long hike.", "seasonal": "Temples are busy on weekends.", "wet": "Covered markets and one indoor stop."},
-    {"show": 12, "base": "Tainan", "experience": "A free day. One neighbourhood and a long lunch.", "optional": "Nothing booked", "highlight": "Staying long enough to get lost on purpose", "kids": "Let them pick the snack street.", "intensity": "light", "transfer": "None.", "seasonal": "This is the day that keeps the south from being a blur.", "wet": "Stay in and eat."},
-    {"show": 10, "base": "Sun Moon Lake", "experience": "Travel to Sun Moon Lake, or to Alishan if the forest railway is running a useful section that month.", "optional": "If the mountain train is only a fragment, choose the lake", "highlight": "A lake in the hills, which is the nature base while Taroko is shut", "kids": "The journey is enough. No summit.", "intensity": "moderate", "transfer": "Tainan toward Taichung, then on to the lake. Allow most of the day. Confirm the 2027 train and bus.", "seasonal": "Alishan's operating section changes. Read the railway notice before you book the mountain hotel.", "wet": "Go to the lake anyway. The view survives cloud."},
-    {"show": 10, "base": "Sun Moon Lake", "experience": "A boat or a lakeside walk, and nothing else ambitious.", "optional": "A short temple stop above the water", "highlight": "The lake twice, morning and late afternoon", "kids": "All three can do a boat and a flat path.", "intensity": "light", "transfer": "Local.", "seasonal": "April can be misty. Mist is still a lake day.", "wet": "The boat if it runs, or the hotel window."},
-    {"show": 14, "base": "Sun Moon Lake", "experience": "A free day, or the Alishan railway as a day trip only if the current section is worth it.", "optional": "Stay at the lake if the train is a fuss", "highlight": "Choosing the easier mountain", "kids": "The 6-year-old does not need a dawn railway.", "intensity": "light", "transfer": "Only if you go up. Otherwise none.", "seasonal": "Do not book both a dawn train and a long hike.", "wet": "Stay at the lake."},
-    {"show": 10, "base": "Taipei", "experience": "Return toward Taipei and stop. No new list.", "optional": "If Taroko's gorge road has reopened, this is the day you would have used for Hualien instead. Do not add it while the road is shut.", "highlight": "A buffer before the flight", "kids": "Train time.", "intensity": "moderate", "transfer": "Back by rail. Allow the afternoon.", "seasonal": "The gorge remains a swap, not an extra.", "wet": "The train."},
-    {"show": 10, "base": "Taipei", "experience": "Buffer and fly.", "optional": "A last market hour if the flight is late", "highlight": "Leaving from Taoyuan", "kids": "Easy morning.", "intensity": "light", "transfer": "City to Taoyuan is a long bus or the airport train. Confirm.", "seasonal": "None.", "wet": "Go to the airport."}
+    {
+      "show": 10,
+      "base": "Taipei",
+      "experience": "Land and eat.",
+      "optional": "A night-market hour, then leave",
+      "highlight": "The food",
+      "kids": "Point at dishes. Keep it short.",
+      "intensity": "light",
+      "transfer": "Taoyuan airport is a long way from the city. Allow the bus.",
+      "seasonal": "April rain.",
+      "wet": "Eat indoors."
+    },
+    {
+      "show": 10,
+      "base": "Taipei",
+      "experience": "A science museum and a short city walk.",
+      "optional": "Elephant Mountain only if the stairs suit the day",
+      "highlight": "Indoor science, which Taipei does well",
+      "kids": "All three.",
+      "intensity": "light",
+      "transfer": "Metro.",
+      "seasonal": "Pick the museum that is actually open.",
+      "wet": "The museum."
+    },
+    {
+      "show": 12,
+      "base": "Taipei",
+      "experience": "North coast at Yehliu, or Jiufen for a short lane walk. Sleep back in Taipei.",
+      "optional": "Skip Yehliu in heavy rain. The rocks are slippery.",
+      "highlight": "A strange coast, seen as a day trip",
+      "kids": "Stay on the path. Jiufen's lanes are steep and crowded. Leave before anyone is tired.",
+      "intensity": "moderate",
+      "transfer": "A day trip of about an hour or a bit more. Confirm the bus or driver.",
+      "seasonal": "Wind on the coast.",
+      "wet": "Stay in Taipei and use the museum again."
+    },
+    {
+      "show": 10,
+      "base": "Tainan",
+      "experience": "High-speed rail south and stop. A short walk in the old town if you arrive in daylight.",
+      "optional": "Nothing else",
+      "highlight": "An older, lower city than Taipei",
+      "kids": "The train is the activity.",
+      "intensity": "moderate",
+      "transfer": "Taipei to Tainan by high-speed rail is often under two hours, plus the local ride. Confirm 2027 times.",
+      "seasonal": "April is warm enough for a slow evening.",
+      "wet": "The train, then the hotel."
+    },
+    {
+      "show": 10,
+      "base": "Tainan",
+      "experience": "Anping and one temple courtyard. Then food.",
+      "optional": "A second temple only if the 6-year-old is still willing",
+      "highlight": "Forts, lanes and a city that eats well",
+      "kids": "Short stops. Pointing at snacks is the point.",
+      "intensity": "moderate",
+      "transfer": "Taxis or a local day car. The old streets are not a long hike.",
+      "seasonal": "Temples are busy on weekends.",
+      "wet": "Covered markets and one indoor stop."
+    },
+    {
+      "show": 12,
+      "base": "Tainan",
+      "experience": "A free day. One neighbourhood and a long lunch.",
+      "optional": "Nothing booked",
+      "highlight": "Staying long enough to get lost on purpose",
+      "kids": "Let them pick the snack street.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "This is the day that keeps the south from being a blur.",
+      "wet": "Stay in and eat."
+    },
+    {
+      "show": 10,
+      "base": "Sun Moon Lake",
+      "experience": "Travel to Sun Moon Lake, or to Alishan if the forest railway is running a useful section that month.",
+      "optional": "If the mountain train is only a fragment, choose the lake",
+      "highlight": "A lake in the hills, which is the nature base while Taroko is shut",
+      "kids": "The journey is enough. No summit.",
+      "intensity": "moderate",
+      "transfer": "Tainan toward Taichung, then on to the lake. Allow most of the day. Confirm the 2027 train and bus.",
+      "seasonal": "Alishan's operating section changes. Read the railway notice before you book the mountain hotel.",
+      "wet": "Go to the lake anyway. The view survives cloud."
+    },
+    {
+      "show": 10,
+      "base": "Sun Moon Lake",
+      "experience": "A boat or a lakeside walk, and nothing else ambitious.",
+      "optional": "A short temple stop above the water",
+      "highlight": "The lake twice, morning and late afternoon",
+      "kids": "All three can do a boat and a flat path.",
+      "intensity": "light",
+      "transfer": "Local.",
+      "seasonal": "April can be misty. Mist is still a lake day.",
+      "wet": "The boat if it runs, or the hotel window."
+    },
+    {
+      "show": 14,
+      "base": "Sun Moon Lake",
+      "experience": "A free day, or the Alishan railway as a day trip only if the current section is worth it.",
+      "optional": "Stay at the lake if the train is a fuss",
+      "highlight": "Choosing the easier mountain",
+      "kids": "The 6-year-old does not need a dawn railway.",
+      "intensity": "light",
+      "transfer": "Only if you go up. Otherwise none.",
+      "seasonal": "Do not book both a dawn train and a long hike.",
+      "wet": "Stay at the lake."
+    },
+    {
+      "show": 10,
+      "base": "Taipei",
+      "experience": "Return toward Taipei and stop. No new list.",
+      "optional": "If Taroko's gorge road has reopened, this is the day you would have used for Hualien instead. Do not add it while the road is shut.",
+      "highlight": "A buffer before the flight",
+      "kids": "Train time.",
+      "intensity": "moderate",
+      "transfer": "Back by rail. Allow the afternoon.",
+      "seasonal": "The gorge remains a swap, not an extra.",
+      "wet": "The train."
+    },
+    {
+      "show": 10,
+      "base": "Taipei",
+      "experience": "Buffer and fly.",
+      "optional": "A last market hour if the flight is late",
+      "highlight": "Leaving from Taoyuan",
+      "kids": "Easy morning.",
+      "intensity": "light",
+      "transfer": "City to Taoyuan is a long bus or the airport train. Confirm.",
+      "seasonal": "None.",
+      "wet": "Go to the airport."
+    }
   ],
   "sources": [
-    {"tag": "verified", "title": "Australian visa-exempt entry", "url": "https://www.boca.gov.tw/fp-149-4486-7785a-2.html", "note": "Bureau of Consular Affairs. 90 days for Australia. Page dated 2026."},
-    {"tag": "verified", "title": "Indian passports use the designated-country visitor-visa procedure", "url": "https://www.boca.gov.tw/cp-159-249-4162c-2.html", "note": "BOCA. Updated 15 October 2026. Read it in full before applying."},
-    {"tag": "verified", "title": "Taroko gorge section remained closed", "url": "https://www.taroko.gov.tw/en/trailsAttractions/visitor-center/78", "note": "Park page: Taroko to Tianxiang, km 185.4–167.7, and the bus, still closed. Reopening described as uncertain."},
-    {"tag": "recheck", "title": "Typical Bengaluru–Taipei return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Taipei-Taiwan-Taoyuan-Intl-TPE", "note": "Kayak India typical band. Not an April 2027 fare."}
+    {
+      "tag": "verified",
+      "title": "Australian visa-exempt entry",
+      "url": "https://www.boca.gov.tw/fp-149-4486-7785a-2.html",
+      "note": "Bureau of Consular Affairs. 90 days for Australia. Page dated 2026."
+    },
+    {
+      "tag": "verified",
+      "title": "Indian passports use the designated-country visitor-visa procedure",
+      "url": "https://www.boca.gov.tw/cp-159-249-4162c-2.html",
+      "note": "BOCA. Updated 15 October 2026. Read it in full before applying."
+    },
+    {
+      "tag": "verified",
+      "title": "Taroko gorge section remained closed",
+      "url": "https://www.taroko.gov.tw/en/trailsAttractions/visitor-center/78",
+      "note": "Park page: Taroko to Tianxiang, km 185.4–167.7, and the bus, still closed. Reopening described as uncertain."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Bengaluru–Taipei return fare",
+      "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Taipei-Taiwan-Taoyuan-Intl-TPE",
+      "note": "Kayak India typical band. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Taipei traveler costs",
+      "url": "https://www.budgetyourtrip.com/taiwan/taipei",
+      "note": "Budget and mid-range columns. Updated 2 September 2026."
+    }
   ]
 }

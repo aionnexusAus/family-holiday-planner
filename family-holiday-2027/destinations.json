@@ -107,7 +107,12 @@
           "text": "The Azores are in Portugal, so the same Schengen fee applies. It is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."
         }
       ],
-      "leftOut": "Hotels, meals, island transport, boat trips and international flights are not included."
+      "leftOut": "Hotels, meals, island transport, boat trips and international flights are not included.",
+      "trip": {
+        "band": "about ₹17–28 lakh before the Bengaluru flights",
+        "note": "One recent Melbourne fare and the Schengen visa fee are inside this. The four Bengaluru tickets are not.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The stay uses Ponta Delgada hotel prices of about US$146 a room on average and about US$283 for a mid-range high-season room, times three rooms. The Azores daily table on the same site was not usable, so meals, local transport and tickets use Porto's columns."
+      }
     },
     "stretch16": "Add two weather-buffer days, not a second island.",
     "days": [
@@ -322,6 +327,18 @@
         "title": "One recent Melbourne–Ponta Delgada return",
         "url": "https://www.kayak.com.au/flight-routes/Melbourne-other-airports-MEL/Ponta-Delgada-Acores-Nordela-PDL",
         "note": "A single cheapest return, not a typical band. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Ponta Delgada hotel prices",
+        "url": "https://www.budgetyourtrip.com/hotels/portugal/ponta-delgada-3372783",
+        "note": "Average room about US$146. Mid-range high season about US$283. Not an April quote."
+      },
+      {
+        "tag": "recheck",
+        "title": "Porto meals and local costs, used because the Azores table was not usable",
+        "url": "https://www.budgetyourtrip.com/portugal/porto",
+        "note": "Food, local transport and tickets only. Porto is not the island."
       }
     ]
   },
@@ -426,7 +443,12 @@
           "text": "A typical Melbourne–Paro return was not published. Kayak’s Australia-wide typical return to Paro was A$2,168–$2,988, and the cheap example was Perth, so that band is not used as the Melbourne fare. A Bengaluru–Paro typical fare was not published either."
         }
       ],
-      "leftOut": "The guide, hotels, meals and the drives are not included. The fee sits on top of those."
+      "leftOut": "The guide, hotels, meals and the drives are not included. The fee sits on top of those.",
+      "trip": {
+        "band": "about ₹4 lakh in fees, not a full trip price",
+        "note": "This is the nightly fee for 13 nights in one passport split. Flights, the guide and hotels are not in it.",
+        "text": "No full trip band. A published traveler average for Paro hotels and meals was not used, and the flights were not published. The fee illustration already on this page is the only group figure."
+      }
     },
     "stretch16": "Add rest days in Punakha. Do not add a trek.",
     "days": [
@@ -690,7 +712,12 @@
           "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."
         }
       ],
-      "leftOut": "Hotels, meals, the car, park tickets and international flights are not included."
+      "leftOut": "Hotels, meals, the car, park tickets and international flights are not included.",
+      "trip": {
+        "band": "about ₹11–16 lakh",
+        "note": "Flights from both cities and the Schengen visa fee are inside this. The Melbourne piece is one average, not a fare range.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Zagreb's, from Budget Your Trip on 4 September 2026. Plitvice and Istria can differ."
+      }
     },
     "stretch16": "Add free days in Istria. Do not add Dubrovnik and Split.",
     "days": [
@@ -863,6 +890,12 @@
         "title": "Melbourne–Zagreb past-year average",
         "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Zagreb-Franjo-Tuman-ZAG",
         "note": "Average return from Melbourne. A low-to-high band for Melbourne was not on the page."
+      },
+      {
+        "tag": "recheck",
+        "title": "Zagreb traveler costs",
+        "url": "https://www.budgetyourtrip.com/croatia/zagreb",
+        "note": "Budget and mid-range columns. Updated 4 September 2026."
       }
     ]
   },
@@ -973,7 +1006,12 @@
           "text": "Australian passports do not pay a visa fee for a short stay on the published list. Ordinary Indian passports need a visa. The fee was not read from the official e-visa table in this pass."
         }
       ],
-      "leftOut": "Hotels, meals, a driver and international flights are not included."
+      "leftOut": "Hotels, meals, a driver and international flights are not included.",
+      "trip": {
+        "band": "about ₹4–7 lakh before the Melbourne flights and the visa",
+        "note": "Bengaluru flights are inside this. A Melbourne fare and the Indian visa fee were not published.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Tbilisi's, from Budget Your Trip on 5 September 2026. The low end is that city's budget column, which is a simple room rather than three family hotels. Sighnaghi and Kazbegi can differ."
+      }
     },
     "stretch16": "Not the place to add days in April. Come in June if this is the dream.",
     "days": [
@@ -1098,6 +1136,12 @@
         "title": "Typical Bengaluru–Tbilisi return fare",
         "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Tbilisi-Intl-TBS",
         "note": "Kayak India typical band. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Tbilisi traveler costs",
+        "url": "https://www.budgetyourtrip.com/georgia/tbilisi",
+        "note": "Budget and mid-range columns. Updated 5 September 2026."
       }
     ]
   },
@@ -1208,7 +1252,12 @@
           "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."
         }
       ],
-      "leftOut": "Hotels, meals, the car and international flights are not included."
+      "leftOut": "Hotels, meals, the car and international flights are not included.",
+      "trip": {
+        "band": "about ₹18–39 lakh",
+        "note": "Flights from both cities and the Schengen visa fee are inside this. The high end is three mid-range Reykjavík rooms.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Reykjavík's, from Budget Your Trip on 19 August 2026. A cabin on the south coast can come in lower. Seven local-transport fares are not the same thing as one hire car."
+      }
     },
     "stretch16": "Do not add the Westfjords or the highlands. Add pool days in Reykjavík.",
     "days": [
@@ -1381,6 +1430,12 @@
         "title": "Typical Bengaluru–Keflavík return fare",
         "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Reykjavik-Keflavik-Intl-KEF",
         "note": "Kayak India typical band. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Reykjavík traveler costs",
+        "url": "https://www.budgetyourtrip.com/iceland/reykjavik",
+        "note": "Budget and mid-range columns. Updated 19 August 2026."
       }
     ]
   },
@@ -1492,7 +1547,12 @@
           "text": "Australian passports pay no visa fee for a short stay. The Bengaluru visa centre listed an Indian single-entry fee of ₹500 plus a service charge of ₹800, about ₹1,300 an application, or about ₹5,200 for four. The list does not show a different child fee. Optional courier was extra."
         }
       ],
-      "leftOut": "Hotels, meals, trains, the rental car and tickets are not included."
+      "leftOut": "Hotels, meals, trains, the rental car and tickets are not included.",
+      "trip": {
+        "band": "about ₹8–22 lakh",
+        "note": "Flights from both cities and the Japan visa fee are inside this.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. Meals, local transport and tickets use Japan-wide Budget Your Trip figures from 5 September 2026, not a Fukuoka-only table. The low end uses that site's budget stay. The high end uses a published Fukuoka April room price of about US$181 for each of three rooms, plus the mid-range meals and tickets."
+      }
     },
     "stretch16": "Add a free day in Yufuin and a free day in Fukuoka. Do not add Tokyo.",
     "days": [
@@ -1713,6 +1773,18 @@
         "title": "Past-year typical Bengaluru–Fukuoka fares by airline",
         "url": "https://www.google.com/travel/flights/flights-from-bengaluru-to-fukuoka.html",
         "note": "Google Flights airline typicals for one adult. The spread is wide. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Japan traveler costs",
+        "url": "https://www.budgetyourtrip.com/japan",
+        "note": "Country budget and mid-range columns. Updated 5 September 2026. Not a Fukuoka hotel quote."
+      },
+      {
+        "tag": "recheck",
+        "title": "Fukuoka hotel prices",
+        "url": "https://www.kayak.com/Fukuoka-Hotels.18810.hotel.ksp",
+        "note": "Kayak listed April as an expensive month and a weekend room around US$181. Used only for the high end of the stay, as three rooms."
       }
     ]
   },
@@ -1824,7 +1896,12 @@
           "text": "Indian passports need a Korean visa. The fee was not read from an official table in this pass. The Australian K-ETA rule for April 2027 still has to be rechecked, so no fee is shown."
         }
       ],
-      "leftOut": "Hotels, meals, the hop to Jeju and tickets are not included."
+      "leftOut": "Hotels, meals, the hop to Jeju and tickets are not included.",
+      "trip": {
+        "band": "about ₹6–18 lakh before the island hop and the visa",
+        "note": "Flights from Melbourne to Jeju and from Bengaluru to Seoul are inside this. The Seoul–Jeju hop and the Korean visa fee are not.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The low end is Jeju's budget column and the high end is Seoul's mid-range column, because the plan also uses a mainland city."
+      }
     },
     "stretch16": "Add a free beach-walk day on Jeju and a free day in Gyeongju. Seoul only if the flight requires it.",
     "days": [
@@ -1979,6 +2056,18 @@
         "title": "Typical Bengaluru–Seoul return fare",
         "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Seoul-Incheon-Intl-ICN",
         "note": "Kayak India typical band to Incheon, the meeting airport. The Jeju hop is separate."
+      },
+      {
+        "tag": "recheck",
+        "title": "Jeju traveler costs",
+        "url": "https://www.budgetyourtrip.com/south-korea/cheju-jeju",
+        "note": "Budget column, used for the low end."
+      },
+      {
+        "tag": "recheck",
+        "title": "Seoul traveler costs",
+        "url": "https://www.budgetyourtrip.com/south-korea/seoul",
+        "note": "Mid-range column, used for the high end."
       }
     ]
   },
@@ -2088,7 +2177,12 @@
           "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."
         }
       ],
-      "leftOut": "Hotels, meals, trains and international flights are not included."
+      "leftOut": "Hotels, meals, trains and international flights are not included.",
+      "trip": {
+        "band": "about ₹6–14 lakh before the flights",
+        "note": "International flights were not published, so they are not inside this. The Schengen visa fee is.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Bergen's, from Budget Your Trip on 5 September 2026. Oslo and Flåm can differ."
+      }
     },
     "stretch16": "Add a free day in Oslo and a free day in Bergen. Do not add Tromsø.",
     "days": [
@@ -2225,6 +2319,12 @@
         "title": "Rupee amount a German mission was collecting",
         "url": "https://india.diplo.de/in-en/service/1984596-1984596",
         "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
+      },
+      {
+        "tag": "recheck",
+        "title": "Bergen traveler costs",
+        "url": "https://www.budgetyourtrip.com/norway/bergen",
+        "note": "Budget and mid-range columns. Updated 5 September 2026. Flights are not in this band."
       }
     ]
   },
@@ -2334,7 +2434,12 @@
           "text": "Australian citizens pay no visa fee. For Indian passports, the May 2026 fees guide charges one visitor-visa fee of NZD 341 when a partner and dependent children are included, plus an NZD 100 levy for every person. Four people on one application would be NZD 741, about ₹40,000. Two separate family applications would be NZD 1,082, about ₹58,000. Four separate applications would be NZD 1,764, about ₹95,000. Which row applies depends on who can share an application."
         }
       ],
-      "leftOut": "Hotels, meals, two hire cars, fuel, the Milford cruise and the glowworm cave are not included."
+      "leftOut": "Hotels, meals, two hire cars, fuel, the Milford cruise and the glowworm cave are not included.",
+      "trip": {
+        "band": "about ₹9–19 lakh",
+        "note": "Flights from Bengaluru and Melbourne, and the Indian visa fee, are inside this.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The low end uses Christchurch's budget column and the high end uses Queenstown's mid-range column, from Budget Your Trip in August and September 2026, because the drive stays in both kinds of town."
+      }
     },
     "stretch16": "Add a free day in Wānaka and a free day in Te Anau. Do not add the North Island.",
     "days": [
@@ -2573,6 +2678,18 @@
         "title": "Visitor visa fee and per-person levy",
         "url": "https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/Fees-Guide-INZ-1028.pdf",
         "note": "INZ 1028, May 2026. One fee can cover a partner and dependent children. The NZD 100 levy is per person."
+      },
+      {
+        "tag": "recheck",
+        "title": "Christchurch traveler costs",
+        "url": "https://www.budgetyourtrip.com/new-zealand/christchurch",
+        "note": "Budget and mid-range columns for a room share, meals, local transport and tickets. Page updated 31 August 2026. Used for the low end of the trip band."
+      },
+      {
+        "tag": "recheck",
+        "title": "Queenstown traveler costs",
+        "url": "https://www.budgetyourtrip.com/new-zealand/queenstown",
+        "note": "Mid-range column. Page updated 5 September 2026. Used for the high end of the trip band."
       }
     ]
   },
@@ -2683,7 +2800,12 @@
           "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."
         }
       ],
-      "leftOut": "Hotels, meals, the car, and international flights are not included."
+      "leftOut": "Hotels, meals, the car, and international flights are not included.",
+      "trip": {
+        "band": "about ₹13–25 lakh",
+        "note": "Flights from both cities and the Schengen visa fee are inside this.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Porto's, from Budget Your Trip on 6 September 2026. The Douro and Gerês can differ."
+      }
     },
     "stretch16": "Add free days in the Douro. Do not add Lisbon and the Algarve.",
     "days": [
@@ -2850,6 +2972,12 @@
         "title": "Melbourne–Porto average and a recent fare",
         "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Porto-OPO",
         "note": "Past-year average and a recent Melbourne return. Not a typical band and not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Porto traveler costs",
+        "url": "https://www.budgetyourtrip.com/portugal/porto",
+        "note": "Budget and mid-range columns. Updated 6 September 2026."
       }
     ]
   },
@@ -2960,7 +3088,12 @@
           "text": "The reduced fees were published only through 31 December 2026. At the Delhi centre an Indian regular single entry was ₹2,900 plus a ₹2,107 service fee. In Sydney an Australian regular single entry was A$94.50 in total. April 2027 is after that date. Do not use those figures as the fee you will pay."
         }
       ],
-      "leftOut": "Hotels, meals, trains, the Jiuzhaigou flight and park tickets are not included."
+      "leftOut": "Hotels, meals, trains, the Jiuzhaigou flight and park tickets are not included.",
+      "trip": {
+        "band": "about ₹4–9 lakh before the Bengaluru flights",
+        "note": "Only the Melbourne flights are inside this. The four Bengaluru tickets, and the 2027 visa fee, are not.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Chengdu's, from Budget Your Trip on 4 September 2026. A Jiuzhaigou hotel can differ. A typical Bengaluru fare was not published, so it is not in the band."
+      }
     },
     "stretch16": "Add a free day in Chengdu and a free day at Jiuzhaigou. Do not add Beijing.",
     "days": [
@@ -3187,6 +3320,12 @@
         "title": "One advertised Bengaluru–Chengdu round trip",
         "url": "https://www.trip.com/flights/bengaluru-to-chengdu/airfares-blr-ctu/",
         "note": "Cheapest round trip shown on 7 October 2026 for a November date. Not a typical group fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Chengdu traveler costs",
+        "url": "https://www.budgetyourtrip.com/china/chengdu",
+        "note": "Budget and mid-range columns. Updated 4 September 2026."
       }
     ]
   },
@@ -3297,7 +3436,12 @@
           "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."
         }
       ],
-      "leftOut": "Hotels, meals, cars, trains, cave tickets and international flights are not included."
+      "leftOut": "Hotels, meals, cars, trains, cave tickets and international flights are not included.",
+      "trip": {
+        "band": "about ₹9–17 lakh before the Bengaluru flights",
+        "note": "Melbourne flights and the Schengen visa fee are inside this. The four Bengaluru tickets are not.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Ljubljana's, from Budget Your Trip on 6 September 2026. Lake and cave towns can differ."
+      }
     },
     "stretch16": "Add a free day at Bohinj and a free day in Ljubljana. Do not add Venice.",
     "days": [
@@ -3524,6 +3668,12 @@
         "title": "Typical Melbourne–Ljubljana return fare",
         "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Ljubljana-Joze-Pucnik-LJU",
         "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Ljubljana traveler costs",
+        "url": "https://www.budgetyourtrip.com/slovenia/ljubljana",
+        "note": "Budget and mid-range columns. Updated 6 September 2026."
       }
     ]
   },
@@ -3633,7 +3783,12 @@
           "text": "Australian passports have a visa-exempt short stay. Indian passports need a visitor visa. The fee was not read from an official table in this pass."
         }
       ],
-      "leftOut": "Hotels, meals and international flights are not included."
+      "leftOut": "Hotels, meals and international flights are not included.",
+      "trip": {
+        "band": "about ₹7–18 lakh before the Melbourne flights",
+        "note": "Bengaluru flights are inside this. A Melbourne fare and the Indian visa fee were not published.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Taipei's, from Budget Your Trip on 2 September 2026. The high end is wide because the mid-range hotel figure is much higher than the budget figure. Tainan and the lake can differ."
+      }
     },
     "stretch16": "Add a free day in Tainan and a free day at the lake. Add Hualien only if Taroko has reopened.",
     "days": [
@@ -3794,6 +3949,12 @@
         "title": "Typical Bengaluru–Taipei return fare",
         "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Taipei-Taiwan-Taoyuan-Intl-TPE",
         "note": "Kayak India typical band. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Taipei traveler costs",
+        "url": "https://www.budgetyourtrip.com/taiwan/taipei",
+        "note": "Budget and mid-range columns. Updated 2 September 2026."
       }
     ]
   },
@@ -3905,7 +4066,12 @@
           "text": "Australian ordinary passports pay no visa fee for a short stay. The Indian sticker-visa or e-Visa fee was not read from an official fee table in this pass, so it is not included."
         }
       ],
-      "leftOut": "Hotels, meals, domestic flights and the balloon are not included."
+      "leftOut": "Hotels, meals, domestic flights and the balloon are not included.",
+      "trip": {
+        "band": "about ₹11–22 lakh before the Indian visa",
+        "note": "Flights from both cities are inside this. The Indian visa fee is not.",
+        "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Istanbul's, from Budget Your Trip on 5 September 2026. A cave hotel in Cappadocia can differ."
+      }
     },
     "stretch16": "Add a free day in Ürgüp and a free day in Selçuk. Do not add Antalya and Pamukkale and Gallipoli.",
     "days": [
@@ -4132,6 +4298,12 @@
         "title": "Melbourne–Istanbul monthly medians",
         "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Istanbul-IST",
         "note": "October and December medians on Kayak.com, in US dollars. April was not listed."
+      },
+      {
+        "tag": "recheck",
+        "title": "Istanbul traveler costs",
+        "url": "https://www.budgetyourtrip.com/turkey/istanbul",
+        "note": "Budget and mid-range columns. Updated 5 September 2026."
       }
     ]
   }

@@ -3,15 +3,36 @@
   "pool": "main",
   "name": "São Miguel, Azores",
   "regionLabel": "Ponta Delgada and Furnas, Portugal",
-  "regions": ["europe", "atlantic"],
+  "regions": [
+    "europe",
+    "atlantic"
+  ],
   "summary": "One volcanic island. Crater lakes, hot springs, tea fields, and a whale watch with a spare day in case the sea says no. Quiet, green, and a long way from both home airports.",
   "why": "April is mild rather than hot, the island is never a capital-city trip, and the wildlife is the educational event. Two bases are enough for two weeks. You do not need a second island.",
   "distinctive": "A green crater you can drive around, fumaroles in a town garden, and sperm whales that live offshore all year.",
   "scores": {
-    "nature": 5, "quiet": 5, "culture": 3, "history": 2, "adventure": 3,
-    "wildlife": 5, "science": 4, "family": 4, "mild": 4, "road": 4, "rail": 1,
-    "relaxed": 5, "variety": 3, "child6": 4, "child12": 5, "child14": 4,
-    "scenery": 5, "april": 4, "practical": 2, "mobility": 3, "unique": 5, "conventional": 1
+    "nature": 5,
+    "quiet": 5,
+    "culture": 3,
+    "history": 2,
+    "adventure": 3,
+    "wildlife": 5,
+    "science": 4,
+    "family": 4,
+    "mild": 4,
+    "road": 4,
+    "rail": 1,
+    "relaxed": 5,
+    "variety": 3,
+    "child6": 4,
+    "child12": 5,
+    "child14": 4,
+    "scenery": 5,
+    "april": 4,
+    "practical": 2,
+    "mobility": 3,
+    "unique": 5,
+    "conventional": 1
   },
   "stairs": 2,
   "labels": {
@@ -51,7 +72,12 @@
     "2027 flights via Lisbon for seven people.",
     "Which Terra Nostra pool rules apply to children that season."
   ],
-  "childTags": ["wildlife", "science", "walks", "water"],
+  "childTags": [
+    "wildlife",
+    "science",
+    "walks",
+    "water"
+  ],
   "climate": "mild",
   "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Lagoa_das_Sete_Cidades3.jpg",
@@ -64,36 +90,254 @@
   "cost": {
     "summary": "One recent Melbourne to Ponta Delgada return was about ₹6.7 lakh for three adults. That is a single fare, not a typical band. Bengaluru was not published. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
     "lines": [
-      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au showed a cheapest recent return, Melbourne to Ponta Delgada, of A$3,353 for one adult, with two stops. Three adult fares at that one price are about ₹6.7 lakh. A typical low-to-high band was not published, so this is not a range."},
-      {"item": "Flights from Bengaluru", "tag": "thin", "text": "A typical Bengaluru–Ponta Delgada return fare was not published in this pass. No group total is shown."},
-      {"item": "Visas", "tag": "verified", "text": "The Azores are in Portugal, so the same Schengen fee applies. It is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+      {
+        "item": "Flights from Melbourne",
+        "tag": "recheck",
+        "text": "Kayak.com.au showed a cheapest recent return, Melbourne to Ponta Delgada, of A$3,353 for one adult, with two stops. Three adult fares at that one price are about ₹6.7 lakh. A typical low-to-high band was not published, so this is not a range."
+      },
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "thin",
+        "text": "A typical Bengaluru–Ponta Delgada return fare was not published in this pass. No group total is shown."
+      },
+      {
+        "item": "Visas",
+        "tag": "verified",
+        "text": "The Azores are in Portugal, so the same Schengen fee applies. It is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+      }
     ],
-    "leftOut": "Hotels, meals, island transport, boat trips and international flights are not included."
+    "leftOut": "Hotels, meals, island transport, boat trips and international flights are not included.",
+    "trip": {
+      "band": "about ₹17–28 lakh before the Bengaluru flights",
+      "note": "One recent Melbourne fare and the Schengen visa fee are inside this. The four Bengaluru tickets are not.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The stay uses Ponta Delgada hotel prices of about US$146 a room on average and about US$283 for a mid-range high-season room, times three rooms. The Azores daily table on the same site was not usable, so meals, local transport and tickets use Porto's columns."
+    }
   },
   "stretch16": "Add two weather-buffer days, not a second island.",
   "days": [
-    {"show": 10, "base": "Ponta Delgada", "experience": "Land and walk the waterfront. Stop.", "optional": "The city gates and one pineapple greenhouse if it is two minutes away", "highlight": "A small harbour capital in black-and-white stone", "kids": "Gelato and an early night after the long flight.", "intensity": "light", "transfer": "Via Lisbon or another hub. Door to door from Melbourne can take well over 30 hours. From India, plan on two flights at least.", "seasonal": "April rain can start the moment you land. That is normal.", "wet": "The hotel. Do not drive to a viewpoint in the dark."},
-    {"show": 10, "base": "Ponta Delgada", "experience": "Sete Cidades when the rim is clear. If it is not, swap with a later day.", "optional": "A short shore walk at the green lake, not a full crater hike", "highlight": "Two lakes in a volcanic bowl, one greener and one bluer", "kids": "Viewpoints and a lakeside half hour. The rim road is the activity.", "intensity": "moderate", "transfer": "About 40–60 minutes from Ponta Delgada.", "seasonal": "Cloud on the rim is the classic disappointment. Keep this day movable.", "wet": "Gorreana tea or the city pineapple houses, and try the lakes tomorrow."},
-    {"show": 10, "base": "Ponta Delgada", "experience": "Whale watch, booked with a spare day later in the week.", "optional": "The whale museum or a lookout if the boat cancels", "highlight": "Sperm whales or dolphins, if the sea allows", "kids": "Ask the operator about age and sea-sickness before you pay. A 6-year-old on a rough day is a miserable scientist.", "intensity": "moderate", "transfer": "Boats leave from Ponta Delgada and Vila Franca do Campo. Half a day is realistic.", "seasonal": "Visit Portugal notes spring blue whales in the channel toward Santa Maria, and year-round operators on São Miguel. Sightings are never owed to you.", "wet": "A rough sea is a cancel, not a dare. Use the museum."},
-    {"show": 12, "base": "Ponta Delgada", "experience": "Gorreana tea fields and a black-sand or rock coast viewpoint.", "optional": "A second crater, Lagoa do Fogo, only if the road is clear", "highlight": "Europe's oldest tea plantation still picking on this island", "kids": "The factory tour is short and smells like tea. The coast walk stays behind the walls.", "intensity": "light", "transfer": "Under an hour to the north coast.", "seasonal": "North-coast waves are for looking. Swimming is not the April plan.", "wet": "The tea factory is indoors."},
-    {"show": 10, "base": "Furnas", "experience": "Move to Furnas. Terra Nostra garden and the warm pool.", "optional": "The steaming fumaroles by the lake, from the path", "highlight": "A valley that cooks and grows at the same time", "kids": "The warm earth and the garden pool are the 6-year-old's best hour on the island. Check pool rules and temperature.", "intensity": "moderate", "transfer": "About an hour from Ponta Delgada.", "seasonal": "The cozido stew cooked in the ground is a fun sight and a heavy meal. Order one to share.", "wet": "The garden is the point of a wet day. Take a change of clothes for the pool."},
-    {"show": 10, "base": "Furnas", "experience": "Furnas Lake and a short forest walk.", "optional": "Pico do Ferro viewpoint", "highlight": "A crater lake with fumaroles on the shore", "kids": "Stay on the built paths near the steam. It is not a climbing day.", "intensity": "light", "transfer": "Minutes from the village.", "seasonal": "Sulphur smells. Some children hate it and then get used to it.", "wet": "The botanical garden again. There is enough there for two visits."},
-    {"show": 12, "base": "Furnas", "experience": "A free day, or the spare whale watch if the first boat cancelled.", "optional": "Nothing", "highlight": "The buffer that makes a nature island work", "kids": "Repeat the pool.", "intensity": "light", "transfer": "Back to Ponta Delgada only if a boat is booked. About an hour.", "seasonal": "This is the day you move to when Sete Cidades was in cloud.", "wet": "Stay in Furnas."},
-    {"show": 14, "base": "Furnas", "experience": "Nordeste or a waterfall on the east coast, and back.", "optional": "A short end of the road and a picnic", "highlight": "The greener, emptier end of the island", "kids": "Viewpoints. Do not commit to a long muddy trail.", "intensity": "moderate", "transfer": "Allow a couple of hours of driving in total, plus stops.", "seasonal": "Narrow roads. Two confident drivers if you take both cars.", "wet": "Cancel the east and keep the garden."},
-    {"show": 10, "base": "Ponta Delgada", "experience": "Return to the city for the last nights, nearer the airport.", "optional": "A fort and a swim in a hotel pool, not the sea", "highlight": "Coming back to black-and-white streets", "kids": "A playground and a bakery.", "intensity": "light", "transfer": "About an hour from Furnas.", "seasonal": "Use a clear evening for any viewpoint you missed.", "wet": "The car is still useful. Do not stand on a rim in a gale."},
-    {"show": 10, "base": "Ponta Delgada", "experience": "The spare whale day, or a pineapples-and-town day if you already saw whales.", "optional": "Arruda pineapple plantation", "highlight": "A second chance at the animals, which is the only serious way to plan it", "kids": "If the first boat was rough, do not force a second on the 6-year-old.", "intensity": "light", "transfer": "Local.", "seasonal": "Spring is a strong month for variety of species. It is still the ocean.", "wet": "Plantation greenhouses."},
-    {"show": 12, "base": "Ponta Delgada", "experience": "A free day in town.", "optional": "The Carlos Machado natural history museum for the 12- and 14-year-olds", "highlight": "Specimens and island science, indoors", "kids": "An hour, not a morning of glass cases, unless they are absorbed.", "intensity": "light", "transfer": "On foot.", "seasonal": "Check the museum's closed day.", "wet": "This is the indoor plan."},
-    {"show": 14, "base": "Ponta Delgada", "experience": "One last clear-weather viewpoint you missed. Otherwise nothing.", "optional": "Sete Cidades at a different hour of day", "highlight": "Leaving a place you now know how to drive", "kids": "Let the 14-year-old navigate.", "intensity": "light", "transfer": "Under an hour.", "seasonal": "If every rim day was cloudy, this is the last throw. If not, rest.", "wet": "Pack."},
-    {"show": 10, "base": "Ponta Delgada", "experience": "Buffer day before the long flight.", "optional": "A swim in a pool", "highlight": "Not missing the Lisbon connection", "kids": "Films and a walk.", "intensity": "light", "transfer": "None.", "seasonal": "Atlantic wind delays happen. Do not fly to Lisbon on the same day as an onward intercontinental flight if you can avoid it.", "wet": "Already the plan."},
-    {"show": 10, "base": "Ponta Delgada airport", "experience": "Fly toward Lisbon and onward.", "optional": "None", "highlight": "A long journey home, already priced into the decision", "kids": "Snacks for a two-flight day.", "intensity": "moderate", "transfer": "Ponta Delgada to Lisbon is often about 2.5 hours, then a separate long haul. Confirm the connection time for seven people and a missed-wave plan.", "seasonal": "This is why the Azores loses to New Zealand on practicality for a Melbourne family.", "wet": "Fly."}
+    {
+      "show": 10,
+      "base": "Ponta Delgada",
+      "experience": "Land and walk the waterfront. Stop.",
+      "optional": "The city gates and one pineapple greenhouse if it is two minutes away",
+      "highlight": "A small harbour capital in black-and-white stone",
+      "kids": "Gelato and an early night after the long flight.",
+      "intensity": "light",
+      "transfer": "Via Lisbon or another hub. Door to door from Melbourne can take well over 30 hours. From India, plan on two flights at least.",
+      "seasonal": "April rain can start the moment you land. That is normal.",
+      "wet": "The hotel. Do not drive to a viewpoint in the dark."
+    },
+    {
+      "show": 10,
+      "base": "Ponta Delgada",
+      "experience": "Sete Cidades when the rim is clear. If it is not, swap with a later day.",
+      "optional": "A short shore walk at the green lake, not a full crater hike",
+      "highlight": "Two lakes in a volcanic bowl, one greener and one bluer",
+      "kids": "Viewpoints and a lakeside half hour. The rim road is the activity.",
+      "intensity": "moderate",
+      "transfer": "About 40–60 minutes from Ponta Delgada.",
+      "seasonal": "Cloud on the rim is the classic disappointment. Keep this day movable.",
+      "wet": "Gorreana tea or the city pineapple houses, and try the lakes tomorrow."
+    },
+    {
+      "show": 10,
+      "base": "Ponta Delgada",
+      "experience": "Whale watch, booked with a spare day later in the week.",
+      "optional": "The whale museum or a lookout if the boat cancels",
+      "highlight": "Sperm whales or dolphins, if the sea allows",
+      "kids": "Ask the operator about age and sea-sickness before you pay. A 6-year-old on a rough day is a miserable scientist.",
+      "intensity": "moderate",
+      "transfer": "Boats leave from Ponta Delgada and Vila Franca do Campo. Half a day is realistic.",
+      "seasonal": "Visit Portugal notes spring blue whales in the channel toward Santa Maria, and year-round operators on São Miguel. Sightings are never owed to you.",
+      "wet": "A rough sea is a cancel, not a dare. Use the museum."
+    },
+    {
+      "show": 12,
+      "base": "Ponta Delgada",
+      "experience": "Gorreana tea fields and a black-sand or rock coast viewpoint.",
+      "optional": "A second crater, Lagoa do Fogo, only if the road is clear",
+      "highlight": "Europe's oldest tea plantation still picking on this island",
+      "kids": "The factory tour is short and smells like tea. The coast walk stays behind the walls.",
+      "intensity": "light",
+      "transfer": "Under an hour to the north coast.",
+      "seasonal": "North-coast waves are for looking. Swimming is not the April plan.",
+      "wet": "The tea factory is indoors."
+    },
+    {
+      "show": 10,
+      "base": "Furnas",
+      "experience": "Move to Furnas. Terra Nostra garden and the warm pool.",
+      "optional": "The steaming fumaroles by the lake, from the path",
+      "highlight": "A valley that cooks and grows at the same time",
+      "kids": "The warm earth and the garden pool are the 6-year-old's best hour on the island. Check pool rules and temperature.",
+      "intensity": "moderate",
+      "transfer": "About an hour from Ponta Delgada.",
+      "seasonal": "The cozido stew cooked in the ground is a fun sight and a heavy meal. Order one to share.",
+      "wet": "The garden is the point of a wet day. Take a change of clothes for the pool."
+    },
+    {
+      "show": 10,
+      "base": "Furnas",
+      "experience": "Furnas Lake and a short forest walk.",
+      "optional": "Pico do Ferro viewpoint",
+      "highlight": "A crater lake with fumaroles on the shore",
+      "kids": "Stay on the built paths near the steam. It is not a climbing day.",
+      "intensity": "light",
+      "transfer": "Minutes from the village.",
+      "seasonal": "Sulphur smells. Some children hate it and then get used to it.",
+      "wet": "The botanical garden again. There is enough there for two visits."
+    },
+    {
+      "show": 12,
+      "base": "Furnas",
+      "experience": "A free day, or the spare whale watch if the first boat cancelled.",
+      "optional": "Nothing",
+      "highlight": "The buffer that makes a nature island work",
+      "kids": "Repeat the pool.",
+      "intensity": "light",
+      "transfer": "Back to Ponta Delgada only if a boat is booked. About an hour.",
+      "seasonal": "This is the day you move to when Sete Cidades was in cloud.",
+      "wet": "Stay in Furnas."
+    },
+    {
+      "show": 14,
+      "base": "Furnas",
+      "experience": "Nordeste or a waterfall on the east coast, and back.",
+      "optional": "A short end of the road and a picnic",
+      "highlight": "The greener, emptier end of the island",
+      "kids": "Viewpoints. Do not commit to a long muddy trail.",
+      "intensity": "moderate",
+      "transfer": "Allow a couple of hours of driving in total, plus stops.",
+      "seasonal": "Narrow roads. Two confident drivers if you take both cars.",
+      "wet": "Cancel the east and keep the garden."
+    },
+    {
+      "show": 10,
+      "base": "Ponta Delgada",
+      "experience": "Return to the city for the last nights, nearer the airport.",
+      "optional": "A fort and a swim in a hotel pool, not the sea",
+      "highlight": "Coming back to black-and-white streets",
+      "kids": "A playground and a bakery.",
+      "intensity": "light",
+      "transfer": "About an hour from Furnas.",
+      "seasonal": "Use a clear evening for any viewpoint you missed.",
+      "wet": "The car is still useful. Do not stand on a rim in a gale."
+    },
+    {
+      "show": 10,
+      "base": "Ponta Delgada",
+      "experience": "The spare whale day, or a pineapples-and-town day if you already saw whales.",
+      "optional": "Arruda pineapple plantation",
+      "highlight": "A second chance at the animals, which is the only serious way to plan it",
+      "kids": "If the first boat was rough, do not force a second on the 6-year-old.",
+      "intensity": "light",
+      "transfer": "Local.",
+      "seasonal": "Spring is a strong month for variety of species. It is still the ocean.",
+      "wet": "Plantation greenhouses."
+    },
+    {
+      "show": 12,
+      "base": "Ponta Delgada",
+      "experience": "A free day in town.",
+      "optional": "The Carlos Machado natural history museum for the 12- and 14-year-olds",
+      "highlight": "Specimens and island science, indoors",
+      "kids": "An hour, not a morning of glass cases, unless they are absorbed.",
+      "intensity": "light",
+      "transfer": "On foot.",
+      "seasonal": "Check the museum's closed day.",
+      "wet": "This is the indoor plan."
+    },
+    {
+      "show": 14,
+      "base": "Ponta Delgada",
+      "experience": "One last clear-weather viewpoint you missed. Otherwise nothing.",
+      "optional": "Sete Cidades at a different hour of day",
+      "highlight": "Leaving a place you now know how to drive",
+      "kids": "Let the 14-year-old navigate.",
+      "intensity": "light",
+      "transfer": "Under an hour.",
+      "seasonal": "If every rim day was cloudy, this is the last throw. If not, rest.",
+      "wet": "Pack."
+    },
+    {
+      "show": 10,
+      "base": "Ponta Delgada",
+      "experience": "Buffer day before the long flight.",
+      "optional": "A swim in a pool",
+      "highlight": "Not missing the Lisbon connection",
+      "kids": "Films and a walk.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Atlantic wind delays happen. Do not fly to Lisbon on the same day as an onward intercontinental flight if you can avoid it.",
+      "wet": "Already the plan."
+    },
+    {
+      "show": 10,
+      "base": "Ponta Delgada airport",
+      "experience": "Fly toward Lisbon and onward.",
+      "optional": "None",
+      "highlight": "A long journey home, already priced into the decision",
+      "kids": "Snacks for a two-flight day.",
+      "intensity": "moderate",
+      "transfer": "Ponta Delgada to Lisbon is often about 2.5 hours, then a separate long haul. Confirm the connection time for seven people and a missed-wave plan.",
+      "seasonal": "This is why the Azores loses to New Zealand on practicality for a Melbourne family.",
+      "wet": "Fly."
+    }
   ],
   "sources": [
-    {"tag": "verified", "title": "Whale and dolphin watching in the Azores", "url": "https://www.visitportugal.com/en/content/whale-and-dolphin-watching-in-the-azores", "note": "Official Portuguese tourism page. Year-round boats on São Miguel. Spring blue whales mentioned between São Miguel and Santa Maria. Sightings are not guaranteed."},
-    {"tag": "seasonal", "title": "São Miguel weather by month", "url": "https://azores.com/azores/islands/sao-miguel/sao-miguel-weather-by-month-climate-best-time-to-visit/", "note": "Travel site climate table: April high 18°C, low 13°C, rain about 80 mm, sea about 16°C. Not an official meteorological series."},
-    {"tag": "opinion", "title": "April as a strong month for whale variety", "url": "https://azoresgetaways.com/en-us/destination/azores/islands/sao-miguel/best-time-to-visit-sao-miguel", "note": "Operator guide. Treat as opinion beside the Visit Portugal page."},
-    {"tag": "recheck", "title": "Schengen visa for Indian passports, visa-free for Australian passports", "url": "https://travel-europe.europa.eu/etias", "note": "ETIAS status as of this research. Portugal is in the Schengen area, and the Azores are part of Portugal."},
-    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "€90 from age 12. €45 from age 6 until the 12th birthday."},
-    {"tag": "recheck", "title": "Rupee amount a German mission was collecting", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."},
-    {"tag": "recheck", "title": "One recent Melbourne–Ponta Delgada return", "url": "https://www.kayak.com.au/flight-routes/Melbourne-other-airports-MEL/Ponta-Delgada-Acores-Nordela-PDL", "note": "A single cheapest return, not a typical band. Not an April 2027 fare."}
+    {
+      "tag": "verified",
+      "title": "Whale and dolphin watching in the Azores",
+      "url": "https://www.visitportugal.com/en/content/whale-and-dolphin-watching-in-the-azores",
+      "note": "Official Portuguese tourism page. Year-round boats on São Miguel. Spring blue whales mentioned between São Miguel and Santa Maria. Sightings are not guaranteed."
+    },
+    {
+      "tag": "seasonal",
+      "title": "São Miguel weather by month",
+      "url": "https://azores.com/azores/islands/sao-miguel/sao-miguel-weather-by-month-climate-best-time-to-visit/",
+      "note": "Travel site climate table: April high 18°C, low 13°C, rain about 80 mm, sea about 16°C. Not an official meteorological series."
+    },
+    {
+      "tag": "opinion",
+      "title": "April as a strong month for whale variety",
+      "url": "https://azoresgetaways.com/en-us/destination/azores/islands/sao-miguel/best-time-to-visit-sao-miguel",
+      "note": "Operator guide. Treat as opinion beside the Visit Portugal page."
+    },
+    {
+      "tag": "recheck",
+      "title": "Schengen visa for Indian passports, visa-free for Australian passports",
+      "url": "https://travel-europe.europa.eu/etias",
+      "note": "ETIAS status as of this research. Portugal is in the Schengen area, and the Azores are part of Portugal."
+    },
+    {
+      "tag": "verified",
+      "title": "Schengen visa fee",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+      "note": "€90 from age 12. €45 from age 6 until the 12th birthday."
+    },
+    {
+      "tag": "recheck",
+      "title": "Rupee amount a German mission was collecting",
+      "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+      "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
+    },
+    {
+      "tag": "recheck",
+      "title": "One recent Melbourne–Ponta Delgada return",
+      "url": "https://www.kayak.com.au/flight-routes/Melbourne-other-airports-MEL/Ponta-Delgada-Acores-Nordela-PDL",
+      "note": "A single cheapest return, not a typical band. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Ponta Delgada hotel prices",
+      "url": "https://www.budgetyourtrip.com/hotels/portugal/ponta-delgada-3372783",
+      "note": "Average room about US$146. Mid-range high season about US$283. Not an April quote."
+    },
+    {
+      "tag": "recheck",
+      "title": "Porto meals and local costs, used because the Azores table was not usable",
+      "url": "https://www.budgetyourtrip.com/portugal/porto",
+      "note": "Food, local transport and tickets only. Porto is not the island."
+    }
   ]
 }

@@ -3,23 +3,54 @@
   "pool": "main",
   "name": "Northern Portugal",
   "regionLabel": "Porto, the Douro and Peneda-Gerês",
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "summary": "A river city, a green wine valley, and Portugal's only national park. April is mild, the waterfalls are full, and you never need Lisbon.",
   "why": "It is the relaxed European alternative: beautiful, cultural, and easier to pace than Italy or Spain's famous cities. The 6-year-old can do boats, short trails and a city of tiles. The older two get the river terraces and the park.",
   "distinctive": "Terrace vineyards falling into a deep river, and a granite mountain park with spring waterfalls an hour or two from a real city.",
   "scores": {
-    "nature": 4, "quiet": 4, "culture": 4, "history": 4, "adventure": 3,
-    "wildlife": 3, "science": 3, "family": 4, "mild": 5, "road": 4, "rail": 3,
-    "relaxed": 5, "variety": 4, "child6": 4, "child12": 4, "child14": 4,
-    "scenery": 4, "april": 5, "practical": 3, "mobility": 4, "unique": 3, "conventional": 2
+    "nature": 4,
+    "quiet": 4,
+    "culture": 4,
+    "history": 4,
+    "adventure": 3,
+    "wildlife": 3,
+    "science": 3,
+    "family": 4,
+    "mild": 5,
+    "road": 4,
+    "rail": 3,
+    "relaxed": 5,
+    "variety": 4,
+    "child6": 4,
+    "child12": 4,
+    "child14": 4,
+    "scenery": 4,
+    "april": 5,
+    "practical": 3,
+    "mobility": 4,
+    "unique": 3,
+    "conventional": 2
   },
   "stairs": 2,
-  "labels": {"april": "Excellent", "crowds": "Light outside Porto", "family": "Very Good", "practical": "Good", "scenery": "Very Good"},
+  "labels": {
+    "april": "Excellent",
+    "crowds": "Light outside Porto",
+    "family": "Very Good",
+    "practical": "Good",
+    "scenery": "Very Good"
+  },
   "weather": "April in northern Portugal is mild, often the high teens, with some rain and green hills. The Douro can be warmer in the afternoon. The Atlantic is still cool for swimming. Seasonal expectation, not a forecast.",
   "weatherStatus": "seasonal",
   "crowds": "Porto's riverfront has visitors in April and is calmer than summer. The Douro quintas and Gerês trails are the quiet part. Easter 2027 is over by 29 March, so a mid-April trip misses Holy Week.",
   "crowdStatus": "opinion",
-  "natureExperiences": ["A Douro boat between the terraces", "Peneda-Gerês waterfalls and a short trail", "The Atlantic at a river mouth, for walking", "Porto's gardens as the rest day"],
+  "natureExperiences": [
+    "A Douro boat between the terraces",
+    "Peneda-Gerês waterfalls and a short trail",
+    "The Atlantic at a river mouth, for walking",
+    "Porto's gardens as the rest day"
+  ],
   "age6": "The river cruise, a short Gerês walk, and Porto's trams or a river-level promenade. Skip long granite scrambles.",
   "age12": "The boat, the park, and World of Discoveries or a similar hands-on museum if it is open.",
   "age14": "The same, plus how the terraces were built and a look at port wine from the outside of the process. Tasting is for adults.",
@@ -29,42 +60,229 @@
   "visaAu": "Schengen short-stay visa-free, EES biometrics on entry, ETIAS not yet operating at the time of research.",
   "visaIn": "Schengen visa, applied to Portugal if Portugal is the main stay.",
   "visaStatus": "verified-rule-recheck-process",
-  "disadvantages": ["The scenery is beautiful and less shocking than Fiordland, Cappadocia or Jiuzhaigou.", "Gerês trails can be muddy and wet in April.", "Right-hand driving is new for both families.", "The Melbourne flight is long."],
-  "uncertainties": ["Which Gerês trails are suitable after spring rain in 2027.", "Douro river-cruise dates. Many run in April. Confirm the operator.", "ETIAS."],
-  "childTags": ["walks", "water", "food", "stories"],
+  "disadvantages": [
+    "The scenery is beautiful and less shocking than Fiordland, Cappadocia or Jiuzhaigou.",
+    "Gerês trails can be muddy and wet in April.",
+    "Right-hand driving is new for both families.",
+    "The Melbourne flight is long."
+  ],
+  "uncertainties": [
+    "Which Gerês trails are suitable after spring rain in 2027.",
+    "Douro river-cruise dates. Many run in April. Confirm the operator.",
+    "ETIAS."
+  ],
+  "childTags": [
+    "walks",
+    "water",
+    "food",
+    "stories"
+  ],
   "climate": "mild",
-  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Rio_Douro_-_Portugal_%2832615481975%29_%28cropped%29.jpg/1280px-Rio_Douro_-_Portugal_%2832615481975%29_%28cropped%29.jpg", "alt": "The Douro river between green terraces", "credit": "Wikimedia Commons: Rio Douro, Portugal", "href": "https://commons.wikimedia.org/wiki/File:Rio_Douro_-_Portugal_(32615481975)_(cropped).jpg"},
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Rio_Douro_-_Portugal_%2832615481975%29_%28cropped%29.jpg/1280px-Rio_Douro_-_Portugal_%2832615481975%29_%28cropped%29.jpg",
+    "alt": "The Douro river between green terraces",
+    "credit": "Wikimedia Commons: Rio Douro, Portugal",
+    "href": "https://commons.wikimedia.org/wiki/File:Rio_Douro_-_Portugal_(32615481975)_(cropped).jpg"
+  },
   "gain": "The easiest pleasant fortnight in Europe, with enough nature to honour the brief.",
   "miss": "A once-in-a-lifetime landscape, and a short flight from Melbourne.",
   "cost": {
     "summary": "Bengaluru to Porto is about ₹3.6–3.7 lakh for four adult typical returns. Melbourne is about ₹2.7 lakh at one recent fare and about ₹4.0 lakh at the past-year average, for three adults. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
     "lines": [
-      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Porto, was ₹89,294–₹92,003 for one adult, with two stops. Four adult fares are about ₹3.6–3.7 lakh. A cheaper return was also seen recently, so the typical band is not the lowest fare on the page. Not an April 2027 quote."},
-      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s past-year average return from Melbourne to Porto was about A$1,995. Three adult fares at that average are about ₹4.0 lakh. A Melbourne return found in the past five days was A$1,366, about ₹2.7 lakh for three. That is an average and one recent fare, not a typical low-to-high band. Not an April 2027 quote."},
-      {"item": "Visas", "tag": "verified", "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "recheck",
+        "text": "Kayak.co.in’s typical return fare, Bengaluru to Porto, was ₹89,294–₹92,003 for one adult, with two stops. Four adult fares are about ₹3.6–3.7 lakh. A cheaper return was also seen recently, so the typical band is not the lowest fare on the page. Not an April 2027 quote."
+      },
+      {
+        "item": "Flights from Melbourne",
+        "tag": "recheck",
+        "text": "Kayak.com.au’s past-year average return from Melbourne to Porto was about A$1,995. Three adult fares at that average are about ₹4.0 lakh. A Melbourne return found in the past five days was A$1,366, about ₹2.7 lakh for three. That is an average and one recent fare, not a typical low-to-high band. Not an April 2027 quote."
+      },
+      {
+        "item": "Visas",
+        "tag": "verified",
+        "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+      }
     ],
-    "leftOut": "Hotels, meals, the car, and international flights are not included."
+    "leftOut": "Hotels, meals, the car, and international flights are not included.",
+    "trip": {
+      "band": "about ₹13–25 lakh",
+      "note": "Flights from both cities and the Schengen visa fee are inside this.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Porto's, from Budget Your Trip on 6 September 2026. The Douro and Gerês can differ."
+    }
   },
   "stretch16": "Add free days in the Douro. Do not add Lisbon and the Algarve.",
   "days": [
-    {"show": 10, "base": "Porto", "experience": "Land and walk the Ribeira once, then stop.", "optional": "A bookshop or a tile-fronted church, one only", "highlight": "A granite city stacked above a river", "kids": "The bridge view. No port-lodge crawl.", "intensity": "light", "transfer": "Porto airport is close to the city. The long haul is the tiring part.", "seasonal": "April showers. Cobbles are slippery.", "wet": "A covered market and an early night."},
-    {"show": 10, "base": "Porto", "experience": "A short river cruise and a garden.", "optional": "World of Discoveries if you want an indoor afternoon", "highlight": "Seeing the bridges from the water", "kids": "All three ages. Keep the cruise short.", "intensity": "light", "transfer": "On foot and by tram or metro.", "seasonal": "Confirm the boat is running in April.", "wet": "The museum becomes the main event."},
-    {"show": 12, "base": "Porto", "experience": "A free city day. One bakery, one viewpoint, one bookshop.", "optional": "A tram to the sea at Foz for a walk, not a swim", "highlight": "The Atlantic edge of the city", "kids": "The promenade. The water is cold.", "intensity": "light", "transfer": "Tram or taxi to Foz.", "seasonal": "Wind on the Atlantic front.", "wet": "Stay in the bookshop district."},
-    {"show": 10, "base": "Pinhão or nearby Douro", "experience": "Drive or train into the Douro and stay three or four nights.", "optional": "A quinta visit aimed at the landscape, not a tasting session", "highlight": "The terraces", "kids": "Window time. The valley roads twist. Motion-sickness pills if anyone needs them.", "intensity": "moderate", "transfer": "About 1.5–2 hours from Porto to Pinhão by car. The train is slower and more beautiful. Seven people may not fit one train plan with luggage. Two cars are simpler.", "seasonal": "April is green. Harvest crowds are in autumn.", "wet": "The drive is still worth it. Viewpoints from the car."},
-    {"show": 10, "base": "Douro", "experience": "A river boat between the terraces.", "optional": "A village stop", "highlight": "The valley from the water, which is calmer than the road", "kids": "All three. Sit together. Bring layers.", "intensity": "light", "transfer": "Local.", "seasonal": "Boats can cancel in high water or wind. Have a quintas-and-windows backup.", "wet": "A covered boat if one exists, or a manor-house visit."},
-    {"show": 10, "base": "Douro", "experience": "A free valley day. One viewpoint, a long lunch, a short walk.", "optional": "Nothing", "highlight": "Not collecting towns", "kids": "Drawing the terraces. A pool at the hotel if it has one.", "intensity": "light", "transfer": "None.", "seasonal": "This is the heart of the relaxed pace.", "wet": "Lunch is the plan."},
-    {"show": 12, "base": "Douro", "experience": "A second village or a train hop if the line is easy that day.", "optional": "Skip it and repeat the boat", "highlight": "How small the valley settlements are", "kids": "One gelato, then back.", "intensity": "light", "transfer": "Short.", "seasonal": "Do not try to see the whole Douro.", "wet": "Stay at the lodging."},
-    {"show": 10, "base": "Gerês", "experience": "Drive to the national park and do one short waterfall walk.", "optional": "A village spa with hot water", "highlight": "Granite, oak woods and spring water", "kids": "Choose the short trail. River rocks are slippery.", "intensity": "moderate", "transfer": "Gerês village is roughly 1.5–2 hours from the Braga side, and longer from deep in the Douro. Allow half a day to change base.", "seasonal": "April water is high, which is the reason to come, and the reason not to wade.", "wet": "A viewpoint from the road and the spa."},
-    {"show": 10, "base": "Gerês", "experience": "Another short trail or a lake edge, then a free afternoon.", "optional": "Ponies only with a licensed handler who takes age 6", "highlight": "The only national park in the country, used gently", "kids": "All three on the easy path. No ridge walk.", "intensity": "moderate", "transfer": "Local.", "seasonal": "Mud. Spare shoes.", "wet": "The interpretation centre if open, or back to Porto a day early."},
-    {"show": 10, "base": "Porto", "experience": "Return to Porto for the flight buffer.", "optional": "A last pastry and a river view", "highlight": "Leaving from the city you arrived in", "kids": "Easy morning.", "intensity": "light", "transfer": "About 1.5 hours from the Braga–Gerês side to Porto airport, longer from the park itself. Do not fly the same day you leave a trail.", "seasonal": "Build the buffer because Melbourne connections are unforgiving.", "wet": "Already indoors or in the car."}
+    {
+      "show": 10,
+      "base": "Porto",
+      "experience": "Land and walk the Ribeira once, then stop.",
+      "optional": "A bookshop or a tile-fronted church, one only",
+      "highlight": "A granite city stacked above a river",
+      "kids": "The bridge view. No port-lodge crawl.",
+      "intensity": "light",
+      "transfer": "Porto airport is close to the city. The long haul is the tiring part.",
+      "seasonal": "April showers. Cobbles are slippery.",
+      "wet": "A covered market and an early night."
+    },
+    {
+      "show": 10,
+      "base": "Porto",
+      "experience": "A short river cruise and a garden.",
+      "optional": "World of Discoveries if you want an indoor afternoon",
+      "highlight": "Seeing the bridges from the water",
+      "kids": "All three ages. Keep the cruise short.",
+      "intensity": "light",
+      "transfer": "On foot and by tram or metro.",
+      "seasonal": "Confirm the boat is running in April.",
+      "wet": "The museum becomes the main event."
+    },
+    {
+      "show": 12,
+      "base": "Porto",
+      "experience": "A free city day. One bakery, one viewpoint, one bookshop.",
+      "optional": "A tram to the sea at Foz for a walk, not a swim",
+      "highlight": "The Atlantic edge of the city",
+      "kids": "The promenade. The water is cold.",
+      "intensity": "light",
+      "transfer": "Tram or taxi to Foz.",
+      "seasonal": "Wind on the Atlantic front.",
+      "wet": "Stay in the bookshop district."
+    },
+    {
+      "show": 10,
+      "base": "Pinhão or nearby Douro",
+      "experience": "Drive or train into the Douro and stay three or four nights.",
+      "optional": "A quinta visit aimed at the landscape, not a tasting session",
+      "highlight": "The terraces",
+      "kids": "Window time. The valley roads twist. Motion-sickness pills if anyone needs them.",
+      "intensity": "moderate",
+      "transfer": "About 1.5–2 hours from Porto to Pinhão by car. The train is slower and more beautiful. Seven people may not fit one train plan with luggage. Two cars are simpler.",
+      "seasonal": "April is green. Harvest crowds are in autumn.",
+      "wet": "The drive is still worth it. Viewpoints from the car."
+    },
+    {
+      "show": 10,
+      "base": "Douro",
+      "experience": "A river boat between the terraces.",
+      "optional": "A village stop",
+      "highlight": "The valley from the water, which is calmer than the road",
+      "kids": "All three. Sit together. Bring layers.",
+      "intensity": "light",
+      "transfer": "Local.",
+      "seasonal": "Boats can cancel in high water or wind. Have a quintas-and-windows backup.",
+      "wet": "A covered boat if one exists, or a manor-house visit."
+    },
+    {
+      "show": 10,
+      "base": "Douro",
+      "experience": "A free valley day. One viewpoint, a long lunch, a short walk.",
+      "optional": "Nothing",
+      "highlight": "Not collecting towns",
+      "kids": "Drawing the terraces. A pool at the hotel if it has one.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "This is the heart of the relaxed pace.",
+      "wet": "Lunch is the plan."
+    },
+    {
+      "show": 12,
+      "base": "Douro",
+      "experience": "A second village or a train hop if the line is easy that day.",
+      "optional": "Skip it and repeat the boat",
+      "highlight": "How small the valley settlements are",
+      "kids": "One gelato, then back.",
+      "intensity": "light",
+      "transfer": "Short.",
+      "seasonal": "Do not try to see the whole Douro.",
+      "wet": "Stay at the lodging."
+    },
+    {
+      "show": 10,
+      "base": "Gerês",
+      "experience": "Drive to the national park and do one short waterfall walk.",
+      "optional": "A village spa with hot water",
+      "highlight": "Granite, oak woods and spring water",
+      "kids": "Choose the short trail. River rocks are slippery.",
+      "intensity": "moderate",
+      "transfer": "Gerês village is roughly 1.5–2 hours from the Braga side, and longer from deep in the Douro. Allow half a day to change base.",
+      "seasonal": "April water is high, which is the reason to come, and the reason not to wade.",
+      "wet": "A viewpoint from the road and the spa."
+    },
+    {
+      "show": 10,
+      "base": "Gerês",
+      "experience": "Another short trail or a lake edge, then a free afternoon.",
+      "optional": "Ponies only with a licensed handler who takes age 6",
+      "highlight": "The only national park in the country, used gently",
+      "kids": "All three on the easy path. No ridge walk.",
+      "intensity": "moderate",
+      "transfer": "Local.",
+      "seasonal": "Mud. Spare shoes.",
+      "wet": "The interpretation centre if open, or back to Porto a day early."
+    },
+    {
+      "show": 10,
+      "base": "Porto",
+      "experience": "Return to Porto for the flight buffer.",
+      "optional": "A last pastry and a river view",
+      "highlight": "Leaving from the city you arrived in",
+      "kids": "Easy morning.",
+      "intensity": "light",
+      "transfer": "About 1.5 hours from the Braga–Gerês side to Porto airport, longer from the park itself. Do not fly the same day you leave a trail.",
+      "seasonal": "Build the buffer because Melbourne connections are unforgiving.",
+      "wet": "Already indoors or in the car."
+    }
   ],
   "sources": [
-    {"tag": "recheck", "title": "Schengen rules for both passports", "url": "https://travel-europe.europa.eu/etias", "note": "Australian passports visa-free. Indian passports need a visa. ETIAS status must be rechecked."},
-    {"tag": "seasonal", "title": "April is a strong shoulder month in Portugal", "url": "https://www.visitportugal.com/en", "note": "Use the official site for current events. The mild-April pattern is seasonal, not a forecast."},
-    {"tag": "recheck", "title": "Peneda-Gerês trail conditions", "url": "https://natural.pt/protected-areas/parque-nacional-peneda-geres?locale=en", "note": "Confirm which paths are suitable after rain and for a 6-year-old."},
-    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "€90 from age 12. €45 from age 6 until the 12th birthday."},
-    {"tag": "recheck", "title": "Rupee amount a German mission was collecting", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."},
-    {"tag": "recheck", "title": "Typical Bengaluru–Porto return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Porto-OPO", "note": "Kayak India typical band. Not an April 2027 fare."},
-    {"tag": "recheck", "title": "Melbourne–Porto average and a recent fare", "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Porto-OPO", "note": "Past-year average and a recent Melbourne return. Not a typical band and not an April 2027 fare."}
+    {
+      "tag": "recheck",
+      "title": "Schengen rules for both passports",
+      "url": "https://travel-europe.europa.eu/etias",
+      "note": "Australian passports visa-free. Indian passports need a visa. ETIAS status must be rechecked."
+    },
+    {
+      "tag": "seasonal",
+      "title": "April is a strong shoulder month in Portugal",
+      "url": "https://www.visitportugal.com/en",
+      "note": "Use the official site for current events. The mild-April pattern is seasonal, not a forecast."
+    },
+    {
+      "tag": "recheck",
+      "title": "Peneda-Gerês trail conditions",
+      "url": "https://natural.pt/protected-areas/parque-nacional-peneda-geres?locale=en",
+      "note": "Confirm which paths are suitable after rain and for a 6-year-old."
+    },
+    {
+      "tag": "verified",
+      "title": "Schengen visa fee",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+      "note": "€90 from age 12. €45 from age 6 until the 12th birthday."
+    },
+    {
+      "tag": "recheck",
+      "title": "Rupee amount a German mission was collecting",
+      "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+      "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Bengaluru–Porto return fare",
+      "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Porto-OPO",
+      "note": "Kayak India typical band. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Melbourne–Porto average and a recent fare",
+      "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Porto-OPO",
+      "note": "Past-year average and a recent Melbourne return. Not a typical band and not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Porto traveler costs",
+      "url": "https://www.budgetyourtrip.com/portugal/porto",
+      "note": "Budget and mid-range columns. Updated 6 September 2026."
+    }
   ]
 }

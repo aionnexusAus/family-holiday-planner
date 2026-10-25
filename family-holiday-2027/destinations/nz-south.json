@@ -3,15 +3,35 @@
   "pool": "main",
   "name": "South Island, New Zealand",
   "regionLabel": "Mackenzie, Wānaka and Fiordland",
-  "regions": ["oceania"],
+  "regions": [
+    "oceania"
+  ],
   "summary": "Autumn lakes, a high mountain, and a fiord, linked by a slow road trip. Four bases. Melbourne to Christchurch is the short flight. Bengaluru to Christchurch is a long connection.",
   "why": "April is a real season here, not a gap between seasons. The walks, boat days and towns used in this plan are generally open, the colours in Central Otago are the reason to come, and summer crowds have dropped. Both families already drive on the left.",
   "distinctive": "Glacial lakes under a single mountain range, a dark-sky basin, and a fiord reached through a long mountain road. The trip is the landscape itself.",
   "scores": {
-    "nature": 5, "quiet": 4, "culture": 3, "history": 2, "adventure": 4,
-    "wildlife": 4, "science": 3, "family": 5, "mild": 5, "road": 5, "rail": 1,
-    "relaxed": 4, "variety": 4, "child6": 5, "child12": 5, "child14": 4,
-    "scenery": 5, "april": 5, "practical": 4, "mobility": 4, "unique": 3, "conventional": 3
+    "nature": 5,
+    "quiet": 4,
+    "culture": 3,
+    "history": 2,
+    "adventure": 4,
+    "wildlife": 4,
+    "science": 3,
+    "family": 5,
+    "mild": 5,
+    "road": 5,
+    "rail": 1,
+    "relaxed": 4,
+    "variety": 4,
+    "child6": 5,
+    "child12": 5,
+    "child14": 4,
+    "scenery": 5,
+    "april": 5,
+    "practical": 4,
+    "mobility": 4,
+    "unique": 3,
+    "conventional": 3
   },
   "stairs": 2,
   "labels": {
@@ -50,7 +70,12 @@
     "2027 airfares, rental-vehicle supply for a group of seven, and the Milford Road status on the day.",
     "Which short walks are open. Check the Department of Conservation pages before Hooker Valley or Rob Roy."
   ],
-  "childTags": ["wildlife", "walks", "water", "science"],
+  "childTags": [
+    "wildlife",
+    "walks",
+    "water",
+    "science"
+  ],
   "climate": "mild",
   "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1280px-Milford_Sound_%28New_Zealand%29.JPG",
@@ -63,40 +88,278 @@
   "cost": {
     "summary": "About ₹4.2–6.0 lakh for seven adult return fares at recently published typical prices, plus about ₹40,000–₹95,000 in New Zealand visa fees. Hotels, food and cars are not included.",
     "lines": [
-      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak’s typical return fare for one adult, Bengaluru to Christchurch, was ₹85,861–₹121,535. Four adult fares at that band are about ₹3.4–4.9 lakh. There is no nonstop. This is not an April 2027 quote, and the 6-year-old is sometimes cheaper than an adult."},
-      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com’s typical return fare for one adult, Melbourne to Christchurch, was US$286–$399. Three adult fares are about ₹0.8–1.1 lakh at ₹94.86 per US dollar. Direct flights are the normal pattern. Not an April 2027 quote."},
-      {"item": "Visas", "tag": "verified", "text": "Australian citizens pay no visa fee. For Indian passports, the May 2026 fees guide charges one visitor-visa fee of NZD 341 when a partner and dependent children are included, plus an NZD 100 levy for every person. Four people on one application would be NZD 741, about ₹40,000. Two separate family applications would be NZD 1,082, about ₹58,000. Four separate applications would be NZD 1,764, about ₹95,000. Which row applies depends on who can share an application."}
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "recheck",
+        "text": "Kayak’s typical return fare for one adult, Bengaluru to Christchurch, was ₹85,861–₹121,535. Four adult fares at that band are about ₹3.4–4.9 lakh. There is no nonstop. This is not an April 2027 quote, and the 6-year-old is sometimes cheaper than an adult."
+      },
+      {
+        "item": "Flights from Melbourne",
+        "tag": "recheck",
+        "text": "Kayak.com’s typical return fare for one adult, Melbourne to Christchurch, was US$286–$399. Three adult fares are about ₹0.8–1.1 lakh at ₹94.86 per US dollar. Direct flights are the normal pattern. Not an April 2027 quote."
+      },
+      {
+        "item": "Visas",
+        "tag": "verified",
+        "text": "Australian citizens pay no visa fee. For Indian passports, the May 2026 fees guide charges one visitor-visa fee of NZD 341 when a partner and dependent children are included, plus an NZD 100 levy for every person. Four people on one application would be NZD 741, about ₹40,000. Two separate family applications would be NZD 1,082, about ₹58,000. Four separate applications would be NZD 1,764, about ₹95,000. Which row applies depends on who can share an application."
+      }
     ],
-    "leftOut": "Hotels, meals, two hire cars, fuel, the Milford cruise and the glowworm cave are not included."
+    "leftOut": "Hotels, meals, two hire cars, fuel, the Milford cruise and the glowworm cave are not included.",
+    "trip": {
+      "band": "about ₹9–19 lakh",
+      "note": "Flights from Bengaluru and Melbourne, and the Indian visa fee, are inside this.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The low end uses Christchurch's budget column and the high end uses Queenstown's mid-range column, from Budget Your Trip in August and September 2026, because the drive stays in both kinds of town."
+    }
   },
   "stretch16": "Add a free day in Wānaka and a free day in Te Anau. Do not add the North Island.",
   "days": [
-    {"show": 10, "base": "Christchurch", "experience": "Land and stop. Avon walk or the Botanic Gardens only if everyone is awake.", "optional": "Canterbury Museum", "highlight": "A city of gardens used as a soft landing, not as the point of the trip", "kids": "Playground time for the 6-year-old. The older two can do a short loop.", "intensity": "light", "transfer": "Melbourne–Christchurch is often about 3.5–4 hours nonstop. Bengaluru–Christchurch is a long connection, often about 17 hours at the fastest. Give that party a buffer. Confirm 2027 schedules.", "seasonal": "Fine in any April week. Early April still overlaps the Victorian school holiday.", "wet": "Museum and a bakery, then an early night."},
-    {"show": 10, "base": "Lake Tekapo", "experience": "Drive inland to the Mackenzie basin and stay put.", "optional": "Church of the Good Shepherd at the lake edge", "highlight": "First sight of the turquoise lake and the mountain line", "kids": "Short stops. No summit walk today.", "intensity": "moderate", "transfer": "About 3 hours from Christchurch in normal conditions.", "seasonal": "Nights are cold. Book heating and ask for a family layout before you arrive.", "wet": "The drive is still the day. Hot pools later if a local pool is open."},
-    {"show": 10, "base": "Lake Tekapo", "experience": "Lake shore and Mount John, or a shorter lakefront walk if the wind is up.", "optional": "Dark Sky Project. Check the current age guidance before booking the 6-year-old.", "highlight": "A dry basin under a big sky", "kids": "All three can do the lake. Mount John is for the day the 6-year-old is walking well.", "intensity": "moderate", "transfer": "No hotel change.", "seasonal": "April nights are good for stars because the dark comes earlier than in summer.", "wet": "Stay in town. The lake is the view from the window."},
-    {"show": 10, "base": "Lake Tekapo", "experience": "Day trip toward Aoraki / Mount Cook. Use lookouts if the long track is closed or the group is tired.", "optional": "Hooker Valley walk", "highlight": "The mountain, the glacier valley, and the blue lake at its foot", "kids": "Lookouts work for age 6. Hooker Valley is only if the track is open and everyone still wants to walk.", "intensity": "moderate", "transfer": "About 1.5–2 hours each way from Tekapo to Aoraki village. Confirm on the day.", "seasonal": "High tracks can close. Read the DOC advisory that morning.", "wet": "Tasman Valley shelter and the visitor centre, then back before dark."},
-    {"show": 12, "base": "Lake Tekapo", "experience": "A free day. No new place.", "optional": "A calm-water activity only if the operator accepts all three ages", "highlight": "Time to notice the basin instead of collecting sights", "kids": "Bikes, the lake edge, or nothing planned.", "intensity": "light", "transfer": "None.", "seasonal": "Wind is the thing that cancels boat time, not the calendar.", "wet": "Lodge day. This is the spare day you will be glad you kept."},
-    {"show": 10, "base": "Wānaka", "experience": "Cross the Lindis Pass and stop for the afternoon in Wānaka.", "optional": "A short walk at the lake edge only", "highlight": "The pass, then autumn trees", "kids": "Car day. Build in a long lunch stop.", "intensity": "moderate", "transfer": "About 3–3.5 hours Tekapo to Wānaka in normal conditions.", "seasonal": "The pass can be affected by ice early in the month. Check the road report.", "wet": "Drive anyway if the road is open, and keep the afternoon indoors."},
-    {"show": 10, "base": "Wānaka", "experience": "Lake Wānaka, the town, and one easy waterside walk.", "optional": "The lone tree is a ten-minute stop, not an event", "highlight": "Autumn colour on a lake with mountains behind it", "kids": "All three ages can do this day together.", "intensity": "light", "transfer": "None.", "seasonal": "Mid to late April is when Central Otago colour is most often talked about. Trees do not follow a booking.", "wet": "National Transport and Toy Museum, or a long cafe lunch."},
-    {"show": 10, "base": "Wānaka", "experience": "A second easy lake day, or a boat if one is running.", "optional": "One adult takes the 14-year-old on a harder local track", "highlight": "Staying long enough to walk the same shore twice", "kids": "Do not plan Diamond Lake–Rocky Mountain for the 6-year-old.", "intensity": "light", "transfer": "None.", "seasonal": "Rob Roy and other gorge tracks need a DOC check for avalanche and slip risk.", "wet": "Swap the walk for the museum or a swim at the local pool."},
-    {"show": 14, "base": "Wānaka", "experience": "Arrowtown for the autumn trees, then back.", "optional": "A short main-street walk only", "highlight": "A small gold-mining town under gold and red leaves", "kids": "Ice cream and a riverbank. Skip a long shopping wander.", "intensity": "light", "transfer": "A bit over an hour each way from Wānaka, plus time in Arrowtown.", "seasonal": "Weekends draw more people. A weekday is calmer.", "wet": "Go anyway. The trees do not require sun. Take a warm layer."},
-    {"show": 10, "base": "Te Anau", "experience": "Drive to Te Anau and stay. The fiord is tomorrow.", "optional": "Lake Te Anau shore at the end of the day", "highlight": "The gateway lake to Fiordland", "kids": "Arrive with daylight left.", "intensity": "moderate", "transfer": "About 3–3.5 hours from Wānaka via the Queenstown corridor. You do not need a Queenstown night.", "seasonal": "Queenstown itself is the party town. Sleeping in Te Anau keeps the trip quieter.", "wet": "The drive is the day. Te Anau has indoor options."},
-    {"show": 10, "base": "Te Anau", "experience": "Milford Sound cruise. Start early.", "optional": "Short stops at Mirror Lakes or The Chasm on the way back, if energy remains", "highlight": "The fiord walls, waterfalls and, on a wet day, more waterfalls", "kids": "This is a sitting-and-looking day. It is long. Take snacks.", "intensity": "demanding", "transfer": "About 2 hours each way, plus Homer Tunnel waits. A cruise is often about 1.5–2 hours. These are typical times, not a 2027 timetable.", "seasonal": "The Milford Road closes for snow, avalanche work and accidents. Book a cruise that can move, and keep Doubtful Sound or a lake day as the backup.", "wet": "Rain improves the waterfalls. Wind and road closure are the problems, not drizzle."},
-    {"show": 12, "base": "Te Anau", "experience": "Te Anau glowworm cave by boat.", "optional": "A free afternoon", "highlight": "A dark cave and a ceiling of glowworms. This is the science hour of the trip.", "kids": "All three ages. It is guided and mostly seated or on a short walk.", "intensity": "light", "transfer": "A short drive from town to the cave departure. Confirm the day's tour time.", "seasonal": "Caves run more steadily than mountain tracks. Still confirm the operator.", "wet": "This is already the wet-weather plan."},
-    {"show": 14, "base": "Te Anau", "experience": "Doubtful Sound if you want the quieter fiord, or a short piece of the Kepler lakeshore.", "optional": "One fiord is enough if Milford was already a big day", "highlight": "A second fiord with fewer people, reached by a coach-and-boat day", "kids": "Doubtful Sound is another long day. Choose it only if the children liked the boat.", "intensity": "moderate", "transfer": "Doubtful Sound day trips from Te Anau take most of the day. Book ahead. Recheck the 2027 product.", "seasonal": "Use this day if Milford was cancelled earlier in the stay.", "wet": "Kepler shelter section, or a second cave slot if one exists."},
-    {"show": 10, "base": "Queenstown airport", "experience": "Drive out and fly. If the flight is late, one Queenstown night is enough.", "optional": "Gondola only if the flight time allows a calm morning", "highlight": "Leaving from the south, so nobody drives back to Christchurch", "kids": "Keep the morning simple.", "intensity": "light", "transfer": "Te Anau to Queenstown is about 2 hours. International flights from Queenstown are fewer than from Christchurch. Confirm seats for seven.", "seasonal": "School-holiday weekends fill Queenstown. Mid-April is easier than early April.", "wet": "Go straight to the airport."}
+    {
+      "show": 10,
+      "base": "Christchurch",
+      "experience": "Land and stop. Avon walk or the Botanic Gardens only if everyone is awake.",
+      "optional": "Canterbury Museum",
+      "highlight": "A city of gardens used as a soft landing, not as the point of the trip",
+      "kids": "Playground time for the 6-year-old. The older two can do a short loop.",
+      "intensity": "light",
+      "transfer": "Melbourne–Christchurch is often about 3.5–4 hours nonstop. Bengaluru–Christchurch is a long connection, often about 17 hours at the fastest. Give that party a buffer. Confirm 2027 schedules.",
+      "seasonal": "Fine in any April week. Early April still overlaps the Victorian school holiday.",
+      "wet": "Museum and a bakery, then an early night."
+    },
+    {
+      "show": 10,
+      "base": "Lake Tekapo",
+      "experience": "Drive inland to the Mackenzie basin and stay put.",
+      "optional": "Church of the Good Shepherd at the lake edge",
+      "highlight": "First sight of the turquoise lake and the mountain line",
+      "kids": "Short stops. No summit walk today.",
+      "intensity": "moderate",
+      "transfer": "About 3 hours from Christchurch in normal conditions.",
+      "seasonal": "Nights are cold. Book heating and ask for a family layout before you arrive.",
+      "wet": "The drive is still the day. Hot pools later if a local pool is open."
+    },
+    {
+      "show": 10,
+      "base": "Lake Tekapo",
+      "experience": "Lake shore and Mount John, or a shorter lakefront walk if the wind is up.",
+      "optional": "Dark Sky Project. Check the current age guidance before booking the 6-year-old.",
+      "highlight": "A dry basin under a big sky",
+      "kids": "All three can do the lake. Mount John is for the day the 6-year-old is walking well.",
+      "intensity": "moderate",
+      "transfer": "No hotel change.",
+      "seasonal": "April nights are good for stars because the dark comes earlier than in summer.",
+      "wet": "Stay in town. The lake is the view from the window."
+    },
+    {
+      "show": 10,
+      "base": "Lake Tekapo",
+      "experience": "Day trip toward Aoraki / Mount Cook. Use lookouts if the long track is closed or the group is tired.",
+      "optional": "Hooker Valley walk",
+      "highlight": "The mountain, the glacier valley, and the blue lake at its foot",
+      "kids": "Lookouts work for age 6. Hooker Valley is only if the track is open and everyone still wants to walk.",
+      "intensity": "moderate",
+      "transfer": "About 1.5–2 hours each way from Tekapo to Aoraki village. Confirm on the day.",
+      "seasonal": "High tracks can close. Read the DOC advisory that morning.",
+      "wet": "Tasman Valley shelter and the visitor centre, then back before dark."
+    },
+    {
+      "show": 12,
+      "base": "Lake Tekapo",
+      "experience": "A free day. No new place.",
+      "optional": "A calm-water activity only if the operator accepts all three ages",
+      "highlight": "Time to notice the basin instead of collecting sights",
+      "kids": "Bikes, the lake edge, or nothing planned.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Wind is the thing that cancels boat time, not the calendar.",
+      "wet": "Lodge day. This is the spare day you will be glad you kept."
+    },
+    {
+      "show": 10,
+      "base": "Wānaka",
+      "experience": "Cross the Lindis Pass and stop for the afternoon in Wānaka.",
+      "optional": "A short walk at the lake edge only",
+      "highlight": "The pass, then autumn trees",
+      "kids": "Car day. Build in a long lunch stop.",
+      "intensity": "moderate",
+      "transfer": "About 3–3.5 hours Tekapo to Wānaka in normal conditions.",
+      "seasonal": "The pass can be affected by ice early in the month. Check the road report.",
+      "wet": "Drive anyway if the road is open, and keep the afternoon indoors."
+    },
+    {
+      "show": 10,
+      "base": "Wānaka",
+      "experience": "Lake Wānaka, the town, and one easy waterside walk.",
+      "optional": "The lone tree is a ten-minute stop, not an event",
+      "highlight": "Autumn colour on a lake with mountains behind it",
+      "kids": "All three ages can do this day together.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Mid to late April is when Central Otago colour is most often talked about. Trees do not follow a booking.",
+      "wet": "National Transport and Toy Museum, or a long cafe lunch."
+    },
+    {
+      "show": 10,
+      "base": "Wānaka",
+      "experience": "A second easy lake day, or a boat if one is running.",
+      "optional": "One adult takes the 14-year-old on a harder local track",
+      "highlight": "Staying long enough to walk the same shore twice",
+      "kids": "Do not plan Diamond Lake–Rocky Mountain for the 6-year-old.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Rob Roy and other gorge tracks need a DOC check for avalanche and slip risk.",
+      "wet": "Swap the walk for the museum or a swim at the local pool."
+    },
+    {
+      "show": 14,
+      "base": "Wānaka",
+      "experience": "Arrowtown for the autumn trees, then back.",
+      "optional": "A short main-street walk only",
+      "highlight": "A small gold-mining town under gold and red leaves",
+      "kids": "Ice cream and a riverbank. Skip a long shopping wander.",
+      "intensity": "light",
+      "transfer": "A bit over an hour each way from Wānaka, plus time in Arrowtown.",
+      "seasonal": "Weekends draw more people. A weekday is calmer.",
+      "wet": "Go anyway. The trees do not require sun. Take a warm layer."
+    },
+    {
+      "show": 10,
+      "base": "Te Anau",
+      "experience": "Drive to Te Anau and stay. The fiord is tomorrow.",
+      "optional": "Lake Te Anau shore at the end of the day",
+      "highlight": "The gateway lake to Fiordland",
+      "kids": "Arrive with daylight left.",
+      "intensity": "moderate",
+      "transfer": "About 3–3.5 hours from Wānaka via the Queenstown corridor. You do not need a Queenstown night.",
+      "seasonal": "Queenstown itself is the party town. Sleeping in Te Anau keeps the trip quieter.",
+      "wet": "The drive is the day. Te Anau has indoor options."
+    },
+    {
+      "show": 10,
+      "base": "Te Anau",
+      "experience": "Milford Sound cruise. Start early.",
+      "optional": "Short stops at Mirror Lakes or The Chasm on the way back, if energy remains",
+      "highlight": "The fiord walls, waterfalls and, on a wet day, more waterfalls",
+      "kids": "This is a sitting-and-looking day. It is long. Take snacks.",
+      "intensity": "demanding",
+      "transfer": "About 2 hours each way, plus Homer Tunnel waits. A cruise is often about 1.5–2 hours. These are typical times, not a 2027 timetable.",
+      "seasonal": "The Milford Road closes for snow, avalanche work and accidents. Book a cruise that can move, and keep Doubtful Sound or a lake day as the backup.",
+      "wet": "Rain improves the waterfalls. Wind and road closure are the problems, not drizzle."
+    },
+    {
+      "show": 12,
+      "base": "Te Anau",
+      "experience": "Te Anau glowworm cave by boat.",
+      "optional": "A free afternoon",
+      "highlight": "A dark cave and a ceiling of glowworms. This is the science hour of the trip.",
+      "kids": "All three ages. It is guided and mostly seated or on a short walk.",
+      "intensity": "light",
+      "transfer": "A short drive from town to the cave departure. Confirm the day's tour time.",
+      "seasonal": "Caves run more steadily than mountain tracks. Still confirm the operator.",
+      "wet": "This is already the wet-weather plan."
+    },
+    {
+      "show": 14,
+      "base": "Te Anau",
+      "experience": "Doubtful Sound if you want the quieter fiord, or a short piece of the Kepler lakeshore.",
+      "optional": "One fiord is enough if Milford was already a big day",
+      "highlight": "A second fiord with fewer people, reached by a coach-and-boat day",
+      "kids": "Doubtful Sound is another long day. Choose it only if the children liked the boat.",
+      "intensity": "moderate",
+      "transfer": "Doubtful Sound day trips from Te Anau take most of the day. Book ahead. Recheck the 2027 product.",
+      "seasonal": "Use this day if Milford was cancelled earlier in the stay.",
+      "wet": "Kepler shelter section, or a second cave slot if one exists."
+    },
+    {
+      "show": 10,
+      "base": "Queenstown airport",
+      "experience": "Drive out and fly. If the flight is late, one Queenstown night is enough.",
+      "optional": "Gondola only if the flight time allows a calm morning",
+      "highlight": "Leaving from the south, so nobody drives back to Christchurch",
+      "kids": "Keep the morning simple.",
+      "intensity": "light",
+      "transfer": "Te Anau to Queenstown is about 2 hours. International flights from Queenstown are fewer than from Christchurch. Confirm seats for seven.",
+      "seasonal": "School-holiday weekends fill Queenstown. Mid-April is easier than early April.",
+      "wet": "Go straight to the airport."
+    }
   ],
   "sources": [
-    {"tag": "verified", "title": "Australian citizens do not need a visa or NZeTA", "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/", "note": "Immigration New Zealand. Character requirements still apply on arrival."},
-    {"tag": "verified", "title": "Indian passports need a visitor visa, not an NZeTA", "url": "https://www.newzealand.com/in/visas-and-immigration/", "note": "100% Pure New Zealand, India page. Passport validity guidance included."},
-    {"tag": "verified", "title": "India visitor-visa processing snapshot, early 2026", "url": "https://www.byata.org.nz/assets/_site_/downloads/Immigration_Key_Messages_-_Tourism_May_2026.pdf", "note": "Tourism industry briefing of Immigration New Zealand figures, May 2026. Recheck before lodging."},
-    {"tag": "seasonal", "title": "April weather and quieter autumn travel", "url": "https://www.roughguides.com/new-zealand/when-to-go/april/", "note": "Guidebook climate description, not a 2027 forecast."},
-    {"tag": "opinion", "title": "South Island autumn crowds ease in April and May", "url": "https://nzpocketguide.com/the-best-time-to-visit-the-south-island/", "note": "Travel guide, not an official visitor count."},
-    {"tag": "recheck", "title": "Milford Road conditions", "url": "https://www.milfordroad.co.nz/", "note": "Check the morning you drive. Closures are operational, not seasonal theory."},
-    {"tag": "recheck", "title": "No nonstop Bengaluru–Christchurch flight on a public route listing", "url": "https://www.flightconnections.com/flights-from-blr-to-chc", "note": "Schedule aggregator, not an airline. Recheck April 2027. Do not treat the listed journey time as a fare."},
-    {"tag": "verified", "title": "Ordinary Indian passports are not eligible to transit Australia without a visa", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/transit-771/travellers-eligible-to-transit-without-visa", "note": "Home Affairs transit-without-visa list. India is absent except for Indian official passports. Meeting in Melbourne needs an Australian visa."},
-    {"tag": "recheck", "title": "Typical Bengaluru–Christchurch return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Christchurch-CHC", "note": "Kayak typical band for one adult. Not an April 2027 fare. Not a quote."},
-    {"tag": "recheck", "title": "Typical Melbourne–Christchurch return fare", "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Christchurch-CHC", "note": "Kayak.com typical band in US dollars for one adult. Not an April 2027 fare."},
-    {"tag": "verified", "title": "Visitor visa fee and per-person levy", "url": "https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/Fees-Guide-INZ-1028.pdf", "note": "INZ 1028, May 2026. One fee can cover a partner and dependent children. The NZD 100 levy is per person."}
+    {
+      "tag": "verified",
+      "title": "Australian citizens do not need a visa or NZeTA",
+      "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/",
+      "note": "Immigration New Zealand. Character requirements still apply on arrival."
+    },
+    {
+      "tag": "verified",
+      "title": "Indian passports need a visitor visa, not an NZeTA",
+      "url": "https://www.newzealand.com/in/visas-and-immigration/",
+      "note": "100% Pure New Zealand, India page. Passport validity guidance included."
+    },
+    {
+      "tag": "verified",
+      "title": "India visitor-visa processing snapshot, early 2026",
+      "url": "https://www.byata.org.nz/assets/_site_/downloads/Immigration_Key_Messages_-_Tourism_May_2026.pdf",
+      "note": "Tourism industry briefing of Immigration New Zealand figures, May 2026. Recheck before lodging."
+    },
+    {
+      "tag": "seasonal",
+      "title": "April weather and quieter autumn travel",
+      "url": "https://www.roughguides.com/new-zealand/when-to-go/april/",
+      "note": "Guidebook climate description, not a 2027 forecast."
+    },
+    {
+      "tag": "opinion",
+      "title": "South Island autumn crowds ease in April and May",
+      "url": "https://nzpocketguide.com/the-best-time-to-visit-the-south-island/",
+      "note": "Travel guide, not an official visitor count."
+    },
+    {
+      "tag": "recheck",
+      "title": "Milford Road conditions",
+      "url": "https://www.milfordroad.co.nz/",
+      "note": "Check the morning you drive. Closures are operational, not seasonal theory."
+    },
+    {
+      "tag": "recheck",
+      "title": "No nonstop Bengaluru–Christchurch flight on a public route listing",
+      "url": "https://www.flightconnections.com/flights-from-blr-to-chc",
+      "note": "Schedule aggregator, not an airline. Recheck April 2027. Do not treat the listed journey time as a fare."
+    },
+    {
+      "tag": "verified",
+      "title": "Ordinary Indian passports are not eligible to transit Australia without a visa",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/transit-771/travellers-eligible-to-transit-without-visa",
+      "note": "Home Affairs transit-without-visa list. India is absent except for Indian official passports. Meeting in Melbourne needs an Australian visa."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Bengaluru–Christchurch return fare",
+      "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Christchurch-CHC",
+      "note": "Kayak typical band for one adult. Not an April 2027 fare. Not a quote."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Melbourne–Christchurch return fare",
+      "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Christchurch-CHC",
+      "note": "Kayak.com typical band in US dollars for one adult. Not an April 2027 fare."
+    },
+    {
+      "tag": "verified",
+      "title": "Visitor visa fee and per-person levy",
+      "url": "https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/Fees-Guide-INZ-1028.pdf",
+      "note": "INZ 1028, May 2026. One fee can cover a partner and dependent children. The NZD 100 levy is per person."
+    },
+    {
+      "tag": "recheck",
+      "title": "Christchurch traveler costs",
+      "url": "https://www.budgetyourtrip.com/new-zealand/christchurch",
+      "note": "Budget and mid-range columns for a room share, meals, local transport and tickets. Page updated 31 August 2026. Used for the low end of the trip band."
+    },
+    {
+      "tag": "recheck",
+      "title": "Queenstown traveler costs",
+      "url": "https://www.budgetyourtrip.com/new-zealand/queenstown",
+      "note": "Mid-range column. Page updated 5 September 2026. Used for the high end of the trip band."
+    }
   ]
 }

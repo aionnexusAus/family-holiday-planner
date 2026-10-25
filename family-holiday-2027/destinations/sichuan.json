@@ -3,15 +3,35 @@
   "pool": "main",
   "name": "Sichuan, China",
   "regionLabel": "Chengdu, Sanxingdui and Jiuzhaigou",
-  "regions": ["east-asia"],
+  "regions": [
+    "east-asia"
+  ],
   "summary": "Pandas at opening time, a bronze-age mystery pit, an ancient irrigation works, and a valley of coloured lakes. The most unusual education in this set, with a visa question mark for 2027.",
   "why": "The 12- and 14-year-olds get Sanxingdui and Dujiangyan, which are real science and history. The 6-year-old gets pandas and a boardwalk valley. You can do it from Chengdu plus two side bases, by train and one short flight. A 14-day loop through Beijing, Xi'an and Zhangjiajie adds the famous sights and spends the holiday changing cities. That loop is not this plan.",
   "distinctive": "A conservation centre for giant pandas beside an archaeological site that rewrote early Chinese history, and a high valley of mineral lakes.",
   "scores": {
-    "nature": 5, "quiet": 3, "culture": 4, "history": 5, "adventure": 3,
-    "wildlife": 5, "science": 5, "family": 4, "mild": 4, "road": 2, "rail": 4,
-    "relaxed": 3, "variety": 5, "child6": 4, "child12": 5, "child14": 5,
-    "scenery": 5, "april": 4, "practical": 3, "mobility": 3, "unique": 5, "conventional": 3
+    "nature": 5,
+    "quiet": 3,
+    "culture": 4,
+    "history": 5,
+    "adventure": 3,
+    "wildlife": 5,
+    "science": 5,
+    "family": 4,
+    "mild": 4,
+    "road": 2,
+    "rail": 4,
+    "relaxed": 3,
+    "variety": 5,
+    "child6": 4,
+    "child12": 5,
+    "child14": 5,
+    "scenery": 5,
+    "april": 4,
+    "practical": 3,
+    "mobility": 3,
+    "unique": 5,
+    "conventional": 3
   },
   "stairs": 2,
   "labels": {
@@ -51,7 +71,12 @@
     "The 2027 Qingming and Labour Day holiday lengths.",
     "Jiuzhaigou ticket rules and which lakes are open in April 2027. Read en.jiuzhai.com the month you book."
   ],
-  "childTags": ["wildlife", "science", "stories", "walks"],
+  "childTags": [
+    "wildlife",
+    "science",
+    "stories",
+    "walks"
+  ],
   "climate": "mild",
   "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg/1280px-1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg",
@@ -64,38 +89,260 @@
   "cost": {
     "summary": "Melbourne fares about ₹1.3–1.8 lakh for three adults. A typical Bengaluru fare for the group was not published, so there is no combined flight total. The Chinese visa fees on file expire 31 December 2026. Hotels and food are not included.",
     "lines": [
-      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s typical return fare, Melbourne to Chengdu, was A$665–$917 for one adult. Three adult fares are about ₹1.3–1.8 lakh. One stop. Not an April 2027 quote."},
-      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "On 7 October 2026 a cheapest round trip was advertised at US$529 for one adult on a November date. That is one deal, not a typical price, so it is not multiplied by four."},
-      {"item": "Visas", "tag": "recheck", "text": "The reduced fees were published only through 31 December 2026. At the Delhi centre an Indian regular single entry was ₹2,900 plus a ₹2,107 service fee. In Sydney an Australian regular single entry was A$94.50 in total. April 2027 is after that date. Do not use those figures as the fee you will pay."}
+      {
+        "item": "Flights from Melbourne",
+        "tag": "recheck",
+        "text": "Kayak.com.au’s typical return fare, Melbourne to Chengdu, was A$665–$917 for one adult. Three adult fares are about ₹1.3–1.8 lakh. One stop. Not an April 2027 quote."
+      },
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "recheck",
+        "text": "On 7 October 2026 a cheapest round trip was advertised at US$529 for one adult on a November date. That is one deal, not a typical price, so it is not multiplied by four."
+      },
+      {
+        "item": "Visas",
+        "tag": "recheck",
+        "text": "The reduced fees were published only through 31 December 2026. At the Delhi centre an Indian regular single entry was ₹2,900 plus a ₹2,107 service fee. In Sydney an Australian regular single entry was A$94.50 in total. April 2027 is after that date. Do not use those figures as the fee you will pay."
+      }
     ],
-    "leftOut": "Hotels, meals, trains, the Jiuzhaigou flight and park tickets are not included."
+    "leftOut": "Hotels, meals, trains, the Jiuzhaigou flight and park tickets are not included.",
+    "trip": {
+      "band": "about ₹4–9 lakh before the Bengaluru flights",
+      "note": "Only the Melbourne flights are inside this. The four Bengaluru tickets, and the 2027 visa fee, are not.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Chengdu's, from Budget Your Trip on 4 September 2026. A Jiuzhaigou hotel can differ. A typical Bengaluru fare was not published, so it is not in the band."
+    }
   },
   "stretch16": "Add a free day in Chengdu and a free day at Jiuzhaigou. Do not add Beijing.",
   "days": [
-    {"show": 10, "base": "Chengdu", "experience": "Land and walk People's Park or a nearby teahouse.", "optional": "Map the panda morning for tomorrow and go to sleep", "highlight": "A city of teahouses used as recovery", "kids": "Playground if one is close. No museum today.", "intensity": "light", "transfer": "Both families fly into Chengdu. Allow for a long airport transfer.", "seasonal": "Air quality varies. Have an indoor backup for the first day without treating it as an emergency.", "wet": "Hotel and a mild dinner."},
-    {"show": 10, "base": "Chengdu", "experience": "Chengdu Research Base of Giant Panda Breeding at opening.", "optional": "The red panda paths if the children still have legs", "highlight": "Pandas while they are active, which means early", "kids": "All three ages. Leave by late morning. The animals sleep and the paths fill up.", "intensity": "moderate", "transfer": "About 10–15 kilometres from central Chengdu. A taxi or metro-plus-taxi. Official March–October morning entry starts at 7:30.", "seasonal": "Book ahead. The base's own site is panda.org.cn.", "wet": "Go anyway. Pandas do not mind drizzle. Take a light coat."},
-    {"show": 10, "base": "Chengdu", "experience": "Sanxingdui Museum in Guanghan.", "optional": "The bronze masks are the whole point. Do not add a second museum.", "highlight": "A pit culture with masks and trees of bronze that still surprise archaeologists", "kids": "The 6-year-old will take the faces and the scale. The 12- and 14-year-olds can take the labels.", "intensity": "moderate", "transfer": "About 40–60 minutes from Chengdu. Confirm the 2027 rail or museum shuttle.", "seasonal": "Weekends draw local families. A weekday is kinder.", "wet": "The museum is indoors."},
-    {"show": 12, "base": "Chengdu", "experience": "Dujiangyan irrigation system, and a short walk at Qingcheng only if energy remains.", "optional": "Skip the mountain and keep the water works", "highlight": "A flood-control system still in use after more than 2,000 years", "kids": "The models and the river splitting in two are the lesson. Qingcheng's stairs are optional.", "intensity": "moderate", "transfer": "Under an hour by fast train or car from Chengdu. Confirm the station.", "seasonal": "This is a day trip, not a new hotel.", "wet": "The irrigation museum and the covered walkways. Skip the mountain."},
-    {"show": 14, "base": "Chengdu", "experience": "A free day. Jinli or Kuanzhai for an hour, then a cooking class that includes mild dishes.", "optional": "Chengdu Museum if it is raining", "highlight": "Learning to order food, which is the local skill", "kids": "Dumplings they help shape. Chili on the side.", "intensity": "light", "transfer": "None.", "seasonal": "Teahouse culture is the adult pleasure. Give it an hour, not a schedule.", "wet": "The museum and the cooking class."},
-    {"show": 10, "base": "Leshan", "experience": "Train to Leshan and see the Giant Buddha in the late afternoon if the light and the queue allow, or the next morning.", "optional": "The river view from the cliff path", "highlight": "A seated Buddha carved into a cliff above the rivers", "kids": "There are stairs. Take the route that matches the 6-year-old, and do not combine this with a same-day return to Chengdu.", "intensity": "moderate", "transfer": "Chengdu to Leshan by high-speed train is often about an hour, plus a local ride to the Buddha. Confirm 2027 times.", "seasonal": "Go early on the Buddha morning. Midday tour groups are the crowd.", "wet": "The statue is outdoors. A light rain is fine. A storm is a reason to wait for the next morning."},
-    {"show": 12, "base": "Leshan", "experience": "A slower Buddha morning if you did not finish, then a free afternoon.", "optional": "Nothing", "highlight": "One monument, properly seen", "kids": "Park time or the hotel pool if it has one.", "intensity": "light", "transfer": "None.", "seasonal": "Use the spare hours if the train was delayed yesterday.", "wet": "Stay in."},
-    {"show": 10, "base": "Chengdu", "experience": "Back to Chengdu. Rest and repack for the mountains.", "optional": "A last mild hotpot for the adults, with a plain pot for the children", "highlight": "A buffer before the altitude change", "kids": "Early night.", "intensity": "light", "transfer": "About an hour back by train.", "seasonal": "Do not fly to Jiuzhaigou the same day you climb the Buddha stairs.", "wet": "This is already an indoor day."},
-    {"show": 10, "base": "Jiuzhaigou", "experience": "Fly to Jiuzhai Huanglong and transfer to the park town. Walk nowhere ambitious.", "optional": "Look at the entrance area only", "highlight": "Arriving high and stopping", "kids": "Watch for headaches. The park's own note says drink water and avoid hard exercise. Oxygen is sold at the entrance clinic if needed.", "intensity": "moderate", "transfer": "Flight about an hour, then about 1–1.5 hours by road. These are typical figures. Confirm.", "seasonal": "Peak season on the park's notices starts 1 April. Book the entry slot before you fly.", "wet": "Settle in. The park day is tomorrow."},
-    {"show": 10, "base": "Jiuzhaigou", "experience": "One full park day on the sightseeing buses. Pick a few lakes, not every boardwalk.", "optional": "Five Flower Lake and one waterfall", "highlight": "Blue, green and gold water in a forest valley", "kids": "Buses between stops are how a 6-year-old sees this park. Do not try to hike it.", "intensity": "moderate", "transfer": "Inside the park, the bus ticket is separate from entry. The 2026 peak notice listed entry and a bus fare. Recheck 2027 prices rather than budgeting from that notice.", "seasonal": "Last entry has been early afternoon in peak season, with the park closing at 18:00. Read the current notice.", "wet": "The colours survive cloud. Heavy rain makes boardwalks slippery. Take it slower."},
-    {"show": 12, "base": "Jiuzhaigou", "experience": "A second, shorter park visit to the corner you missed, or a free morning.", "optional": "Skip Huanglong", "highlight": "Seeing one lake twice", "kids": "If anyone slept badly, this becomes a rest day. That is the right call at this altitude.", "intensity": "light", "transfer": "None.", "seasonal": "Some side valleys have closed in winter and reopen with the peak season. Confirm what is actually open.", "wet": "Hotel balcony if the first park day was already wet and long."},
-    {"show": 14, "base": "Jiuzhaigou", "experience": "A Tibetan village walk close to town, kept short.", "optional": "Nothing ticketed", "highlight": "The valley outside the park fence", "kids": "Flat walking and a chance to buy nothing.", "intensity": "light", "transfer": "A short local ride.", "seasonal": "Be polite in monasteries. A short visit is better than a tour speech.", "wet": "Stay in town."},
-    {"show": 10, "base": "Chengdu", "experience": "Fly back to Chengdu. Do not sightsee.", "optional": "A pharmacy and a calm dinner", "highlight": "Coming down to a lower city before the long-haul flight", "kids": "Snack and a film.", "intensity": "moderate", "transfer": "Reverse the inbound flight and road transfer. Build in a buffer. Mountain airports delay.", "seasonal": "Do not fly home the same day you leave Jiuzhaigou.", "wet": "The buffer day is the point."},
-    {"show": 10, "base": "Chengdu", "experience": "Fly out.", "optional": "A last panda only if the flight is in the evening and everyone is well", "highlight": "Leaving with a spare morning", "kids": "No new attraction if the flight is before noon.", "intensity": "light", "transfer": "International connections from Chengdu. Seven seats.", "seasonal": "Visa papers in carry-on, printed.", "wet": "Go to the airport."}
+    {
+      "show": 10,
+      "base": "Chengdu",
+      "experience": "Land and walk People's Park or a nearby teahouse.",
+      "optional": "Map the panda morning for tomorrow and go to sleep",
+      "highlight": "A city of teahouses used as recovery",
+      "kids": "Playground if one is close. No museum today.",
+      "intensity": "light",
+      "transfer": "Both families fly into Chengdu. Allow for a long airport transfer.",
+      "seasonal": "Air quality varies. Have an indoor backup for the first day without treating it as an emergency.",
+      "wet": "Hotel and a mild dinner."
+    },
+    {
+      "show": 10,
+      "base": "Chengdu",
+      "experience": "Chengdu Research Base of Giant Panda Breeding at opening.",
+      "optional": "The red panda paths if the children still have legs",
+      "highlight": "Pandas while they are active, which means early",
+      "kids": "All three ages. Leave by late morning. The animals sleep and the paths fill up.",
+      "intensity": "moderate",
+      "transfer": "About 10–15 kilometres from central Chengdu. A taxi or metro-plus-taxi. Official March–October morning entry starts at 7:30.",
+      "seasonal": "Book ahead. The base's own site is panda.org.cn.",
+      "wet": "Go anyway. Pandas do not mind drizzle. Take a light coat."
+    },
+    {
+      "show": 10,
+      "base": "Chengdu",
+      "experience": "Sanxingdui Museum in Guanghan.",
+      "optional": "The bronze masks are the whole point. Do not add a second museum.",
+      "highlight": "A pit culture with masks and trees of bronze that still surprise archaeologists",
+      "kids": "The 6-year-old will take the faces and the scale. The 12- and 14-year-olds can take the labels.",
+      "intensity": "moderate",
+      "transfer": "About 40–60 minutes from Chengdu. Confirm the 2027 rail or museum shuttle.",
+      "seasonal": "Weekends draw local families. A weekday is kinder.",
+      "wet": "The museum is indoors."
+    },
+    {
+      "show": 12,
+      "base": "Chengdu",
+      "experience": "Dujiangyan irrigation system, and a short walk at Qingcheng only if energy remains.",
+      "optional": "Skip the mountain and keep the water works",
+      "highlight": "A flood-control system still in use after more than 2,000 years",
+      "kids": "The models and the river splitting in two are the lesson. Qingcheng's stairs are optional.",
+      "intensity": "moderate",
+      "transfer": "Under an hour by fast train or car from Chengdu. Confirm the station.",
+      "seasonal": "This is a day trip, not a new hotel.",
+      "wet": "The irrigation museum and the covered walkways. Skip the mountain."
+    },
+    {
+      "show": 14,
+      "base": "Chengdu",
+      "experience": "A free day. Jinli or Kuanzhai for an hour, then a cooking class that includes mild dishes.",
+      "optional": "Chengdu Museum if it is raining",
+      "highlight": "Learning to order food, which is the local skill",
+      "kids": "Dumplings they help shape. Chili on the side.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Teahouse culture is the adult pleasure. Give it an hour, not a schedule.",
+      "wet": "The museum and the cooking class."
+    },
+    {
+      "show": 10,
+      "base": "Leshan",
+      "experience": "Train to Leshan and see the Giant Buddha in the late afternoon if the light and the queue allow, or the next morning.",
+      "optional": "The river view from the cliff path",
+      "highlight": "A seated Buddha carved into a cliff above the rivers",
+      "kids": "There are stairs. Take the route that matches the 6-year-old, and do not combine this with a same-day return to Chengdu.",
+      "intensity": "moderate",
+      "transfer": "Chengdu to Leshan by high-speed train is often about an hour, plus a local ride to the Buddha. Confirm 2027 times.",
+      "seasonal": "Go early on the Buddha morning. Midday tour groups are the crowd.",
+      "wet": "The statue is outdoors. A light rain is fine. A storm is a reason to wait for the next morning."
+    },
+    {
+      "show": 12,
+      "base": "Leshan",
+      "experience": "A slower Buddha morning if you did not finish, then a free afternoon.",
+      "optional": "Nothing",
+      "highlight": "One monument, properly seen",
+      "kids": "Park time or the hotel pool if it has one.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Use the spare hours if the train was delayed yesterday.",
+      "wet": "Stay in."
+    },
+    {
+      "show": 10,
+      "base": "Chengdu",
+      "experience": "Back to Chengdu. Rest and repack for the mountains.",
+      "optional": "A last mild hotpot for the adults, with a plain pot for the children",
+      "highlight": "A buffer before the altitude change",
+      "kids": "Early night.",
+      "intensity": "light",
+      "transfer": "About an hour back by train.",
+      "seasonal": "Do not fly to Jiuzhaigou the same day you climb the Buddha stairs.",
+      "wet": "This is already an indoor day."
+    },
+    {
+      "show": 10,
+      "base": "Jiuzhaigou",
+      "experience": "Fly to Jiuzhai Huanglong and transfer to the park town. Walk nowhere ambitious.",
+      "optional": "Look at the entrance area only",
+      "highlight": "Arriving high and stopping",
+      "kids": "Watch for headaches. The park's own note says drink water and avoid hard exercise. Oxygen is sold at the entrance clinic if needed.",
+      "intensity": "moderate",
+      "transfer": "Flight about an hour, then about 1–1.5 hours by road. These are typical figures. Confirm.",
+      "seasonal": "Peak season on the park's notices starts 1 April. Book the entry slot before you fly.",
+      "wet": "Settle in. The park day is tomorrow."
+    },
+    {
+      "show": 10,
+      "base": "Jiuzhaigou",
+      "experience": "One full park day on the sightseeing buses. Pick a few lakes, not every boardwalk.",
+      "optional": "Five Flower Lake and one waterfall",
+      "highlight": "Blue, green and gold water in a forest valley",
+      "kids": "Buses between stops are how a 6-year-old sees this park. Do not try to hike it.",
+      "intensity": "moderate",
+      "transfer": "Inside the park, the bus ticket is separate from entry. The 2026 peak notice listed entry and a bus fare. Recheck 2027 prices rather than budgeting from that notice.",
+      "seasonal": "Last entry has been early afternoon in peak season, with the park closing at 18:00. Read the current notice.",
+      "wet": "The colours survive cloud. Heavy rain makes boardwalks slippery. Take it slower."
+    },
+    {
+      "show": 12,
+      "base": "Jiuzhaigou",
+      "experience": "A second, shorter park visit to the corner you missed, or a free morning.",
+      "optional": "Skip Huanglong",
+      "highlight": "Seeing one lake twice",
+      "kids": "If anyone slept badly, this becomes a rest day. That is the right call at this altitude.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Some side valleys have closed in winter and reopen with the peak season. Confirm what is actually open.",
+      "wet": "Hotel balcony if the first park day was already wet and long."
+    },
+    {
+      "show": 14,
+      "base": "Jiuzhaigou",
+      "experience": "A Tibetan village walk close to town, kept short.",
+      "optional": "Nothing ticketed",
+      "highlight": "The valley outside the park fence",
+      "kids": "Flat walking and a chance to buy nothing.",
+      "intensity": "light",
+      "transfer": "A short local ride.",
+      "seasonal": "Be polite in monasteries. A short visit is better than a tour speech.",
+      "wet": "Stay in town."
+    },
+    {
+      "show": 10,
+      "base": "Chengdu",
+      "experience": "Fly back to Chengdu. Do not sightsee.",
+      "optional": "A pharmacy and a calm dinner",
+      "highlight": "Coming down to a lower city before the long-haul flight",
+      "kids": "Snack and a film.",
+      "intensity": "moderate",
+      "transfer": "Reverse the inbound flight and road transfer. Build in a buffer. Mountain airports delay.",
+      "seasonal": "Do not fly home the same day you leave Jiuzhaigou.",
+      "wet": "The buffer day is the point."
+    },
+    {
+      "show": 10,
+      "base": "Chengdu",
+      "experience": "Fly out.",
+      "optional": "A last panda only if the flight is in the evening and everyone is well",
+      "highlight": "Leaving with a spare morning",
+      "kids": "No new attraction if the flight is before noon.",
+      "intensity": "light",
+      "transfer": "International connections from Chengdu. Seven seats.",
+      "seasonal": "Visa papers in carry-on, printed.",
+      "wet": "Go to the airport."
+    }
   ],
   "sources": [
-    {"tag": "recheck", "title": "Visa-free entry for Australians was published through 31 December 2026", "url": "https://www.visaforchina.cn/SYD3_EN/tongzhigonggao/265975107544027136.html", "note": "China Visa Application Service Centre FAQ, 16 February 2026. Australia is on the list. India is not. The FAQ says the waiver for those countries runs until 31 December 2026. Recheck for any extension."},
-    {"tag": "verified", "title": "Jiuzhaigou altitude", "url": "https://en.jiuzhai.com/about/altitude", "note": "Official English page. Entrance about 1,990 metres. Peak much higher. Buses run between sights."},
-    {"tag": "verified", "title": "Jiuzhaigou visitor hours and peak-season pattern", "url": "https://en.jiuzhai.com/about/visitor-information", "note": "Official page. Peak season described as 1 April to 15 November. Recheck 2027 tickets and hours."},
-    {"tag": "verified", "title": "Panda base opening hours", "url": "https://www.panda.org.cn/en/service/opentime/", "note": "March to October morning entry 7:30–12:00. Minors need a guardian."},
-    {"tag": "seasonal", "title": "Jiuzhaigou spring temperatures", "url": "https://www.chinadiscovery.com/sichuan/jiuzhaigou/spring-season.html", "note": "Tour operator page using historic temperatures. Not an official climate series."},
-    {"tag": "recheck", "title": "Do not use 240-hour transit for this trip", "url": "https://en.nia.gov.cn/index.html", "note": "National Immigration Administration. A two-week holiday needs a visa, especially for Jiuzhaigou."},
-    {"tag": "recheck", "title": "No nonstop Bengaluru–Chengdu flight on a July 2026 route listing", "url": "https://www.flightconnections.com/flights-from-blr-to-tfu", "note": "Schedule aggregator. One-stop routes only at that date. Recheck April 2027. Not a fare."},
-    {"tag": "recheck", "title": "Typical Melbourne–Chengdu return fare", "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Chengdu-CTU", "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."},
-    {"tag": "recheck", "title": "One advertised Bengaluru–Chengdu round trip", "url": "https://www.trip.com/flights/bengaluru-to-chengdu/airfares-blr-ctu/", "note": "Cheapest round trip shown on 7 October 2026 for a November date. Not a typical group fare."}
+    {
+      "tag": "recheck",
+      "title": "Visa-free entry for Australians was published through 31 December 2026",
+      "url": "https://www.visaforchina.cn/SYD3_EN/tongzhigonggao/265975107544027136.html",
+      "note": "China Visa Application Service Centre FAQ, 16 February 2026. Australia is on the list. India is not. The FAQ says the waiver for those countries runs until 31 December 2026. Recheck for any extension."
+    },
+    {
+      "tag": "verified",
+      "title": "Jiuzhaigou altitude",
+      "url": "https://en.jiuzhai.com/about/altitude",
+      "note": "Official English page. Entrance about 1,990 metres. Peak much higher. Buses run between sights."
+    },
+    {
+      "tag": "verified",
+      "title": "Jiuzhaigou visitor hours and peak-season pattern",
+      "url": "https://en.jiuzhai.com/about/visitor-information",
+      "note": "Official page. Peak season described as 1 April to 15 November. Recheck 2027 tickets and hours."
+    },
+    {
+      "tag": "verified",
+      "title": "Panda base opening hours",
+      "url": "https://www.panda.org.cn/en/service/opentime/",
+      "note": "March to October morning entry 7:30–12:00. Minors need a guardian."
+    },
+    {
+      "tag": "seasonal",
+      "title": "Jiuzhaigou spring temperatures",
+      "url": "https://www.chinadiscovery.com/sichuan/jiuzhaigou/spring-season.html",
+      "note": "Tour operator page using historic temperatures. Not an official climate series."
+    },
+    {
+      "tag": "recheck",
+      "title": "Do not use 240-hour transit for this trip",
+      "url": "https://en.nia.gov.cn/index.html",
+      "note": "National Immigration Administration. A two-week holiday needs a visa, especially for Jiuzhaigou."
+    },
+    {
+      "tag": "recheck",
+      "title": "No nonstop Bengaluru–Chengdu flight on a July 2026 route listing",
+      "url": "https://www.flightconnections.com/flights-from-blr-to-tfu",
+      "note": "Schedule aggregator. One-stop routes only at that date. Recheck April 2027. Not a fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Melbourne–Chengdu return fare",
+      "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Chengdu-CTU",
+      "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "One advertised Bengaluru–Chengdu round trip",
+      "url": "https://www.trip.com/flights/bengaluru-to-chengdu/airfares-blr-ctu/",
+      "note": "Cheapest round trip shown on 7 October 2026 for a November date. Not a typical group fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Chengdu traveler costs",
+      "url": "https://www.budgetyourtrip.com/china/chengdu",
+      "note": "Budget and mid-range columns. Updated 4 September 2026."
+    }
   ]
 }

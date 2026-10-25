@@ -3,15 +3,35 @@
   "pool": "main",
   "name": "Slovenia",
   "regionLabel": "Ljubljana, Bohinj, Soča and the Karst",
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "summary": "A small country of a quiet lake, an emerald river, and a cave you enter by train. Two weeks is enough if you stay in four bases and stay off the high passes.",
   "why": "It gives the group Alps, water and a genuine science cave without the scale of Italy or France. Lake Bohinj is the calmer base. Postojna is the hour all three children can share. April is green and cool, with rain built into the plan.",
   "distinctive": "A karst underworld and a river the colour of glass, in a country you can cross in an afternoon and should not.",
   "scores": {
-    "nature": 5, "quiet": 4, "culture": 4, "history": 4, "adventure": 3,
-    "wildlife": 3, "science": 5, "family": 4, "mild": 3, "road": 4, "rail": 2,
-    "relaxed": 5, "variety": 4, "child6": 4, "child12": 5, "child14": 4,
-    "scenery": 5, "april": 4, "practical": 3, "mobility": 4, "unique": 4, "conventional": 3
+    "nature": 5,
+    "quiet": 4,
+    "culture": 4,
+    "history": 4,
+    "adventure": 3,
+    "wildlife": 3,
+    "science": 5,
+    "family": 4,
+    "mild": 3,
+    "road": 4,
+    "rail": 2,
+    "relaxed": 5,
+    "variety": 4,
+    "child6": 4,
+    "child12": 5,
+    "child14": 4,
+    "scenery": 5,
+    "april": 4,
+    "practical": 3,
+    "mobility": 4,
+    "unique": 4,
+    "conventional": 3
   },
   "stairs": 2,
   "labels": {
@@ -51,7 +71,12 @@
     "Vintgar Gorge's opening date. It is often seasonal. Do not build a day on it until the park confirms 2027.",
     "Whether ETIAS will be in force for the Australian passports."
   ],
-  "childTags": ["science", "walks", "stories", "water"],
+  "childTags": [
+    "science",
+    "walks",
+    "stories",
+    "water"
+  ],
   "climate": "mild",
   "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg/1280px-Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg",
@@ -64,38 +89,260 @@
   "cost": {
     "summary": "Melbourne to Ljubljana is about ₹4.1–5.5 lakh for three adult returns. A Bengaluru typical fare was not published. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
     "lines": [
-      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s typical return fare, Melbourne to Ljubljana, was A$2,062–$2,770 for one adult, usually with two stops. Three adult fares are about ₹4.1–5.5 lakh. Not an April 2027 quote."},
-      {"item": "Flights from Bengaluru", "tag": "thin", "text": "A typical Bengaluru–Ljubljana return fare was not published in this pass. The route is one stop. No group total is shown."},
-      {"item": "Visas", "tag": "verified", "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+      {
+        "item": "Flights from Melbourne",
+        "tag": "recheck",
+        "text": "Kayak.com.au’s typical return fare, Melbourne to Ljubljana, was A$2,062–$2,770 for one adult, usually with two stops. Three adult fares are about ₹4.1–5.5 lakh. Not an April 2027 quote."
+      },
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "thin",
+        "text": "A typical Bengaluru–Ljubljana return fare was not published in this pass. The route is one stop. No group total is shown."
+      },
+      {
+        "item": "Visas",
+        "tag": "verified",
+        "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+      }
     ],
-    "leftOut": "Hotels, meals, cars, trains, cave tickets and international flights are not included."
+    "leftOut": "Hotels, meals, cars, trains, cave tickets and international flights are not included.",
+    "trip": {
+      "band": "about ₹9–17 lakh before the Bengaluru flights",
+      "note": "Melbourne flights and the Schengen visa fee are inside this. The four Bengaluru tickets are not.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Ljubljana's, from Budget Your Trip on 6 September 2026. Lake and cave towns can differ."
+    }
   },
   "stretch16": "Add a free day at Bohinj and a free day in Ljubljana. Do not add Venice.",
   "days": [
-    {"show": 10, "base": "Ljubljana", "experience": "Land and walk the river. Castle funicular only if everyone is awake.", "optional": "The market for fruit and burek", "highlight": "A capital you can cross on foot", "kids": "The dragons on the bridge are the first story.", "intensity": "light", "transfer": "Airport to the old town is a short bus or taxi. The international flights are the long part.", "seasonal": "April rain is normal. A compact hotel saves the evening.", "wet": "The castle is reached by funicular. A cafe on the river is enough."},
-    {"show": 10, "base": "Ljubljana", "experience": "Old town, the castle, and Metelkova only from the outside.", "optional": "The puppet museum or the House of Illusions for a rainy hour", "highlight": "A human-scale capital", "kids": "Ljubljana Castle has views and a short visit. The puppet museum is the 6-year-old's indoor choice.", "intensity": "light", "transfer": "On foot.", "seasonal": "The city is calm outside event weekends.", "wet": "Puppet museum and a covered market."},
-    {"show": 12, "base": "Ljubljana", "experience": "A free city day. One museum the 14-year-old chooses.", "optional": "A bike for the older two along the river path", "highlight": "Not filling every hour", "kids": "The 6-year-old gets the playgrounds by the river.", "intensity": "light", "transfer": "None.", "seasonal": "Tivoli Park works in light rain.", "wet": "Stay with the museum."},
-    {"show": 10, "base": "Lake Bohinj", "experience": "Drive to Bohinj and walk the shore.", "optional": "A boat only if it is running and the wind is down", "highlight": "The quieter lake in the Julian Alps", "kids": "Flat shore path. No summit.", "intensity": "moderate", "transfer": "About 1 hour 15 minutes from Ljubljana in normal conditions.", "seasonal": "Snow can still sit on the ridges above the lake. The shore is the April walk.", "wet": "The drive and a lakeside lunch. The view does not require a summit."},
-    {"show": 10, "base": "Lake Bohinj", "experience": "Savica waterfall, or Vogel cable car if it is open and the cloud is above the valley.", "optional": "A second shore walk", "highlight": "A waterfall in a hanging valley, reached by a stepped path", "kids": "Savica has stairs. Turn around if the 6-year-old is done. Vogel is a ride, then a short meadow walk only.", "intensity": "moderate", "transfer": "A short drive to the waterfall car park.", "seasonal": "Cable-car dates change. Confirm Vogel for April 2027.", "wet": "Stay low. Do not ride into cloud for a view that is not there."},
-    {"show": 12, "base": "Lake Bohinj", "experience": "A day trip to Lake Bled and the island by pletna boat, then leave.", "optional": "Bled Castle ramparts", "highlight": "The famous view, seen once, without sleeping in the crowds", "kids": "The boat and the island church bell. The 6-year-old does not need the castle as well.", "intensity": "moderate", "transfer": "About 30–40 minutes from Bohinj to Bled.", "seasonal": "Go early. Bled is the busy hour of this country.", "wet": "The castle is the sheltered part. Or skip Bled and keep Bohinj."},
-    {"show": 14, "base": "Lake Bohinj", "experience": "A free alpine-valley day.", "optional": "Vintgar Gorge only if the 2027 opening notice says it is open", "highlight": "Repetition, which is how a 6-year-old enjoys a place", "kids": "Shore, playground, hot chocolate.", "intensity": "light", "transfer": "None unless Vintgar is confirmed.", "seasonal": "Do not promise Vintgar. It has had seasonal closures.", "wet": "Board games and the lake from the window."},
-    {"show": 10, "base": "Kobarid or Bovec", "experience": "Drive to the Soča valley on the lower road, not over Vršič.", "optional": "Stop in the gorge where there is a safe pull-off", "highlight": "The river turning green", "kids": "Look from the bank. The water is cold and fast in April.", "intensity": "moderate", "transfer": "About 2.5–3.5 hours from Bohinj via Tolmin. Confirm the route the week you travel.", "seasonal": "Check promet.si for the mountain roads even if you are not using Vršič.", "wet": "The colour of the river shows up in cloud too."},
-    {"show": 10, "base": "Kobarid or Bovec", "experience": "Kozjak waterfall and the Kobarid Museum.", "optional": "A short section of the history walk, not the full outdoor museum", "highlight": "A waterfall in a gorge, and a serious war museum that the older children can handle", "kids": "The waterfall walk is the family piece. The museum is for ages 12 and 14, in a short visit.", "intensity": "moderate", "transfer": "Local.", "seasonal": "Paths are slippery after rain. Shoes with grip.", "wet": "The museum becomes the main event. It is excellent."},
-    {"show": 12, "base": "Kobarid or Bovec", "experience": "A free river day. No rafting booking.", "optional": "A thermals spa in the valley if you want a warm hour", "highlight": "Watching the Soča without turning it into an activity product", "kids": "Stones on the bank, a short walk, an early finish.", "intensity": "light", "transfer": "None.", "seasonal": "Commercial rafting usually waits for warmer, safer water. April is the wrong month to insist.", "wet": "Spa or museum cafe."},
-    {"show": 10, "base": "Postojna", "experience": "Drive south to Postojna. Arrive before a late cave slot if you have booked one.", "optional": "The karst exhibition if the cave is tomorrow", "highlight": "The cave train and the chambers", "kids": "Postojna says the tour suits families and visitors with mobility needs. It is about 90 minutes, train plus an easy path, at about 10°C.", "intensity": "moderate", "transfer": "About 2 hours from the Soča valley to Postojna. Allow longer with stops.", "seasonal": "The cave is open every day, including holidays. April tour times should be read on the official timetable, which changes by month.", "wet": "The cave is the wet-weather prize. Take a warm layer."},
-    {"show": 10, "base": "Postojna", "experience": "Predjama Castle, then a second look at the exhibition if the cave was yesterday.", "optional": "The olm display. The cave animal is the science story.", "highlight": "A castle in the mouth of a cliff cave", "kids": "All three ages. There are stairs inside the castle. Take it slowly.", "intensity": "light", "transfer": "About 10–15 minutes from Postojna Cave.", "seasonal": "Official advice is often to do the castle earlier and the cave later. Either order works if you have tickets.", "wet": "Both sights are sheltered."},
-    {"show": 14, "base": "Piran or Postojna", "experience": "The coast at Piran for lanes and gelato, not a swim.", "optional": "Salt pans at Sečovlje if the group likes a flat strange landscape", "highlight": "A Venetian harbour on a very short coastline", "kids": "Ice cream and a square. The sea is cold.", "intensity": "moderate", "transfer": "About an hour from Postojna to Piran.", "seasonal": "Many coastal businesses are open in April. The beach season is not.", "wet": "Stay in Postojna and do Škocjan only for the older children, with a parent. It is more walking and more stairs than Postojna."},
-    {"show": 10, "base": "Ljubljana airport", "experience": "Back to Ljubljana and fly.", "optional": "A last river walk if the flight is late", "highlight": "You are never far from the airport", "kids": "Keep the morning empty.", "intensity": "light", "transfer": "Postojna to Ljubljana is about 45–60 minutes. Piran adds an hour.", "seasonal": "Long-haul connections from Ljubljana can be awkward. Build a buffer night in Ljubljana if the flight leaves early.", "wet": "Drive to the airport."}
+    {
+      "show": 10,
+      "base": "Ljubljana",
+      "experience": "Land and walk the river. Castle funicular only if everyone is awake.",
+      "optional": "The market for fruit and burek",
+      "highlight": "A capital you can cross on foot",
+      "kids": "The dragons on the bridge are the first story.",
+      "intensity": "light",
+      "transfer": "Airport to the old town is a short bus or taxi. The international flights are the long part.",
+      "seasonal": "April rain is normal. A compact hotel saves the evening.",
+      "wet": "The castle is reached by funicular. A cafe on the river is enough."
+    },
+    {
+      "show": 10,
+      "base": "Ljubljana",
+      "experience": "Old town, the castle, and Metelkova only from the outside.",
+      "optional": "The puppet museum or the House of Illusions for a rainy hour",
+      "highlight": "A human-scale capital",
+      "kids": "Ljubljana Castle has views and a short visit. The puppet museum is the 6-year-old's indoor choice.",
+      "intensity": "light",
+      "transfer": "On foot.",
+      "seasonal": "The city is calm outside event weekends.",
+      "wet": "Puppet museum and a covered market."
+    },
+    {
+      "show": 12,
+      "base": "Ljubljana",
+      "experience": "A free city day. One museum the 14-year-old chooses.",
+      "optional": "A bike for the older two along the river path",
+      "highlight": "Not filling every hour",
+      "kids": "The 6-year-old gets the playgrounds by the river.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Tivoli Park works in light rain.",
+      "wet": "Stay with the museum."
+    },
+    {
+      "show": 10,
+      "base": "Lake Bohinj",
+      "experience": "Drive to Bohinj and walk the shore.",
+      "optional": "A boat only if it is running and the wind is down",
+      "highlight": "The quieter lake in the Julian Alps",
+      "kids": "Flat shore path. No summit.",
+      "intensity": "moderate",
+      "transfer": "About 1 hour 15 minutes from Ljubljana in normal conditions.",
+      "seasonal": "Snow can still sit on the ridges above the lake. The shore is the April walk.",
+      "wet": "The drive and a lakeside lunch. The view does not require a summit."
+    },
+    {
+      "show": 10,
+      "base": "Lake Bohinj",
+      "experience": "Savica waterfall, or Vogel cable car if it is open and the cloud is above the valley.",
+      "optional": "A second shore walk",
+      "highlight": "A waterfall in a hanging valley, reached by a stepped path",
+      "kids": "Savica has stairs. Turn around if the 6-year-old is done. Vogel is a ride, then a short meadow walk only.",
+      "intensity": "moderate",
+      "transfer": "A short drive to the waterfall car park.",
+      "seasonal": "Cable-car dates change. Confirm Vogel for April 2027.",
+      "wet": "Stay low. Do not ride into cloud for a view that is not there."
+    },
+    {
+      "show": 12,
+      "base": "Lake Bohinj",
+      "experience": "A day trip to Lake Bled and the island by pletna boat, then leave.",
+      "optional": "Bled Castle ramparts",
+      "highlight": "The famous view, seen once, without sleeping in the crowds",
+      "kids": "The boat and the island church bell. The 6-year-old does not need the castle as well.",
+      "intensity": "moderate",
+      "transfer": "About 30–40 minutes from Bohinj to Bled.",
+      "seasonal": "Go early. Bled is the busy hour of this country.",
+      "wet": "The castle is the sheltered part. Or skip Bled and keep Bohinj."
+    },
+    {
+      "show": 14,
+      "base": "Lake Bohinj",
+      "experience": "A free alpine-valley day.",
+      "optional": "Vintgar Gorge only if the 2027 opening notice says it is open",
+      "highlight": "Repetition, which is how a 6-year-old enjoys a place",
+      "kids": "Shore, playground, hot chocolate.",
+      "intensity": "light",
+      "transfer": "None unless Vintgar is confirmed.",
+      "seasonal": "Do not promise Vintgar. It has had seasonal closures.",
+      "wet": "Board games and the lake from the window."
+    },
+    {
+      "show": 10,
+      "base": "Kobarid or Bovec",
+      "experience": "Drive to the Soča valley on the lower road, not over Vršič.",
+      "optional": "Stop in the gorge where there is a safe pull-off",
+      "highlight": "The river turning green",
+      "kids": "Look from the bank. The water is cold and fast in April.",
+      "intensity": "moderate",
+      "transfer": "About 2.5–3.5 hours from Bohinj via Tolmin. Confirm the route the week you travel.",
+      "seasonal": "Check promet.si for the mountain roads even if you are not using Vršič.",
+      "wet": "The colour of the river shows up in cloud too."
+    },
+    {
+      "show": 10,
+      "base": "Kobarid or Bovec",
+      "experience": "Kozjak waterfall and the Kobarid Museum.",
+      "optional": "A short section of the history walk, not the full outdoor museum",
+      "highlight": "A waterfall in a gorge, and a serious war museum that the older children can handle",
+      "kids": "The waterfall walk is the family piece. The museum is for ages 12 and 14, in a short visit.",
+      "intensity": "moderate",
+      "transfer": "Local.",
+      "seasonal": "Paths are slippery after rain. Shoes with grip.",
+      "wet": "The museum becomes the main event. It is excellent."
+    },
+    {
+      "show": 12,
+      "base": "Kobarid or Bovec",
+      "experience": "A free river day. No rafting booking.",
+      "optional": "A thermals spa in the valley if you want a warm hour",
+      "highlight": "Watching the Soča without turning it into an activity product",
+      "kids": "Stones on the bank, a short walk, an early finish.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Commercial rafting usually waits for warmer, safer water. April is the wrong month to insist.",
+      "wet": "Spa or museum cafe."
+    },
+    {
+      "show": 10,
+      "base": "Postojna",
+      "experience": "Drive south to Postojna. Arrive before a late cave slot if you have booked one.",
+      "optional": "The karst exhibition if the cave is tomorrow",
+      "highlight": "The cave train and the chambers",
+      "kids": "Postojna says the tour suits families and visitors with mobility needs. It is about 90 minutes, train plus an easy path, at about 10°C.",
+      "intensity": "moderate",
+      "transfer": "About 2 hours from the Soča valley to Postojna. Allow longer with stops.",
+      "seasonal": "The cave is open every day, including holidays. April tour times should be read on the official timetable, which changes by month.",
+      "wet": "The cave is the wet-weather prize. Take a warm layer."
+    },
+    {
+      "show": 10,
+      "base": "Postojna",
+      "experience": "Predjama Castle, then a second look at the exhibition if the cave was yesterday.",
+      "optional": "The olm display. The cave animal is the science story.",
+      "highlight": "A castle in the mouth of a cliff cave",
+      "kids": "All three ages. There are stairs inside the castle. Take it slowly.",
+      "intensity": "light",
+      "transfer": "About 10–15 minutes from Postojna Cave.",
+      "seasonal": "Official advice is often to do the castle earlier and the cave later. Either order works if you have tickets.",
+      "wet": "Both sights are sheltered."
+    },
+    {
+      "show": 14,
+      "base": "Piran or Postojna",
+      "experience": "The coast at Piran for lanes and gelato, not a swim.",
+      "optional": "Salt pans at Sečovlje if the group likes a flat strange landscape",
+      "highlight": "A Venetian harbour on a very short coastline",
+      "kids": "Ice cream and a square. The sea is cold.",
+      "intensity": "moderate",
+      "transfer": "About an hour from Postojna to Piran.",
+      "seasonal": "Many coastal businesses are open in April. The beach season is not.",
+      "wet": "Stay in Postojna and do Škocjan only for the older children, with a parent. It is more walking and more stairs than Postojna."
+    },
+    {
+      "show": 10,
+      "base": "Ljubljana airport",
+      "experience": "Back to Ljubljana and fly.",
+      "optional": "A last river walk if the flight is late",
+      "highlight": "You are never far from the airport",
+      "kids": "Keep the morning empty.",
+      "intensity": "light",
+      "transfer": "Postojna to Ljubljana is about 45–60 minutes. Piran adds an hour.",
+      "seasonal": "Long-haul connections from Ljubljana can be awkward. Build a buffer night in Ljubljana if the flight leaves early.",
+      "wet": "Drive to the airport."
+    }
   ],
   "sources": [
-    {"tag": "verified", "title": "Postojna Cave is open daily and suits families", "url": "https://www.postojnska-jama.eu/en/postojna-cave/", "note": "Official park page. About 90 minutes, about 10°C, train and an easy path."},
-    {"tag": "recheck", "title": "April cave tour clock", "url": "https://www.postojnska-jama.eu/en/information/tour-timetables/", "note": "The official grid is the source to read in 2027. Secondary sites have quoted April slots; do not treat those hours as fixed."},
-    {"tag": "verified", "title": "Australian passports, EES, and Schengen entry", "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia", "note": "Smartraveller. Biometrics on arrival. No pre-registration for EES."},
-    {"tag": "recheck", "title": "ETIAS is not operating yet", "url": "https://travel-europe.europa.eu/etias", "note": "Official EU page, checked in this research pass. A start date may be announced before April 2027."},
-    {"tag": "recheck", "title": "Indian passports need a Schengen visa", "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia", "note": "The Australian page describes the system. The Indian party must use the Slovenian consulate or its visa centre for the actual application."},
-    {"tag": "recheck", "title": "Vršič road works notice from 2026", "url": "https://socasnik.si/obcinske-novice/obvestilo-o-izvajanju-del-na-prelazu-vrsic/", "note": "A 2026 municipal notice about partial closures from 4 May to 16 November 2026. It is not a 2027 status. Check promet.si."},
-    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "European Commission. €90 for adults. €45 for children aged 6 to 12. Under 6 free."},
-    {"tag": "recheck", "title": "Rupee amount collected for that fee in India", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "German mission in India, 1 October 2026: ₹9,900 and ₹5,000. Another Schengen state can collect a different rupee amount, plus a visa-centre charge."},
-    {"tag": "recheck", "title": "Typical Melbourne–Ljubljana return fare", "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Ljubljana-Joze-Pucnik-LJU", "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."}
+    {
+      "tag": "verified",
+      "title": "Postojna Cave is open daily and suits families",
+      "url": "https://www.postojnska-jama.eu/en/postojna-cave/",
+      "note": "Official park page. About 90 minutes, about 10°C, train and an easy path."
+    },
+    {
+      "tag": "recheck",
+      "title": "April cave tour clock",
+      "url": "https://www.postojnska-jama.eu/en/information/tour-timetables/",
+      "note": "The official grid is the source to read in 2027. Secondary sites have quoted April slots; do not treat those hours as fixed."
+    },
+    {
+      "tag": "verified",
+      "title": "Australian passports, EES, and Schengen entry",
+      "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia",
+      "note": "Smartraveller. Biometrics on arrival. No pre-registration for EES."
+    },
+    {
+      "tag": "recheck",
+      "title": "ETIAS is not operating yet",
+      "url": "https://travel-europe.europa.eu/etias",
+      "note": "Official EU page, checked in this research pass. A start date may be announced before April 2027."
+    },
+    {
+      "tag": "recheck",
+      "title": "Indian passports need a Schengen visa",
+      "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia",
+      "note": "The Australian page describes the system. The Indian party must use the Slovenian consulate or its visa centre for the actual application."
+    },
+    {
+      "tag": "recheck",
+      "title": "Vršič road works notice from 2026",
+      "url": "https://socasnik.si/obcinske-novice/obvestilo-o-izvajanju-del-na-prelazu-vrsic/",
+      "note": "A 2026 municipal notice about partial closures from 4 May to 16 November 2026. It is not a 2027 status. Check promet.si."
+    },
+    {
+      "tag": "verified",
+      "title": "Schengen visa fee",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+      "note": "European Commission. €90 for adults. €45 for children aged 6 to 12. Under 6 free."
+    },
+    {
+      "tag": "recheck",
+      "title": "Rupee amount collected for that fee in India",
+      "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+      "note": "German mission in India, 1 October 2026: ₹9,900 and ₹5,000. Another Schengen state can collect a different rupee amount, plus a visa-centre charge."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Melbourne–Ljubljana return fare",
+      "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Ljubljana-Joze-Pucnik-LJU",
+      "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Ljubljana traveler costs",
+      "url": "https://www.budgetyourtrip.com/slovenia/ljubljana",
+      "note": "Budget and mid-range columns. Updated 6 September 2026."
+    }
   ]
 }

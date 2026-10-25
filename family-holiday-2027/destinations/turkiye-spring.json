@@ -3,15 +3,36 @@
   "pool": "main",
   "name": "Cappadocia and the Aegean, Türkiye",
   "regionLabel": "Istanbul, Ürgüp and Selçuk",
-  "regions": ["west-asia", "europe"],
+  "regions": [
+    "west-asia",
+    "europe"
+  ],
   "summary": "Three bases: a city on two shores, a valley of rock cones, and an ancient port. April is mild, green, and before the real heat. The Indian visa is the complication.",
   "why": "It is the clearest mix of landscape and deep history that is pleasant in April. Children can share the fairy chimneys, a cave hotel, and Ephesus at opening time. The pace stays at three bases, with domestic flights instead of a cross-country drive.",
   "distinctive": "Volcanic rock valleys you can walk through, and a Roman city that is still a street plan rather than a single ruin.",
   "scores": {
-    "nature": 4, "quiet": 3, "culture": 5, "history": 5, "adventure": 3,
-    "wildlife": 2, "science": 3, "family": 4, "mild": 5, "road": 3, "rail": 2,
-    "relaxed": 3, "variety": 5, "child6": 4, "child12": 5, "child14": 5,
-    "scenery": 5, "april": 5, "practical": 3, "mobility": 3, "unique": 4, "conventional": 4
+    "nature": 4,
+    "quiet": 3,
+    "culture": 5,
+    "history": 5,
+    "adventure": 3,
+    "wildlife": 2,
+    "science": 3,
+    "family": 4,
+    "mild": 5,
+    "road": 3,
+    "rail": 2,
+    "relaxed": 3,
+    "variety": 5,
+    "child6": 4,
+    "child12": 5,
+    "child14": 5,
+    "scenery": 5,
+    "april": 5,
+    "practical": 3,
+    "mobility": 3,
+    "unique": 4,
+    "conventional": 4
   },
   "stairs": 3,
   "labels": {
@@ -51,7 +72,12 @@
     "Balloon fly rates. Spring mornings are good and still get cancelled for wind.",
     "Domestic flight times for seven people."
   ],
-  "childTags": ["stories", "walks", "science", "food"],
+  "childTags": [
+    "stories",
+    "walks",
+    "science",
+    "food"
+  ],
   "climate": "mild",
   "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg/1280px-Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg",
@@ -64,38 +90,260 @@
   "cost": {
     "summary": "Bengaluru to Istanbul is about ₹1.3–1.9 lakh for four adult typical returns. Melbourne’s published monthly medians run about ₹2.9 lakh in October and about ₹4.2 lakh in December, for three adults. April was not listed. The Indian visa fee was not priced.",
     "lines": [
-      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Istanbul, was ₹31,618–₹46,740 for one adult. Four adult fares are about ₹1.3–1.9 lakh. One stop. Not an April 2027 quote."},
-      {"item": "Flights from Melbourne", "tag": "recheck", "text": "On Kayak.com, the median return from Melbourne to Istanbul was about US$1,013 in October and about US$1,466 in December. Three adult fares are about ₹2.9 lakh and ₹4.2 lakh at those two medians. April was not given. This is not a typical low-to-high band and not an April 2027 quote."},
-      {"item": "Visas", "tag": "thin", "text": "Australian ordinary passports pay no visa fee for a short stay. The Indian sticker-visa or e-Visa fee was not read from an official fee table in this pass, so it is not included."}
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "recheck",
+        "text": "Kayak.co.in’s typical return fare, Bengaluru to Istanbul, was ₹31,618–₹46,740 for one adult. Four adult fares are about ₹1.3–1.9 lakh. One stop. Not an April 2027 quote."
+      },
+      {
+        "item": "Flights from Melbourne",
+        "tag": "recheck",
+        "text": "On Kayak.com, the median return from Melbourne to Istanbul was about US$1,013 in October and about US$1,466 in December. Three adult fares are about ₹2.9 lakh and ₹4.2 lakh at those two medians. April was not given. This is not a typical low-to-high band and not an April 2027 quote."
+      },
+      {
+        "item": "Visas",
+        "tag": "thin",
+        "text": "Australian ordinary passports pay no visa fee for a short stay. The Indian sticker-visa or e-Visa fee was not read from an official fee table in this pass, so it is not included."
+      }
     ],
-    "leftOut": "Hotels, meals, domestic flights and the balloon are not included."
+    "leftOut": "Hotels, meals, domestic flights and the balloon are not included.",
+    "trip": {
+      "band": "about ₹11–22 lakh before the Indian visa",
+      "note": "Flights from both cities are inside this. The Indian visa fee is not.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Istanbul's, from Budget Your Trip on 5 September 2026. A cave hotel in Cappadocia can differ."
+    }
   },
   "stretch16": "Add a free day in Ürgüp and a free day in Selçuk. Do not add Antalya and Pamukkale and Gallipoli.",
   "days": [
-    {"show": 10, "base": "Istanbul", "experience": "Land and walk one neighbourhood only. Galata or a Bosphorus ferry if the light is good.", "optional": "No palace on day one", "highlight": "The water between two shores", "kids": "The ferry is the right first activity.", "intensity": "light", "transfer": "Istanbul is the meeting airport. Allow a long transfer from the airport into the city.", "seasonal": "April showers are normal. Shoes that can get wet.", "wet": "A covered bazaar street and a pudding shop, kept short."},
-    {"show": 10, "base": "Istanbul", "experience": "Hagia Sophia, the Blue Mosque courtyard, and the Basilica Cistern.", "optional": "Gülhane Park afterwards", "highlight": "One ridge of monuments, then a park", "kids": "The cistern is the one the 6-year-old is most likely to remember. Leave when they fade.", "intensity": "moderate", "transfer": "Walk and tram. Buy museum tickets the way the official sites tell you to in 2027.", "seasonal": "Go at opening. Midday is the crowded hour.", "wet": "The cistern and the mosques are the wet-weather plan."},
-    {"show": 10, "base": "Istanbul", "experience": "Rahmi M. Koç Museum, an industrial and transport museum on the Golden Horn.", "optional": "A short Bosphorus hop", "highlight": "Engines, submarines and hands-on halls. This is the science day.", "kids": "Built for the 6- and 12-year-olds, and still interesting at 14.", "intensity": "light", "transfer": "A short taxi or bus from Sultanahmet or Karaköy.", "seasonal": "Check the museum's closed day before you lock the date.", "wet": "Stay here. It is indoors."},
-    {"show": 12, "base": "Istanbul", "experience": "Princes' Islands by ferry. Walk or hire a bicycle, not a packed carriage.", "optional": "Nothing else that evening", "highlight": "A wooded island without cars, an hour from the city", "kids": "The ferry plus a short ride. Büyükada's hills are steep if you try to see everything.", "intensity": "moderate", "transfer": "Ferries leave from the city's Asian and European docks. Allow most of the day.", "seasonal": "23 April can be festive and busy. A weekday is calmer.", "wet": "Swap for the Istanbul Modern or a second pass at the Koç Museum."},
-    {"show": 14, "base": "Istanbul", "experience": "A free half day, then the flight to Cappadocia if the afternoon plane is the sane one.", "optional": "Spice Market in twenty minutes, not two hours", "highlight": "Leaving the city before it becomes the whole trip", "kids": "Pack in the morning so the airport is not a panic.", "intensity": "moderate", "transfer": "Istanbul to Nevşehir or Kayseri is often about 1–1.5 hours, plus a 1-hour ground transfer. Confirm which airport your hotel actually meets.", "seasonal": "Book seven seats when the Indian visas are clear, not before.", "wet": "Fly anyway."},
-    {"show": 10, "base": "Ürgüp or Ortahisar", "experience": "Arrive, look at the valley from the hotel, and stop.", "optional": "A sunset viewpoint a short walk away", "highlight": "The first sight of the cones in evening light", "kids": "Cave rooms are the adventure.", "intensity": "light", "transfer": "Included in the arrival day if you flew. If this is a 10-day trip, fly on the morning after the Koç Museum instead.", "seasonal": "Ortahisar and Ürgüp are calmer bases than the centre of Göreme.", "wet": "The hotel and a short look from a terrace."},
-    {"show": 10, "base": "Ürgüp or Ortahisar", "experience": "Sunrise viewpoint. A balloon only if the operator has confirmed the 6-year-old's height and the wind is kind.", "optional": "A pottery workshop in Avanos in the afternoon", "highlight": "The valleys at dawn, from the ground if the balloon does not fly", "kids": "Have a non-flying plan the 6-year-old will like. A cold launch field at 5am is hard even when the flight goes.", "intensity": "moderate", "transfer": "Hotels transfer you to the launch field. Recheck the operator's age and height rule.", "seasonal": "Spring flyable mornings are common and not guaranteed. Cancellations are a safety decision.", "wet": "Sleep in and do the pottery and a valley overlook by car."},
-    {"show": 10, "base": "Ürgüp or Ortahisar", "experience": "Göreme Open-Air Museum at opening, then a short valley walk.", "optional": "Uçhisar castle viewpoint", "highlight": "Rock-cut churches, then a walk among the cones", "kids": "The museum is a series of small caves. The 6-year-old will do some of it. The valley walk should be the easy one.", "intensity": "moderate", "transfer": "A short drive. Go in your own car or a driver, early.", "seasonal": "Midday tour buses are the crowd. Opening time is the tactic.", "wet": "The museum is partly sheltered. Skip the valley mud."},
-    {"show": 12, "base": "Ürgüp or Ortahisar", "experience": "One underground city, Kaymaklı or Derinkuyu, and an easy afternoon.", "optional": "Turn around after the first level", "highlight": "A hidden city carved down into the rock", "kids": "Claustrophobic, steep and dim. The 14-year-old may love it. The 6-year-old needs an exit plan.", "intensity": "moderate", "transfer": "Under an hour by car.", "seasonal": "Do not do both underground cities.", "wet": "This is already indoors."},
-    {"show": 14, "base": "Ürgüp or Ortahisar", "experience": "A free day. Repeat the valley you liked, or do nothing.", "optional": "A picnic overlook", "highlight": "The landscape without a ticket", "kids": "Let them climb the hotel rocks and draw the chimneys.", "intensity": "light", "transfer": "None.", "seasonal": "Pigeon Valley and Rose Valley have uneven ground. Pick the short version.", "wet": "Hotel hammam or a long lunch in Ürgüp."},
-    {"show": 10, "base": "Selçuk", "experience": "Fly to İzmir and transfer to Selçuk. Evening in a small town.", "optional": "Stork nests on the aqueduct, if the birds are in", "highlight": "A town built beside the ruins, not a resort strip", "kids": "The storks, if present, are the arrival story.", "intensity": "moderate", "transfer": "Cappadocia to İzmir is often about 1.5 hours, then under an hour to Selçuk. Confirm.", "seasonal": "April is a strong month for Ephesus because the heat has not arrived.", "wet": "Settle in. The ruins are tomorrow at opening."},
-    {"show": 10, "base": "Selçuk", "experience": "Ephesus at opening, and the Terrace Houses only if the older children are still curious.", "optional": "Ephesus Museum in the afternoon, which is small", "highlight": "The Library of Celsus and a marble street", "kids": "Age 6 will do the main street and then need shade and a snack. Ages 12 and 14 can go further.", "intensity": "moderate", "transfer": "A few kilometres from Selçuk. Taxis or a driver are simpler than parking.", "seasonal": "The stone is bright and hot even in April if you arrive at noon.", "wet": "Go anyway. Marble is slippery. The museum is the backup."},
-    {"show": 12, "base": "Selçuk", "experience": "Şirince village in the hills.", "optional": "A short orchard walk", "highlight": "A quieter village above the ruins", "kids": "Fruit juice, lanes, and a limit on how far you climb.", "intensity": "light", "transfer": "About 15–20 minutes from Selçuk.", "seasonal": "The village is small. Leave before it feels crowded.", "wet": "The Ephesus Museum, or a pastry shop in Selçuk."},
-    {"show": 10, "base": "Selçuk / İzmir", "experience": "A last easy morning and the flight from İzmir.", "optional": "Priene or Miletus only if this is the 14-day version and the children ask for more ruins", "highlight": "Leaving from the Aegean, not backtracking through Istanbul unless the fare demands it", "kids": "Do not add a ruin on departure morning.", "intensity": "light", "transfer": "Selçuk to İzmir airport is under an hour. Seven seats on the long haul home need an early booking.", "seasonal": "Gallipoli on 25 April 2027 is a separate, solemn, crowded pilgrimage. It is not part of this route.", "wet": "Go to the airport."}
+    {
+      "show": 10,
+      "base": "Istanbul",
+      "experience": "Land and walk one neighbourhood only. Galata or a Bosphorus ferry if the light is good.",
+      "optional": "No palace on day one",
+      "highlight": "The water between two shores",
+      "kids": "The ferry is the right first activity.",
+      "intensity": "light",
+      "transfer": "Istanbul is the meeting airport. Allow a long transfer from the airport into the city.",
+      "seasonal": "April showers are normal. Shoes that can get wet.",
+      "wet": "A covered bazaar street and a pudding shop, kept short."
+    },
+    {
+      "show": 10,
+      "base": "Istanbul",
+      "experience": "Hagia Sophia, the Blue Mosque courtyard, and the Basilica Cistern.",
+      "optional": "Gülhane Park afterwards",
+      "highlight": "One ridge of monuments, then a park",
+      "kids": "The cistern is the one the 6-year-old is most likely to remember. Leave when they fade.",
+      "intensity": "moderate",
+      "transfer": "Walk and tram. Buy museum tickets the way the official sites tell you to in 2027.",
+      "seasonal": "Go at opening. Midday is the crowded hour.",
+      "wet": "The cistern and the mosques are the wet-weather plan."
+    },
+    {
+      "show": 10,
+      "base": "Istanbul",
+      "experience": "Rahmi M. Koç Museum, an industrial and transport museum on the Golden Horn.",
+      "optional": "A short Bosphorus hop",
+      "highlight": "Engines, submarines and hands-on halls. This is the science day.",
+      "kids": "Built for the 6- and 12-year-olds, and still interesting at 14.",
+      "intensity": "light",
+      "transfer": "A short taxi or bus from Sultanahmet or Karaköy.",
+      "seasonal": "Check the museum's closed day before you lock the date.",
+      "wet": "Stay here. It is indoors."
+    },
+    {
+      "show": 12,
+      "base": "Istanbul",
+      "experience": "Princes' Islands by ferry. Walk or hire a bicycle, not a packed carriage.",
+      "optional": "Nothing else that evening",
+      "highlight": "A wooded island without cars, an hour from the city",
+      "kids": "The ferry plus a short ride. Büyükada's hills are steep if you try to see everything.",
+      "intensity": "moderate",
+      "transfer": "Ferries leave from the city's Asian and European docks. Allow most of the day.",
+      "seasonal": "23 April can be festive and busy. A weekday is calmer.",
+      "wet": "Swap for the Istanbul Modern or a second pass at the Koç Museum."
+    },
+    {
+      "show": 14,
+      "base": "Istanbul",
+      "experience": "A free half day, then the flight to Cappadocia if the afternoon plane is the sane one.",
+      "optional": "Spice Market in twenty minutes, not two hours",
+      "highlight": "Leaving the city before it becomes the whole trip",
+      "kids": "Pack in the morning so the airport is not a panic.",
+      "intensity": "moderate",
+      "transfer": "Istanbul to Nevşehir or Kayseri is often about 1–1.5 hours, plus a 1-hour ground transfer. Confirm which airport your hotel actually meets.",
+      "seasonal": "Book seven seats when the Indian visas are clear, not before.",
+      "wet": "Fly anyway."
+    },
+    {
+      "show": 10,
+      "base": "Ürgüp or Ortahisar",
+      "experience": "Arrive, look at the valley from the hotel, and stop.",
+      "optional": "A sunset viewpoint a short walk away",
+      "highlight": "The first sight of the cones in evening light",
+      "kids": "Cave rooms are the adventure.",
+      "intensity": "light",
+      "transfer": "Included in the arrival day if you flew. If this is a 10-day trip, fly on the morning after the Koç Museum instead.",
+      "seasonal": "Ortahisar and Ürgüp are calmer bases than the centre of Göreme.",
+      "wet": "The hotel and a short look from a terrace."
+    },
+    {
+      "show": 10,
+      "base": "Ürgüp or Ortahisar",
+      "experience": "Sunrise viewpoint. A balloon only if the operator has confirmed the 6-year-old's height and the wind is kind.",
+      "optional": "A pottery workshop in Avanos in the afternoon",
+      "highlight": "The valleys at dawn, from the ground if the balloon does not fly",
+      "kids": "Have a non-flying plan the 6-year-old will like. A cold launch field at 5am is hard even when the flight goes.",
+      "intensity": "moderate",
+      "transfer": "Hotels transfer you to the launch field. Recheck the operator's age and height rule.",
+      "seasonal": "Spring flyable mornings are common and not guaranteed. Cancellations are a safety decision.",
+      "wet": "Sleep in and do the pottery and a valley overlook by car."
+    },
+    {
+      "show": 10,
+      "base": "Ürgüp or Ortahisar",
+      "experience": "Göreme Open-Air Museum at opening, then a short valley walk.",
+      "optional": "Uçhisar castle viewpoint",
+      "highlight": "Rock-cut churches, then a walk among the cones",
+      "kids": "The museum is a series of small caves. The 6-year-old will do some of it. The valley walk should be the easy one.",
+      "intensity": "moderate",
+      "transfer": "A short drive. Go in your own car or a driver, early.",
+      "seasonal": "Midday tour buses are the crowd. Opening time is the tactic.",
+      "wet": "The museum is partly sheltered. Skip the valley mud."
+    },
+    {
+      "show": 12,
+      "base": "Ürgüp or Ortahisar",
+      "experience": "One underground city, Kaymaklı or Derinkuyu, and an easy afternoon.",
+      "optional": "Turn around after the first level",
+      "highlight": "A hidden city carved down into the rock",
+      "kids": "Claustrophobic, steep and dim. The 14-year-old may love it. The 6-year-old needs an exit plan.",
+      "intensity": "moderate",
+      "transfer": "Under an hour by car.",
+      "seasonal": "Do not do both underground cities.",
+      "wet": "This is already indoors."
+    },
+    {
+      "show": 14,
+      "base": "Ürgüp or Ortahisar",
+      "experience": "A free day. Repeat the valley you liked, or do nothing.",
+      "optional": "A picnic overlook",
+      "highlight": "The landscape without a ticket",
+      "kids": "Let them climb the hotel rocks and draw the chimneys.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Pigeon Valley and Rose Valley have uneven ground. Pick the short version.",
+      "wet": "Hotel hammam or a long lunch in Ürgüp."
+    },
+    {
+      "show": 10,
+      "base": "Selçuk",
+      "experience": "Fly to İzmir and transfer to Selçuk. Evening in a small town.",
+      "optional": "Stork nests on the aqueduct, if the birds are in",
+      "highlight": "A town built beside the ruins, not a resort strip",
+      "kids": "The storks, if present, are the arrival story.",
+      "intensity": "moderate",
+      "transfer": "Cappadocia to İzmir is often about 1.5 hours, then under an hour to Selçuk. Confirm.",
+      "seasonal": "April is a strong month for Ephesus because the heat has not arrived.",
+      "wet": "Settle in. The ruins are tomorrow at opening."
+    },
+    {
+      "show": 10,
+      "base": "Selçuk",
+      "experience": "Ephesus at opening, and the Terrace Houses only if the older children are still curious.",
+      "optional": "Ephesus Museum in the afternoon, which is small",
+      "highlight": "The Library of Celsus and a marble street",
+      "kids": "Age 6 will do the main street and then need shade and a snack. Ages 12 and 14 can go further.",
+      "intensity": "moderate",
+      "transfer": "A few kilometres from Selçuk. Taxis or a driver are simpler than parking.",
+      "seasonal": "The stone is bright and hot even in April if you arrive at noon.",
+      "wet": "Go anyway. Marble is slippery. The museum is the backup."
+    },
+    {
+      "show": 12,
+      "base": "Selçuk",
+      "experience": "Şirince village in the hills.",
+      "optional": "A short orchard walk",
+      "highlight": "A quieter village above the ruins",
+      "kids": "Fruit juice, lanes, and a limit on how far you climb.",
+      "intensity": "light",
+      "transfer": "About 15–20 minutes from Selçuk.",
+      "seasonal": "The village is small. Leave before it feels crowded.",
+      "wet": "The Ephesus Museum, or a pastry shop in Selçuk."
+    },
+    {
+      "show": 10,
+      "base": "Selçuk / İzmir",
+      "experience": "A last easy morning and the flight from İzmir.",
+      "optional": "Priene or Miletus only if this is the 14-day version and the children ask for more ruins",
+      "highlight": "Leaving from the Aegean, not backtracking through Istanbul unless the fare demands it",
+      "kids": "Do not add a ruin on departure morning.",
+      "intensity": "light",
+      "transfer": "Selçuk to İzmir airport is under an hour. Seven seats on the long haul home need an early booking.",
+      "seasonal": "Gallipoli on 25 April 2027 is a separate, solemn, crowded pilgrimage. It is not part of this route.",
+      "wet": "Go to the airport."
+    }
   ],
   "sources": [
-    {"tag": "verified", "title": "Australian ordinary passports are visa-exempt for short tourism stays", "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa", "note": "Republic of Türkiye Ministry of Foreign Affairs."},
-    {"tag": "verified", "title": "Indian ordinary passports need a visa; e-Visa needs a supporting visa", "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa", "note": "Same page. Supporting document must be valid on entry."},
-    {"tag": "verified", "title": "Use only the official e-Visa site", "url": "https://newdelhi-emb.mfa.gov.tr/Mission/ShowAnnouncement/361514", "note": "Turkish Embassy in New Delhi. The official site is evisa.gov.tr."},
-    {"tag": "verified", "title": "Smartraveller confirms the Australian exemption", "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye", "note": "Still check the Turkish page before travel."},
-    {"tag": "seasonal", "title": "April temperatures from long-run station normals", "url": "https://turkeyfrontier.com/plan/weather/april/", "note": "Secondary article citing Turkish State Meteorological Service normals. Recheck with MGM."},
-    {"tag": "recheck", "title": "Balloon age and height rules are operator rules", "url": "https://voyagerballoons.com/frequently-asked-questions/", "note": "One licensed operator's FAQ: age 6 and about 4 ft 6 in. Another operator may differ. The civil aviation authority leaves the child rule to each operator's manual."},
-    {"tag": "recheck", "title": "No nonstop Bengaluru–Istanbul flight on a public listing", "url": "https://www.kayak.com/flight-routes/Bengaluru-Intl-BLR/Istanbul-IST", "note": "Metasearch snapshot, October 2026. Quickest listed journey a little over 8 hours with a connection. Recheck April 2027. Not a fare."},
-    {"tag": "recheck", "title": "Typical Bengaluru–Istanbul return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Istanbul-other-airports-IST", "note": "Kayak India typical band for one adult. Not an April 2027 fare."},
-    {"tag": "recheck", "title": "Melbourne–Istanbul monthly medians", "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Istanbul-IST", "note": "October and December medians on Kayak.com, in US dollars. April was not listed."}
+    {
+      "tag": "verified",
+      "title": "Australian ordinary passports are visa-exempt for short tourism stays",
+      "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+      "note": "Republic of Türkiye Ministry of Foreign Affairs."
+    },
+    {
+      "tag": "verified",
+      "title": "Indian ordinary passports need a visa; e-Visa needs a supporting visa",
+      "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+      "note": "Same page. Supporting document must be valid on entry."
+    },
+    {
+      "tag": "verified",
+      "title": "Use only the official e-Visa site",
+      "url": "https://newdelhi-emb.mfa.gov.tr/Mission/ShowAnnouncement/361514",
+      "note": "Turkish Embassy in New Delhi. The official site is evisa.gov.tr."
+    },
+    {
+      "tag": "verified",
+      "title": "Smartraveller confirms the Australian exemption",
+      "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+      "note": "Still check the Turkish page before travel."
+    },
+    {
+      "tag": "seasonal",
+      "title": "April temperatures from long-run station normals",
+      "url": "https://turkeyfrontier.com/plan/weather/april/",
+      "note": "Secondary article citing Turkish State Meteorological Service normals. Recheck with MGM."
+    },
+    {
+      "tag": "recheck",
+      "title": "Balloon age and height rules are operator rules",
+      "url": "https://voyagerballoons.com/frequently-asked-questions/",
+      "note": "One licensed operator's FAQ: age 6 and about 4 ft 6 in. Another operator may differ. The civil aviation authority leaves the child rule to each operator's manual."
+    },
+    {
+      "tag": "recheck",
+      "title": "No nonstop Bengaluru–Istanbul flight on a public listing",
+      "url": "https://www.kayak.com/flight-routes/Bengaluru-Intl-BLR/Istanbul-IST",
+      "note": "Metasearch snapshot, October 2026. Quickest listed journey a little over 8 hours with a connection. Recheck April 2027. Not a fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Bengaluru–Istanbul return fare",
+      "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Istanbul-other-airports-IST",
+      "note": "Kayak India typical band for one adult. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Melbourne–Istanbul monthly medians",
+      "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Istanbul-IST",
+      "note": "October and December medians on Kayak.com, in US dollars. April was not listed."
+    },
+    {
+      "tag": "recheck",
+      "title": "Istanbul traveler costs",
+      "url": "https://www.budgetyourtrip.com/turkey/istanbul",
+      "note": "Budget and mid-range columns. Updated 5 September 2026."
+    }
   ]
 }

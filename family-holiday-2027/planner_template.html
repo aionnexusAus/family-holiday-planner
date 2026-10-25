@@ -251,7 +251,7 @@ th { font-size: 13px; color: var(--muted); font-weight: 520; }
 
   <section id="compare" class="view" hidden>
     <h2>Compare the shortlist</h2>
-    <p class="help">This compares the trip you would have. Flight rows are the four Indian passports from Bengaluru and the three Australian passports from Melbourne. They are indicative and are not used to order the list.</p>
+    <p class="help">The first cost row is a wide trip band for seven people and about 13 nights. It is not a quote and it is not used to order the list. Where a fare was not published, the band says so.</p>
     <div id="compare-picks" class="checks no-print"></div>
     <div id="compare-table"></div>
   </section>
@@ -471,7 +471,7 @@ function card(entry, top) {
         <span class="pill">Journey <b>${esc(d.labels.practical)}</b></span>
       </div>
       <p>${esc(d.summary)}</p>
-      ${d.cost ? `<p><strong>Cost.</strong> ${esc(d.cost.summary)} Not used for ranking.</p>` : ""}
+      ${d.cost && d.cost.trip ? `<p><strong>Indicative trip.</strong> ${esc(d.cost.trip.band)}. ${esc(d.cost.trip.note)} Not used for ranking.</p>` : ""}
       <p class="muted">${interests.length ? "Matches you on " + esc(interests.join(", ")) + ". " : ""}${esc(d.why)}</p>
       <div class="actions">
         <button type="button" class="primary" data-open="${d.id}">Open the plan</button>
@@ -547,8 +547,12 @@ function costPanel(d) {
   if (!d.cost) return "";
   const fee = (d.cost.lines || []).find(x => x.item === "Visas" || x.item === "Sustainable development fee");
   const leftOut = (DATA.method.excluded || []).concat(d.cost.excludes || []);
+  const trip = d.cost.trip
+    ? `<p><strong>Indicative trip.</strong> ${esc(d.cost.trip.band)}.</p><p>${esc(d.cost.trip.note)}</p><p>${esc(d.cost.trip.text)}</p>`
+    : "";
   return `<div class="block" style="margin:14px 0">
     <h3>Cost</h3>
+    ${trip}
     <p><strong>Indian passports from Bengaluru.</strong> ${esc(costLineText(d, "Flights from Bengaluru"))}</p>
     <p><strong>Australian passports from Melbourne.</strong> ${esc(costLineText(d, "Flights from Melbourne"))}</p>
     <p><strong>Fees.</strong> ${esc(fee ? fee.text : "Not priced.")}</p>
@@ -681,6 +685,7 @@ function renderCompare() {
     ["Two passports", d => "Australia: " + d.visaAu + " India: " + d.visaIn],
     ["You gain", d => d.gain],
     ["You miss", d => d.miss],
+    ["Indicative trip", d => d.cost && d.cost.trip ? d.cost.trip.band + ". " + d.cost.trip.note + " Not used to order the list." : "Not priced"],
     ["Indian passports from Bengaluru", d => flightNote(d, "Flights from Bengaluru")],
     ["Australian passports from Melbourne", d => flightNote(d, "Flights from Melbourne")],
     ["Fees on the Indian passports", d => feeNote(d)],

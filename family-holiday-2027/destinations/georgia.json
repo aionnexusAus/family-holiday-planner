@@ -4,23 +4,54 @@
   "asideReason": "Indian ordinary passports need a Georgian visa. Australian passports do not. In April the high Caucasus is only partly open: Kazbegi is cold, and the roads into Tusheti and much of Svaneti are often still shut. It is a strong trip in May or June, and a compromised one for this group in April.",
   "name": "Georgia",
   "regionLabel": "Tbilisi, Sighnaghi and Kazbegi",
-  "regions": ["west-asia"],
+  "regions": [
+    "west-asia"
+  ],
   "summary": "Three bases that still work in April: Tbilisi, the hill town of Sighnaghi in Kakheti, and one night toward Kazbek. Held back for the Indian visa and the shut high passes.",
   "why": "Tbilisi is the city. Sighnaghi is the easier landscape, low enough for April. Kazbegi is the one high night, and you come back down. The trip still does not reach the high villages of Tusheti or Svaneti.",
   "distinctive": "A capital in a river gorge, and Gergeti Trinity Church under Mount Kazbek when the last road is open.",
   "scores": {
-    "nature": 4, "quiet": 4, "culture": 5, "history": 4, "adventure": 3,
-    "wildlife": 2, "science": 2, "family": 3, "mild": 3, "road": 3, "rail": 1,
-    "relaxed": 3, "variety": 3, "child6": 3, "child12": 4, "child14": 4,
-    "scenery": 4, "april": 3, "practical": 2, "mobility": 3, "unique": 4, "conventional": 2
+    "nature": 4,
+    "quiet": 4,
+    "culture": 5,
+    "history": 4,
+    "adventure": 3,
+    "wildlife": 2,
+    "science": 2,
+    "family": 3,
+    "mild": 3,
+    "road": 3,
+    "rail": 1,
+    "relaxed": 3,
+    "variety": 3,
+    "child6": 3,
+    "child12": 4,
+    "child14": 4,
+    "scenery": 4,
+    "april": 3,
+    "practical": 2,
+    "mobility": 3,
+    "unique": 4,
+    "conventional": 2
   },
   "stairs": 3,
-  "labels": {"april": "Mixed", "crowds": "Light", "family": "Good", "practical": "Mixed", "scenery": "Very Good"},
+  "labels": {
+    "april": "Mixed",
+    "crowds": "Light",
+    "family": "Good",
+    "practical": "Mixed",
+    "scenery": "Very Good"
+  },
   "weather": "A Georgia monthly guide puts Tbilisi near 19°C by day and 8°C at night in April, with more rain than in March. Kazbegi is about 10°C by day and near freezing at night. Svaneti is colder and wetter. The Abano Pass into Tusheti is usually shut until late May or June.",
   "weatherStatus": "seasonal",
   "crowds": "April is not a peak month. Tbilisi is a city, not a resort crush. Kazbegi has a busy church car park on clear days.",
   "crowdStatus": "opinion",
-  "natureExperiences": ["The Kazbegi valley and Gergeti, if the road to the church is open", "A city gorge walk in Tbilisi", "The Mtskheta cathedral town as a half day", "Not Tusheti and not Ushguli in April"],
+  "natureExperiences": [
+    "The Kazbegi valley and Gergeti, if the road to the church is open",
+    "A city gorge walk in Tbilisi",
+    "The Mtskheta cathedral town as a half day",
+    "Not Tusheti and not Ushguli in April"
+  ],
   "age6": "Tbilisi's sulphur baths district from the street, a cable car, and a short stop below Gergeti. No high pass.",
   "age12": "The church and the mountain story, plus the food.",
   "age14": "The same, and the old town's layers. They will feel the limit of the April map.",
@@ -30,37 +61,186 @@
   "visaAu": "Georgia's official travel site lists Australia among the nationalities that do not need a visa and may stay up to a year. Recheck the same page. Rules of stay can still include registration details.",
   "visaIn": "The same official list does not give ordinary Indian passports a visa-free stay. Diplomatic or official Indian passports are a different case. Ordinary passports should plan on an e-visa through Georgia's official portal and should ignore copycat sites.",
   "visaStatus": "verified-rule-recheck-process",
-  "disadvantages": ["The April mountain map is Tbilisi plus Kazbegi, not the full Caucasus.", "Indian ordinary passports need a visa. Australian passports do not.", "Kazbegi nights are near freezing.", "A driver and winding roads for several days is a lot for age 6."],
-  "uncertainties": ["Whether the road to Gergeti Trinity is clear of ice in the week you go.", "The 2027 e-visa timeline.", "Svaneti access. Do not book Ushguli in April."],
-  "childTags": ["stories", "food", "walks"],
+  "disadvantages": [
+    "The April mountain map is Tbilisi plus Kazbegi, not the full Caucasus.",
+    "Indian ordinary passports need a visa. Australian passports do not.",
+    "Kazbegi nights are near freezing.",
+    "A driver and winding roads for several days is a lot for age 6."
+  ],
+  "uncertainties": [
+    "Whether the road to Gergeti Trinity is clear of ice in the week you go.",
+    "The 2027 e-visa timeline.",
+    "Svaneti access. Do not book Ushguli in April."
+  ],
+  "childTags": [
+    "stories",
+    "food",
+    "walks"
+  ],
   "climate": "mild",
-  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gergeti_Trinity_Church_09.23.jpg/1280px-Gergeti_Trinity_Church_09.23.jpg", "alt": "Gergeti Trinity Church below a snowy peak in Kazbegi", "credit": "Wikimedia Commons: Gergeti Trinity Church", "href": "https://commons.wikimedia.org/wiki/File:Gergeti_Trinity_Church_09.23.jpg"},
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gergeti_Trinity_Church_09.23.jpg/1280px-Gergeti_Trinity_Church_09.23.jpg",
+    "alt": "Gergeti Trinity Church below a snowy peak in Kazbegi",
+    "credit": "Wikimedia Commons: Gergeti Trinity Church",
+    "href": "https://commons.wikimedia.org/wiki/File:Gergeti_Trinity_Church_09.23.jpg"
+  },
   "gain": "A less obvious capital and a real mountain church, with excellent food.",
   "miss": "The high valleys, a simple Indian visa, and mild mountain weather.",
   "cost": {
     "summary": "Bengaluru to Tbilisi is about ₹2.0–2.5 lakh for four adult typical returns. A Melbourne typical fare was not published. The Indian visa fee was not priced.",
     "lines": [
-      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Tbilisi, was ₹50,666–₹63,438 for one adult, with one stop. Four adult fares are about ₹2.0–2.5 lakh. Not an April 2027 quote."},
-      {"item": "Flights from Melbourne", "tag": "thin", "text": "A typical Melbourne–Tbilisi return fare was not published in this pass."},
-      {"item": "Visas", "tag": "thin", "text": "Australian passports do not pay a visa fee for a short stay on the published list. Ordinary Indian passports need a visa. The fee was not read from the official e-visa table in this pass."}
+      {
+        "item": "Flights from Bengaluru",
+        "tag": "recheck",
+        "text": "Kayak.co.in’s typical return fare, Bengaluru to Tbilisi, was ₹50,666–₹63,438 for one adult, with one stop. Four adult fares are about ₹2.0–2.5 lakh. Not an April 2027 quote."
+      },
+      {
+        "item": "Flights from Melbourne",
+        "tag": "thin",
+        "text": "A typical Melbourne–Tbilisi return fare was not published in this pass."
+      },
+      {
+        "item": "Visas",
+        "tag": "thin",
+        "text": "Australian passports do not pay a visa fee for a short stay on the published list. Ordinary Indian passports need a visa. The fee was not read from the official e-visa table in this pass."
+      }
     ],
-    "leftOut": "Hotels, meals, a driver and international flights are not included."
+    "leftOut": "Hotels, meals, a driver and international flights are not included.",
+    "trip": {
+      "band": "about ₹4–7 lakh before the Melbourne flights and the visa",
+      "note": "Bengaluru flights are inside this. A Melbourne fare and the Indian visa fee were not published.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. The 6-year-old's meals are not discounted. Insurance, bags and shopping are outside it. The columns are Tbilisi's, from Budget Your Trip on 5 September 2026. The low end is that city's budget column, which is a simple room rather than three family hotels. Sighnaghi and Kazbegi can differ."
+    }
   },
   "stretch16": "Not the place to add days in April. Come in June if this is the dream.",
   "days": [
-    {"show": 10, "base": "Tbilisi", "experience": "Land and walk the river.", "optional": "A cable car if energy remains", "highlight": "A city in a gorge", "kids": "The cable car is the first treat.", "intensity": "light", "transfer": "Airport to the old town is a taxi.", "seasonal": "April rain in the city.", "wet": "A bakery and the hotel."},
-    {"show": 10, "base": "Tbilisi", "experience": "Old town, a fortress view, and a free afternoon.", "optional": "The sulphur district from the street. Baths are optional and not for the children unless a family-friendly one is confirmed.", "highlight": "Balconies and a ruined fort", "kids": "Short and visual.", "intensity": "light", "transfer": "On foot. Hills and cobbles.", "seasonal": "None.", "wet": "A museum. Confirm which one is good for children before you rely on it."},
-    {"show": 10, "base": "Sighnaghi", "experience": "Drive east into Kakheti and stay in Sighnaghi.", "optional": "Walk the town wall once, then stop", "highlight": "A small hill town over a wine valley, low enough for April", "kids": "The wall and the view. One short walk.", "intensity": "moderate", "transfer": "About two hours from Tbilisi in normal conditions. Use a driver. Confirm the day you go.", "seasonal": "This valley is open when the high passes are not.", "wet": "The town is the plan. You do not need a vineyard."},
-    {"show": 12, "base": "Sighnaghi", "experience": "A slow valley morning. One short stop for the adults, then back to the town.", "optional": "A family-friendly cooking hour rather than a wine tour", "highlight": "Staying in the east instead of only seeing it from a bus", "kids": "The 6-year-old does not do a tasting room. Bread, cheese and a courtyard are the visit.", "intensity": "light", "transfer": "Local, with the driver.", "seasonal": "April vines are not the autumn show. The town is the reason.", "wet": "Stay in Sighnaghi."},
-    {"show": 10, "base": "Kazbegi", "experience": "Return toward Tbilisi and continue up the Military Highway with a driver. Stop at the fortress and the confluence viewpoints.", "optional": "Gergeti only if the final road is open and the weather is calm", "highlight": "A church under Kazbek", "kids": "The drive is long and winding. Gergeti can be a short visit, not a hike.", "intensity": "demanding", "transfer": "Sighnaghi back through Tbilisi and on to Stepantsminda is a full day, often five hours or more. If that is too much, sleep in Tbilisi and drive up the next morning.", "seasonal": "Early April is the riskier half. A local driver is the recommendation in shoulder season.", "wet": "Do not climb to the church in cloud and ice. Stop in Tbilisi if the mountain road is bad."},
-    {"show": 10, "base": "Kazbegi", "experience": "A slow mountain morning and the drive back to Tbilisi.", "optional": "A second look at Gergeti if yesterday failed", "highlight": "Snow on the peaks and green lower slopes", "kids": "One viewpoint, then the car.", "intensity": "moderate", "transfer": "Back to Tbilisi the same day so you are not stuck if the weather turns.", "seasonal": "Have a Tbilisi hotel you can return to.", "wet": "Drive back."},
-    {"show": 10, "base": "Tbilisi", "experience": "Mtskheta half day, then a free afternoon.", "optional": "A cooking class", "highlight": "An old church town at the rivers' meeting", "kids": "A half day is the right length.", "intensity": "light", "transfer": "Under an hour.", "seasonal": "Easy compared with Kazbegi.", "wet": "Stay in Tbilisi and cook."},
-    {"show": 10, "base": "Tbilisi", "experience": "Fly out.", "optional": "A last walk", "highlight": "A short trip, which is the honest April shape", "kids": "Easy morning.", "intensity": "light", "transfer": "Airport taxi.", "seasonal": "If you wanted two weeks, this destination is telling you to come later in the year.", "wet": "Airport."}
+    {
+      "show": 10,
+      "base": "Tbilisi",
+      "experience": "Land and walk the river.",
+      "optional": "A cable car if energy remains",
+      "highlight": "A city in a gorge",
+      "kids": "The cable car is the first treat.",
+      "intensity": "light",
+      "transfer": "Airport to the old town is a taxi.",
+      "seasonal": "April rain in the city.",
+      "wet": "A bakery and the hotel."
+    },
+    {
+      "show": 10,
+      "base": "Tbilisi",
+      "experience": "Old town, a fortress view, and a free afternoon.",
+      "optional": "The sulphur district from the street. Baths are optional and not for the children unless a family-friendly one is confirmed.",
+      "highlight": "Balconies and a ruined fort",
+      "kids": "Short and visual.",
+      "intensity": "light",
+      "transfer": "On foot. Hills and cobbles.",
+      "seasonal": "None.",
+      "wet": "A museum. Confirm which one is good for children before you rely on it."
+    },
+    {
+      "show": 10,
+      "base": "Sighnaghi",
+      "experience": "Drive east into Kakheti and stay in Sighnaghi.",
+      "optional": "Walk the town wall once, then stop",
+      "highlight": "A small hill town over a wine valley, low enough for April",
+      "kids": "The wall and the view. One short walk.",
+      "intensity": "moderate",
+      "transfer": "About two hours from Tbilisi in normal conditions. Use a driver. Confirm the day you go.",
+      "seasonal": "This valley is open when the high passes are not.",
+      "wet": "The town is the plan. You do not need a vineyard."
+    },
+    {
+      "show": 12,
+      "base": "Sighnaghi",
+      "experience": "A slow valley morning. One short stop for the adults, then back to the town.",
+      "optional": "A family-friendly cooking hour rather than a wine tour",
+      "highlight": "Staying in the east instead of only seeing it from a bus",
+      "kids": "The 6-year-old does not do a tasting room. Bread, cheese and a courtyard are the visit.",
+      "intensity": "light",
+      "transfer": "Local, with the driver.",
+      "seasonal": "April vines are not the autumn show. The town is the reason.",
+      "wet": "Stay in Sighnaghi."
+    },
+    {
+      "show": 10,
+      "base": "Kazbegi",
+      "experience": "Return toward Tbilisi and continue up the Military Highway with a driver. Stop at the fortress and the confluence viewpoints.",
+      "optional": "Gergeti only if the final road is open and the weather is calm",
+      "highlight": "A church under Kazbek",
+      "kids": "The drive is long and winding. Gergeti can be a short visit, not a hike.",
+      "intensity": "demanding",
+      "transfer": "Sighnaghi back through Tbilisi and on to Stepantsminda is a full day, often five hours or more. If that is too much, sleep in Tbilisi and drive up the next morning.",
+      "seasonal": "Early April is the riskier half. A local driver is the recommendation in shoulder season.",
+      "wet": "Do not climb to the church in cloud and ice. Stop in Tbilisi if the mountain road is bad."
+    },
+    {
+      "show": 10,
+      "base": "Kazbegi",
+      "experience": "A slow mountain morning and the drive back to Tbilisi.",
+      "optional": "A second look at Gergeti if yesterday failed",
+      "highlight": "Snow on the peaks and green lower slopes",
+      "kids": "One viewpoint, then the car.",
+      "intensity": "moderate",
+      "transfer": "Back to Tbilisi the same day so you are not stuck if the weather turns.",
+      "seasonal": "Have a Tbilisi hotel you can return to.",
+      "wet": "Drive back."
+    },
+    {
+      "show": 10,
+      "base": "Tbilisi",
+      "experience": "Mtskheta half day, then a free afternoon.",
+      "optional": "A cooking class",
+      "highlight": "An old church town at the rivers' meeting",
+      "kids": "A half day is the right length.",
+      "intensity": "light",
+      "transfer": "Under an hour.",
+      "seasonal": "Easy compared with Kazbegi.",
+      "wet": "Stay in Tbilisi and cook."
+    },
+    {
+      "show": 10,
+      "base": "Tbilisi",
+      "experience": "Fly out.",
+      "optional": "A last walk",
+      "highlight": "A short trip, which is the honest April shape",
+      "kids": "Easy morning.",
+      "intensity": "light",
+      "transfer": "Airport taxi.",
+      "seasonal": "If you wanted two weeks, this destination is telling you to come later in the year.",
+      "wet": "Airport."
+    }
   ],
   "sources": [
-    {"tag": "verified", "title": "Who needs a visa", "url": "https://georgia.travel/coming-to-georgia/georgia-travel-visa-application", "note": "Official Georgia Travel list. Australia is visa-free. Ordinary Indian passports are not on that list."},
-    {"tag": "seasonal", "title": "April temperatures and which passes are shut", "url": "https://maspindzeli.ge/weather/april/", "note": "Local weather guide. Kazbegi near 10°C by day. Tusheti passes usually shut until late May or June."},
-    {"tag": "opinion", "title": "Kazbegi in April is open in the valley and icy higher up", "url": "https://vitistravel.com/en/blogs/georgia-in-april-2026-weather-events-what-to-do", "note": "Operator article. A driver is recommended on the Military Highway in early April."},
-    {"tag": "recheck", "title": "Typical Bengaluru–Tbilisi return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Tbilisi-Intl-TBS", "note": "Kayak India typical band. Not an April 2027 fare."}
+    {
+      "tag": "verified",
+      "title": "Who needs a visa",
+      "url": "https://georgia.travel/coming-to-georgia/georgia-travel-visa-application",
+      "note": "Official Georgia Travel list. Australia is visa-free. Ordinary Indian passports are not on that list."
+    },
+    {
+      "tag": "seasonal",
+      "title": "April temperatures and which passes are shut",
+      "url": "https://maspindzeli.ge/weather/april/",
+      "note": "Local weather guide. Kazbegi near 10°C by day. Tusheti passes usually shut until late May or June."
+    },
+    {
+      "tag": "opinion",
+      "title": "Kazbegi in April is open in the valley and icy higher up",
+      "url": "https://vitistravel.com/en/blogs/georgia-in-april-2026-weather-events-what-to-do",
+      "note": "Operator article. A driver is recommended on the Military Highway in early April."
+    },
+    {
+      "tag": "recheck",
+      "title": "Typical Bengaluru–Tbilisi return fare",
+      "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Tbilisi-Intl-TBS",
+      "note": "Kayak India typical band. Not an April 2027 fare."
+    },
+    {
+      "tag": "recheck",
+      "title": "Tbilisi traveler costs",
+      "url": "https://www.budgetyourtrip.com/georgia/tbilisi",
+      "note": "Budget and mid-range columns. Updated 5 September 2026."
+    }
   ]
 }

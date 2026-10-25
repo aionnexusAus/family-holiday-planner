@@ -3,23 +3,54 @@
   "pool": "main",
   "name": "Western Bhutan",
   "regionLabel": "Paro, Thimphu and Punakha",
-  "regions": ["himalaya"],
+  "regions": [
+    "himalaya"
+  ],
   "summary": "A regulated Himalayan kingdom in rhododendron season. Extraordinary and quiet. The fee, the flights and the walking are different for this group than for a couple travelling alone.",
   "why": "If the first priority is peaceful mountains and a culture the children have not met, Bhutan is the strongest match. April is before the monsoon and often flower season. The 6-year-old and the two passports are the reasons it is not the default winner.",
   "distinctive": "A national tourism policy that caps the feel of the place, dzongs above rivers, and a monastery on a cliff you can choose not to climb.",
   "scores": {
-    "nature": 5, "quiet": 5, "culture": 5, "history": 4, "adventure": 3,
-    "wildlife": 3, "science": 2, "family": 3, "mild": 4, "road": 2, "rail": 1,
-    "relaxed": 3, "variety": 3, "child6": 3, "child12": 4, "child14": 4,
-    "scenery": 5, "april": 4, "practical": 2, "mobility": 2, "unique": 5, "conventional": 2
+    "nature": 5,
+    "quiet": 5,
+    "culture": 5,
+    "history": 4,
+    "adventure": 3,
+    "wildlife": 3,
+    "science": 2,
+    "family": 3,
+    "mild": 4,
+    "road": 2,
+    "rail": 1,
+    "relaxed": 3,
+    "variety": 3,
+    "child6": 3,
+    "child12": 4,
+    "child14": 4,
+    "scenery": 5,
+    "april": 4,
+    "practical": 2,
+    "mobility": 2,
+    "unique": 5,
+    "conventional": 2
   },
   "stairs": 5,
-  "labels": {"april": "Very Good", "crowds": "Light by design", "family": "Good", "practical": "Mixed", "scenery": "Excellent"},
+  "labels": {
+    "april": "Very Good",
+    "crowds": "Light by design",
+    "family": "Good",
+    "practical": "Mixed",
+    "scenery": "Excellent"
+  },
   "weather": "April is spring in the western valleys, before the June monsoon. Days in Paro and Thimphu are often mild, nights are cold, and Punakha, lower down, is warmer. Rhododendrons are a spring event. Flower timing moves with the year.",
   "weatherStatus": "seasonal",
   "crowds": "Bhutan does not feel like a European capital in April. Festival dates follow the lunar calendar and can fill a town for a few days. The 2027 Paro Tshechu date was not published in this research. Recheck if you want a festival, or avoid it if you want the quiet version.",
   "crowdStatus": "opinion",
-  "natureExperiences": ["The Punakha valley and its river confluence", "A short ridge walk, not a trek", "Chele La only if the road is clear and the 6-year-old is having a good day", "Tiger's Nest from the cafeteria viewpoint if the full climb is too much"],
+  "natureExperiences": [
+    "The Punakha valley and its river confluence",
+    "A short ridge walk, not a trek",
+    "Chele La only if the road is clear and the 6-year-old is having a good day",
+    "Tiger's Nest from the cafeteria viewpoint if the full climb is too much"
+  ],
   "age6": "Dzong courtyards, rivers, and short walks. Tiger's Nest has many stairs. The cafeteria viewpoint is a complete visit at age 6.",
   "age12": "The fortress architecture, archery if a demonstration is on, and a longer piece of the Tiger's Nest path with a turnaround point.",
   "age14": "The same, plus the idea of a country that charges visitors to stay small. They are old enough for that conversation.",
@@ -29,39 +60,205 @@
   "visaAu": "Australian passports need a visa before travel. The Sustainable Development Fee for non-Indian adults was published as USD 100 per person per night under a discount running until 31 August 2027. Children from age 6 until they turn 12 pay half. Children 12 and over pay the adult fee. Under 6 pay nothing. So the 6-year-old is half, and the 12- and 14-year-olds are full, on whichever passport they hold. This is a fee fact, not a calculator, and it can change.",
   "visaIn": "Indian passports need an entry permit, not a visa. A passport or voter ID is required, and children under 18 need a passport or birth certificate and a guardian. The Indian SDF was published as Nu or INR 1,200 per adult per night, with the same child discounts. Apply ahead. Arrival processing can be slow.",
   "visaStatus": "verified-rule-recheck-fee",
-  "disadvantages": ["The nightly fee is much higher on Australian passports than on Indian passports. The children who have turned 12 pay the adult rate for their passport.", "Paro flights are the most fragile logistics in the set.", "Altitude: Paro and Thimphu sit above about 2,200 metres. Punakha is the lower, kinder valley. Take the first day slowly.", "A 6-year-old will not do a Himalayan trek. The trip has to be valleys and short walks, and that is still a wonderful trip."],
-  "uncertainties": ["Whether the USD 100 discount is still in force in April 2027. It was published through 31 August 2027.", "2027 festival dates.", "Which guide and hotel are certified when you book. Use services.bhutan.travel or the Department of Tourism list."],
-  "childTags": ["stories", "walks", "culture"],
+  "disadvantages": [
+    "The nightly fee is much higher on Australian passports than on Indian passports. The children who have turned 12 pay the adult rate for their passport.",
+    "Paro flights are the most fragile logistics in the set.",
+    "Altitude: Paro and Thimphu sit above about 2,200 metres. Punakha is the lower, kinder valley. Take the first day slowly.",
+    "A 6-year-old will not do a Himalayan trek. The trip has to be valleys and short walks, and that is still a wonderful trip."
+  ],
+  "uncertainties": [
+    "Whether the USD 100 discount is still in force in April 2027. It was published through 31 August 2027.",
+    "2027 festival dates.",
+    "Which guide and hotel are certified when you book. Use services.bhutan.travel or the Department of Tourism list."
+  ],
+  "childTags": [
+    "stories",
+    "walks",
+    "culture"
+  ],
   "climate": "mild",
-  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Punakha_Dzong%2C_Bhutan_02.jpg", "alt": "Punakha Dzong beside the river in Bhutan", "credit": "Wikimedia Commons: Punakha Dzong, Bhutan", "href": "https://commons.wikimedia.org/wiki/File:Punakha_Dzong,_Bhutan_02.jpg"},
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Punakha_Dzong%2C_Bhutan_02.jpg",
+    "alt": "Punakha Dzong beside the river in Bhutan",
+    "credit": "Wikimedia Commons: Punakha Dzong, Bhutan",
+    "href": "https://commons.wikimedia.org/wiki/File:Punakha_Dzong,_Bhutan_02.jpg"
+  },
   "gain": "The quietest cultural mountain trip, and the one most unlike anywhere else on this list.",
   "miss": "Simple independent travel, science museums, and an equal set of rules for the two passports.",
   "cost": {
     "summary": "The nightly fee alone is about ₹4.2 lakh for 13 nights in one passport split. It changes if a child holds an Australian passport. Flights, the guide and hotels are not included.",
     "lines": [
-      {"item": "Sustainable development fee", "tag": "recheck", "text": "Until 31 August 2027 the published non-Indian rate is US$100 a night from age 12, and half from age 6 until the 12th birthday. The Indian rate is ₹1,200 a night, with the same child rule. One illustration for 13 nights: if the three Australian passports are adults and the four Indian passports are one adult plus the three children, the Australian fee is US$3,900, about ₹3.7 lakh, and the Indian fee is ₹54,600. Together that is about ₹4.2 lakh. If the 6-year-old holds an Australian passport, that child pays US$50 a night instead of ₹600. This is the fee only."},
-      {"item": "Flights", "tag": "thin", "text": "A typical Melbourne–Paro return was not published. Kayak’s Australia-wide typical return to Paro was A$2,168–$2,988, and the cheap example was Perth, so that band is not used as the Melbourne fare. A Bengaluru–Paro typical fare was not published either."}
+      {
+        "item": "Sustainable development fee",
+        "tag": "recheck",
+        "text": "Until 31 August 2027 the published non-Indian rate is US$100 a night from age 12, and half from age 6 until the 12th birthday. The Indian rate is ₹1,200 a night, with the same child rule. One illustration for 13 nights: if the three Australian passports are adults and the four Indian passports are one adult plus the three children, the Australian fee is US$3,900, about ₹3.7 lakh, and the Indian fee is ₹54,600. Together that is about ₹4.2 lakh. If the 6-year-old holds an Australian passport, that child pays US$50 a night instead of ₹600. This is the fee only."
+      },
+      {
+        "item": "Flights",
+        "tag": "thin",
+        "text": "A typical Melbourne–Paro return was not published. Kayak’s Australia-wide typical return to Paro was A$2,168–$2,988, and the cheap example was Perth, so that band is not used as the Melbourne fare. A Bengaluru–Paro typical fare was not published either."
+      }
     ],
-    "leftOut": "The guide, hotels, meals and the drives are not included. The fee sits on top of those."
+    "leftOut": "The guide, hotels, meals and the drives are not included. The fee sits on top of those.",
+    "trip": {
+      "band": "about ₹4 lakh in fees, not a full trip price",
+      "note": "This is the nightly fee for 13 nights in one passport split. Flights, the guide and hotels are not in it.",
+      "text": "No full trip band. A published traveler average for Paro hotels and meals was not used, and the flights were not published. The fee illustration already on this page is the only group figure."
+    }
   },
   "stretch16": "Add rest days in Punakha. Do not add a trek.",
   "days": [
-    {"show": 10, "base": "Paro", "experience": "Land in daylight and do nothing strenuous.", "optional": "A short walk in town", "highlight": "The valley itself, at about 2,200 metres", "kids": "Watch how everyone feels. Headache means the next day gets shorter.", "intensity": "light", "transfer": "Paro only, in daylight. Build a buffer night in Delhi, Bangkok or Singapore in case the flight does not leave.", "seasonal": "Cloud cancels flights. This is the main operational risk.", "wet": "The hotel. Arriving is enough."},
-    {"show": 10, "base": "Paro", "experience": "A museum or a dzong courtyard, kept short.", "optional": "The national museum if it is open", "highlight": "Fortress architecture and a first look at the traditions", "kids": "Courtyards and paintings of animals and demons. Leave before it becomes a lecture.", "intensity": "light", "transfer": "With your guide. Short drives.", "seasonal": "Dress for a cool morning.", "wet": "The museum is the plan."},
-    {"show": 10, "base": "Paro", "experience": "Tiger's Nest only as far as the group is happy. The cafeteria viewpoint counts.", "optional": "Turn around at the first tea house", "highlight": "The cliff monastery, seen clearly even if you do not reach the door", "kids": "Age 6 should not be marched to the top. Ages 12 and 14 can go further with one parent while the others wait, if your guide agrees that split is safe.", "intensity": "demanding", "transfer": "A short drive to the trailhead, then a climb.", "seasonal": "The path is steep at any time of year. Rain makes it harder.", "wet": "Do not start. Use a valley dzong instead."},
-    {"show": 12, "base": "Thimphu", "experience": "Drive to Thimphu. A textile or folk museum, and the big Buddha overlook.", "optional": "Weekend archery only if you are there on the right day", "highlight": "A small capital in a valley", "kids": "The animals at the folk museum, or the post office stamps. Keep it light.", "intensity": "moderate", "transfer": "About 1–1.5 hours from Paro in normal conditions. The road can be slower.", "seasonal": "Thimphu is higher. Another early night.", "wet": "Indoor crafts and a cafe."},
-    {"show": 10, "base": "Punakha", "experience": "Cross the pass to Punakha and stay. The lower valley is the family base.", "optional": "Stop at the pass chorten if the wind is kind", "highlight": "Rice terraces and a warmer river valley", "kids": "The drive is winding. Sit the 6-year-old where they can see forward.", "intensity": "moderate", "transfer": "Often about 3 hours from Thimphu. Allow more.", "seasonal": "Dochu La can be in cloud. The flowering trees are a bonus, not a booking.", "wet": "Drive if the road is open. The valley is the destination."},
-    {"show": 10, "base": "Punakha", "experience": "Punakha Dzong and the river confluence.", "optional": "A short suspension-bridge walk", "highlight": "A white-walled fortress where two rivers meet", "kids": "All three ages. Courtyards, bridges, and a limit on stairs.", "intensity": "moderate", "transfer": "Local, with the guide.", "seasonal": "This is the best base for the 6-year-old.", "wet": "The dzong and a long lunch."},
-    {"show": 10, "base": "Punakha", "experience": "A free valley day. A village walk and nothing else.", "optional": "A short nature walk the guide knows is gentle", "highlight": "Ordinary Bhutan, which is the point", "kids": "Let them set the length.", "intensity": "light", "transfer": "None long.", "seasonal": "Farm dogs and narrow paths. Stay with the guide.", "wet": "Rest. Read. Draw the dzong."},
-    {"show": 12, "base": "Punakha", "experience": "Another easy day, or a picnic by the river.", "optional": "A cooking hour at the hotel", "highlight": "Chilies and cheese, with rice for the cautious", "kids": "The 14-year-old can help cook. The 6-year-old can stir.", "intensity": "light", "transfer": "None.", "seasonal": "Food is spicy. Ask.", "wet": "Cooking is indoors."},
-    {"show": 10, "base": "Paro", "experience": "Return to Paro over the pass. No new hike.", "optional": "A last handicraft stop", "highlight": "Being back near the airport a day early", "kids": "Car day.", "intensity": "moderate", "transfer": "Allow 3–4 hours.", "seasonal": "The buffer exists because the outbound flight is also weather-dependent.", "wet": "Still drive if the road is open."},
-    {"show": 10, "base": "Paro", "experience": "A free last day in case the flight moves, or a very short walk if it does not.", "optional": "Nothing", "highlight": "Leaving in daylight, when the plane can", "kids": "Pack and play.", "intensity": "light", "transfer": "Paro airport is close to town. The onward connection needs a buffer in the hub city.", "seasonal": "Do not book a same-day long haul out of Delhi or Bangkok unless the Paro flight is early and the connection is generous.", "wet": "Wait at the hotel if the airline says so."}
+    {
+      "show": 10,
+      "base": "Paro",
+      "experience": "Land in daylight and do nothing strenuous.",
+      "optional": "A short walk in town",
+      "highlight": "The valley itself, at about 2,200 metres",
+      "kids": "Watch how everyone feels. Headache means the next day gets shorter.",
+      "intensity": "light",
+      "transfer": "Paro only, in daylight. Build a buffer night in Delhi, Bangkok or Singapore in case the flight does not leave.",
+      "seasonal": "Cloud cancels flights. This is the main operational risk.",
+      "wet": "The hotel. Arriving is enough."
+    },
+    {
+      "show": 10,
+      "base": "Paro",
+      "experience": "A museum or a dzong courtyard, kept short.",
+      "optional": "The national museum if it is open",
+      "highlight": "Fortress architecture and a first look at the traditions",
+      "kids": "Courtyards and paintings of animals and demons. Leave before it becomes a lecture.",
+      "intensity": "light",
+      "transfer": "With your guide. Short drives.",
+      "seasonal": "Dress for a cool morning.",
+      "wet": "The museum is the plan."
+    },
+    {
+      "show": 10,
+      "base": "Paro",
+      "experience": "Tiger's Nest only as far as the group is happy. The cafeteria viewpoint counts.",
+      "optional": "Turn around at the first tea house",
+      "highlight": "The cliff monastery, seen clearly even if you do not reach the door",
+      "kids": "Age 6 should not be marched to the top. Ages 12 and 14 can go further with one parent while the others wait, if your guide agrees that split is safe.",
+      "intensity": "demanding",
+      "transfer": "A short drive to the trailhead, then a climb.",
+      "seasonal": "The path is steep at any time of year. Rain makes it harder.",
+      "wet": "Do not start. Use a valley dzong instead."
+    },
+    {
+      "show": 12,
+      "base": "Thimphu",
+      "experience": "Drive to Thimphu. A textile or folk museum, and the big Buddha overlook.",
+      "optional": "Weekend archery only if you are there on the right day",
+      "highlight": "A small capital in a valley",
+      "kids": "The animals at the folk museum, or the post office stamps. Keep it light.",
+      "intensity": "moderate",
+      "transfer": "About 1–1.5 hours from Paro in normal conditions. The road can be slower.",
+      "seasonal": "Thimphu is higher. Another early night.",
+      "wet": "Indoor crafts and a cafe."
+    },
+    {
+      "show": 10,
+      "base": "Punakha",
+      "experience": "Cross the pass to Punakha and stay. The lower valley is the family base.",
+      "optional": "Stop at the pass chorten if the wind is kind",
+      "highlight": "Rice terraces and a warmer river valley",
+      "kids": "The drive is winding. Sit the 6-year-old where they can see forward.",
+      "intensity": "moderate",
+      "transfer": "Often about 3 hours from Thimphu. Allow more.",
+      "seasonal": "Dochu La can be in cloud. The flowering trees are a bonus, not a booking.",
+      "wet": "Drive if the road is open. The valley is the destination."
+    },
+    {
+      "show": 10,
+      "base": "Punakha",
+      "experience": "Punakha Dzong and the river confluence.",
+      "optional": "A short suspension-bridge walk",
+      "highlight": "A white-walled fortress where two rivers meet",
+      "kids": "All three ages. Courtyards, bridges, and a limit on stairs.",
+      "intensity": "moderate",
+      "transfer": "Local, with the guide.",
+      "seasonal": "This is the best base for the 6-year-old.",
+      "wet": "The dzong and a long lunch."
+    },
+    {
+      "show": 10,
+      "base": "Punakha",
+      "experience": "A free valley day. A village walk and nothing else.",
+      "optional": "A short nature walk the guide knows is gentle",
+      "highlight": "Ordinary Bhutan, which is the point",
+      "kids": "Let them set the length.",
+      "intensity": "light",
+      "transfer": "None long.",
+      "seasonal": "Farm dogs and narrow paths. Stay with the guide.",
+      "wet": "Rest. Read. Draw the dzong."
+    },
+    {
+      "show": 12,
+      "base": "Punakha",
+      "experience": "Another easy day, or a picnic by the river.",
+      "optional": "A cooking hour at the hotel",
+      "highlight": "Chilies and cheese, with rice for the cautious",
+      "kids": "The 14-year-old can help cook. The 6-year-old can stir.",
+      "intensity": "light",
+      "transfer": "None.",
+      "seasonal": "Food is spicy. Ask.",
+      "wet": "Cooking is indoors."
+    },
+    {
+      "show": 10,
+      "base": "Paro",
+      "experience": "Return to Paro over the pass. No new hike.",
+      "optional": "A last handicraft stop",
+      "highlight": "Being back near the airport a day early",
+      "kids": "Car day.",
+      "intensity": "moderate",
+      "transfer": "Allow 3–4 hours.",
+      "seasonal": "The buffer exists because the outbound flight is also weather-dependent.",
+      "wet": "Still drive if the road is open."
+    },
+    {
+      "show": 10,
+      "base": "Paro",
+      "experience": "A free last day in case the flight moves, or a very short walk if it does not.",
+      "optional": "Nothing",
+      "highlight": "Leaving in daylight, when the plane can",
+      "kids": "Pack and play.",
+      "intensity": "light",
+      "transfer": "Paro airport is close to town. The onward connection needs a buffer in the hub city.",
+      "seasonal": "Do not book a same-day long haul out of Delhi or Bangkok unless the Paro flight is early and the connection is generous.",
+      "wet": "Wait at the hotel if the airline says so."
+    }
   ],
   "sources": [
-    {"tag": "verified", "title": "Visa, permit and Sustainable Development Fee", "url": "https://visit.doi.gov.bt/help/faq", "note": "Department of Immigration FAQ. Indian passports use a permit. Others need a visa. SDF figures and the discount through 31 August 2027 are on this page. Recheck."},
-    {"tag": "verified", "title": "Guide requirement and independent booking", "url": "https://bhutan.travel/faqs", "note": "Official tourism FAQ: a certified guide is mandatory. Treks need an accredited operator or guide. Route permits are not required when the guide is certified."},
-    {"tag": "verified", "title": "Indian visitor permit guidance", "url": "https://www.cgiphuentsholing.gov.in/page/guidelines-for-indians-visiting-bhutan/", "note": "Consulate General of India, Phuentsholing. Certified hotels, a guide, insurance and transport are listed for Indian tourists."},
-    {"tag": "verified", "title": "Smartraveller on fees and daylight flights", "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan", "note": "Advice current at 25 October 2026 in this research. Flights depend on daylight and weather."},
-    {"tag": "seasonal", "title": "April rhododendron events are a pattern, not a 2027 date", "url": "https://bhutan.travel/", "note": "Recheck the 2027 festival calendar. Lunar dates move."}
+    {
+      "tag": "verified",
+      "title": "Visa, permit and Sustainable Development Fee",
+      "url": "https://visit.doi.gov.bt/help/faq",
+      "note": "Department of Immigration FAQ. Indian passports use a permit. Others need a visa. SDF figures and the discount through 31 August 2027 are on this page. Recheck."
+    },
+    {
+      "tag": "verified",
+      "title": "Guide requirement and independent booking",
+      "url": "https://bhutan.travel/faqs",
+      "note": "Official tourism FAQ: a certified guide is mandatory. Treks need an accredited operator or guide. Route permits are not required when the guide is certified."
+    },
+    {
+      "tag": "verified",
+      "title": "Indian visitor permit guidance",
+      "url": "https://www.cgiphuentsholing.gov.in/page/guidelines-for-indians-visiting-bhutan/",
+      "note": "Consulate General of India, Phuentsholing. Certified hotels, a guide, insurance and transport are listed for Indian tourists."
+    },
+    {
+      "tag": "verified",
+      "title": "Smartraveller on fees and daylight flights",
+      "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+      "note": "Advice current at 25 October 2026 in this research. Flights depend on daylight and weather."
+    },
+    {
+      "tag": "seasonal",
+      "title": "April rhododendron events are a pattern, not a 2027 date",
+      "url": "https://bhutan.travel/",
+      "note": "Recheck the 2027 festival calendar. Lunar dates move."
+    }
   ]
 }
