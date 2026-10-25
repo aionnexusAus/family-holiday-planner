@@ -5,7 +5,7 @@
   "regionLabel": "Chengdu, Sanxingdui and Jiuzhaigou",
   "regions": ["east-asia"],
   "summary": "Pandas at opening time, a bronze-age mystery pit, an ancient irrigation works, and a valley of coloured lakes. The most unusual education in this set, with a visa question mark for 2027.",
-  "why": "The 12- and 14-year-olds get Sanxingdui and Dujiangyan, which are real science and history. The 6-year-old gets pandas and a boardwalk valley. You can do it from Chengdu plus two side bases, by train and one short flight.",
+  "why": "The 12- and 14-year-olds get Sanxingdui and Dujiangyan, which are real science and history. The 6-year-old gets pandas and a boardwalk valley. You can do it from Chengdu plus two side bases, by train and one short flight. A 14-day loop through Beijing, Xi'an and Zhangjiajie adds the famous sights and spends the holiday changing cities. That loop is not this plan.",
   "distinctive": "A conservation centre for giant pandas beside an archaeological site that rewrote early Chinese history, and a high valley of mineral lakes.",
   "scores": {
     "nature": 5, "quiet": 3, "culture": 4, "history": 5, "adventure": 3,
@@ -36,7 +36,7 @@
   "age14": "Dujiangyan's 2,000-year-old flood works, Sanxingdui, and the question of how a landscape makes lakes that colour.",
   "adults": "Teahouses, the archaeology, and a national park that does not look like anywhere else. Sichuan food is spicy. Ask for mild plates for the children.",
   "gettingAround": "High-speed rail for Leshan. A flight of about an hour from Chengdu to Jiuzhai Huanglong Airport, then a ground transfer of about 1–1.5 hours. Confirm both in 2027. China drives on the right. You do not need a car for this plan.",
-  "meetingPoint": "Chengdu Tianfu or Shuangliu. Melbourne usually connects via a Chinese or Southeast Asian hub. Indian cities have more one-stop options. Meet in Chengdu and give the long-haul party a free first afternoon.",
+  "meetingPoint": "Chengdu Tianfu or Shuangliu. A July 2026 route listing showed no nonstop Bengaluru–Chengdu flight, only one-stop journeys. Melbourne is also usually one stop. This is the more even journey of the top options. Meet in Chengdu. Do not send the Bengaluru party through Melbourne. Recheck the 2027 timetable. Give the later arrival a free first afternoon.",
   "visaAu": "In February 2026, China's visa-free entry for ordinary Australian passports, for up to 30 days and for tourism, was described as running until 31 December 2026. April 2027 is after that date. Unless Beijing extends it, the Australian party will need a visa too. Do not book as if the waiver still exists.",
   "visaIn": "India was not on that visa-free list. Indian passports should plan on a tourist visa. The 240-hour transit scheme is not a way to spend two weeks in Sichuan, and Jiuzhaigou's prefecture has been excluded from some transit areas. Use a proper visa.",
   "visaStatus": "recheck",
@@ -61,6 +61,15 @@
   },
   "gain": "The strangest and most educational mix: living animals, ancient engineering, and a lake valley.",
   "miss": "A settled visa rule for April 2027, and the ease of travelling with young children in English.",
+  "cost": {
+    "summary": "Melbourne fares about ₹1.3–1.8 lakh for three adults. A typical Bengaluru fare for the group was not published, so there is no combined flight total. The Chinese visa fees on file expire 31 December 2026. Hotels and food are not included.",
+    "lines": [
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s typical return fare, Melbourne to Chengdu, was A$665–$917 for one adult. Three adult fares are about ₹1.3–1.8 lakh. One stop. Not an April 2027 quote."},
+      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "On 7 October 2026 a cheapest round trip was advertised at US$529 for one adult on a November date. That is one deal, not a typical price, so it is not multiplied by four."},
+      {"item": "Visas", "tag": "recheck", "text": "The reduced fees were published only through 31 December 2026. At the Delhi centre an Indian regular single entry was ₹2,900 plus a ₹2,107 service fee. In Sydney an Australian regular single entry was A$94.50 in total. April 2027 is after that date. Do not use those figures as the fee you will pay."}
+    ],
+    "leftOut": "Hotels, meals, trains, the Jiuzhaigou flight and park tickets are not included."
+  },
   "stretch16": "Add a free day in Chengdu and a free day at Jiuzhaigou. Do not add Beijing.",
   "days": [
     {"show": 10, "base": "Chengdu", "experience": "Land and walk People's Park or a nearby teahouse.", "optional": "Map the panda morning for tomorrow and go to sleep", "highlight": "A city of teahouses used as recovery", "kids": "Playground if one is close. No museum today.", "intensity": "light", "transfer": "Both families fly into Chengdu. Allow for a long airport transfer.", "seasonal": "Air quality varies. Have an indoor backup for the first day without treating it as an emergency.", "wet": "Hotel and a mild dinner."},
@@ -84,6 +93,9 @@
     {"tag": "verified", "title": "Jiuzhaigou visitor hours and peak-season pattern", "url": "https://en.jiuzhai.com/about/visitor-information", "note": "Official page. Peak season described as 1 April to 15 November. Recheck 2027 tickets and hours."},
     {"tag": "verified", "title": "Panda base opening hours", "url": "https://www.panda.org.cn/en/service/opentime/", "note": "March to October morning entry 7:30–12:00. Minors need a guardian."},
     {"tag": "seasonal", "title": "Jiuzhaigou spring temperatures", "url": "https://www.chinadiscovery.com/sichuan/jiuzhaigou/spring-season.html", "note": "Tour operator page using historic temperatures. Not an official climate series."},
-    {"tag": "recheck", "title": "Do not use 240-hour transit for this trip", "url": "https://en.nia.gov.cn/index.html", "note": "National Immigration Administration. A two-week holiday needs a visa, especially for Jiuzhaigou."}
+    {"tag": "recheck", "title": "Do not use 240-hour transit for this trip", "url": "https://en.nia.gov.cn/index.html", "note": "National Immigration Administration. A two-week holiday needs a visa, especially for Jiuzhaigou."},
+    {"tag": "recheck", "title": "No nonstop Bengaluru–Chengdu flight on a July 2026 route listing", "url": "https://www.flightconnections.com/flights-from-blr-to-tfu", "note": "Schedule aggregator. One-stop routes only at that date. Recheck April 2027. Not a fare."},
+    {"tag": "recheck", "title": "Typical Melbourne–Chengdu return fare", "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Chengdu-CTU", "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."},
+    {"tag": "recheck", "title": "One advertised Bengaluru–Chengdu round trip", "url": "https://www.trip.com/flights/bengaluru-to-chengdu/airfares-blr-ctu/", "note": "Cheapest round trip shown on 7 October 2026 for a November date. Not a typical group fare."}
   ]
 }

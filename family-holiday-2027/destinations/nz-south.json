@@ -4,14 +4,14 @@
   "name": "South Island, New Zealand",
   "regionLabel": "Mackenzie, Wānaka and Fiordland",
   "regions": ["oceania"],
-  "summary": "Autumn lakes, a high mountain, and a fiord, linked by a slow road trip. Four bases. The Melbourne party has the shortest flight of any option in this set.",
+  "summary": "Autumn lakes, a high mountain, and a fiord, linked by a slow road trip. Four bases. Melbourne to Christchurch is the short flight. Bengaluru to Christchurch is a long connection.",
   "why": "April is a real season here, not a gap between seasons. The walks, boat days and towns used in this plan are generally open, the colours in Central Otago are the reason to come, and summer crowds have dropped. Both families already drive on the left.",
   "distinctive": "Glacial lakes under a single mountain range, a dark-sky basin, and a fiord reached through a long mountain road. The trip is the landscape itself.",
   "scores": {
     "nature": 5, "quiet": 4, "culture": 3, "history": 2, "adventure": 4,
     "wildlife": 4, "science": 3, "family": 5, "mild": 5, "road": 5, "rail": 1,
     "relaxed": 4, "variety": 4, "child6": 5, "child12": 5, "child14": 4,
-    "scenery": 5, "april": 5, "practical": 5, "mobility": 4, "unique": 3, "conventional": 3
+    "scenery": 5, "april": 5, "practical": 4, "mobility": 4, "unique": 3, "conventional": 3
   },
   "stairs": 2,
   "labels": {
@@ -36,12 +36,12 @@
   "age14": "The same landscapes, plus the geology of the Alps and the option to split off for a harder walk while the younger child stays by the lake.",
   "adults": "Driving days with real scenery, dark skies, and time in small towns. Māori place names and glacier stories are part of the trip, not a separate city break.",
   "gettingAround": "This is a road trip. Seven people plus bags means two cars, not one. Book a child seat for the 6-year-old and confirm the rental rule. The open-jaw that fits the map is into Christchurch and out of Queenstown.",
-  "meetingPoint": "Christchurch. Melbourne–Christchurch is often about 3.5–4 hours nonstop. The Indian party connects through a hub such as Singapore, Kuala Lumpur or an Australian city. Confirm the 2027 timetable before treating any flight as direct.",
+  "meetingPoint": "Christchurch. Melbourne–Christchurch is often about 3.5–4 hours nonstop. Bengaluru–Christchurch has no nonstop on current route listings. Published journeys connect through Singapore, Hong Kong or Australia and the fastest are about 17 hours. Meet in Christchurch, not Melbourne. Ordinary Indian passports are not on Australia's transit-without-visa list. Confirm the April 2027 timetable before treating any flight as direct.",
   "visaAu": "Australian citizens travelling on an Australian passport do not need a visa or an NZeTA. Immigration New Zealand says an Australian Resident Visa is normally granted on arrival if character requirements are met.",
   "visaIn": "Indian passports are not visa-waiver passports. They need a visitor visa before travel, not an NZeTA. Tourism New Zealand's India page says the passport should be valid for at least 3 months after the planned departure from New Zealand. Early 2026 processing for Indian visitor visas averaged about 7 working days, with an 84% approval rate from January to April 2026. That is a recent statistic, not a promise for 2027.",
   "visaStatus": "verified-rule-recheck-timing",
   "disadvantages": [
-    "The Indian party has a long flight and a real visa application. Do not buy the non-refundable tickets until that visa is approved.",
+    "The Bengaluru party has a long flight and a visitor-visa application. Do not buy the non-refundable tickets until that visa is approved. Do not meet in Melbourne unless those four already hold Australian visas.",
     "Culture and ancient history are lighter here than in Türkiye, Japan or Sichuan.",
     "Milford is a full day in the car and on a boat. The road closes for snow, avalanche control and crashes.",
     "April is not ski season. Do not plan the trip around snow sports."
@@ -59,10 +59,19 @@
     "href": "https://commons.wikimedia.org/wiki/File:Milford_Sound_(New_Zealand).JPG"
   },
   "gain": "The strongest mix of April weather, open landscapes, and a workable flight from Melbourne.",
-  "miss": "Deep cities, rail travel, and an easy visa path for the Indian passports.",
+  "miss": "Deep cities, rail travel, a short flight from Bengaluru, and an easy visa path for the Indian passports.",
+  "cost": {
+    "summary": "About ₹4.2–6.0 lakh for seven adult return fares at recently published typical prices, plus about ₹40,000–₹95,000 in New Zealand visa fees. Hotels, food and cars are not included.",
+    "lines": [
+      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak’s typical return fare for one adult, Bengaluru to Christchurch, was ₹85,861–₹121,535. Four adult fares at that band are about ₹3.4–4.9 lakh. There is no nonstop. This is not an April 2027 quote, and the 6-year-old is sometimes cheaper than an adult."},
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com’s typical return fare for one adult, Melbourne to Christchurch, was US$286–$399. Three adult fares are about ₹0.8–1.1 lakh at ₹94.86 per US dollar. Direct flights are the normal pattern. Not an April 2027 quote."},
+      {"item": "Visas", "tag": "verified", "text": "Australian citizens pay no visa fee. For Indian passports, the May 2026 fees guide charges one visitor-visa fee of NZD 341 when a partner and dependent children are included, plus an NZD 100 levy for every person. Four people on one application would be NZD 741, about ₹40,000. Two separate family applications would be NZD 1,082, about ₹58,000. Four separate applications would be NZD 1,764, about ₹95,000. Which row applies depends on who can share an application."}
+    ],
+    "leftOut": "Hotels, meals, two hire cars, fuel, the Milford cruise and the glowworm cave are not included."
+  },
   "stretch16": "Add a free day in Wānaka and a free day in Te Anau. Do not add the North Island.",
   "days": [
-    {"show": 10, "base": "Christchurch", "experience": "Land and stop. Avon walk or the Botanic Gardens only if everyone is awake.", "optional": "Canterbury Museum", "highlight": "A city of gardens used as a soft landing, not as the point of the trip", "kids": "Playground time for the 6-year-old. The older two can do a short loop.", "intensity": "light", "transfer": "Melbourne–Christchurch is often about 3.5–4 hours nonstop. The Indian itinerary is a long-haul connection. Confirm 2027 schedules.", "seasonal": "Fine in any April week. Early April still overlaps the Victorian school holiday.", "wet": "Museum and a bakery, then an early night."},
+    {"show": 10, "base": "Christchurch", "experience": "Land and stop. Avon walk or the Botanic Gardens only if everyone is awake.", "optional": "Canterbury Museum", "highlight": "A city of gardens used as a soft landing, not as the point of the trip", "kids": "Playground time for the 6-year-old. The older two can do a short loop.", "intensity": "light", "transfer": "Melbourne–Christchurch is often about 3.5–4 hours nonstop. Bengaluru–Christchurch is a long connection, often about 17 hours at the fastest. Give that party a buffer. Confirm 2027 schedules.", "seasonal": "Fine in any April week. Early April still overlaps the Victorian school holiday.", "wet": "Museum and a bakery, then an early night."},
     {"show": 10, "base": "Lake Tekapo", "experience": "Drive inland to the Mackenzie basin and stay put.", "optional": "Church of the Good Shepherd at the lake edge", "highlight": "First sight of the turquoise lake and the mountain line", "kids": "Short stops. No summit walk today.", "intensity": "moderate", "transfer": "About 3 hours from Christchurch in normal conditions.", "seasonal": "Nights are cold. Book heating and ask for a family layout before you arrive.", "wet": "The drive is still the day. Hot pools later if a local pool is open."},
     {"show": 10, "base": "Lake Tekapo", "experience": "Lake shore and Mount John, or a shorter lakefront walk if the wind is up.", "optional": "Dark Sky Project. Check the current age guidance before booking the 6-year-old.", "highlight": "A dry basin under a big sky", "kids": "All three can do the lake. Mount John is for the day the 6-year-old is walking well.", "intensity": "moderate", "transfer": "No hotel change.", "seasonal": "April nights are good for stars because the dark comes earlier than in summer.", "wet": "Stay in town. The lake is the view from the window."},
     {"show": 10, "base": "Lake Tekapo", "experience": "Day trip toward Aoraki / Mount Cook. Use lookouts if the long track is closed or the group is tired.", "optional": "Hooker Valley walk", "highlight": "The mountain, the glacier valley, and the blue lake at its foot", "kids": "Lookouts work for age 6. Hooker Valley is only if the track is open and everyone still wants to walk.", "intensity": "moderate", "transfer": "About 1.5–2 hours each way from Tekapo to Aoraki village. Confirm on the day.", "seasonal": "High tracks can close. Read the DOC advisory that morning.", "wet": "Tasman Valley shelter and the visitor centre, then back before dark."},
@@ -83,6 +92,11 @@
     {"tag": "verified", "title": "India visitor-visa processing snapshot, early 2026", "url": "https://www.byata.org.nz/assets/_site_/downloads/Immigration_Key_Messages_-_Tourism_May_2026.pdf", "note": "Tourism industry briefing of Immigration New Zealand figures, May 2026. Recheck before lodging."},
     {"tag": "seasonal", "title": "April weather and quieter autumn travel", "url": "https://www.roughguides.com/new-zealand/when-to-go/april/", "note": "Guidebook climate description, not a 2027 forecast."},
     {"tag": "opinion", "title": "South Island autumn crowds ease in April and May", "url": "https://nzpocketguide.com/the-best-time-to-visit-the-south-island/", "note": "Travel guide, not an official visitor count."},
-    {"tag": "recheck", "title": "Milford Road conditions", "url": "https://www.milfordroad.co.nz/", "note": "Check the morning you drive. Closures are operational, not seasonal theory."}
+    {"tag": "recheck", "title": "Milford Road conditions", "url": "https://www.milfordroad.co.nz/", "note": "Check the morning you drive. Closures are operational, not seasonal theory."},
+    {"tag": "recheck", "title": "No nonstop Bengaluru–Christchurch flight on a public route listing", "url": "https://www.flightconnections.com/flights-from-blr-to-chc", "note": "Schedule aggregator, not an airline. Recheck April 2027. Do not treat the listed journey time as a fare."},
+    {"tag": "verified", "title": "Ordinary Indian passports are not eligible to transit Australia without a visa", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/transit-771/travellers-eligible-to-transit-without-visa", "note": "Home Affairs transit-without-visa list. India is absent except for Indian official passports. Meeting in Melbourne needs an Australian visa."},
+    {"tag": "recheck", "title": "Typical Bengaluru–Christchurch return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Christchurch-CHC", "note": "Kayak typical band for one adult. Not an April 2027 fare. Not a quote."},
+    {"tag": "recheck", "title": "Typical Melbourne–Christchurch return fare", "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Christchurch-CHC", "note": "Kayak.com typical band in US dollars for one adult. Not an April 2027 fare."},
+    {"tag": "verified", "title": "Visitor visa fee and per-person levy", "url": "https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/Fees-Guide-INZ-1028.pdf", "note": "INZ 1028, May 2026. One fee can cover a partner and dependent children. The NZD 100 levy is per person."}
   ]
 }

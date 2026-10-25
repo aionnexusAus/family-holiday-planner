@@ -36,7 +36,7 @@
   "age14": "The same museum, Škocjan Caves if you want a wilder and steeper cave than Postojna, and the map of a country this small.",
   "adults": "Ljubljana's river, the history in the Soča valley, and food that is hearty rather than formal. Wine is optional and not the children's day.",
   "gettingAround": "A car is the right tool. Two cars for seven people. Slovenia drives on the right, which is new for both families. A vignette is required on motorways. Do not plan the trip over the Vršič Pass. In April 2026 it was not described as a full winter closure, and a works notice covered May to November 2026. Snow can still shut it. Use the lower road via Tolmin.",
-  "meetingPoint": "Ljubljana is the simple meeting airport, with fewer long-haul seats than Vienna, Zurich or Venice. Both parties should expect a European connection. Melbourne is a long way. The Indian city with the better Europe fare can decide the Indian departure airport.",
+  "meetingPoint": "Ljubljana is the simple meeting airport, with fewer long-haul seats than Vienna, Zurich or Venice. Bengaluru reaches it through a European or Gulf hub. Melbourne is the longer journey. Do not add Plitvice in the same 14 days unless you drop a Slovenia base.",
   "visaAu": "Australian passports can enter Slovenia visa-free for a short Schengen stay. Since 10 April 2026 the EU Entry/Exit System has been recording biometrics at the Schengen border. You do not apply for EES in advance. ETIAS, the online authorisation for visa-free passports, was not operating as of this research. The EU said it would announce a start date months ahead. Recheck before 2027.",
   "visaIn": "Indian passports need a Schengen visa. Apply to Slovenia if Slovenia is the main destination. Appointments, insurance and funds rules are the slow part. Start several months ahead and use the official consulate or VFS channel, not a forum checklist from a previous year.",
   "visaStatus": "verified-rule-recheck-process",
@@ -61,6 +61,15 @@
   },
   "gain": "The most compact mix of lake, river and a world-class cave, at a pace that suits a 6-year-old.",
   "miss": "An easy journey from Melbourne and India, and any promise of beach weather or high snow-free ridges.",
+  "cost": {
+    "summary": "Melbourne to Ljubljana is about ₹4.1–5.5 lakh for three adult returns. A Bengaluru typical fare was not published. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+    "lines": [
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s typical return fare, Melbourne to Ljubljana, was A$2,062–$2,770 for one adult, usually with two stops. Three adult fares are about ₹4.1–5.5 lakh. Not an April 2027 quote."},
+      {"item": "Flights from Bengaluru", "tag": "thin", "text": "A typical Bengaluru–Ljubljana return fare was not published in this pass. The route is one stop. No group total is shown."},
+      {"item": "Visas", "tag": "verified", "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+    ],
+    "leftOut": "Hotels, meals, cars, trains, cave tickets and international flights are not included."
+  },
   "stretch16": "Add a free day at Bohinj and a free day in Ljubljana. Do not add Venice.",
   "days": [
     {"show": 10, "base": "Ljubljana", "experience": "Land and walk the river. Castle funicular only if everyone is awake.", "optional": "The market for fruit and burek", "highlight": "A capital you can cross on foot", "kids": "The dragons on the bridge are the first story.", "intensity": "light", "transfer": "Airport to the old town is a short bus or taxi. The international flights are the long part.", "seasonal": "April rain is normal. A compact hotel saves the evening.", "wet": "The castle is reached by funicular. A cafe on the river is enough."},
@@ -84,6 +93,9 @@
     {"tag": "verified", "title": "Australian passports, EES, and Schengen entry", "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia", "note": "Smartraveller. Biometrics on arrival. No pre-registration for EES."},
     {"tag": "recheck", "title": "ETIAS is not operating yet", "url": "https://travel-europe.europa.eu/etias", "note": "Official EU page, checked in this research pass. A start date may be announced before April 2027."},
     {"tag": "recheck", "title": "Indian passports need a Schengen visa", "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia", "note": "The Australian page describes the system. The Indian party must use the Slovenian consulate or its visa centre for the actual application."},
-    {"tag": "recheck", "title": "Vršič road works notice from 2026", "url": "https://socasnik.si/obcinske-novice/obvestilo-o-izvajanju-del-na-prelazu-vrsic/", "note": "A 2026 municipal notice about partial closures from 4 May to 16 November 2026. It is not a 2027 status. Check promet.si."}
+    {"tag": "recheck", "title": "Vršič road works notice from 2026", "url": "https://socasnik.si/obcinske-novice/obvestilo-o-izvajanju-del-na-prelazu-vrsic/", "note": "A 2026 municipal notice about partial closures from 4 May to 16 November 2026. It is not a 2027 status. Check promet.si."},
+    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "European Commission. €90 for adults. €45 for children aged 6 to 12. Under 6 free."},
+    {"tag": "recheck", "title": "Rupee amount collected for that fee in India", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "German mission in India, 1 October 2026: ₹9,900 and ₹5,000. Another Schengen state can collect a different rupee amount, plus a visa-centre charge."},
+    {"tag": "recheck", "title": "Typical Melbourne–Ljubljana return fare", "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Ljubljana-Joze-Pucnik-LJU", "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."}
   ]
 }

@@ -36,9 +36,9 @@
   "age14": "Nagasaki's history, in the dose they can handle, plus the rail network itself. This is the destination where the 14-year-old has the most to do.",
   "adults": "Food, design, onsen etiquette, and two serious histories: a castle town and an international port. Kyoto is not required.",
   "gettingAround": "Trains between the cities. One rental car for the Aso and Takachiho days, because rural buses will exhaust a group of seven. Japan drives on the left, like both families. An International Driving Permit is worth confirming with the rental company rather than assuming.",
-  "meetingPoint": "Fukuoka (Hakata). Both parties usually connect via Seoul, Singapore, Hong Kong or Tokyo. Direct Fukuoka flights from India or Melbourne should be treated as unconfirmed until the 2027 schedule is published.",
+  "meetingPoint": "Fukuoka (Hakata). Bengaluru and Melbourne both normally connect, often via Seoul, Singapore, Hong Kong or Tokyo. Do not treat a direct Fukuoka flight from either city as real until the 2027 schedule shows it.",
   "visaAu": "Australian passports do not need a visa for a short tourist stay of up to 90 days. Japan's Ministry of Foreign Affairs lists Australia among the visa-exempt nationalities.",
-  "visaIn": "Indian passports are not on Japan's visa-exempt list. Apply through the Japanese embassy or consulate that covers the applicant's home city, usually via their visa centre. Document lists and processing times change. Start months ahead.",
+  "visaIn": "Indian passports are not on Japan's visa-exempt list. The Consulate-General of Japan in Bengaluru, through VFS, accepts tourist applications from people who currently live in Karnataka. A passport issued outside Karnataka needs Karnataka residence proof. The published checklist asks for the Bangalore flights and says a family travelling together from Bangalore should lodge together. The consulate's stated time is a minimum of six working days, and that is only a guide. If the four travellers do not live in Karnataka, use the consulate for their home, not the departure airport.",
   "visaStatus": "verified-rule-recheck-process",
   "disadvantages": [
     "The first week of April and anything from 29 April onward are the wrong weeks.",
@@ -61,6 +61,15 @@
   },
   "gain": "The best shared trip for the 12- and 14-year-olds, with trains doing the hard logistics.",
   "miss": "Wild empty nature on the scale of Fiordland or Jiuzhaigou, and a visa-free path for Indian passports.",
+  "cost": {
+    "summary": "Melbourne fares about ₹1.8–2.3 lakh for three adults. Bengaluru fares about ₹1.6–5.3 lakh for four adults, because the published airline bands are far apart. Visa fees about ₹5,200. Hotels and food are not included.",
+    "lines": [
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s typical return fare, Melbourne to Fukuoka, was A$920–$1,148 for one adult. Three adult fares are about ₹1.8–2.3 lakh at ₹66.47 per Australian dollar. One stop. Not an April 2027 quote."},
+      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "A Google Flights route page showed past-year typical return fares of about US$425–$710 on one airline and about US$700–$1,400 on another. Four adult fares across that spread are about ₹1.6–5.3 lakh at ₹94.86 per US dollar. Not an April 2027 quote."},
+      {"item": "Visas", "tag": "recheck", "text": "Australian passports pay no visa fee for a short stay. The Bengaluru visa centre listed an Indian single-entry fee of ₹500 plus a service charge of ₹800, about ₹1,300 an application, or about ₹5,200 for four. The list does not show a different child fee. Optional courier was extra."}
+    ],
+    "leftOut": "Hotels, meals, trains, the rental car and tickets are not included."
+  },
   "stretch16": "Add a free day in Yufuin and a free day in Fukuoka. Do not add Tokyo.",
   "days": [
     {"show": 10, "base": "Fukuoka", "experience": "Arrive and walk Ohori Park or the canal if the timing is kind.", "optional": "A department-store meal, which solves the first dinner", "highlight": "A compact city that is easy after a long flight", "kids": "Park first. No sightseeing list today.", "intensity": "light", "transfer": "Both families aim for Fukuoka Airport or Hakata. Confirm 2027 connections.", "seasonal": "Do not land into the 29 April holiday if you can choose.", "wet": "Canal City and an early night."},
@@ -81,8 +90,11 @@
   "sources": [
     {"tag": "verified", "title": "Japan visa exemptions, including Australia", "url": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html", "note": "Ministry of Foreign Affairs of Japan. India is not on the exempt list."},
     {"tag": "verified", "title": "Australian short stays do not need a tourist visa", "url": "https://www.brisbane.au.emb-japan.go.jp/itpr_en/visa_whoneedsavisa.html", "note": "Consulate-General of Japan in Brisbane."},
-    {"tag": "recheck", "title": "Indian passport visa applications", "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html", "note": "Use the consulate for the city where the Indian party lives. Ignore agency sites."},
+    {"tag": "recheck", "title": "Japan tourist visa via the Bengaluru consulate", "url": "https://www.vfsglobal.com/one-pager/japan/india/bengaluru/pdf/updated-TOURIST-New.pdf", "note": "VFS checklist for the Consulate-General of Japan in Bengaluru. Karnataka residents only. Family applications from Bangalore are lodged together. Recheck the document list."},
+    {"tag": "recheck", "title": "Bengaluru Japan visa timing is a minimum of six working days", "url": "https://www.vfsglobal.com/one-pager/japan/india/bengaluru/index.html", "note": "VFS page quoting the consulate. Indicative only. Not a promise for April 2027."},
     {"tag": "opinion", "title": "Kyushu in April with children: weather, blossom and Golden Week", "url": "https://littlekyushuadventures.com/kyushu-in-april-with-kids/", "note": "Family-travel article. 2026 bloom dates are cited there from JMA observations. Recheck 2027."},
-    {"tag": "recheck", "title": "Mount Aso access and volcanic gas", "url": "https://www.jma.go.jp/jma/indexe.html", "note": "Check the week you travel. Closures are operational."}
+    {"tag": "recheck", "title": "Mount Aso access and volcanic gas", "url": "https://www.jma.go.jp/jma/indexe.html", "note": "Check the week you travel. Closures are operational."},
+    {"tag": "recheck", "title": "Typical Melbourne–Fukuoka return fare", "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Fukuoka-FUK", "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."},
+    {"tag": "recheck", "title": "Past-year typical Bengaluru–Fukuoka fares by airline", "url": "https://www.google.com/travel/flights/flights-from-bengaluru-to-fukuoka.html", "note": "Google Flights airline typicals for one adult. The spread is wide. Not an April 2027 fare."}
   ]
 }

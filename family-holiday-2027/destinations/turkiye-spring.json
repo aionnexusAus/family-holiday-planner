@@ -36,7 +36,7 @@
   "age14": "Hagia Sophia and the Basilica Cistern, Ephesus, and the engineering of the rock valleys. The Rahmi M. Koç Museum in Istanbul is the science stop.",
   "adults": "The layers of Istanbul, the sculpted valleys, and a Roman city in good light. Evenings are for food, not a new monument.",
   "gettingAround": "Fly Istanbul to Cappadocia (Nevşehir or Kayseri) and Cappadocia to İzmir, then a short transfer to Selçuk. Each flight is often about 1–1.5 hours. Book seven seats early. A car helps in Cappadocia. Türkiye drives on the right. Two cars if you drive as a group.",
-  "meetingPoint": "Istanbul is the easy common airport for Melbourne and for major Indian cities. The Indian departure city can stay undecided until you know which Indian airport has the better Istanbul fare.",
+  "meetingPoint": "Istanbul. Both Melbourne and Bengaluru connect. A public listing in October 2026 showed no nonstop Bengaluru–Istanbul flight, with the quickest journeys a little over eight hours. Do not treat a four-hour nonstop listing into the old Ataturk airport as a real flight. Recheck April 2027.",
   "visaAu": "Ordinary Australian passports are exempt from a visa for tourism up to 90 days in any 180-day period. Official Turkish foreign-ministry guidance and Smartraveller both say this. Passport validity rules still apply.",
   "visaIn": "Ordinary, special and service Indian passports need a visa. The official e-Visa is available only if the traveller also holds a valid Schengen, US, UK or Ireland visa or residence permit, and that document must still be valid on the day they enter Türkiye. Without that supporting visa, the path is a sticker visa through a Turkish mission. Use only evisa.gov.tr if you are eligible. Many lookalike sites are not the government.",
   "visaStatus": "verified-rule-recheck-process",
@@ -61,6 +61,15 @@
   },
   "gain": "History and strange scenery in the same fortnight, in weather that suits ruins and walking.",
   "miss": "A simple visa for Indian passports, and the kind of empty nature you get in Fiordland or Bhutan.",
+  "cost": {
+    "summary": "Bengaluru to Istanbul is about ₹1.3–1.9 lakh for four adult typical returns. Melbourne’s published monthly medians run about ₹2.9 lakh in October and about ₹4.2 lakh in December, for three adults. April was not listed. The Indian visa fee was not priced.",
+    "lines": [
+      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Istanbul, was ₹31,618–₹46,740 for one adult. Four adult fares are about ₹1.3–1.9 lakh. One stop. Not an April 2027 quote."},
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "On Kayak.com, the median return from Melbourne to Istanbul was about US$1,013 in October and about US$1,466 in December. Three adult fares are about ₹2.9 lakh and ₹4.2 lakh at those two medians. April was not given. This is not a typical low-to-high band and not an April 2027 quote."},
+      {"item": "Visas", "tag": "thin", "text": "Australian ordinary passports pay no visa fee for a short stay. The Indian sticker-visa or e-Visa fee was not read from an official fee table in this pass, so it is not included."}
+    ],
+    "leftOut": "Hotels, meals, domestic flights and the balloon are not included."
+  },
   "stretch16": "Add a free day in Ürgüp and a free day in Selçuk. Do not add Antalya and Pamukkale and Gallipoli.",
   "days": [
     {"show": 10, "base": "Istanbul", "experience": "Land and walk one neighbourhood only. Galata or a Bosphorus ferry if the light is good.", "optional": "No palace on day one", "highlight": "The water between two shores", "kids": "The ferry is the right first activity.", "intensity": "light", "transfer": "Istanbul is the meeting airport. Allow a long transfer from the airport into the city.", "seasonal": "April showers are normal. Shoes that can get wet.", "wet": "A covered bazaar street and a pudding shop, kept short."},
@@ -84,6 +93,9 @@
     {"tag": "verified", "title": "Use only the official e-Visa site", "url": "https://newdelhi-emb.mfa.gov.tr/Mission/ShowAnnouncement/361514", "note": "Turkish Embassy in New Delhi. The official site is evisa.gov.tr."},
     {"tag": "verified", "title": "Smartraveller confirms the Australian exemption", "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye", "note": "Still check the Turkish page before travel."},
     {"tag": "seasonal", "title": "April temperatures from long-run station normals", "url": "https://turkeyfrontier.com/plan/weather/april/", "note": "Secondary article citing Turkish State Meteorological Service normals. Recheck with MGM."},
-    {"tag": "recheck", "title": "Balloon age and height rules are operator rules", "url": "https://voyagerballoons.com/frequently-asked-questions/", "note": "One licensed operator's FAQ: age 6 and about 4 ft 6 in. Another operator may differ. The civil aviation authority leaves the child rule to each operator's manual."}
+    {"tag": "recheck", "title": "Balloon age and height rules are operator rules", "url": "https://voyagerballoons.com/frequently-asked-questions/", "note": "One licensed operator's FAQ: age 6 and about 4 ft 6 in. Another operator may differ. The civil aviation authority leaves the child rule to each operator's manual."},
+    {"tag": "recheck", "title": "No nonstop Bengaluru–Istanbul flight on a public listing", "url": "https://www.kayak.com/flight-routes/Bengaluru-Intl-BLR/Istanbul-IST", "note": "Metasearch snapshot, October 2026. Quickest listed journey a little over 8 hours with a connection. Recheck April 2027. Not a fare."},
+    {"tag": "recheck", "title": "Typical Bengaluru–Istanbul return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Istanbul-other-airports-IST", "note": "Kayak India typical band for one adult. Not an April 2027 fare."},
+    {"tag": "recheck", "title": "Melbourne–Istanbul monthly medians", "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Istanbul-IST", "note": "October and December medians on Kayak.com, in US dollars. April was not listed."}
   ]
 }

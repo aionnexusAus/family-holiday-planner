@@ -58,7 +58,7 @@
     "age14": "The same, plus the old whaling lookouts and why the hunt stopped. Faial's university boats are the deeper version, and they require a second island this plan does not take.",
     "adults": "Slow driving, cooking in a volcanic valley, and a landscape that changes with each ridge. Nightlife is not the product.",
     "gettingAround": "A car, or two. Roads are narrow, green and sometimes cow-paced. Portugal drives on the right. Do not add Terceira or Pico unless you are willing to lose a day to weather. Inter-island flights cancel.",
-    "meetingPoint": "Ponta Delgada, almost always via Lisbon or another European hub. From Melbourne this is one of the longest journeys in the set. From India it is also a two- or three-flight day. The island is the reward after a hard journey, which is why it ranks lower on practicality.",
+    "meetingPoint": "Ponta Delgada, almost always via Lisbon or another European hub. From Melbourne this is one of the longest journeys in the set. From Bengaluru it is also two flights or more. The island is the reward after a hard journey, which is why it ranks lower on practicality.",
     "visaAu": "Same Schengen position as mainland Portugal. Australian passports are visa-free for a short stay, EES biometrics apply at the first Schengen entry, and ETIAS was not yet operating.",
     "visaIn": "Indian passports need a Schengen visa. If the whole trip is the Azores, Portugal is the country to apply to. The islands are not a separate visa.",
     "visaStatus": "verified-rule-recheck-process",
@@ -88,6 +88,27 @@
     },
     "gain": "The quietest dramatic nature, with a real chance of whales and almost no famous-city noise.",
     "miss": "A sane flight from Melbourne, and the culture and history depth of Japan or Türkiye.",
+    "cost": {
+      "summary": "One recent Melbourne to Ponta Delgada return was about ₹6.7 lakh for three adults. That is a single fare, not a typical band. Bengaluru was not published. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+      "lines": [
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com.au showed a cheapest recent return, Melbourne to Ponta Delgada, of A$3,353 for one adult, with two stops. Three adult fares at that one price are about ₹6.7 lakh. A typical low-to-high band was not published, so this is not a range."
+        },
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "thin",
+          "text": "A typical Bengaluru–Ponta Delgada return fare was not published in this pass. No group total is shown."
+        },
+        {
+          "item": "Visas",
+          "tag": "verified",
+          "text": "The Azores are in Portugal, so the same Schengen fee applies. It is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+        }
+      ],
+      "leftOut": "Hotels, meals, island transport, boat trips and international flights are not included."
+    },
     "stretch16": "Add two weather-buffer days, not a second island.",
     "days": [
       {
@@ -283,6 +304,24 @@
         "title": "Schengen visa for Indian passports, visa-free for Australian passports",
         "url": "https://travel-europe.europa.eu/etias",
         "note": "ETIAS status as of this research. Portugal is in the Schengen area, and the Azores are part of Portugal."
+      },
+      {
+        "tag": "verified",
+        "title": "Schengen visa fee",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+        "note": "€90 from age 12. €45 from age 6 until the 12th birthday."
+      },
+      {
+        "tag": "recheck",
+        "title": "Rupee amount a German mission was collecting",
+        "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+        "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
+      },
+      {
+        "tag": "recheck",
+        "title": "One recent Melbourne–Ponta Delgada return",
+        "url": "https://www.kayak.com.au/flight-routes/Melbourne-other-airports-MEL/Ponta-Delgada-Acores-Nordela-PDL",
+        "note": "A single cheapest return, not a typical band. Not an April 2027 fare."
       }
     ]
   },
@@ -344,7 +383,7 @@
     "age14": "The same, plus the idea of a country that charges visitors to stay small. They are old enough for that conversation.",
     "adults": "The quiet, the textiles, the food, and time with a guide who can explain what you are looking at.",
     "gettingAround": "Bhutan's tourism FAQ says a certified guide is mandatory, including beyond the border towns. Indian government guidance for Indian visitors also lists a guide, certified accommodation, insurance and transport. You can book the pieces yourself. Treks need an accredited guide or operator. This plan does not trek. Roads are slow and winding. Budget two or three hours for valleys that look close on a map.",
-    "meetingPoint": "Paro. Flights are daylight only and cancel in cloud. Seats are limited. Indian travellers have more routing options, including via Delhi or Kolkata, and a land border that the Australian party does not use in the same way. The simple plan is that everyone flies into Paro. Book when the visa or permit is approved.",
+    "meetingPoint": "Paro. Flights are daylight only and cancel in cloud. Seats are limited. From Bengaluru the usual path is via Delhi, Kolkata or another hub, not a direct flight. The Melbourne party has the same Paro constraint and a longer first leg. Everyone flies into Paro. Book when the visa or permit is approved.",
     "visaAu": "Australian passports need a visa before travel. The Sustainable Development Fee for non-Indian adults was published as USD 100 per person per night under a discount running until 31 August 2027. Children from age 6 until they turn 12 pay half. Children 12 and over pay the adult fee. Under 6 pay nothing. So the 6-year-old is half, and the 12- and 14-year-olds are full, on whichever passport they hold. This is a fee fact, not a calculator, and it can change.",
     "visaIn": "Indian passports need an entry permit, not a visa. A passport or voter ID is required, and children under 18 need a passport or birth certificate and a guardian. The Indian SDF was published as Nu or INR 1,200 per adult per night, with the same child discounts. Apply ahead. Arrival processing can be slow.",
     "visaStatus": "verified-rule-recheck-fee",
@@ -373,6 +412,22 @@
     },
     "gain": "The quietest cultural mountain trip, and the one most unlike anywhere else on this list.",
     "miss": "Simple independent travel, science museums, and an equal set of rules for the two passports.",
+    "cost": {
+      "summary": "The nightly fee alone is about ₹4.2 lakh for 13 nights in one passport split. It changes if a child holds an Australian passport. Flights, the guide and hotels are not included.",
+      "lines": [
+        {
+          "item": "Sustainable development fee",
+          "tag": "recheck",
+          "text": "Until 31 August 2027 the published non-Indian rate is US$100 a night from age 12, and half from age 6 until the 12th birthday. The Indian rate is ₹1,200 a night, with the same child rule. One illustration for 13 nights: if the three Australian passports are adults and the four Indian passports are one adult plus the three children, the Australian fee is US$3,900, about ₹3.7 lakh, and the Indian fee is ₹54,600. Together that is about ₹4.2 lakh. If the 6-year-old holds an Australian passport, that child pays US$50 a night instead of ₹600. This is the fee only."
+        },
+        {
+          "item": "Flights",
+          "tag": "thin",
+          "text": "A typical Melbourne–Paro return was not published. Kayak’s Australia-wide typical return to Paro was A$2,168–$2,988, and the cheap example was Perth, so that band is not used as the Melbourne fare. A Bengaluru–Paro typical fare was not published either."
+        }
+      ],
+      "leftOut": "The guide, hotels, meals and the drives are not included. The fee sits on top of those."
+    },
     "stretch16": "Add rest days in Punakha. Do not add a trek.",
     "days": [
       {
@@ -587,7 +642,7 @@
     "age14": "The same, and the question of why the park now uses timed entry.",
     "adults": "The water, the food in Istria, and Roman Parentium in Poreč if you want one serious building.",
     "gettingAround": "A car, or two. Croatia drives on the right. Ferries to Hvar or Korčula are the wrong tool in April. Many island services are still thin.",
-    "meetingPoint": "Zagreb is the straightforward airport, then a drive south to the lakes. Both families connect through Europe. Venice or Ljubljana are possible alternates and add a border.",
+    "meetingPoint": "Zagreb, then a drive south to the lakes. Bengaluru and Melbourne both connect through Europe. Venice or Ljubljana are possible alternates and add a border. This is its own trip, not a bolt-on to Slovenia.",
     "visaAu": "Croatia is Schengen. Australian passports are visa-free for a short stay. EES applies. ETIAS was not operating.",
     "visaIn": "Indian passports need a Schengen visa. Apply to Croatia if the nights are mostly there.",
     "visaStatus": "verified-rule-recheck-process",
@@ -616,6 +671,27 @@
     },
     "gain": "The best waterfall landscape that still fits a calm April pace.",
     "miss": "A city-and-science balance, and any swimming holiday.",
+    "cost": {
+      "summary": "Bengaluru to Zagreb is about ₹2.5–2.9 lakh for four adult typical returns. Melbourne’s past-year average is about ₹4.3 lakh for three adults. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+      "lines": [
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "Kayak.co.in’s typical return fare, Bengaluru to Zagreb, was ₹62,033–₹72,517 for one adult, with one stop. Four adult fares are about ₹2.5–2.9 lakh. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com.au’s past-year average return from Melbourne to Zagreb was about A$2,151. Three adult fares are about ₹4.3 lakh. A low-to-high typical band for Melbourne itself was not published. Not an April 2027 quote."
+        },
+        {
+          "item": "Visas",
+          "tag": "verified",
+          "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+        }
+      ],
+      "leftOut": "Hotels, meals, the car, park tickets and international flights are not included."
+    },
     "stretch16": "Add free days in Istria. Do not add Dubrovnik and Split.",
     "days": [
       {
@@ -763,6 +839,30 @@
         "title": "Official park entry",
         "url": "https://np-plitvicka-jezera.hr/en/",
         "note": "Timed entry, routes and prices for 2027 must be read here."
+      },
+      {
+        "tag": "verified",
+        "title": "Schengen visa fee",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+        "note": "€90 from age 12. €45 from age 6 until the 12th birthday."
+      },
+      {
+        "tag": "recheck",
+        "title": "Rupee amount a German mission was collecting",
+        "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+        "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Bengaluru–Zagreb return fare",
+        "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Zagreb-Franjo-Tuman-ZAG",
+        "note": "Kayak India typical band. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Melbourne–Zagreb past-year average",
+        "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Zagreb-Franjo-Tuman-ZAG",
+        "note": "Average return from Melbourne. A low-to-high band for Melbourne was not on the page."
       }
     ]
   },
@@ -771,12 +871,12 @@
     "pool": "aside",
     "asideReason": "Indian ordinary passports need a Georgian visa. Australian passports do not. In April the high Caucasus is only partly open: Kazbegi is cold, and the roads into Tusheti and much of Svaneti are often still shut. It is a strong trip in May or June, and a compromised one for this group in April.",
     "name": "Georgia",
-    "regionLabel": "Tbilisi and Kazbegi",
+    "regionLabel": "Tbilisi, Sighnaghi and Kazbegi",
     "regions": [
       "west-asia"
     ],
-    "summary": "A wine-and-fortress capital and a high church under a snowy mountain. Held back for April access and the Indian visa.",
-    "why": "The landscapes and the food are memorable, and the country is less travelled than Italy or Türkiye. April gives you Tbilisi and a cold Kazbegi day. It does not give you the high villages.",
+    "summary": "Three bases that still work in April: Tbilisi, the hill town of Sighnaghi in Kakheti, and one night toward Kazbek. Held back for the Indian visa and the shut high passes.",
+    "why": "Tbilisi is the city. Sighnaghi is the easier landscape, low enough for April. Kazbegi is the one high night, and you come back down. The trip still does not reach the high villages of Tusheti or Svaneti.",
     "distinctive": "A capital in a river gorge, and Gergeti Trinity Church under Mount Kazbek when the last road is open.",
     "scores": {
       "nature": 4,
@@ -825,7 +925,7 @@
     "age14": "The same, and the old town's layers. They will feel the limit of the April map.",
     "adults": "Food and wine. The wine is not the children's itinerary.",
     "gettingAround": "A driver is wiser than two rental cars in April on the Military Highway. Georgia drives on the right. Distances are short and roads are slow.",
-    "meetingPoint": "Tbilisi. Connections via Istanbul, the Gulf or Europe. Fine from India. Long from Melbourne.",
+    "meetingPoint": "Tbilisi. Connections from Bengaluru via Istanbul, the Gulf or Europe. Long from Melbourne.",
     "visaAu": "Georgia's official travel site lists Australia among the nationalities that do not need a visa and may stay up to a year. Recheck the same page. Rules of stay can still include registration details.",
     "visaIn": "The same official list does not give ordinary Indian passports a visa-free stay. Diplomatic or official Indian passports are a different case. Ordinary passports should plan on an e-visa through Georgia's official portal and should ignore copycat sites.",
     "visaStatus": "verified-rule-recheck-process",
@@ -854,6 +954,27 @@
     },
     "gain": "A less obvious capital and a real mountain church, with excellent food.",
     "miss": "The high valleys, a simple Indian visa, and mild mountain weather.",
+    "cost": {
+      "summary": "Bengaluru to Tbilisi is about ₹2.0–2.5 lakh for four adult typical returns. A Melbourne typical fare was not published. The Indian visa fee was not priced.",
+      "lines": [
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "Kayak.co.in’s typical return fare, Bengaluru to Tbilisi, was ₹50,666–₹63,438 for one adult, with one stop. Four adult fares are about ₹2.0–2.5 lakh. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Melbourne",
+          "tag": "thin",
+          "text": "A typical Melbourne–Tbilisi return fare was not published in this pass."
+        },
+        {
+          "item": "Visas",
+          "tag": "thin",
+          "text": "Australian passports do not pay a visa fee for a short stay on the published list. Ordinary Indian passports need a visa. The fee was not read from the official e-visa table in this pass."
+        }
+      ],
+      "leftOut": "Hotels, meals, a driver and international flights are not included."
+    },
     "stretch16": "Not the place to add days in April. Come in June if this is the dream.",
     "days": [
       {
@@ -882,15 +1003,39 @@
       },
       {
         "show": 10,
+        "base": "Sighnaghi",
+        "experience": "Drive east into Kakheti and stay in Sighnaghi.",
+        "optional": "Walk the town wall once, then stop",
+        "highlight": "A small hill town over a wine valley, low enough for April",
+        "kids": "The wall and the view. One short walk.",
+        "intensity": "moderate",
+        "transfer": "About two hours from Tbilisi in normal conditions. Use a driver. Confirm the day you go.",
+        "seasonal": "This valley is open when the high passes are not.",
+        "wet": "The town is the plan. You do not need a vineyard."
+      },
+      {
+        "show": 12,
+        "base": "Sighnaghi",
+        "experience": "A slow valley morning. One short stop for the adults, then back to the town.",
+        "optional": "A family-friendly cooking hour rather than a wine tour",
+        "highlight": "Staying in the east instead of only seeing it from a bus",
+        "kids": "The 6-year-old does not do a tasting room. Bread, cheese and a courtyard are the visit.",
+        "intensity": "light",
+        "transfer": "Local, with the driver.",
+        "seasonal": "April vines are not the autumn show. The town is the reason.",
+        "wet": "Stay in Sighnaghi."
+      },
+      {
+        "show": 10,
         "base": "Kazbegi",
-        "experience": "Drive the Military Highway with a driver. Stop at the fortress and the confluence viewpoints.",
+        "experience": "Return toward Tbilisi and continue up the Military Highway with a driver. Stop at the fortress and the confluence viewpoints.",
         "optional": "Gergeti only if the final road is open and the weather is calm",
         "highlight": "A church under Kazbek",
         "kids": "The drive is long and winding. Gergeti can be a short visit, not a hike.",
-        "intensity": "moderate",
-        "transfer": "About 3 hours from Tbilisi to Stepantsminda in normal conditions. Ice and trucks make it longer.",
+        "intensity": "demanding",
+        "transfer": "Sighnaghi back through Tbilisi and on to Stepantsminda is a full day, often five hours or more. If that is too much, sleep in Tbilisi and drive up the next morning.",
         "seasonal": "Early April is the riskier half. A local driver is the recommendation in shoulder season.",
-        "wet": "Do not climb to the church in cloud and ice. The valley town is enough."
+        "wet": "Do not climb to the church in cloud and ice. Stop in Tbilisi if the mountain road is bad."
       },
       {
         "show": 10,
@@ -947,6 +1092,12 @@
         "title": "Kazbegi in April is open in the valley and icy higher up",
         "url": "https://vitistravel.com/en/blogs/georgia-in-april-2026-weather-events-what-to-do",
         "note": "Operator article. A driver is recommended on the Military Highway in early April."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Bengaluru–Tbilisi return fare",
+        "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Tbilisi-Intl-TBS",
+        "note": "Kayak India typical band. Not an April 2027 fare."
       }
     ]
   },
@@ -1009,7 +1160,7 @@
     "age14": "The same landscapes, plus why the road reports matter. They can read road.is.",
     "adults": "The light, the weather as a character, and design in Reykjavík. This is not a relaxed trip.",
     "gettingAround": "A car, or two, with full insurance attention. Wind and ice are the driving story. Check road.is and vedur.is every morning. Do not plan the interior.",
-    "meetingPoint": "Keflavík. Both families connect through Europe or sometimes the US or the UK. From Melbourne it is a long two-stop journey. From India, usually via Europe.",
+    "meetingPoint": "Keflavík. Bengaluru usually connects through Europe. Melbourne is often a long two-stop journey, sometimes via the US or the UK.",
     "visaAu": "Schengen visa-free, EES on entry, ETIAS not yet operating at research time.",
     "visaIn": "Schengen visa via Iceland if Iceland is the main destination.",
     "visaStatus": "verified-rule-recheck-process",
@@ -1038,6 +1189,27 @@
     },
     "gain": "The most dramatic coast per hour of driving.",
     "miss": "Mild weather, a relaxed pace, and much to do when the wind pins you indoors.",
+    "cost": {
+      "summary": "Melbourne to Keflavík is about ₹3.7–5.3 lakh for three adult returns. Bengaluru is about ₹3.0–4.1 lakh for four. Together that is about ₹6.7–9.4 lakh before the Schengen visa fee.",
+      "lines": [
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com.au’s typical return fare, Melbourne to Keflavík, was A$1,872–$2,636 for one adult, with two stops. Three adult fares are about ₹3.7–5.3 lakh. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "Kayak.co.in’s typical return fare, Bengaluru to Keflavík, was ₹75,499–₹101,823 for one adult, with two stops. Four adult fares are about ₹3.0–4.1 lakh. Not an April 2027 quote."
+        },
+        {
+          "item": "Visas",
+          "tag": "verified",
+          "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+        }
+      ],
+      "leftOut": "Hotels, meals, the car and international flights are not included."
+    },
     "stretch16": "Do not add the Westfjords or the highlands. Add pool days in Reykjavík.",
     "days": [
       {
@@ -1185,6 +1357,30 @@
         "title": "Schengen entry",
         "url": "https://travel-europe.europa.eu/etias",
         "note": "Australian visa-free. Indian visa required. ETIAS status can change."
+      },
+      {
+        "tag": "verified",
+        "title": "Schengen visa fee",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+        "note": "€90 from age 12. €45 from age 6 until the 12th birthday."
+      },
+      {
+        "tag": "recheck",
+        "title": "Rupee amount a German mission was collecting",
+        "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+        "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Melbourne–Keflavík return fare",
+        "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Reykjavik-Keflavik-Intl-KEF",
+        "note": "Kayak Australia typical band. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Bengaluru–Keflavík return fare",
+        "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Reykjavik-Keflavik-Intl-KEF",
+        "note": "Kayak India typical band. Not an April 2027 fare."
       }
     ]
   },
@@ -1246,9 +1442,9 @@
     "age14": "Nagasaki's history, in the dose they can handle, plus the rail network itself. This is the destination where the 14-year-old has the most to do.",
     "adults": "Food, design, onsen etiquette, and two serious histories: a castle town and an international port. Kyoto is not required.",
     "gettingAround": "Trains between the cities. One rental car for the Aso and Takachiho days, because rural buses will exhaust a group of seven. Japan drives on the left, like both families. An International Driving Permit is worth confirming with the rental company rather than assuming.",
-    "meetingPoint": "Fukuoka (Hakata). Both parties usually connect via Seoul, Singapore, Hong Kong or Tokyo. Direct Fukuoka flights from India or Melbourne should be treated as unconfirmed until the 2027 schedule is published.",
+    "meetingPoint": "Fukuoka (Hakata). Bengaluru and Melbourne both normally connect, often via Seoul, Singapore, Hong Kong or Tokyo. Do not treat a direct Fukuoka flight from either city as real until the 2027 schedule shows it.",
     "visaAu": "Australian passports do not need a visa for a short tourist stay of up to 90 days. Japan's Ministry of Foreign Affairs lists Australia among the visa-exempt nationalities.",
-    "visaIn": "Indian passports are not on Japan's visa-exempt list. Apply through the Japanese embassy or consulate that covers the applicant's home city, usually via their visa centre. Document lists and processing times change. Start months ahead.",
+    "visaIn": "Indian passports are not on Japan's visa-exempt list. The Consulate-General of Japan in Bengaluru, through VFS, accepts tourist applications from people who currently live in Karnataka. A passport issued outside Karnataka needs Karnataka residence proof. The published checklist asks for the Bangalore flights and says a family travelling together from Bangalore should lodge together. The consulate's stated time is a minimum of six working days, and that is only a guide. If the four travellers do not live in Karnataka, use the consulate for their home, not the departure airport.",
     "visaStatus": "verified-rule-recheck-process",
     "disadvantages": [
       "The first week of April and anything from 29 April onward are the wrong weeks.",
@@ -1277,6 +1473,27 @@
     },
     "gain": "The best shared trip for the 12- and 14-year-olds, with trains doing the hard logistics.",
     "miss": "Wild empty nature on the scale of Fiordland or Jiuzhaigou, and a visa-free path for Indian passports.",
+    "cost": {
+      "summary": "Melbourne fares about ₹1.8–2.3 lakh for three adults. Bengaluru fares about ₹1.6–5.3 lakh for four adults, because the published airline bands are far apart. Visa fees about ₹5,200. Hotels and food are not included.",
+      "lines": [
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com.au’s typical return fare, Melbourne to Fukuoka, was A$920–$1,148 for one adult. Three adult fares are about ₹1.8–2.3 lakh at ₹66.47 per Australian dollar. One stop. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "A Google Flights route page showed past-year typical return fares of about US$425–$710 on one airline and about US$700–$1,400 on another. Four adult fares across that spread are about ₹1.6–5.3 lakh at ₹94.86 per US dollar. Not an April 2027 quote."
+        },
+        {
+          "item": "Visas",
+          "tag": "recheck",
+          "text": "Australian passports pay no visa fee for a short stay. The Bengaluru visa centre listed an Indian single-entry fee of ₹500 plus a service charge of ₹800, about ₹1,300 an application, or about ₹5,200 for four. The list does not show a different child fee. Optional courier was extra."
+        }
+      ],
+      "leftOut": "Hotels, meals, trains, the rental car and tickets are not included."
+    },
     "stretch16": "Add a free day in Yufuin and a free day in Fukuoka. Do not add Tokyo.",
     "days": [
       {
@@ -1463,9 +1680,15 @@
       },
       {
         "tag": "recheck",
-        "title": "Indian passport visa applications",
-        "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-        "note": "Use the consulate for the city where the Indian party lives. Ignore agency sites."
+        "title": "Japan tourist visa via the Bengaluru consulate",
+        "url": "https://www.vfsglobal.com/one-pager/japan/india/bengaluru/pdf/updated-TOURIST-New.pdf",
+        "note": "VFS checklist for the Consulate-General of Japan in Bengaluru. Karnataka residents only. Family applications from Bangalore are lodged together. Recheck the document list."
+      },
+      {
+        "tag": "recheck",
+        "title": "Bengaluru Japan visa timing is a minimum of six working days",
+        "url": "https://www.vfsglobal.com/one-pager/japan/india/bengaluru/index.html",
+        "note": "VFS page quoting the consulate. Indicative only. Not a promise for April 2027."
       },
       {
         "tag": "opinion",
@@ -1478,6 +1701,18 @@
         "title": "Mount Aso access and volcanic gas",
         "url": "https://www.jma.go.jp/jma/indexe.html",
         "note": "Check the week you travel. Closures are operational."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Melbourne–Fukuoka return fare",
+        "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Fukuoka-FUK",
+        "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Past-year typical Bengaluru–Fukuoka fares by airline",
+        "url": "https://www.google.com/travel/flights/flights-from-bengaluru-to-fukuoka.html",
+        "note": "Google Flights airline typicals for one adult. The spread is wide. Not an April 2027 fare."
       }
     ]
   },
@@ -1539,7 +1774,7 @@
     "age14": "Gyeongju's museum, plus the science museum or a planetarium if you add a short Seoul buffer. This plan keeps Seoul optional.",
     "adults": "Food, a walkable history city, and an island that is not a resort week.",
     "gettingAround": "Fly into Jeju. A car, or two, on the island. Then a flight to Busan or Seoul and a train to Gyeongju. Korea drives on the right. Trains are the easy part.",
-    "meetingPoint": "Seoul or Jeju. Seoul is the easier ticket for both countries. A domestic hop to Jeju is about an hour. Indian passports need a visa. Australian passports were inside a K-ETA exemption through 31 December 2026. From 1 January 2027 that exemption was described as ending, so April 2027 likely needs a K-ETA. Recheck the official K-ETA site.",
+    "meetingPoint": "Seoul or Jeju. Seoul is the easier ticket from both Bengaluru and Melbourne. A domestic hop to Jeju is about an hour. Indian passports need a visa. Australian passports were inside a K-ETA exemption through 31 December 2026. From 1 January 2027 that exemption was described as ending, so April 2027 likely needs a K-ETA. Recheck the official K-ETA site.",
     "visaAu": "Short tourism stays have been visa-free for Australians, with K-ETA temporarily waived through 31 December 2026. Plan on a K-ETA for April 2027 unless Korea extends the waiver. Children have had age exemptions from K-ETA in past notices. Read the current rule for each traveller.",
     "visaIn": "Indian passports are not K-ETA eligible. The Korean consulate in Mumbai states that Indian nationals need a visa. Apply through the official mission.",
     "visaStatus": "recheck",
@@ -1570,6 +1805,27 @@
     },
     "gain": "An easy, kind, educational fortnight the children will find simple to enjoy.",
     "miss": "The dramatic landscape of the top nature picks.",
+    "cost": {
+      "summary": "Melbourne to Jeju is about ₹1.6–2.6 lakh for three adult returns. Bengaluru to Seoul, the easier meeting airport, is about ₹1.8–2.6 lakh for four. The hop from Seoul to Jeju is not included. The Korean visa fee was not priced.",
+      "lines": [
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com.au’s typical return fare, Melbourne to Jeju, was A$789–$1,327 for one adult, with one stop. Three adult fares are about ₹1.6–2.6 lakh. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "Kayak.co.in’s typical return fare, Bengaluru to Seoul Incheon, was ₹46,053–₹65,187 for one adult. Four adult fares are about ₹1.8–2.6 lakh. Seoul is the meeting airport in the plan. A separate Bengaluru–Jeju typical fare was not used. Not an April 2027 quote."
+        },
+        {
+          "item": "Visas",
+          "tag": "thin",
+          "text": "Indian passports need a Korean visa. The fee was not read from an official table in this pass. The Australian K-ETA rule for April 2027 still has to be rechecked, so no fee is shown."
+        }
+      ],
+      "leftOut": "Hotels, meals, the hop to Jeju and tickets are not included."
+    },
     "stretch16": "Add a free beach-walk day on Jeju and a free day in Gyeongju. Seoul only if the flight requires it.",
     "days": [
       {
@@ -1711,19 +1967,31 @@
         "title": "April is a mild travel month before summer humidity",
         "url": "https://english.visitkorea.or.kr/",
         "note": "Use the official site for current openings. Hallasan's upper trails must be checked that week."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Melbourne–Jeju return fare",
+        "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Jeju-City-CJU",
+        "note": "Kayak Australia typical band, Melbourne to Jeju. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Bengaluru–Seoul return fare",
+        "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Seoul-Incheon-Intl-ICN",
+        "note": "Kayak India typical band to Incheon, the meeting airport. The Jeju hop is separate."
       }
     ]
   },
   {
     "id": "norway-fjords",
     "pool": "main",
-    "name": "Bergen and the western fjords, Norway",
-    "regionLabel": "Bergen and Flåm",
+    "name": "Oslo, Flåm and Bergen, Norway",
+    "regionLabel": "Oslo, Flåm and Bergen",
     "regions": [
       "europe"
     ],
-    "summary": "A harbour city and one famous railway down to a fjord. April can be beautiful and it is also when many of Norway's great mountain roads and hikes are still shut.",
-    "why": "Choose it for the railway and the fjord light, not for hiking. The children will remember the train and the waterfalls. They will not get Trolltunga, Geiranger by road, or a mild week.",
+    "summary": "Three bases. Fly into Oslo, take the railway west to Flåm, and leave from Bergen. April can be beautiful, and it is also when many of Norway's great mountain roads and hikes are still shut.",
+    "why": "Oslo gives the children a real city before the fjord. Flåm is the railway and the water. Bergen is the harbour you fly home from. They will not get Trolltunga, Geiranger by road, or a mild week.",
     "distinctive": "A 20-kilometre branch line from a high railway down to a fjord, with a waterfall stop, in a country that is still waking up in April.",
     "scores": {
       "nature": 5,
@@ -1772,7 +2040,7 @@
     "age14": "The same, plus Bergen's wharf history. They may be disappointed if the trip was sold as hiking.",
     "adults": "The light on the water and a city you can be in for several days without strain.",
     "gettingAround": "Train and boat. Do not build a driving tour around mountain passes. The 2026 Flåm timetable showed fewer April departures than the summer timetable, and it expired in December 2026. The 2027 table is a recheck. Norway drives on the right if you do hire a car for one valley day.",
-    "meetingPoint": "Bergen or Oslo, then the Bergen railway. Both families connect through Europe. Melbourne is a long way north.",
+    "meetingPoint": "Oslo on the way in, Bergen on the way out. Bengaluru connects through Europe or the Gulf. Melbourne is the long flight. Do not plan a same-city return unless the fare forces it.",
     "visaAu": "Schengen visa-free, EES, ETIAS not yet operating.",
     "visaIn": "Schengen visa.",
     "visaStatus": "verified-rule-recheck-process",
@@ -1801,53 +2069,74 @@
     },
     "gain": "A true railway-and-fjord journey, quiet and serious.",
     "miss": "Pleasant temperatures, open hiking, and the famous mountain roads.",
-    "stretch16": "Add days in Bergen. Do not add Tromsø and hope for both aurora and mild weather.",
+    "cost": {
+      "summary": "Typical return fares from Bengaluru and Melbourne to Bergen were not published in this pass, so there is no flight total. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+      "lines": [
+        {
+          "item": "Flights from Melbourne",
+          "tag": "thin",
+          "text": "A typical Melbourne–Bergen return band was not published in this pass. One-off deals were not turned into a group total."
+        },
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "thin",
+          "text": "A typical Bengaluru–Bergen return fare was not published in this pass."
+        },
+        {
+          "item": "Visas",
+          "tag": "verified",
+          "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+        }
+      ],
+      "leftOut": "Hotels, meals, trains and international flights are not included."
+    },
+    "stretch16": "Add a free day in Oslo and a free day in Bergen. Do not add Tromsø.",
     "days": [
       {
         "show": 10,
-        "base": "Bergen",
-        "experience": "Land and walk the harbour.",
-        "optional": "Fløibanen funicular if the cloud is high enough to bother",
-        "highlight": "A wooden wharf and a mountain behind the city",
-        "kids": "The funicular is the easy win.",
+        "base": "Oslo",
+        "experience": "Land and walk the harbour. No museum today.",
+        "optional": "A ferry look at the islands only if everyone is awake",
+        "highlight": "A capital used as a soft landing",
+        "kids": "The harbour is enough.",
         "intensity": "light",
-        "transfer": "Bergen airport is a short ride. Long-haul connections are the tiring part.",
-        "seasonal": "It may rain. That is Bergen.",
-        "wet": "The funicular and a cafe."
+        "transfer": "Oslo airport to the centre is a train. Long-haul connections are the tiring part. Confirm the 2027 airport train.",
+        "seasonal": "April in the city is cool and often bright. It is not hiking weather.",
+        "wet": "Stay near the hotel and eat."
       },
       {
         "show": 10,
-        "base": "Bergen",
-        "experience": "Bryggen museum or the aquarium, and a free afternoon.",
-        "optional": "A short city walk only",
-        "highlight": "Hanseatic warehouses and fish",
-        "kids": "The aquarium is the 6-year-old's indoor day.",
+        "base": "Oslo",
+        "experience": "One indoor museum the children can handle, then a free afternoon.",
+        "optional": "The harbour and a bakery. Confirm which museum is actually open in 2027 before you name it.",
+        "highlight": "Ships, Vikings or science, in one dose",
+        "kids": "One museum. The 6-year-old sets the leaving time.",
         "intensity": "light",
-        "transfer": "On foot.",
-        "seasonal": "Check closed days.",
-        "wet": "Already indoors."
+        "transfer": "Tram or a short walk. No car.",
+        "seasonal": "The old Viking ship hall has been closed for a new museum. Do not promise that building.",
+        "wet": "The museum is the plan."
       },
       {
         "show": 12,
-        "base": "Bergen",
-        "experience": "A free rainy-city day. Pastries and a museum.",
-        "optional": "Nothing",
-        "highlight": "Not forcing a fjord in a gale",
-        "kids": "Let them choose the indoor hour.",
+        "base": "Oslo",
+        "experience": "A free city day. One park or the opera roof if the walk is open.",
+        "optional": "Nothing booked",
+        "highlight": "A second city day, so Oslo is not just an airport",
+        "kids": "Let them choose the afternoon.",
         "intensity": "light",
         "transfer": "None.",
-        "seasonal": "This spare day is load-bearing.",
-        "wet": "The plan."
+        "seasonal": "This is the spare day before the long train.",
+        "wet": "Stay indoors."
       },
       {
         "show": 10,
         "base": "Flåm",
-        "experience": "Train toward Myrdal and down the Flåm Railway.",
-        "optional": "Stay in Flåm rather than doing it as a frantic day trip",
-        "highlight": "The branch line and Kjosfossen",
-        "kids": "All three. It is a ride with a photo stop.",
+        "experience": "Train from Oslo toward Myrdal and down the Flåm Railway. This is a travel day.",
+        "optional": "Stay in Flåm rather than doing the branch line as a day trip",
+        "highlight": "The main line across the mountains, then the branch line and Kjosfossen",
+        "kids": "All three. It is a long sit, then a short spectacular ride. Pack food.",
         "intensity": "moderate",
-        "transfer": "Bergen to Myrdal is several hours on the Bergen line, then about an hour down to Flåm. Confirm the 2027 connection. April 2026 had fewer Flåm departures than summer.",
+        "transfer": "Oslo to Myrdal takes most of the day, then about an hour down to Flåm. Confirm the 2027 connection. April 2026 had fewer Flåm departures than summer.",
         "seasonal": "Works on the Bergen line happen in some years. Read the operator notice.",
         "wet": "The train is the right place to be."
       },
@@ -1924,6 +2213,18 @@
         "title": "Schengen entry",
         "url": "https://travel-europe.europa.eu/etias",
         "note": "Recheck ETIAS and the Indian visa channel."
+      },
+      {
+        "tag": "verified",
+        "title": "Schengen visa fee",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+        "note": "€90 from age 12. €45 from age 6 until the 12th birthday."
+      },
+      {
+        "tag": "recheck",
+        "title": "Rupee amount a German mission was collecting",
+        "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+        "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
       }
     ]
   },
@@ -1935,7 +2236,7 @@
     "regions": [
       "oceania"
     ],
-    "summary": "Autumn lakes, a high mountain, and a fiord, linked by a slow road trip. Four bases. The Melbourne party has the shortest flight of any option in this set.",
+    "summary": "Autumn lakes, a high mountain, and a fiord, linked by a slow road trip. Four bases. Melbourne to Christchurch is the short flight. Bengaluru to Christchurch is a long connection.",
     "why": "April is a real season here, not a gap between seasons. The walks, boat days and towns used in this plan are generally open, the colours in Central Otago are the reason to come, and summer crowds have dropped. Both families already drive on the left.",
     "distinctive": "Glacial lakes under a single mountain range, a dark-sky basin, and a fiord reached through a long mountain road. The trip is the landscape itself.",
     "scores": {
@@ -1957,7 +2258,7 @@
       "child14": 4,
       "scenery": 5,
       "april": 5,
-      "practical": 5,
+      "practical": 4,
       "mobility": 4,
       "unique": 3,
       "conventional": 3
@@ -1985,12 +2286,12 @@
     "age14": "The same landscapes, plus the geology of the Alps and the option to split off for a harder walk while the younger child stays by the lake.",
     "adults": "Driving days with real scenery, dark skies, and time in small towns. Māori place names and glacier stories are part of the trip, not a separate city break.",
     "gettingAround": "This is a road trip. Seven people plus bags means two cars, not one. Book a child seat for the 6-year-old and confirm the rental rule. The open-jaw that fits the map is into Christchurch and out of Queenstown.",
-    "meetingPoint": "Christchurch. Melbourne–Christchurch is often about 3.5–4 hours nonstop. The Indian party connects through a hub such as Singapore, Kuala Lumpur or an Australian city. Confirm the 2027 timetable before treating any flight as direct.",
+    "meetingPoint": "Christchurch. Melbourne–Christchurch is often about 3.5–4 hours nonstop. Bengaluru–Christchurch has no nonstop on current route listings. Published journeys connect through Singapore, Hong Kong or Australia and the fastest are about 17 hours. Meet in Christchurch, not Melbourne. Ordinary Indian passports are not on Australia's transit-without-visa list. Confirm the April 2027 timetable before treating any flight as direct.",
     "visaAu": "Australian citizens travelling on an Australian passport do not need a visa or an NZeTA. Immigration New Zealand says an Australian Resident Visa is normally granted on arrival if character requirements are met.",
     "visaIn": "Indian passports are not visa-waiver passports. They need a visitor visa before travel, not an NZeTA. Tourism New Zealand's India page says the passport should be valid for at least 3 months after the planned departure from New Zealand. Early 2026 processing for Indian visitor visas averaged about 7 working days, with an 84% approval rate from January to April 2026. That is a recent statistic, not a promise for 2027.",
     "visaStatus": "verified-rule-recheck-timing",
     "disadvantages": [
-      "The Indian party has a long flight and a real visa application. Do not buy the non-refundable tickets until that visa is approved.",
+      "The Bengaluru party has a long flight and a visitor-visa application. Do not buy the non-refundable tickets until that visa is approved. Do not meet in Melbourne unless those four already hold Australian visas.",
       "Culture and ancient history are lighter here than in Türkiye, Japan or Sichuan.",
       "Milford is a full day in the car and on a boat. The road closes for snow, avalanche control and crashes.",
       "April is not ski season. Do not plan the trip around snow sports."
@@ -2013,7 +2314,28 @@
       "href": "https://commons.wikimedia.org/wiki/File:Milford_Sound_(New_Zealand).JPG"
     },
     "gain": "The strongest mix of April weather, open landscapes, and a workable flight from Melbourne.",
-    "miss": "Deep cities, rail travel, and an easy visa path for the Indian passports.",
+    "miss": "Deep cities, rail travel, a short flight from Bengaluru, and an easy visa path for the Indian passports.",
+    "cost": {
+      "summary": "About ₹4.2–6.0 lakh for seven adult return fares at recently published typical prices, plus about ₹40,000–₹95,000 in New Zealand visa fees. Hotels, food and cars are not included.",
+      "lines": [
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "Kayak’s typical return fare for one adult, Bengaluru to Christchurch, was ₹85,861–₹121,535. Four adult fares at that band are about ₹3.4–4.9 lakh. There is no nonstop. This is not an April 2027 quote, and the 6-year-old is sometimes cheaper than an adult."
+        },
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com’s typical return fare for one adult, Melbourne to Christchurch, was US$286–$399. Three adult fares are about ₹0.8–1.1 lakh at ₹94.86 per US dollar. Direct flights are the normal pattern. Not an April 2027 quote."
+        },
+        {
+          "item": "Visas",
+          "tag": "verified",
+          "text": "Australian citizens pay no visa fee. For Indian passports, the May 2026 fees guide charges one visitor-visa fee of NZD 341 when a partner and dependent children are included, plus an NZD 100 levy for every person. Four people on one application would be NZD 741, about ₹40,000. Two separate family applications would be NZD 1,082, about ₹58,000. Four separate applications would be NZD 1,764, about ₹95,000. Which row applies depends on who can share an application."
+        }
+      ],
+      "leftOut": "Hotels, meals, two hire cars, fuel, the Milford cruise and the glowworm cave are not included."
+    },
     "stretch16": "Add a free day in Wānaka and a free day in Te Anau. Do not add the North Island.",
     "days": [
       {
@@ -2024,7 +2346,7 @@
         "highlight": "A city of gardens used as a soft landing, not as the point of the trip",
         "kids": "Playground time for the 6-year-old. The older two can do a short loop.",
         "intensity": "light",
-        "transfer": "Melbourne–Christchurch is often about 3.5–4 hours nonstop. The Indian itinerary is a long-haul connection. Confirm 2027 schedules.",
+        "transfer": "Melbourne–Christchurch is often about 3.5–4 hours nonstop. Bengaluru–Christchurch is a long connection, often about 17 hours at the fastest. Give that party a buffer. Confirm 2027 schedules.",
         "seasonal": "Fine in any April week. Early April still overlaps the Victorian school holiday.",
         "wet": "Museum and a bakery, then an early night."
       },
@@ -2221,6 +2543,36 @@
         "title": "Milford Road conditions",
         "url": "https://www.milfordroad.co.nz/",
         "note": "Check the morning you drive. Closures are operational, not seasonal theory."
+      },
+      {
+        "tag": "recheck",
+        "title": "No nonstop Bengaluru–Christchurch flight on a public route listing",
+        "url": "https://www.flightconnections.com/flights-from-blr-to-chc",
+        "note": "Schedule aggregator, not an airline. Recheck April 2027. Do not treat the listed journey time as a fare."
+      },
+      {
+        "tag": "verified",
+        "title": "Ordinary Indian passports are not eligible to transit Australia without a visa",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/transit-771/travellers-eligible-to-transit-without-visa",
+        "note": "Home Affairs transit-without-visa list. India is absent except for Indian official passports. Meeting in Melbourne needs an Australian visa."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Bengaluru–Christchurch return fare",
+        "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Christchurch-CHC",
+        "note": "Kayak typical band for one adult. Not an April 2027 fare. Not a quote."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Melbourne–Christchurch return fare",
+        "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Christchurch-CHC",
+        "note": "Kayak.com typical band in US dollars for one adult. Not an April 2027 fare."
+      },
+      {
+        "tag": "verified",
+        "title": "Visitor visa fee and per-person levy",
+        "url": "https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/Fees-Guide-INZ-1028.pdf",
+        "note": "INZ 1028, May 2026. One fee can cover a partner and dependent children. The NZD 100 levy is per person."
       }
     ]
   },
@@ -2282,7 +2634,7 @@
     "age14": "The same, plus how the terraces were built and a look at port wine from the outside of the process. Tasting is for adults.",
     "adults": "Porto on foot, a valley that is working farmland, and long lunches. This is the comfortable trip.",
     "gettingAround": "Train or metro in Porto. A car, ideally two, for the Douro and Gerês. Portugal drives on the right. The Douro train line is a scenic alternative for a day without the car, if the 2027 timetable still serves the village you choose.",
-    "meetingPoint": "Porto. Both families connect through Europe or the Middle East. Less painful than the Azores, still a long haul from Melbourne.",
+    "meetingPoint": "Porto. Bengaluru is usually one stop through Europe or the Gulf. Melbourne is the longer haul. Less painful than the Azores. Northern Spain is a different trip, not an add-on to this one.",
     "visaAu": "Schengen short-stay visa-free, EES biometrics on entry, ETIAS not yet operating at the time of research.",
     "visaIn": "Schengen visa, applied to Portugal if Portugal is the main stay.",
     "visaStatus": "verified-rule-recheck-process",
@@ -2312,6 +2664,27 @@
     },
     "gain": "The easiest pleasant fortnight in Europe, with enough nature to honour the brief.",
     "miss": "A once-in-a-lifetime landscape, and a short flight from Melbourne.",
+    "cost": {
+      "summary": "Bengaluru to Porto is about ₹3.6–3.7 lakh for four adult typical returns. Melbourne is about ₹2.7 lakh at one recent fare and about ₹4.0 lakh at the past-year average, for three adults. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+      "lines": [
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "Kayak.co.in’s typical return fare, Bengaluru to Porto, was ₹89,294–₹92,003 for one adult, with two stops. Four adult fares are about ₹3.6–3.7 lakh. A cheaper return was also seen recently, so the typical band is not the lowest fare on the page. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com.au’s past-year average return from Melbourne to Porto was about A$1,995. Three adult fares at that average are about ₹4.0 lakh. A Melbourne return found in the past five days was A$1,366, about ₹2.7 lakh for three. That is an average and one recent fare, not a typical low-to-high band. Not an April 2027 quote."
+        },
+        {
+          "item": "Visas",
+          "tag": "verified",
+          "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+        }
+      ],
+      "leftOut": "Hotels, meals, the car, and international flights are not included."
+    },
     "stretch16": "Add free days in the Douro. Do not add Lisbon and the Algarve.",
     "days": [
       {
@@ -2453,6 +2826,30 @@
         "title": "Peneda-Gerês trail conditions",
         "url": "https://natural.pt/protected-areas/parque-nacional-peneda-geres?locale=en",
         "note": "Confirm which paths are suitable after rain and for a 6-year-old."
+      },
+      {
+        "tag": "verified",
+        "title": "Schengen visa fee",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+        "note": "€90 from age 12. €45 from age 6 until the 12th birthday."
+      },
+      {
+        "tag": "recheck",
+        "title": "Rupee amount a German mission was collecting",
+        "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+        "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Bengaluru–Porto return fare",
+        "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Porto-OPO",
+        "note": "Kayak India typical band. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Melbourne–Porto average and a recent fare",
+        "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Porto-OPO",
+        "note": "Past-year average and a recent Melbourne return. Not a typical band and not an April 2027 fare."
       }
     ]
   },
@@ -2465,7 +2862,7 @@
       "east-asia"
     ],
     "summary": "Pandas at opening time, a bronze-age mystery pit, an ancient irrigation works, and a valley of coloured lakes. The most unusual education in this set, with a visa question mark for 2027.",
-    "why": "The 12- and 14-year-olds get Sanxingdui and Dujiangyan, which are real science and history. The 6-year-old gets pandas and a boardwalk valley. You can do it from Chengdu plus two side bases, by train and one short flight.",
+    "why": "The 12- and 14-year-olds get Sanxingdui and Dujiangyan, which are real science and history. The 6-year-old gets pandas and a boardwalk valley. You can do it from Chengdu plus two side bases, by train and one short flight. A 14-day loop through Beijing, Xi'an and Zhangjiajie adds the famous sights and spends the holiday changing cities. That loop is not this plan.",
     "distinctive": "A conservation centre for giant pandas beside an archaeological site that rewrote early Chinese history, and a high valley of mineral lakes.",
     "scores": {
       "nature": 5,
@@ -2514,7 +2911,7 @@
     "age14": "Dujiangyan's 2,000-year-old flood works, Sanxingdui, and the question of how a landscape makes lakes that colour.",
     "adults": "Teahouses, the archaeology, and a national park that does not look like anywhere else. Sichuan food is spicy. Ask for mild plates for the children.",
     "gettingAround": "High-speed rail for Leshan. A flight of about an hour from Chengdu to Jiuzhai Huanglong Airport, then a ground transfer of about 1–1.5 hours. Confirm both in 2027. China drives on the right. You do not need a car for this plan.",
-    "meetingPoint": "Chengdu Tianfu or Shuangliu. Melbourne usually connects via a Chinese or Southeast Asian hub. Indian cities have more one-stop options. Meet in Chengdu and give the long-haul party a free first afternoon.",
+    "meetingPoint": "Chengdu Tianfu or Shuangliu. A July 2026 route listing showed no nonstop Bengaluru–Chengdu flight, only one-stop journeys. Melbourne is also usually one stop. This is the more even journey of the top options. Meet in Chengdu. Do not send the Bengaluru party through Melbourne. Recheck the 2027 timetable. Give the later arrival a free first afternoon.",
     "visaAu": "In February 2026, China's visa-free entry for ordinary Australian passports, for up to 30 days and for tourism, was described as running until 31 December 2026. April 2027 is after that date. Unless Beijing extends it, the Australian party will need a visa too. Do not book as if the waiver still exists.",
     "visaIn": "India was not on that visa-free list. Indian passports should plan on a tourist visa. The 240-hour transit scheme is not a way to spend two weeks in Sichuan, and Jiuzhaigou's prefecture has been excluded from some transit areas. Use a proper visa.",
     "visaStatus": "recheck",
@@ -2544,6 +2941,27 @@
     },
     "gain": "The strangest and most educational mix: living animals, ancient engineering, and a lake valley.",
     "miss": "A settled visa rule for April 2027, and the ease of travelling with young children in English.",
+    "cost": {
+      "summary": "Melbourne fares about ₹1.3–1.8 lakh for three adults. A typical Bengaluru fare for the group was not published, so there is no combined flight total. The Chinese visa fees on file expire 31 December 2026. Hotels and food are not included.",
+      "lines": [
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com.au’s typical return fare, Melbourne to Chengdu, was A$665–$917 for one adult. Three adult fares are about ₹1.3–1.8 lakh. One stop. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "On 7 October 2026 a cheapest round trip was advertised at US$529 for one adult on a November date. That is one deal, not a typical price, so it is not multiplied by four."
+        },
+        {
+          "item": "Visas",
+          "tag": "recheck",
+          "text": "The reduced fees were published only through 31 December 2026. At the Delhi centre an Indian regular single entry was ₹2,900 plus a ₹2,107 service fee. In Sydney an Australian regular single entry was A$94.50 in total. April 2027 is after that date. Do not use those figures as the fee you will pay."
+        }
+      ],
+      "leftOut": "Hotels, meals, trains, the Jiuzhaigou flight and park tickets are not included."
+    },
     "stretch16": "Add a free day in Chengdu and a free day at Jiuzhaigou. Do not add Beijing.",
     "days": [
       {
@@ -2751,6 +3169,24 @@
         "title": "Do not use 240-hour transit for this trip",
         "url": "https://en.nia.gov.cn/index.html",
         "note": "National Immigration Administration. A two-week holiday needs a visa, especially for Jiuzhaigou."
+      },
+      {
+        "tag": "recheck",
+        "title": "No nonstop Bengaluru–Chengdu flight on a July 2026 route listing",
+        "url": "https://www.flightconnections.com/flights-from-blr-to-tfu",
+        "note": "Schedule aggregator. One-stop routes only at that date. Recheck April 2027. Not a fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Melbourne–Chengdu return fare",
+        "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Chengdu-CTU",
+        "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "One advertised Bengaluru–Chengdu round trip",
+        "url": "https://www.trip.com/flights/bengaluru-to-chengdu/airfares-blr-ctu/",
+        "note": "Cheapest round trip shown on 7 October 2026 for a November date. Not a typical group fare."
       }
     ]
   },
@@ -2812,7 +3248,7 @@
     "age14": "The same museum, Škocjan Caves if you want a wilder and steeper cave than Postojna, and the map of a country this small.",
     "adults": "Ljubljana's river, the history in the Soča valley, and food that is hearty rather than formal. Wine is optional and not the children's day.",
     "gettingAround": "A car is the right tool. Two cars for seven people. Slovenia drives on the right, which is new for both families. A vignette is required on motorways. Do not plan the trip over the Vršič Pass. In April 2026 it was not described as a full winter closure, and a works notice covered May to November 2026. Snow can still shut it. Use the lower road via Tolmin.",
-    "meetingPoint": "Ljubljana is the simple meeting airport, with fewer long-haul seats than Vienna, Zurich or Venice. Both parties should expect a European connection. Melbourne is a long way. The Indian city with the better Europe fare can decide the Indian departure airport.",
+    "meetingPoint": "Ljubljana is the simple meeting airport, with fewer long-haul seats than Vienna, Zurich or Venice. Bengaluru reaches it through a European or Gulf hub. Melbourne is the longer journey. Do not add Plitvice in the same 14 days unless you drop a Slovenia base.",
     "visaAu": "Australian passports can enter Slovenia visa-free for a short Schengen stay. Since 10 April 2026 the EU Entry/Exit System has been recording biometrics at the Schengen border. You do not apply for EES in advance. ETIAS, the online authorisation for visa-free passports, was not operating as of this research. The EU said it would announce a start date months ahead. Recheck before 2027.",
     "visaIn": "Indian passports need a Schengen visa. Apply to Slovenia if Slovenia is the main destination. Appointments, insurance and funds rules are the slow part. Start several months ahead and use the official consulate or VFS channel, not a forum checklist from a previous year.",
     "visaStatus": "verified-rule-recheck-process",
@@ -2842,6 +3278,27 @@
     },
     "gain": "The most compact mix of lake, river and a world-class cave, at a pace that suits a 6-year-old.",
     "miss": "An easy journey from Melbourne and India, and any promise of beach weather or high snow-free ridges.",
+    "cost": {
+      "summary": "Melbourne to Ljubljana is about ₹4.1–5.5 lakh for three adult returns. A Bengaluru typical fare was not published. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+      "lines": [
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "Kayak.com.au’s typical return fare, Melbourne to Ljubljana, was A$2,062–$2,770 for one adult, usually with two stops. Three adult fares are about ₹4.1–5.5 lakh. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "thin",
+          "text": "A typical Bengaluru–Ljubljana return fare was not published in this pass. The route is one stop. No group total is shown."
+        },
+        {
+          "item": "Visas",
+          "tag": "verified",
+          "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."
+        }
+      ],
+      "leftOut": "Hotels, meals, cars, trains, cave tickets and international flights are not included."
+    },
     "stretch16": "Add a free day at Bohinj and a free day in Ljubljana. Do not add Venice.",
     "days": [
       {
@@ -3049,6 +3506,24 @@
         "title": "Vršič road works notice from 2026",
         "url": "https://socasnik.si/obcinske-novice/obvestilo-o-izvajanju-del-na-prelazu-vrsic/",
         "note": "A 2026 municipal notice about partial closures from 4 May to 16 November 2026. It is not a 2027 status. Check promet.si."
+      },
+      {
+        "tag": "verified",
+        "title": "Schengen visa fee",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+        "note": "European Commission. €90 for adults. €45 for children aged 6 to 12. Under 6 free."
+      },
+      {
+        "tag": "recheck",
+        "title": "Rupee amount collected for that fee in India",
+        "url": "https://india.diplo.de/in-en/service/1984596-1984596",
+        "note": "German mission in India, 1 October 2026: ₹9,900 and ₹5,000. Another Schengen state can collect a different rupee amount, plus a visa-centre charge."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Melbourne–Ljubljana return fare",
+        "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Ljubljana-Joze-Pucnik-LJU",
+        "note": "Kayak Australia typical band in Australian dollars. Not an April 2027 fare."
       }
     ]
   },
@@ -3057,12 +3532,12 @@
     "pool": "aside",
     "asideReason": "The Taroko gorge road between Taroko and Tianxiang was still closed when the park's own page was read, with no firm reopening date. Indian visitor visas also sit in a heavier designated-country process. The rest of the island is good. The famous landscape this group would cross the world for was not available.",
     "name": "Taiwan",
-    "regionLabel": "Taipei and the east, with Taroko unresolved",
+    "regionLabel": "Taipei, Tainan and Sun Moon Lake",
     "regions": [
       "east-asia"
     ],
-    "summary": "Food, museums, hot springs and forest railways. Held out of the main list because the gorge that would make the trip was closed.",
-    "why": "If Taroko's gorge section has reopened by 2027 and the Indian visa looks workable, Taiwan becomes a serious family option. Until then it is a note, not a recommendation.",
+    "summary": "Three bases even while the gorge is shut: Taipei, Tainan, and Sun Moon Lake or Alishan. Held out of the main list because the gorge that would make the trip was closed.",
+    "why": "Taipei is the easy landing and the museums. Tainan is the older city and the food. The lake or the mountain railway is the nature day that does not depend on Taroko. If the gorge has reopened by 2027, swap the lake for Hualien. Until then this is a note, not a recommendation.",
     "distinctive": "A dense, kind, food-centred island with real mountains, currently missing its signature walk.",
     "scores": {
       "nature": 3,
@@ -3111,7 +3586,7 @@
     "age14": "The same, plus the food and the train system.",
     "adults": "Food and museums. The gorge was the nature reason.",
     "gettingAround": "High-speed rail and local trains. Excellent for a group. A car is optional.",
-    "meetingPoint": "Taipei. Easy hub compared with Paro or the Azores.",
+    "meetingPoint": "Taipei. A one-stop meeting point from both Bengaluru and Melbourne. Easier than Paro or the Azores.",
     "visaAu": "Australian passports can enter visa-free for up to 90 days for tourism, with a passport valid at least six months and a return ticket, according to the Bureau of Consular Affairs and Smartraveller. A Taiwan Arrival Card is part of the process. Recheck.",
     "visaIn": "India is on Taiwan's designated-country list for visitor visas. The Bureau of Consular Affairs describes an extra procedure, including an identity certificate. This is a harder visa than Japan's ordinary tourist visa. Read the current BOCA page before anyone plans around it.",
     "visaStatus": "verified-rule-recheck-process",
@@ -3139,7 +3614,28 @@
     },
     "gain": "A kind, food-rich, museum-rich island if the gorge is open again.",
     "miss": "Certainty that the landscape in the photograph is something you can visit.",
-    "stretch16": "Only worth stretching if Taroko is open. Otherwise do not choose it.",
+    "cost": {
+      "summary": "Bengaluru to Taipei is about ₹1.7–2.4 lakh for four adult typical returns. A Melbourne typical fare was not published. The Indian visa fee was not priced.",
+      "lines": [
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "Kayak.co.in’s typical return fare, Bengaluru to Taipei, was ₹41,303–₹59,769 for one adult, with two stops. Four adult fares are about ₹1.7–2.4 lakh. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Melbourne",
+          "tag": "thin",
+          "text": "A typical Melbourne–Taipei return fare was not published in this pass."
+        },
+        {
+          "item": "Visas",
+          "tag": "thin",
+          "text": "Australian passports have a visa-exempt short stay. Indian passports need a visitor visa. The fee was not read from an official table in this pass."
+        }
+      ],
+      "leftOut": "Hotels, meals and international flights are not included."
+    },
+    "stretch16": "Add a free day in Tainan and a free day at the lake. Add Hualien only if Taroko has reopened.",
     "days": [
       {
         "show": 10,
@@ -3166,40 +3662,112 @@
         "wet": "The museum."
       },
       {
-        "show": 10,
-        "base": "Taipei or Yilan",
-        "experience": "Hot springs or the north coast rocks at Yehliu.",
+        "show": 12,
+        "base": "Taipei",
+        "experience": "North coast at Yehliu, or Jiufen for a short lane walk. Sleep back in Taipei.",
         "optional": "Skip Yehliu in heavy rain. The rocks are slippery.",
-        "highlight": "A strange coast",
-        "kids": "Stay on the path.",
+        "highlight": "A strange coast, seen as a day trip",
+        "kids": "Stay on the path. Jiufen's lanes are steep and crowded. Leave before anyone is tired.",
         "intensity": "moderate",
-        "transfer": "A day trip.",
-        "seasonal": "Wind.",
-        "wet": "Hot springs."
+        "transfer": "A day trip of about an hour or a bit more. Confirm the bus or driver.",
+        "seasonal": "Wind on the coast.",
+        "wet": "Stay in Taipei and use the museum again."
       },
       {
         "show": 10,
-        "base": "Hualien, only if Taroko has reopened",
-        "experience": "Train down the east coast and enter the gorge only under the park's current rules.",
-        "optional": "If the gorge is still shut, do not come this far for a closed road",
-        "highlight": "The marble gorge, if it is open",
-        "kids": "Short sections. Rockfall rules are the park's, not yours.",
+        "base": "Tainan",
+        "experience": "High-speed rail south and stop. A short walk in the old town if you arrive in daylight.",
+        "optional": "Nothing else",
+        "highlight": "An older, lower city than Taipei",
+        "kids": "The train is the activity.",
         "intensity": "moderate",
-        "transfer": "Taipei to Hualien by train is several hours. Confirm.",
-        "seasonal": "This day exists only if the park says the section is open.",
-        "wet": "If the park is open, drizzle is normal. Storms are a reason to stay out."
+        "transfer": "Taipei to Tainan by high-speed rail is often under two hours, plus the local ride. Confirm 2027 times.",
+        "seasonal": "April is warm enough for a slow evening.",
+        "wet": "The train, then the hotel."
+      },
+      {
+        "show": 10,
+        "base": "Tainan",
+        "experience": "Anping and one temple courtyard. Then food.",
+        "optional": "A second temple only if the 6-year-old is still willing",
+        "highlight": "Forts, lanes and a city that eats well",
+        "kids": "Short stops. Pointing at snacks is the point.",
+        "intensity": "moderate",
+        "transfer": "Taxis or a local day car. The old streets are not a long hike.",
+        "seasonal": "Temples are busy on weekends.",
+        "wet": "Covered markets and one indoor stop."
+      },
+      {
+        "show": 12,
+        "base": "Tainan",
+        "experience": "A free day. One neighbourhood and a long lunch.",
+        "optional": "Nothing booked",
+        "highlight": "Staying long enough to get lost on purpose",
+        "kids": "Let them pick the snack street.",
+        "intensity": "light",
+        "transfer": "None.",
+        "seasonal": "This is the day that keeps the south from being a blur.",
+        "wet": "Stay in and eat."
+      },
+      {
+        "show": 10,
+        "base": "Sun Moon Lake",
+        "experience": "Travel to Sun Moon Lake, or to Alishan if the forest railway is running a useful section that month.",
+        "optional": "If the mountain train is only a fragment, choose the lake",
+        "highlight": "A lake in the hills, which is the nature base while Taroko is shut",
+        "kids": "The journey is enough. No summit.",
+        "intensity": "moderate",
+        "transfer": "Tainan toward Taichung, then on to the lake. Allow most of the day. Confirm the 2027 train and bus.",
+        "seasonal": "Alishan's operating section changes. Read the railway notice before you book the mountain hotel.",
+        "wet": "Go to the lake anyway. The view survives cloud."
+      },
+      {
+        "show": 10,
+        "base": "Sun Moon Lake",
+        "experience": "A boat or a lakeside walk, and nothing else ambitious.",
+        "optional": "A short temple stop above the water",
+        "highlight": "The lake twice, morning and late afternoon",
+        "kids": "All three can do a boat and a flat path.",
+        "intensity": "light",
+        "transfer": "Local.",
+        "seasonal": "April can be misty. Mist is still a lake day.",
+        "wet": "The boat if it runs, or the hotel window."
+      },
+      {
+        "show": 14,
+        "base": "Sun Moon Lake",
+        "experience": "A free day, or the Alishan railway as a day trip only if the current section is worth it.",
+        "optional": "Stay at the lake if the train is a fuss",
+        "highlight": "Choosing the easier mountain",
+        "kids": "The 6-year-old does not need a dawn railway.",
+        "intensity": "light",
+        "transfer": "Only if you go up. Otherwise none.",
+        "seasonal": "Do not book both a dawn train and a long hike.",
+        "wet": "Stay at the lake."
+      },
+      {
+        "show": 10,
+        "base": "Taipei",
+        "experience": "Return toward Taipei and stop. No new list.",
+        "optional": "If Taroko's gorge road has reopened, this is the day you would have used for Hualien instead. Do not add it while the road is shut.",
+        "highlight": "A buffer before the flight",
+        "kids": "Train time.",
+        "intensity": "moderate",
+        "transfer": "Back by rail. Allow the afternoon.",
+        "seasonal": "The gorge remains a swap, not an extra.",
+        "wet": "The train."
       },
       {
         "show": 10,
         "base": "Taipei",
         "experience": "Buffer and fly.",
-        "optional": "A last museum",
-        "highlight": "Leaving with the visa papers and a gorge status you checked yourself",
-        "kids": "Easy day.",
+        "optional": "A last market hour if the flight is late",
+        "highlight": "Leaving from Taoyuan",
+        "kids": "Easy morning.",
         "intensity": "light",
-        "transfer": "Back to Taoyuan.",
+        "transfer": "City to Taoyuan is a long bus or the airport train. Confirm.",
         "seasonal": "None.",
-        "wet": "Metro and airport."
+        "wet": "Go to the airport."
       }
     ],
     "sources": [
@@ -3220,6 +3788,12 @@
         "title": "Taroko gorge section remained closed",
         "url": "https://www.taroko.gov.tw/en/trailsAttractions/visitor-center/78",
         "note": "Park page: Taroko to Tianxiang, km 185.4–167.7, and the bus, still closed. Reopening described as uncertain."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Bengaluru–Taipei return fare",
+        "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Taipei-Taiwan-Taoyuan-Intl-TPE",
+        "note": "Kayak India typical band. Not an April 2027 fare."
       }
     ]
   },
@@ -3282,7 +3856,7 @@
     "age14": "Hagia Sophia and the Basilica Cistern, Ephesus, and the engineering of the rock valleys. The Rahmi M. Koç Museum in Istanbul is the science stop.",
     "adults": "The layers of Istanbul, the sculpted valleys, and a Roman city in good light. Evenings are for food, not a new monument.",
     "gettingAround": "Fly Istanbul to Cappadocia (Nevşehir or Kayseri) and Cappadocia to İzmir, then a short transfer to Selçuk. Each flight is often about 1–1.5 hours. Book seven seats early. A car helps in Cappadocia. Türkiye drives on the right. Two cars if you drive as a group.",
-    "meetingPoint": "Istanbul is the easy common airport for Melbourne and for major Indian cities. The Indian departure city can stay undecided until you know which Indian airport has the better Istanbul fare.",
+    "meetingPoint": "Istanbul. Both Melbourne and Bengaluru connect. A public listing in October 2026 showed no nonstop Bengaluru–Istanbul flight, with the quickest journeys a little over eight hours. Do not treat a four-hour nonstop listing into the old Ataturk airport as a real flight. Recheck April 2027.",
     "visaAu": "Ordinary Australian passports are exempt from a visa for tourism up to 90 days in any 180-day period. Official Turkish foreign-ministry guidance and Smartraveller both say this. Passport validity rules still apply.",
     "visaIn": "Ordinary, special and service Indian passports need a visa. The official e-Visa is available only if the traveller also holds a valid Schengen, US, UK or Ireland visa or residence permit, and that document must still be valid on the day they enter Türkiye. Without that supporting visa, the path is a sticker visa through a Turkish mission. Use only evisa.gov.tr if you are eligible. Many lookalike sites are not the government.",
     "visaStatus": "verified-rule-recheck-process",
@@ -3312,6 +3886,27 @@
     },
     "gain": "History and strange scenery in the same fortnight, in weather that suits ruins and walking.",
     "miss": "A simple visa for Indian passports, and the kind of empty nature you get in Fiordland or Bhutan.",
+    "cost": {
+      "summary": "Bengaluru to Istanbul is about ₹1.3–1.9 lakh for four adult typical returns. Melbourne’s published monthly medians run about ₹2.9 lakh in October and about ₹4.2 lakh in December, for three adults. April was not listed. The Indian visa fee was not priced.",
+      "lines": [
+        {
+          "item": "Flights from Bengaluru",
+          "tag": "recheck",
+          "text": "Kayak.co.in’s typical return fare, Bengaluru to Istanbul, was ₹31,618–₹46,740 for one adult. Four adult fares are about ₹1.3–1.9 lakh. One stop. Not an April 2027 quote."
+        },
+        {
+          "item": "Flights from Melbourne",
+          "tag": "recheck",
+          "text": "On Kayak.com, the median return from Melbourne to Istanbul was about US$1,013 in October and about US$1,466 in December. Three adult fares are about ₹2.9 lakh and ₹4.2 lakh at those two medians. April was not given. This is not a typical low-to-high band and not an April 2027 quote."
+        },
+        {
+          "item": "Visas",
+          "tag": "thin",
+          "text": "Australian ordinary passports pay no visa fee for a short stay. The Indian sticker-visa or e-Visa fee was not read from an official fee table in this pass, so it is not included."
+        }
+      ],
+      "leftOut": "Hotels, meals, domestic flights and the balloon are not included."
+    },
     "stretch16": "Add a free day in Ürgüp and a free day in Selçuk. Do not add Antalya and Pamukkale and Gallipoli.",
     "days": [
       {
@@ -3519,6 +4114,24 @@
         "title": "Balloon age and height rules are operator rules",
         "url": "https://voyagerballoons.com/frequently-asked-questions/",
         "note": "One licensed operator's FAQ: age 6 and about 4 ft 6 in. Another operator may differ. The civil aviation authority leaves the child rule to each operator's manual."
+      },
+      {
+        "tag": "recheck",
+        "title": "No nonstop Bengaluru–Istanbul flight on a public listing",
+        "url": "https://www.kayak.com/flight-routes/Bengaluru-Intl-BLR/Istanbul-IST",
+        "note": "Metasearch snapshot, October 2026. Quickest listed journey a little over 8 hours with a connection. Recheck April 2027. Not a fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Typical Bengaluru–Istanbul return fare",
+        "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Istanbul-other-airports-IST",
+        "note": "Kayak India typical band for one adult. Not an April 2027 fare."
+      },
+      {
+        "tag": "recheck",
+        "title": "Melbourne–Istanbul monthly medians",
+        "url": "https://www.kayak.com/flight-routes/Melbourne-MEL/Istanbul-IST",
+        "note": "October and December medians on Kayak.com, in US dollars. April was not listed."
       }
     ]
   }

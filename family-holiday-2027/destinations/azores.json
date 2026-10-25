@@ -36,7 +36,7 @@
   "age14": "The same, plus the old whaling lookouts and why the hunt stopped. Faial's university boats are the deeper version, and they require a second island this plan does not take.",
   "adults": "Slow driving, cooking in a volcanic valley, and a landscape that changes with each ridge. Nightlife is not the product.",
   "gettingAround": "A car, or two. Roads are narrow, green and sometimes cow-paced. Portugal drives on the right. Do not add Terceira or Pico unless you are willing to lose a day to weather. Inter-island flights cancel.",
-  "meetingPoint": "Ponta Delgada, almost always via Lisbon or another European hub. From Melbourne this is one of the longest journeys in the set. From India it is also a two- or three-flight day. The island is the reward after a hard journey, which is why it ranks lower on practicality.",
+  "meetingPoint": "Ponta Delgada, almost always via Lisbon or another European hub. From Melbourne this is one of the longest journeys in the set. From Bengaluru it is also two flights or more. The island is the reward after a hard journey, which is why it ranks lower on practicality.",
   "visaAu": "Same Schengen position as mainland Portugal. Australian passports are visa-free for a short stay, EES biometrics apply at the first Schengen entry, and ETIAS was not yet operating.",
   "visaIn": "Indian passports need a Schengen visa. If the whole trip is the Azores, Portugal is the country to apply to. The islands are not a separate visa.",
   "visaStatus": "verified-rule-recheck-process",
@@ -61,6 +61,15 @@
   },
   "gain": "The quietest dramatic nature, with a real chance of whales and almost no famous-city noise.",
   "miss": "A sane flight from Melbourne, and the culture and history depth of Japan or Türkiye.",
+  "cost": {
+    "summary": "One recent Melbourne to Ponta Delgada return was about ₹6.7 lakh for three adults. That is a single fare, not a typical band. Bengaluru was not published. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+    "lines": [
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au showed a cheapest recent return, Melbourne to Ponta Delgada, of A$3,353 for one adult, with two stops. Three adult fares at that one price are about ₹6.7 lakh. A typical low-to-high band was not published, so this is not a range."},
+      {"item": "Flights from Bengaluru", "tag": "thin", "text": "A typical Bengaluru–Ponta Delgada return fare was not published in this pass. No group total is shown."},
+      {"item": "Visas", "tag": "verified", "text": "The Azores are in Portugal, so the same Schengen fee applies. It is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+    ],
+    "leftOut": "Hotels, meals, island transport, boat trips and international flights are not included."
+  },
   "stretch16": "Add two weather-buffer days, not a second island.",
   "days": [
     {"show": 10, "base": "Ponta Delgada", "experience": "Land and walk the waterfront. Stop.", "optional": "The city gates and one pineapple greenhouse if it is two minutes away", "highlight": "A small harbour capital in black-and-white stone", "kids": "Gelato and an early night after the long flight.", "intensity": "light", "transfer": "Via Lisbon or another hub. Door to door from Melbourne can take well over 30 hours. From India, plan on two flights at least.", "seasonal": "April rain can start the moment you land. That is normal.", "wet": "The hotel. Do not drive to a viewpoint in the dark."},
@@ -82,6 +91,9 @@
     {"tag": "verified", "title": "Whale and dolphin watching in the Azores", "url": "https://www.visitportugal.com/en/content/whale-and-dolphin-watching-in-the-azores", "note": "Official Portuguese tourism page. Year-round boats on São Miguel. Spring blue whales mentioned between São Miguel and Santa Maria. Sightings are not guaranteed."},
     {"tag": "seasonal", "title": "São Miguel weather by month", "url": "https://azores.com/azores/islands/sao-miguel/sao-miguel-weather-by-month-climate-best-time-to-visit/", "note": "Travel site climate table: April high 18°C, low 13°C, rain about 80 mm, sea about 16°C. Not an official meteorological series."},
     {"tag": "opinion", "title": "April as a strong month for whale variety", "url": "https://azoresgetaways.com/en-us/destination/azores/islands/sao-miguel/best-time-to-visit-sao-miguel", "note": "Operator guide. Treat as opinion beside the Visit Portugal page."},
-    {"tag": "recheck", "title": "Schengen visa for Indian passports, visa-free for Australian passports", "url": "https://travel-europe.europa.eu/etias", "note": "ETIAS status as of this research. Portugal is in the Schengen area, and the Azores are part of Portugal."}
+    {"tag": "recheck", "title": "Schengen visa for Indian passports, visa-free for Australian passports", "url": "https://travel-europe.europa.eu/etias", "note": "ETIAS status as of this research. Portugal is in the Schengen area, and the Azores are part of Portugal."},
+    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "€90 from age 12. €45 from age 6 until the 12th birthday."},
+    {"tag": "recheck", "title": "Rupee amount a German mission was collecting", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."},
+    {"tag": "recheck", "title": "One recent Melbourne–Ponta Delgada return", "url": "https://www.kayak.com.au/flight-routes/Melbourne-other-airports-MEL/Ponta-Delgada-Acores-Nordela-PDL", "note": "A single cheapest return, not a typical band. Not an April 2027 fare."}
   ]
 }

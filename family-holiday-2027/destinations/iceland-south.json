@@ -25,7 +25,7 @@
   "age14": "The same landscapes, plus why the road reports matter. They can read road.is.",
   "adults": "The light, the weather as a character, and design in Reykjavík. This is not a relaxed trip.",
   "gettingAround": "A car, or two, with full insurance attention. Wind and ice are the driving story. Check road.is and vedur.is every morning. Do not plan the interior.",
-  "meetingPoint": "Keflavík. Both families connect through Europe or sometimes the US or the UK. From Melbourne it is a long two-stop journey. From India, usually via Europe.",
+  "meetingPoint": "Keflavík. Bengaluru usually connects through Europe. Melbourne is often a long two-stop journey, sometimes via the US or the UK.",
   "visaAu": "Schengen visa-free, EES on entry, ETIAS not yet operating at research time.",
   "visaIn": "Schengen visa via Iceland if Iceland is the main destination.",
   "visaStatus": "verified-rule-recheck-process",
@@ -36,6 +36,15 @@
   "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/2008-05-24_35_Sk%C3%B3gafoss.jpg", "alt": "Skógafoss waterfall in south Iceland", "credit": "Wikimedia Commons: Skógafoss", "href": "https://commons.wikimedia.org/wiki/File:2008-05-24_35_Sk%C3%B3gafoss.jpg"},
   "gain": "The most dramatic coast per hour of driving.",
   "miss": "Mild weather, a relaxed pace, and much to do when the wind pins you indoors.",
+  "cost": {
+    "summary": "Melbourne to Keflavík is about ₹3.7–5.3 lakh for three adult returns. Bengaluru is about ₹3.0–4.1 lakh for four. Together that is about ₹6.7–9.4 lakh before the Schengen visa fee.",
+    "lines": [
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s typical return fare, Melbourne to Keflavík, was A$1,872–$2,636 for one adult, with two stops. Three adult fares are about ₹3.7–5.3 lakh. Not an April 2027 quote."},
+      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Keflavík, was ₹75,499–₹101,823 for one adult, with two stops. Four adult fares are about ₹3.0–4.1 lakh. Not an April 2027 quote."},
+      {"item": "Visas", "tag": "verified", "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+    ],
+    "leftOut": "Hotels, meals, the car and international flights are not included."
+  },
   "stretch16": "Do not add the Westfjords or the highlands. Add pool days in Reykjavík.",
   "days": [
     {"show": 10, "base": "Reykjavík", "experience": "Land, pool, sleep.", "optional": "Hallgrímskirkja from the outside", "highlight": "Hot water on a cold arrival day", "kids": "The pool is the welcome.", "intensity": "light", "transfer": "Keflavík to the city is under an hour.", "seasonal": "Wind on the lava plain can be the first impression.", "wet": "The pool is indoors or geothermally hot. Go anyway."},
@@ -53,6 +62,10 @@
     {"tag": "seasonal", "title": "April weather, closed highlands, fading aurora", "url": "https://icelandloop.com/guides/iceland-in-april", "note": "Shoulder-season guide. Highland closure into June or July is the planning assumption. Confirm road.is."},
     {"tag": "recheck", "title": "Road and weather reports", "url": "https://www.road.is/", "note": "Also vedur.is and safetravel.is the morning you drive."},
     {"tag": "opinion", "title": "April driving still needs a winter mindset", "url": "https://www.goicetravel.is/en/guides/iceland-in-april", "note": "Operator guide. Useful on conditions. Not an official forecast."},
-    {"tag": "recheck", "title": "Schengen entry", "url": "https://travel-europe.europa.eu/etias", "note": "Australian visa-free. Indian visa required. ETIAS status can change."}
+    {"tag": "recheck", "title": "Schengen entry", "url": "https://travel-europe.europa.eu/etias", "note": "Australian visa-free. Indian visa required. ETIAS status can change."},
+    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "€90 from age 12. €45 from age 6 until the 12th birthday."},
+    {"tag": "recheck", "title": "Rupee amount a German mission was collecting", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."},
+    {"tag": "recheck", "title": "Typical Melbourne–Keflavík return fare", "url": "https://www.kayak.com.au/flight-routes/Melbourne-MEL/Reykjavik-Keflavik-Intl-KEF", "note": "Kayak Australia typical band. Not an April 2027 fare."},
+    {"tag": "recheck", "title": "Typical Bengaluru–Keflavík return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Reykjavik-Keflavik-Intl-KEF", "note": "Kayak India typical band. Not an April 2027 fare."}
   ]
 }

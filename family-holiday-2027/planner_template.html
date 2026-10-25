@@ -178,7 +178,7 @@ th { font-size: 13px; color: var(--muted); font-weight: 520; }
   <section id="discover" class="view">
     <div class="hero">
       <div>
-        <p class="meta">Two families · Melbourne and India · about two weeks</p>
+        <p class="meta">Two families · Melbourne and Bengaluru · about two weeks</p>
         <h1>Where should the seven of us go?</h1>
         <p class="lede">Four adults and three children, aged 6, 12 and 14. Three Australian passports, four Indian passports. The trip is international, in April 2027, and it should feel like a place rather than a checklist.</p>
         <div class="facts" id="fact-row"></div>
@@ -249,7 +249,7 @@ th { font-size: 13px; color: var(--muted); font-weight: 520; }
 
   <section id="compare" class="view" hidden>
     <h2>Compare the shortlist</h2>
-    <p class="help">This is a comparison of the trip you would have, not of prices.</p>
+    <p class="help">This compares the trip you would have. The cost row is indicative and is not used to order the list.</p>
     <div id="compare-picks" class="checks no-print"></div>
     <div id="compare-table"></div>
   </section>
@@ -266,7 +266,7 @@ th { font-size: 13px; color: var(--muted); font-weight: 520; }
   </section>
 </main>
 <footer class="wrap footer">
-  <p>Research compiled 25 October 2026 and stored in the JSON files beside this project. The page does not look up live visas, weather, opening hours or fares. Recheck anything marked that way before you book.</p>
+  <p>Research compiled 25 October 2026 and stored in the JSON files beside this project. Indicative costs are a snapshot from that pass. The page does not look up live visas, weather, opening hours or fares, and it does not rank by price. Recheck anything marked that way before you book.</p>
 </footer>
 <div id="print-root"></div>
 <script>
@@ -397,7 +397,7 @@ function timingNotes() {
   if (end >= new Date("2027-04-29T12:00:00")) {
     notes.push("This reaches 29 April 2027, the start of Japan's Golden Week.");
   }
-  notes.push("Indian school calendars often still run through April. Confirm the actual schools. The Indian departure city is still open.");
+  notes.push("Indian school calendars often still run through April. Confirm the actual schools. The four Indian passports leave from Bengaluru.");
   return notes;
 }
 function strongChips(d) {
@@ -411,11 +411,13 @@ function strongChips(d) {
 
 function renderFacts() {
   const g = DATA.trip.group;
+  const au = DATA.trip.passports.australian;
+  const ind = DATA.trip.passports.indian;
   document.getElementById("fact-row").innerHTML = [
     g.adults + " adults",
     "Children " + g.children.map(c => c.age).join(", "),
-    "3 Australian passports from Melbourne",
-    "4 Indian passports, city not chosen",
+    au.count + " Australian passports from " + au.departureCity,
+    ind.count + " Indian passports from " + ind.departureCity,
     state.days + " days from " + state.start
   ].map(t => `<span>${esc(t)}</span>`).join("");
 }
@@ -437,6 +439,14 @@ function renderControls() {
   document.getElementById("show-aside").checked = state.showAside;
   document.getElementById("timing-notes").innerHTML = timingNotes().map(n => `<p class="notice">${esc(n)}</p>`).join("");
 }
+function stayList(d) {
+  const out = [];
+  (d.days || []).forEach(day => {
+    const name = String(day.base || "").split(",")[0].trim();
+    if (name && out[out.length - 1] !== name) out.push(name);
+  });
+  return out;
+}
 function card(entry, top) {
   const d = entry.d;
   const fit = fitWord(entry.s, top);
@@ -450,6 +460,7 @@ function card(entry, top) {
     <div class="body">
       <p class="meta">${esc(d.regionLabel)}</p>
       <h3>${esc(d.name)}</h3>
+      <p class="muted">Stays: ${esc(stayList(d).join(" · "))}</p>
       <p class="fit">Fit for this search: ${fit}</p>
       <div class="labels">
         <span class="pill">April <b>${esc(d.labels.april)}</b></span>
@@ -458,6 +469,7 @@ function card(entry, top) {
         <span class="pill">Journey <b>${esc(d.labels.practical)}</b></span>
       </div>
       <p>${esc(d.summary)}</p>
+      ${d.cost ? `<p class="muted"><strong>Indicative flights.</strong> ${esc(d.cost.summary)} Not used for ranking.</p><p class="muted">Not included: hotels, meals, local transport, tickets, insurance, bags, and visa extras unless the note already counts them.</p>` : ""}
       <p class="muted">${interests.length ? "Matches you on " + esc(interests.join(", ")) + ". " : ""}${esc(d.why)}</p>
       <div class="actions">
         <button type="button" class="primary" data-open="${d.id}">Open the plan</button>
@@ -534,6 +546,7 @@ function detailHtml(d) {
       <p class="meta">${esc(d.regionLabel)}</p>
       <h2>${esc(d.name)}</h2>
       <p class="lede">${esc(d.summary)}</p>
+      <p><strong>Stays.</strong> ${esc(stayList(d).join(" · "))}</p>
       <div class="labels">
         <span class="pill">April <b>${esc(d.labels.april)}</b></span>
         <span class="pill">Crowds <b>${esc(d.labels.crowds)}</b></span>
@@ -557,6 +570,7 @@ function detailHtml(d) {
       <div class="split" style="margin-top:14px">
         <div class="block"><h3>You would gain</h3><p>${esc(d.gain)}</p></div>
         <div class="block"><h3>You would miss</h3><p>${esc(d.miss)}</p></div>
+        ${d.cost ? `<div class="block"><h3>Indicative flights and fees</h3><p>${esc(d.cost.summary)}</p><ul>${d.cost.lines.map(line => `<li><span class="tag">${esc(line.tag)}</span> <strong>${esc(line.item)}.</strong> ${esc(line.text)}</li>`).join("")}</ul><h3>Not included</h3><ul>${(DATA.method.excluded || []).concat(d.cost.excludes || []).map(item => `<li>${esc(item)}</li>`).join("")}</ul><p>${esc(DATA.method.costBasis)}</p></div>` : ""}
       </div>
       <h3>Limits and open questions</h3>
       <ul>${d.disadvantages.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
@@ -625,7 +639,9 @@ function renderCompare() {
     ["How you travel", d => d.gettingAround],
     ["Two passports", d => "Australia: " + d.visaAu + " India: " + d.visaIn],
     ["You gain", d => d.gain],
-    ["You miss", d => d.miss]
+    ["You miss", d => d.miss],
+    ["Indicative flights", d => d.cost ? d.cost.summary + " Not used to order the list." : "Not priced"],
+    ["Not included", d => (DATA.method.excluded || []).concat((d.cost && d.cost.excludes) || []).join("; ")]
   ];
   table.innerHTML = `<table><thead><tr><th></th>${cols.map(d => `<th>${esc(d.name)}</th>`).join("")}</tr></thead><tbody>
     ${rows.map(([label, fn]) => `<tr><th>${label}</th>${cols.map(d => `<td>${esc(fn(d))}</td>`).join("")}</tr>`).join("")}
@@ -670,6 +686,12 @@ function renderResearch() {
     <p>${esc(m.whatThisIs)}</p>
     <h3>How a place rises or falls</h3>
     <p>${esc(m.howRankingWorks)}</p>
+    <h3>How the indicative flights were built</h3>
+    <p>${esc(m.costBasis)}</p>
+    <h3>Left out of every figure</h3>
+    <ul>${(m.excluded || []).map(item => `<li>${esc(item)}</li>`).join("")}</ul>
+    <h3>What was left out of a cost ranking</h3>
+    <p>${esc(m.comparisonNote)}</p>
     <h3>Evidence labels</h3>
     <ul>${Object.entries(m.evidenceLabels).map(([k, v]) => `<li><strong>${esc(k)}.</strong> ${esc(v)}</li>`).join("")}</ul>
     <h3>The April window</h3>

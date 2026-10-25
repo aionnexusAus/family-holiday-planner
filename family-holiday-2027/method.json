@@ -1,6 +1,6 @@
 {
   "researchDate": "2026-10-25",
-  "whatThisIs": "A research file for a local travel planner. The website does not look up live visas, weather, opening hours or fares. Anything that can change before April 2027 is marked recheck.",
+  "whatThisIs": "A research file for a local travel planner. The website does not look up live visas, weather, opening hours or fares. Anything that can change before April 2027 is marked recheck. Indicative costs are a snapshot stored with each place. They are not a quote.",
   "evidenceLabels": {
     "verified": "Read from an official or primary page during this research pass.",
     "seasonal": "A repeated climate or season pattern from tourism, meteorological or guidebook sources. It describes a typical April, not a forecast for April 2027.",
@@ -8,7 +8,7 @@
     "recheck": "True when researched, but the 2027 rule, date, timetable or price still has to be checked before booking.",
     "thin": "Considered, but not checked to the same standard. Not used as a main recommendation."
   },
-  "howRankingWorks": "The page scores each destination from the saved research every time a preference changes. April suitability, the split-passport journey, time together as a family, and how unfamiliar the place feels are always part of the score, because they are part of this trip. Selected interests add weight. Regions that are switched off are removed. There is no stored league table.",
+  "howRankingWorks": "The page scores each destination from the saved research every time a preference changes. April suitability, the split-passport journey, time together as a family, and how unfamiliar the place feels are always part of the score, because they are part of this trip. Selected interests add weight. Regions that are switched off are removed. There is no stored league table. Indicative costs are shown and then ignored. A cheaper place does not move up.",
   "searchedBeyondFamousCities": [
     "South Island valleys rather than a New Zealand highlights dash",
     "Kyushu rather than the Tokyo–Kyoto week",
@@ -45,8 +45,22 @@
       "reason": "Set aside early because April is already hot, humid, or more urban than the nature-first brief. They were not given the same source check."
     }
   ],
+  "comparisonNote": "A separate cost ranking put a Beijing, Xi'an, Chengdu and Zhangjiajie circuit first, using unpublished rupee ranges. Those ranges are not quotations, and that circuit is not this plan. China here means Sichuan only. Japan means Kyushu, not Tokyo and Kyoto. Finland stays unscored because April there is a thaw month. The indicative costs now on each place are also not part of the score. Three Australian passports leave from Melbourne and four Indian passports leave from Bengaluru. They meet in the destination. Ordinary Indian passports are not on Australia's transit-without-visa list, so Melbourne is not the meeting city unless those four already hold Australian visas. New Zealand is a short flight from Melbourne and a long connection from Bengaluru. Sichuan and Kyushu are one-stop journeys from both cities. That evenness is in the meeting notes. It does not outrank April weather, visas, or a pace with few hotel changes.",
+  "costBasis": "Flight lines are return fares for the international trip only. Group totals assume an adult fare. The 6-year-old is sometimes cheaper, and that discount was not priced. Ages 12 and 14 are treated as adults. Rupee conversions use the Reserve Bank of Australia on 23 October 2026, at rba.gov.au/statistics/frequency/exchange-rates.html: ₹66.47 per Australian dollar, ₹94.86 per US dollar from that day's rate of 0.7006, and ₹53.98 per New Zealand dollar. That is not a bank's selling rate. Group totals are rounded to the nearest ₹10,000. None of this changes the order of the places.",
+  "excluded": [
+    "Hotels and apartments",
+    "Meals and groceries",
+    "Travel insurance",
+    "Checked bags, seat selection and other airline extras",
+    "Any cheaper fare for the 6-year-old. The flight lines use adult fares.",
+    "Trains, hire cars, fuel, drivers and taxis",
+    "Domestic and inter-island flights",
+    "Activity tickets, park entries, guides and boat cruises",
+    "Visa-centre service charges, courier and visa photos, unless a line above already includes the service charge",
+    "Shopping and a spare amount for surprises"
+  ],
   "pageDoesNotDo": [
-    "Live prices, a budget, or a cost calculator",
+    "Live fares, or a ranking by price",
     "Live flight or train timetables",
     "A visa application",
     "Sending personal data anywhere"

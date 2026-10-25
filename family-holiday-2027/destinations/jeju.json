@@ -25,7 +25,7 @@
   "age14": "Gyeongju's museum, plus the science museum or a planetarium if you add a short Seoul buffer. This plan keeps Seoul optional.",
   "adults": "Food, a walkable history city, and an island that is not a resort week.",
   "gettingAround": "Fly into Jeju. A car, or two, on the island. Then a flight to Busan or Seoul and a train to Gyeongju. Korea drives on the right. Trains are the easy part.",
-  "meetingPoint": "Seoul or Jeju. Seoul is the easier ticket for both countries. A domestic hop to Jeju is about an hour. Indian passports need a visa. Australian passports were inside a K-ETA exemption through 31 December 2026. From 1 January 2027 that exemption was described as ending, so April 2027 likely needs a K-ETA. Recheck the official K-ETA site.",
+  "meetingPoint": "Seoul or Jeju. Seoul is the easier ticket from both Bengaluru and Melbourne. A domestic hop to Jeju is about an hour. Indian passports need a visa. Australian passports were inside a K-ETA exemption through 31 December 2026. From 1 January 2027 that exemption was described as ending, so April 2027 likely needs a K-ETA. Recheck the official K-ETA site.",
   "visaAu": "Short tourism stays have been visa-free for Australians, with K-ETA temporarily waived through 31 December 2026. Plan on a K-ETA for April 2027 unless Korea extends the waiver. Children have had age exemptions from K-ETA in past notices. Read the current rule for each traveller.",
   "visaIn": "Indian passports are not K-ETA eligible. The Korean consulate in Mumbai states that Indian nationals need a visa. Apply through the official mission.",
   "visaStatus": "recheck",
@@ -36,6 +36,15 @@
   "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Jeju_Island.jpg", "alt": "Satellite view of Jeju Island and the cone of Hallasan", "credit": "Wikimedia Commons: Jeju Island satellite view", "href": "https://commons.wikimedia.org/wiki/File:Jeju_Island.jpg"},
   "gain": "An easy, kind, educational fortnight the children will find simple to enjoy.",
   "miss": "The dramatic landscape of the top nature picks.",
+  "cost": {
+    "summary": "Melbourne to Jeju is about ₹1.6–2.6 lakh for three adult returns. Bengaluru to Seoul, the easier meeting airport, is about ₹1.8–2.6 lakh for four. The hop from Seoul to Jeju is not included. The Korean visa fee was not priced.",
+    "lines": [
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s typical return fare, Melbourne to Jeju, was A$789–$1,327 for one adult, with one stop. Three adult fares are about ₹1.6–2.6 lakh. Not an April 2027 quote."},
+      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Seoul Incheon, was ₹46,053–₹65,187 for one adult. Four adult fares are about ₹1.8–2.6 lakh. Seoul is the meeting airport in the plan. A separate Bengaluru–Jeju typical fare was not used. Not an April 2027 quote."},
+      {"item": "Visas", "tag": "thin", "text": "Indian passports need a Korean visa. The fee was not read from an official table in this pass. The Australian K-ETA rule for April 2027 still has to be rechecked, so no fee is shown."}
+    ],
+    "leftOut": "Hotels, meals, the hop to Jeju and tickets are not included."
+  },
   "stretch16": "Add a free beach-walk day on Jeju and a free day in Gyeongju. Seoul only if the flight requires it.",
   "days": [
     {"show": 10, "base": "Jeju", "experience": "Fly to the island and walk a harbour town.", "optional": "Black pork or seafood for the adults, rice and noodles for the cautious", "highlight": "Arriving on a volcanic island", "kids": "First meal is the event.", "intensity": "light", "transfer": "Seoul to Jeju is often about an hour. Confirm the meeting city.", "seasonal": "Wind.", "wet": "Hotel and a market."},
@@ -52,6 +61,8 @@
   "sources": [
     {"tag": "verified", "title": "Indian passports need a Korean visa, not K-ETA", "url": "https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=759211", "note": "Consulate General of the Republic of Korea in Mumbai, May 2026."},
     {"tag": "recheck", "title": "K-ETA exemption for Australians was extended only through 31 December 2026", "url": "https://overseas.mofa.go.kr/ch-en/brd/m_23429/view.do?seq=22", "note": "Korean embassy notice. April 2027 falls after that date. Recheck k-eta.go.kr."},
-    {"tag": "seasonal", "title": "April is a mild travel month before summer humidity", "url": "https://english.visitkorea.or.kr/", "note": "Use the official site for current openings. Hallasan's upper trails must be checked that week."}
+    {"tag": "seasonal", "title": "April is a mild travel month before summer humidity", "url": "https://english.visitkorea.or.kr/", "note": "Use the official site for current openings. Hallasan's upper trails must be checked that week."},
+    {"tag": "recheck", "title": "Typical Melbourne–Jeju return fare", "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Jeju-City-CJU", "note": "Kayak Australia typical band, Melbourne to Jeju. Not an April 2027 fare."},
+    {"tag": "recheck", "title": "Typical Bengaluru–Seoul return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Seoul-Incheon-Intl-ICN", "note": "Kayak India typical band to Incheon, the meeting airport. The Jeju hop is separate."}
   ]
 }

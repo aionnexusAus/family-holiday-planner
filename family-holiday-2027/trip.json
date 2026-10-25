@@ -15,12 +15,12 @@
     "australian": {
       "count": 3,
       "departureCity": "Melbourne",
-      "departureStatus": "likely, not finally booked"
+      "departureStatus": "stated"
     },
     "indian": {
       "count": 4,
-      "departureCity": null,
-      "departureStatus": "not decided"
+      "departureCity": "Bengaluru",
+      "departureStatus": "stated"
     }
   },
   "when": {

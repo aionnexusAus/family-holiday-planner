@@ -1,11 +1,11 @@
 {
   "id": "norway-fjords",
   "pool": "main",
-  "name": "Bergen and the western fjords, Norway",
-  "regionLabel": "Bergen and Flåm",
+  "name": "Oslo, Flåm and Bergen, Norway",
+  "regionLabel": "Oslo, Flåm and Bergen",
   "regions": ["europe"],
-  "summary": "A harbour city and one famous railway down to a fjord. April can be beautiful and it is also when many of Norway's great mountain roads and hikes are still shut.",
-  "why": "Choose it for the railway and the fjord light, not for hiking. The children will remember the train and the waterfalls. They will not get Trolltunga, Geiranger by road, or a mild week.",
+  "summary": "Three bases. Fly into Oslo, take the railway west to Flåm, and leave from Bergen. April can be beautiful, and it is also when many of Norway's great mountain roads and hikes are still shut.",
+  "why": "Oslo gives the children a real city before the fjord. Flåm is the railway and the water. Bergen is the harbour you fly home from. They will not get Trolltunga, Geiranger by road, or a mild week.",
   "distinctive": "A 20-kilometre branch line from a high railway down to a fjord, with a waterfall stop, in a country that is still waking up in April.",
   "scores": {
     "nature": 5, "quiet": 4, "culture": 3, "history": 3, "adventure": 3,
@@ -25,7 +25,7 @@
   "age14": "The same, plus Bergen's wharf history. They may be disappointed if the trip was sold as hiking.",
   "adults": "The light on the water and a city you can be in for several days without strain.",
   "gettingAround": "Train and boat. Do not build a driving tour around mountain passes. The 2026 Flåm timetable showed fewer April departures than the summer timetable, and it expired in December 2026. The 2027 table is a recheck. Norway drives on the right if you do hire a car for one valley day.",
-  "meetingPoint": "Bergen or Oslo, then the Bergen railway. Both families connect through Europe. Melbourne is a long way north.",
+  "meetingPoint": "Oslo on the way in, Bergen on the way out. Bengaluru connects through Europe or the Gulf. Melbourne is the long flight. Do not plan a same-city return unless the fare forces it.",
   "visaAu": "Schengen visa-free, EES, ETIAS not yet operating.",
   "visaIn": "Schengen visa.",
   "visaStatus": "verified-rule-recheck-process",
@@ -36,12 +36,21 @@
   "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Geirangerfjord_.jpg/1280px-Geirangerfjord_.jpg", "alt": "Geirangerfjord. The high road to this view is often still closed in April.", "credit": "Wikimedia Commons: Geirangerfjord. The April plan uses Flåm, not this road.", "href": "https://commons.wikimedia.org/wiki/File:Geirangerfjord_.jpg"},
   "gain": "A true railway-and-fjord journey, quiet and serious.",
   "miss": "Pleasant temperatures, open hiking, and the famous mountain roads.",
-  "stretch16": "Add days in Bergen. Do not add Tromsø and hope for both aurora and mild weather.",
+  "cost": {
+    "summary": "Typical return fares from Bengaluru and Melbourne to Bergen were not published in this pass, so there is no flight total. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+    "lines": [
+      {"item": "Flights from Melbourne", "tag": "thin", "text": "A typical Melbourne–Bergen return band was not published in this pass. One-off deals were not turned into a group total."},
+      {"item": "Flights from Bengaluru", "tag": "thin", "text": "A typical Bengaluru–Bergen return fare was not published in this pass."},
+      {"item": "Visas", "tag": "verified", "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. The four Indian passports come to about ₹35,000 if the 6-year-old is one of them, or about ₹40,000 if all four holders are 12 or older. The visa-centre charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+    ],
+    "leftOut": "Hotels, meals, trains and international flights are not included."
+  },
+  "stretch16": "Add a free day in Oslo and a free day in Bergen. Do not add Tromsø.",
   "days": [
-    {"show": 10, "base": "Bergen", "experience": "Land and walk the harbour.", "optional": "Fløibanen funicular if the cloud is high enough to bother", "highlight": "A wooden wharf and a mountain behind the city", "kids": "The funicular is the easy win.", "intensity": "light", "transfer": "Bergen airport is a short ride. Long-haul connections are the tiring part.", "seasonal": "It may rain. That is Bergen.", "wet": "The funicular and a cafe."},
-    {"show": 10, "base": "Bergen", "experience": "Bryggen museum or the aquarium, and a free afternoon.", "optional": "A short city walk only", "highlight": "Hanseatic warehouses and fish", "kids": "The aquarium is the 6-year-old's indoor day.", "intensity": "light", "transfer": "On foot.", "seasonal": "Check closed days.", "wet": "Already indoors."},
-    {"show": 12, "base": "Bergen", "experience": "A free rainy-city day. Pastries and a museum.", "optional": "Nothing", "highlight": "Not forcing a fjord in a gale", "kids": "Let them choose the indoor hour.", "intensity": "light", "transfer": "None.", "seasonal": "This spare day is load-bearing.", "wet": "The plan."},
-    {"show": 10, "base": "Flåm", "experience": "Train toward Myrdal and down the Flåm Railway.", "optional": "Stay in Flåm rather than doing it as a frantic day trip", "highlight": "The branch line and Kjosfossen", "kids": "All three. It is a ride with a photo stop.", "intensity": "moderate", "transfer": "Bergen to Myrdal is several hours on the Bergen line, then about an hour down to Flåm. Confirm the 2027 connection. April 2026 had fewer Flåm departures than summer.", "seasonal": "Works on the Bergen line happen in some years. Read the operator notice.", "wet": "The train is the right place to be."},
+    {"show": 10, "base": "Oslo", "experience": "Land and walk the harbour. No museum today.", "optional": "A ferry look at the islands only if everyone is awake", "highlight": "A capital used as a soft landing", "kids": "The harbour is enough.", "intensity": "light", "transfer": "Oslo airport to the centre is a train. Long-haul connections are the tiring part. Confirm the 2027 airport train.", "seasonal": "April in the city is cool and often bright. It is not hiking weather.", "wet": "Stay near the hotel and eat."},
+    {"show": 10, "base": "Oslo", "experience": "One indoor museum the children can handle, then a free afternoon.", "optional": "The harbour and a bakery. Confirm which museum is actually open in 2027 before you name it.", "highlight": "Ships, Vikings or science, in one dose", "kids": "One museum. The 6-year-old sets the leaving time.", "intensity": "light", "transfer": "Tram or a short walk. No car.", "seasonal": "The old Viking ship hall has been closed for a new museum. Do not promise that building.", "wet": "The museum is the plan."},
+    {"show": 12, "base": "Oslo", "experience": "A free city day. One park or the opera roof if the walk is open.", "optional": "Nothing booked", "highlight": "A second city day, so Oslo is not just an airport", "kids": "Let them choose the afternoon.", "intensity": "light", "transfer": "None.", "seasonal": "This is the spare day before the long train.", "wet": "Stay indoors."},
+    {"show": 10, "base": "Flåm", "experience": "Train from Oslo toward Myrdal and down the Flåm Railway. This is a travel day.", "optional": "Stay in Flåm rather than doing the branch line as a day trip", "highlight": "The main line across the mountains, then the branch line and Kjosfossen", "kids": "All three. It is a long sit, then a short spectacular ride. Pack food.", "intensity": "moderate", "transfer": "Oslo to Myrdal takes most of the day, then about an hour down to Flåm. Confirm the 2027 connection. April 2026 had fewer Flåm departures than summer.", "seasonal": "Works on the Bergen line happen in some years. Read the operator notice.", "wet": "The train is the right place to be."},
     {"show": 10, "base": "Flåm", "experience": "A fjord boat if one is running, or the village and a short valley walk.", "optional": "The Nærøyfjord sailing only if the April schedule exists", "highlight": "A narrow fjord", "kids": "The boat. A short walk. No cliff path.", "intensity": "moderate", "transfer": "Local.", "seasonal": "April sailings are thinner than July. Have the village day ready.", "wet": "The boat still goes in rain unless the wind stops it."},
     {"show": 10, "base": "Flåm", "experience": "A free day in the valley.", "optional": "The Flåm church and a bakery", "highlight": "Staying put under big walls", "kids": "A playground or a short flat path.", "intensity": "light", "transfer": "None.", "seasonal": "Snow above you is scenery, not an invitation.", "wet": "The railway museum exhibit if open, or the hotel."},
     {"show": 12, "base": "Bergen", "experience": "Train back to Bergen.", "optional": "A window seat and nothing else", "highlight": "The main line over the mountains", "kids": "Snacks and a long sit.", "intensity": "moderate", "transfer": "Several hours. Confirm the pair of trains.", "seasonal": "This is the journey. Do not add a same-day flight.", "wet": "On the train."},
@@ -51,6 +60,8 @@
     {"tag": "opinion", "title": "April is an awkward month in Norway", "url": "https://www.norwaytourism.org/norway-in-spring/", "note": "Travel site, not an official calendar. It lists 2026 opening patterns for roads and the Flåm Railway. Treat dates as that year's dates."},
     {"tag": "recheck", "title": "Flåm Railway 2026 timetable shape", "url": "https://visitnorwegianfjords.com/flam-railway/", "note": "April 2026 showed six departures from Flåm, fewer than summer. The quoted table ended in December 2026. Read Vy or Entur for 2027."},
     {"tag": "seasonal", "title": "Coastal April weather", "url": "https://www.hurtigruten.com/en/explore-norway/when-to-visit/visiting-norway-in-april", "note": "Operator page. Bergen highs around 10°C. Snowmelt waterfalls are the spring feature."},
-    {"tag": "recheck", "title": "Schengen entry", "url": "https://travel-europe.europa.eu/etias", "note": "Recheck ETIAS and the Indian visa channel."}
+    {"tag": "recheck", "title": "Schengen entry", "url": "https://travel-europe.europa.eu/etias", "note": "Recheck ETIAS and the Indian visa channel."},
+    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "€90 from age 12. €45 from age 6 until the 12th birthday."},
+    {"tag": "recheck", "title": "Rupee amount a German mission was collecting", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."}
   ]
 }

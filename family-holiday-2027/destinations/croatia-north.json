@@ -25,7 +25,7 @@
   "age14": "The same, and the question of why the park now uses timed entry.",
   "adults": "The water, the food in Istria, and Roman Parentium in Poreč if you want one serious building.",
   "gettingAround": "A car, or two. Croatia drives on the right. Ferries to Hvar or Korčula are the wrong tool in April. Many island services are still thin.",
-  "meetingPoint": "Zagreb is the straightforward airport, then a drive south to the lakes. Both families connect through Europe. Venice or Ljubljana are possible alternates and add a border.",
+  "meetingPoint": "Zagreb, then a drive south to the lakes. Bengaluru and Melbourne both connect through Europe. Venice or Ljubljana are possible alternates and add a border. This is its own trip, not a bolt-on to Slovenia.",
   "visaAu": "Croatia is Schengen. Australian passports are visa-free for a short stay. EES applies. ETIAS was not operating.",
   "visaIn": "Indian passports need a Schengen visa. Apply to Croatia if the nights are mostly there.",
   "visaStatus": "verified-rule-recheck-process",
@@ -36,6 +36,15 @@
   "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/3/39/View_in_Plitvice_Lakes_National_Park.jpg", "alt": "Lakes and forest in Plitvice Lakes National Park", "credit": "Wikimedia Commons: View in Plitvice Lakes National Park", "href": "https://commons.wikimedia.org/wiki/File:View_in_Plitvice_Lakes_National_Park.jpg"},
   "gain": "The best waterfall landscape that still fits a calm April pace.",
   "miss": "A city-and-science balance, and any swimming holiday.",
+  "cost": {
+    "summary": "Bengaluru to Zagreb is about ₹2.5–2.9 lakh for four adult typical returns. Melbourne’s past-year average is about ₹4.3 lakh for three adults. Indian Schengen visa fees are about ₹35,000–₹40,000 before the visa-centre charge.",
+    "lines": [
+      {"item": "Flights from Bengaluru", "tag": "recheck", "text": "Kayak.co.in’s typical return fare, Bengaluru to Zagreb, was ₹62,033–₹72,517 for one adult, with one stop. Four adult fares are about ₹2.5–2.9 lakh. Not an April 2027 quote."},
+      {"item": "Flights from Melbourne", "tag": "recheck", "text": "Kayak.com.au’s past-year average return from Melbourne to Zagreb was about A$2,151. Three adult fares are about ₹4.3 lakh. A low-to-high typical band for Melbourne itself was not published. Not an April 2027 quote."},
+      {"item": "Visas", "tag": "verified", "text": "The Schengen consular fee is €90 from age 12 and €45 from age 6 until the 12th birthday. A German mission in India was collecting those fees as ₹9,900 and ₹5,000 on 1 October 2026. If the 6-year-old holds one of the four Indian passports, the four consular fees are about ₹35,000. If all four Indian passports are held by people aged 12 or over, they are about ₹40,000. The visa-centre service charge is extra. Australian passports pay no Schengen visa fee for a short stay."}
+    ],
+    "leftOut": "Hotels, meals, the car, park tickets and international flights are not included."
+  },
   "stretch16": "Add free days in Istria. Do not add Dubrovnik and Split.",
   "days": [
     {"show": 10, "base": "Zagreb", "experience": "Land and walk the upper town only if you are awake.", "optional": "A playground or a cake shop", "highlight": "A compact capital used as a landing", "kids": "Easy evening.", "intensity": "light", "transfer": "Long-haul connections into Zagreb. Airport bus or taxi.", "seasonal": "April is cool in the city.", "wet": "Hotel."},
@@ -53,6 +62,10 @@
     {"tag": "opinion", "title": "April crowds and cooler park weather", "url": "https://travelplitvice.com/blog/visiting-plitvice-lakes-in-spring/", "note": "Park-focused travel article. Ticket prices it quotes are for a past season. Do not budget from them."},
     {"tag": "seasonal", "title": "April temperature sketch for the lakes", "url": "https://travelcharika.com/plitvice_lakes/april/", "note": "A model of historic weather, not a forecast and not the park authority."},
     {"tag": "verified", "title": "Croatia is in Schengen", "url": "https://www.smartraveller.gov.au/destinations/europe/croatia", "note": "Confirm the current Smartraveller page. Indian visas go through the Croatian consulate or its visa centre."},
-    {"tag": "recheck", "title": "Official park entry", "url": "https://np-plitvicka-jezera.hr/en/", "note": "Timed entry, routes and prices for 2027 must be read here."}
+    {"tag": "recheck", "title": "Official park entry", "url": "https://np-plitvicka-jezera.hr/en/", "note": "Timed entry, routes and prices for 2027 must be read here."},
+    {"tag": "verified", "title": "Schengen visa fee", "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en", "note": "€90 from age 12. €45 from age 6 until the 12th birthday."},
+    {"tag": "recheck", "title": "Rupee amount a German mission was collecting", "url": "https://india.diplo.de/in-en/service/1984596-1984596", "note": "1 October 2026: ₹9,900 and ₹5,000. Service-centre charges are extra."},
+    {"tag": "recheck", "title": "Typical Bengaluru–Zagreb return fare", "url": "https://www.kayak.co.in/flight-routes/Bengaluru-Intl-BLR/Zagreb-Franjo-Tuman-ZAG", "note": "Kayak India typical band. Not an April 2027 fare."},
+    {"tag": "recheck", "title": "Melbourne–Zagreb past-year average", "url": "https://www.kayak.com.au/flight-routes/Australia-AU0/Zagreb-Franjo-Tuman-ZAG", "note": "Average return from Melbourne. A low-to-high band for Melbourne was not on the page."}
   ]
 }

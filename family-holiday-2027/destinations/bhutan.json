@@ -25,7 +25,7 @@
   "age14": "The same, plus the idea of a country that charges visitors to stay small. They are old enough for that conversation.",
   "adults": "The quiet, the textiles, the food, and time with a guide who can explain what you are looking at.",
   "gettingAround": "Bhutan's tourism FAQ says a certified guide is mandatory, including beyond the border towns. Indian government guidance for Indian visitors also lists a guide, certified accommodation, insurance and transport. You can book the pieces yourself. Treks need an accredited guide or operator. This plan does not trek. Roads are slow and winding. Budget two or three hours for valleys that look close on a map.",
-  "meetingPoint": "Paro. Flights are daylight only and cancel in cloud. Seats are limited. Indian travellers have more routing options, including via Delhi or Kolkata, and a land border that the Australian party does not use in the same way. The simple plan is that everyone flies into Paro. Book when the visa or permit is approved.",
+  "meetingPoint": "Paro. Flights are daylight only and cancel in cloud. Seats are limited. From Bengaluru the usual path is via Delhi, Kolkata or another hub, not a direct flight. The Melbourne party has the same Paro constraint and a longer first leg. Everyone flies into Paro. Book when the visa or permit is approved.",
   "visaAu": "Australian passports need a visa before travel. The Sustainable Development Fee for non-Indian adults was published as USD 100 per person per night under a discount running until 31 August 2027. Children from age 6 until they turn 12 pay half. Children 12 and over pay the adult fee. Under 6 pay nothing. So the 6-year-old is half, and the 12- and 14-year-olds are full, on whichever passport they hold. This is a fee fact, not a calculator, and it can change.",
   "visaIn": "Indian passports need an entry permit, not a visa. A passport or voter ID is required, and children under 18 need a passport or birth certificate and a guardian. The Indian SDF was published as Nu or INR 1,200 per adult per night, with the same child discounts. Apply ahead. Arrival processing can be slow.",
   "visaStatus": "verified-rule-recheck-fee",
@@ -36,6 +36,14 @@
   "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Punakha_Dzong%2C_Bhutan_02.jpg", "alt": "Punakha Dzong beside the river in Bhutan", "credit": "Wikimedia Commons: Punakha Dzong, Bhutan", "href": "https://commons.wikimedia.org/wiki/File:Punakha_Dzong,_Bhutan_02.jpg"},
   "gain": "The quietest cultural mountain trip, and the one most unlike anywhere else on this list.",
   "miss": "Simple independent travel, science museums, and an equal set of rules for the two passports.",
+  "cost": {
+    "summary": "The nightly fee alone is about ₹4.2 lakh for 13 nights in one passport split. It changes if a child holds an Australian passport. Flights, the guide and hotels are not included.",
+    "lines": [
+      {"item": "Sustainable development fee", "tag": "recheck", "text": "Until 31 August 2027 the published non-Indian rate is US$100 a night from age 12, and half from age 6 until the 12th birthday. The Indian rate is ₹1,200 a night, with the same child rule. One illustration for 13 nights: if the three Australian passports are adults and the four Indian passports are one adult plus the three children, the Australian fee is US$3,900, about ₹3.7 lakh, and the Indian fee is ₹54,600. Together that is about ₹4.2 lakh. If the 6-year-old holds an Australian passport, that child pays US$50 a night instead of ₹600. This is the fee only."},
+      {"item": "Flights", "tag": "thin", "text": "A typical Melbourne–Paro return was not published. Kayak’s Australia-wide typical return to Paro was A$2,168–$2,988, and the cheap example was Perth, so that band is not used as the Melbourne fare. A Bengaluru–Paro typical fare was not published either."}
+    ],
+    "leftOut": "The guide, hotels, meals and the drives are not included. The fee sits on top of those."
+  },
   "stretch16": "Add rest days in Punakha. Do not add a trek.",
   "days": [
     {"show": 10, "base": "Paro", "experience": "Land in daylight and do nothing strenuous.", "optional": "A short walk in town", "highlight": "The valley itself, at about 2,200 metres", "kids": "Watch how everyone feels. Headache means the next day gets shorter.", "intensity": "light", "transfer": "Paro only, in daylight. Build a buffer night in Delhi, Bangkok or Singapore in case the flight does not leave.", "seasonal": "Cloud cancels flights. This is the main operational risk.", "wet": "The hotel. Arriving is enough."},
