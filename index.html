@@ -58,6 +58,7 @@ nav button, .text-btn {
   border: 0; background: transparent; padding: 8px 10px; border-radius: 999px; color: var(--muted);
 }
 nav button[aria-current="page"] { background: var(--forest); color: white; }
+nav button.reset-btn { border: 1px solid var(--line); color: var(--ink); }
 .hero { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 28px; align-items: end; padding: 28px 0 10px; }
 .hero h1 { font-size: clamp(42px, 6vw, 76px); margin: 8px 0 12px; }
 .lede { font-size: 19px; max-width: 40rem; }
@@ -172,6 +173,7 @@ th { font-size: 13px; color: var(--muted); font-weight: 520; }
     <button type="button" data-view="compare">Compare</button>
     <button type="button" data-view="decide">Decide</button>
     <button type="button" data-view="research">Research</button>
+    <button type="button" class="reset-btn" id="reset-all">Reset everything</button>
   </nav>
 </header>
 <main class="wrap">
@@ -220,7 +222,7 @@ th { font-size: 13px; color: var(--muted); font-weight: 520; }
         </label>
       </div>
       <div class="row-actions">
-        <button type="button" class="ghost" id="reset">Reset this search</button>
+        <button type="button" class="ghost" id="reset">Reset everything</button>
         <label class="check"><input type="checkbox" id="show-aside"> Include places we held back</label>
         <span class="muted"><span class="saved-dot"></span> <span id="save-state">Saved in this browser</span></span>
       </div>
@@ -824,16 +826,19 @@ document.getElementById("show-aside").addEventListener("change", event => {
   state.showAside = event.target.checked;
   refresh();
 });
-document.getElementById("reset").addEventListener("click", () => {
-  if (!confirm("Clear saved interests, dates and the shortlist in this browser?")) return;
+function resetEverything() {
+  if (!confirm("Reset interests, dates, the shortlist and the comparison in this browser?")) return;
   localStorage.removeItem("familyHolidayApril2027");
   const fresh = load();
   Object.keys(state).forEach(key => delete state[key]);
   Object.assign(state, fresh);
   lastLeader = null;
+  history.replaceState(null, "", location.pathname + location.search);
   refresh();
   show("discover");
-});
+}
+document.getElementById("reset").addEventListener("click", resetEverything);
+document.getElementById("reset-all").addEventListener("click", resetEverything);
 document.body.addEventListener("click", event => {
   const open = event.target.closest("[data-open]");
   const save = event.target.closest("[data-save]");
