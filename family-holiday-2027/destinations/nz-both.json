@@ -1,0 +1,104 @@
+{
+  "id": "nz-both",
+  "pool": "main",
+  "name": "Both islands, New Zealand",
+  "regionLabel": "Hobbiton, then the South Island",
+  "regions": ["oceania"],
+  "summary": "Four nights in the north for Hobbiton and Rotorua, then a morning flight to Christchurch and the South Island lakes and fiord. Fewer free days than either island on its own.",
+  "why": "The flight is what makes both islands possible. Rotorua to Christchurch is nonstop, about 1 hour 55 minutes, and the morning plane still leaves time to reach Tekapo in daylight. The ferry does not. You drop one hire car and pick up another. Wellington stays out.",
+  "distinctive": "The film set and the fiord in one fortnight, joined by a short domestic flight rather than a drive the length of the North Island.",
+  "scores": {
+    "nature": 5, "quiet": 3, "culture": 3, "history": 2, "adventure": 4,
+    "wildlife": 4, "science": 4, "family": 5, "mild": 5, "road": 5, "rail": 1,
+    "relaxed": 3, "variety": 5, "child6": 4, "child12": 5, "child14": 5,
+    "scenery": 5, "april": 5, "practical": 3, "mobility": 3, "unique": 4, "conventional": 3
+  },
+  "stairs": 2,
+  "labels": {
+    "april": "Excellent",
+    "crowds": "Mixed",
+    "family": "Very Good",
+    "practical": "Good",
+    "scenery": "Excellent"
+  },
+  "weather": "The north is milder in April. The South Island is mild by day and cold at night, and Fiordland is wetter. This is a seasonal pattern, not a forecast.",
+  "weatherStatus": "seasonal",
+  "crowds": "Hobbiton can be fully booked in April. Milford and the Wānaka lakefront still draw people on fine days. The pace is tighter than the single-island plans, which is the real crowd you will feel.",
+  "crowdStatus": "opinion",
+  "natureExperiences": [
+    "A Rotorua geothermal field for one day",
+    "Lake Tekapo and a day toward Aoraki / Mount Cook",
+    "Lake Wānaka",
+    "Milford Sound by boat, with a spare day because the road closes"
+  ],
+  "age6": "Hobbiton, one geyser day, lakefronts and the boat. The island-change day is a flight plus the drive to Tekapo. Keep that day otherwise empty.",
+  "age12": "The film set and then the same South Island landscapes, with less spare time than the South Island plan.",
+  "age14": "Enough of both to compare them. Not enough spare days to add Wellington or a second fiord.",
+  "adults": "Two rental contracts and a domestic flight are the work. The children still get a film set and a fiord.",
+  "gettingAround": "Two cars in the north, left at Rotorua airport. Two different cars from Christchurch. You cannot put a hire car on the Rotorua–Christchurch plane. The open jaw is into Auckland and out of Queenstown.",
+  "meetingPoint": "Auckland first, then Christchurch after the domestic flight. Melbourne–Auckland is often nonstop, about 3 hours 40 minutes. Bengaluru–Auckland is one stop. Use Singapore or Kuala Lumpur, not Sydney. The island flight is Rotorua to Christchurch, about 1 hour 55 minutes. Air New Zealand has flown it about once or twice a day. Confirm the April 2027 morning departure before you book Hobbiton around it.",
+  "visaAu": "Australian citizens travelling on an Australian passport do not need a visa or an NZeTA. Immigration New Zealand says an Australian Resident Visa is normally granted on arrival if character requirements are met.",
+  "visaIn": "Indian passports need one New Zealand visitor visa for both islands, not an NZeTA. Tourism New Zealand's India page says the passport should be valid for at least 3 months after the planned departure from New Zealand. Early 2026 processing for Indian visitor visas averaged about 7 working days, with an 84% approval rate from January to April 2026. That is a recent statistic, not a promise for 2027.",
+  "visaStatus": "verified-rule-recheck-timing",
+  "disadvantages": [
+    "The free days that make the South Island feel calm are the ones this plan spends in the north.",
+    "Seven sets of bags have to fit the Rotorua plane. It is a smaller aircraft than the international flights.",
+    "International fares into Auckland and the domestic fare were not published here, so they are not in the trip band.",
+    "A Cook Strait ferry would put you at the top of the South Island, a long way from Tekapo. This plan does not use it."
+  ],
+  "uncertainties": [
+    "Whether seven seats exist on the Rotorua–Christchurch morning flight in April 2027.",
+    "Hobbiton availability, Milford Road status, and two rental cars with a child seat."
+  ],
+  "childTags": ["stories", "wildlife", "walks", "water", "science"],
+  "climate": "mild",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Church_of_the_Good_Shepherd%2C_Lake_Tekapo%2C_New_Zealand_03.jpg",
+    "alt": "Church of the Good Shepherd beside Lake Tekapo",
+    "credit": "Wikimedia Commons: Church of the Good Shepherd, Lake Tekapo, New Zealand 03.jpg",
+    "href": "https://commons.wikimedia.org/wiki/File:Church_of_the_Good_Shepherd,_Lake_Tekapo,_New_Zealand_03.jpg"
+  },
+  "gain": "Hobbiton and Milford Sound without driving the length of the North Island.",
+  "miss": "Spare days, one-car simplicity, and a priced Auckland fare.",
+  "cost": {
+    "summary": "The visa fee matches the other New Zealand plans. International fares into Auckland, and the Rotorua–Christchurch ticket, were not priced.",
+    "lines": [
+      {"item": "Flights from Bengaluru", "tag": "thin", "text": "The international arrival is Auckland, not Christchurch. There is no nonstop from Bengaluru. A typical return fare was not published in this pass. Do not connect in Sydney on an ordinary Indian passport."},
+      {"item": "Flights from Melbourne", "tag": "thin", "text": "Melbourne to Auckland is often nonstop, about 3 hours 40 minutes. A typical return fare was not published in this pass. The flight home is from Queenstown, which has fewer international seats than Auckland or Christchurch. Confirm seven seats."},
+      {"item": "Flights between the islands", "tag": "recheck", "text": "Rotorua to Christchurch is nonstop with Air New Zealand, about 1 hour 55 minutes, often once or twice a day. The fare for seven people was not priced. Take the morning flight. The hire car does not come with you."},
+      {"item": "Visas", "tag": "verified", "text": "Australian citizens pay no visa fee. For Indian passports, the May 2026 fees guide charges one visitor-visa fee of NZD 341 when a partner and dependent children are included, plus an NZD 100 levy for every person. Four people on one application would be NZD 741, about ₹40,000. Two separate family applications would be NZD 1,082, about ₹58,000. Four separate applications would be NZD 1,764, about ₹95,000. One visa covers both islands."}
+    ],
+    "leftOut": "International tickets and the domestic flight are outside the band.",
+    "trip": {
+      "band": "about ₹5–13 lakh before the flights",
+      "note": "The visa fee is inside this. Fares into Auckland, home from Queenstown, and Rotorua to Christchurch were not published.",
+      "text": "A band for seven people and about 13 nights, rounded to the nearest lakh. Not a quote, and not used to order the list. Three rooms, meals for seven, local transport and tickets. Two nights use Auckland's columns, two use Rotorua's, and nine use the South Island columns already used for Christchurch at the low end and Queenstown at the high end. The domestic flight, both sets of international tickets, insurance and bags are outside it."
+    }
+  },
+  "stretch16": "Add a free day in Tekapo and a free day in Te Anau. Do not add Wellington.",
+  "days": [
+    {"show": 10, "base": "Auckland", "experience": "Land and stop.", "optional": "Nothing", "highlight": "Sleep after the Bengaluru flight", "kids": "No plan.", "intensity": "light", "transfer": "Airport to the city. Allow the drive.", "seasonal": "April rain.", "wet": "The hotel."},
+    {"show": 12, "base": "Auckland", "experience": "One easy day.", "optional": "A park or a calm-water ferry", "highlight": "A day with no bags", "kids": "The 6-year-old chooses.", "intensity": "light", "transfer": "Local.", "seasonal": "None.", "wet": "Stay in."},
+    {"show": 10, "base": "Rotorua", "experience": "Hobbiton on the drive south, then Rotorua.", "optional": "The standard tour only", "highlight": "The film set", "kids": "About two and a half hours of walking. Book seven places after the visas.", "intensity": "moderate", "transfer": "About two hours to the tour, then under an hour to Rotorua.", "seasonal": "April tours fill up.", "wet": "The tour still runs. Take jackets."},
+    {"show": 10, "base": "Rotorua", "experience": "One geothermal field.", "optional": "Nothing else", "highlight": "Mud and a geyser", "kids": "Boardwalks. The ground is hot. The town smells of sulphur.", "intensity": "moderate", "transfer": "Local.", "seasonal": "This is the only Rotorua day. Do not add a second attraction.", "wet": "Go if the field is open."},
+    {"show": 10, "base": "Lake Tekapo", "experience": "Morning flight to Christchurch, pick up the cars, drive to Tekapo.", "optional": "No Christchurch sightseeing", "highlight": "Changing islands without a ferry", "kids": "The flight is under two hours. The drive after it is the tiring part. Stop for lunch.", "intensity": "demanding", "transfer": "Rotorua to Christchurch is about 1 hour 55 minutes. Christchurch to Tekapo is about 3 hours. Use the morning flight or you will arrive in the dark.", "seasonal": "Confirm seven seats and the child-seat cars before you lock Hobbiton.", "wet": "Fly anyway. The drive is the risk if the weather is bad in the mountains. Check the road."},
+    {"show": 10, "base": "Lake Tekapo", "experience": "The lake and a short walk.", "optional": "Church of the Good Shepherd as a ten-minute stop", "highlight": "The first alpine lake", "kids": "Flat and short.", "intensity": "light", "transfer": "None.", "seasonal": "Nights are cold.", "wet": "Watch the lake from inside."},
+    {"show": 10, "base": "Lake Tekapo", "experience": "A day toward Aoraki / Mount Cook.", "optional": "Hooker Valley only if it is open and the 6-year-old is walking well", "highlight": "The mountain from the lookouts", "kids": "Lookouts are the plan. The long track is optional.", "intensity": "moderate", "transfer": "About 1.5–2 hours each way from Tekapo. Confirm on the day.", "seasonal": "High tracks close. Read the Department of Conservation note that morning.", "wet": "A shelter in the valley, then back."},
+    {"show": 12, "base": "Lake Tekapo", "experience": "A free day.", "optional": "Nothing", "highlight": "The spare day this plan can still afford", "kids": "The lake again.", "intensity": "light", "transfer": "None.", "seasonal": "Do not spend this day on a new town.", "wet": "Stay in."},
+    {"show": 10, "base": "Wānaka", "experience": "Drive to Wānaka and stop.", "optional": "A lakeside walk if you arrive in daylight", "highlight": "Autumn trees", "kids": "Car day.", "intensity": "moderate", "transfer": "About 3–3.5 hours from Tekapo by the Lindis Pass in normal conditions. Check the road.", "seasonal": "The pass can ice early in April.", "wet": "Drive if the road is open."},
+    {"show": 12, "base": "Wānaka", "experience": "The lake and the town.", "optional": "Arrowtown only if everyone still wants a drive", "highlight": "One calm lake day", "kids": "All three can do this.", "intensity": "light", "transfer": "None unless you choose Arrowtown, a bit over an hour each way.", "seasonal": "There is only one full day here. Do not fill it with a tour.", "wet": "A museum or a long lunch."},
+    {"show": 10, "base": "Te Anau", "experience": "Drive to Te Anau.", "optional": "A look at the Kepler Mire and the Waiau River if you pass that way. Those are the swamp and the river from the films.", "highlight": "The gateway to the fiord", "kids": "Arrive in daylight. Do not walk into the bog.", "intensity": "moderate", "transfer": "About 3–3.5 hours from Wānaka via the Queenstown corridor. You do not need a Queenstown night.", "seasonal": "The film stops are a look from the road, not a tour.", "wet": "Drive."},
+    {"show": 10, "base": "Te Anau", "experience": "Milford Sound cruise. Start early.", "optional": "Short stops on the way back only if energy remains", "highlight": "The fiord", "kids": "A long sitting day. Take snacks.", "intensity": "demanding", "transfer": "About 2 hours each way, plus tunnel waits. These are typical times, not a 2027 timetable.", "seasonal": "The road closes for snow, avalanche work and crashes.", "wet": "Rain suits the waterfalls. A closed road does not. Keep the next day free."},
+    {"show": 10, "base": "Te Anau", "experience": "The spare day.", "optional": "Move the cruise here if yesterday's road was shut", "highlight": "Not being forced onto a flight the morning after Milford", "kids": "Lake Te Anau, or nothing.", "intensity": "light", "transfer": "None.", "seasonal": "This day is why Milford is still in the two-island plan.", "wet": "Stay in, unless you are using the cruise."},
+    {"show": 10, "base": "Queenstown airport", "experience": "Drive to Queenstown and fly.", "optional": "No Queenstown sightseeing", "highlight": "Going home from the south", "kids": "A short morning drive, then the airport.", "intensity": "moderate", "transfer": "Te Anau to Queenstown is about 2 hours. International flights from Queenstown are fewer. Confirm seven seats, including the Bengaluru connection.", "seasonal": "Mid-April is easier than the school-holiday weekend at the start of the month.", "wet": "Go to the airport."}
+  ],
+  "sources": [
+    {"tag": "verified", "title": "One New Zealand visitor visa covers both islands", "url": "https://www.newzealand.com/in/visas-and-immigration/", "note": "Indian passports need a visitor visa. Australian citizens do not need a visa or an NZeTA."},
+    {"tag": "recheck", "title": "Rotorua to Christchurch is a nonstop of about 1 hour 55 minutes", "url": "https://www.flightconnections.com/flights-from-rot-to-chc", "note": "Air New Zealand. Frequency changes. Confirm a morning flight for seven in April 2027."},
+    {"tag": "recheck", "title": "Hobbiton must be booked, and April is busy", "url": "https://www.hobbitontours.com/shire-diaries/how-far-in-advance-should-i-book/", "note": "Standard daytime tour. The set is not open without a guide."},
+    {"tag": "recheck", "title": "Cook Strait ferry is about 3.5 hours and arrives in Picton", "url": "https://www.newzealand.com/nz/ferrieswater-taxis/", "note": "This plan does not use the ferry. Picton is a long way from Tekapo and Milford."},
+    {"tag": "verified", "title": "Kepler Mire and the Waiau River are listed film landscapes", "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/lord-of-the-rings-locations", "note": "Department of Conservation. Look from the road. The bog is not a walk for this group."},
+    {"tag": "recheck", "title": "Milford Road conditions", "url": "https://www.milfordroad.co.nz/", "note": "Check the morning of the cruise."},
+    {"tag": "recheck", "title": "Auckland, Rotorua, Christchurch and Queenstown cost columns", "url": "https://www.budgetyourtrip.com/new-zealand/auckland/trip-cost-2193733", "note": "The trip band mixes those published columns. It does not include the airfares."}
+  ]
+}
