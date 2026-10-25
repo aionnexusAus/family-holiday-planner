@@ -249,7 +249,7 @@ th { font-size: 13px; color: var(--muted); font-weight: 520; }
 
   <section id="compare" class="view" hidden>
     <h2>Compare the shortlist</h2>
-    <p class="help">This compares the trip you would have. The cost row is indicative and is not used to order the list.</p>
+    <p class="help">This compares the trip you would have. Flight rows are the four Indian passports from Bengaluru and the three Australian passports from Melbourne. They are indicative and are not used to order the list.</p>
     <div id="compare-picks" class="checks no-print"></div>
     <div id="compare-table"></div>
   </section>
@@ -469,7 +469,7 @@ function card(entry, top) {
         <span class="pill">Journey <b>${esc(d.labels.practical)}</b></span>
       </div>
       <p>${esc(d.summary)}</p>
-      ${d.cost ? `<p class="muted"><strong>Indicative flights.</strong> ${esc(d.cost.summary)} Not used for ranking.</p><p class="muted">Not included: hotels, meals, local transport, tickets, insurance, bags, and visa extras unless the note already counts them.</p>` : ""}
+      ${d.cost ? `<p><strong>Cost.</strong> ${esc(d.cost.summary)} Not used for ranking.</p>` : ""}
       <p class="muted">${interests.length ? "Matches you on " + esc(interests.join(", ")) + ". " : ""}${esc(d.why)}</p>
       <div class="actions">
         <button type="button" class="primary" data-open="${d.id}">Open the plan</button>
@@ -531,6 +531,29 @@ function dayCard(day, index) {
     </div>
   </article>`;
 }
+function costLineText(d, item) {
+  if (!d.cost) return "Not priced.";
+  const lines = d.cost.lines || [];
+  const exact = lines.find(x => x.item === item);
+  if (exact) return exact.text;
+  const generic = lines.find(x => x.item === "Flights");
+  if (generic && item === "Flights from Bengaluru") return generic.text;
+  if (generic) return "No separate Melbourne fare. The flight note is with the Bengaluru line.";
+  return "Not priced.";
+}
+function costPanel(d) {
+  if (!d.cost) return "";
+  const fee = (d.cost.lines || []).find(x => x.item === "Visas" || x.item === "Sustainable development fee");
+  const leftOut = (DATA.method.excluded || []).concat(d.cost.excludes || []);
+  return `<div class="block" style="margin:14px 0">
+    <h3>Cost</h3>
+    <p><strong>Indian passports from Bengaluru.</strong> ${esc(costLineText(d, "Flights from Bengaluru"))}</p>
+    <p><strong>Australian passports from Melbourne.</strong> ${esc(costLineText(d, "Flights from Melbourne"))}</p>
+    <p><strong>Fees.</strong> ${esc(fee ? fee.text : "Not priced.")}</p>
+    <p><strong>Not included.</strong> ${esc(leftOut.join("; "))}</p>
+    <p>These figures are not used to order the list.</p>
+  </div>`;
+}
 function detailHtml(d) {
   const days = visibleDays(d);
   const stretch = state.days >= 16 && d.stretch16 ? `<p class="notice">${esc(d.stretch16)}</p>` : "";
@@ -547,6 +570,7 @@ function detailHtml(d) {
       <h2>${esc(d.name)}</h2>
       <p class="lede">${esc(d.summary)}</p>
       <p><strong>Stays.</strong> ${esc(stayList(d).join(" · "))}</p>
+      ${costPanel(d)}
       <div class="labels">
         <span class="pill">April <b>${esc(d.labels.april)}</b></span>
         <span class="pill">Crowds <b>${esc(d.labels.crowds)}</b></span>
@@ -570,7 +594,6 @@ function detailHtml(d) {
       <div class="split" style="margin-top:14px">
         <div class="block"><h3>You would gain</h3><p>${esc(d.gain)}</p></div>
         <div class="block"><h3>You would miss</h3><p>${esc(d.miss)}</p></div>
-        ${d.cost ? `<div class="block"><h3>Indicative flights and fees</h3><p>${esc(d.cost.summary)}</p><ul>${d.cost.lines.map(line => `<li><span class="tag">${esc(line.tag)}</span> <strong>${esc(line.item)}.</strong> ${esc(line.text)}</li>`).join("")}</ul><h3>Not included</h3><ul>${(DATA.method.excluded || []).concat(d.cost.excludes || []).map(item => `<li>${esc(item)}</li>`).join("")}</ul><p>${esc(DATA.method.costBasis)}</p></div>` : ""}
       </div>
       <h3>Limits and open questions</h3>
       <ul>${d.disadvantages.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
@@ -609,6 +632,22 @@ function renderShort() {
       <button type="button" class="ghost" data-save="${id}">Remove</button></article>`;
   }).join("");
 }
+function flightNote(d, item) {
+  if (!d.cost) return "Not priced. Not used to order the list.";
+  const lines = d.cost.lines || [];
+  const exact = lines.find(x => x.item === item);
+  if (exact) return exact.text + " Not used to order the list.";
+  const generic = lines.find(x => x.item === "Flights");
+  if (generic && item === "Flights from Bengaluru") return generic.text + " Not used to order the list.";
+  if (generic) return "No separate Melbourne fare. The flight note is on the Bengaluru row. Not used to order the list.";
+  return "Not priced. Not used to order the list.";
+}
+function feeNote(d) {
+  if (!d.cost) return "Not priced. Not used to order the list.";
+  const lines = d.cost.lines || [];
+  const fee = lines.find(x => x.item === "Visas" || x.item === "Sustainable development fee");
+  return fee ? fee.text + " Not used to order the list." : "Not priced. Not used to order the list.";
+}
 function renderCompare() {
   const picks = document.getElementById("compare-picks");
   const table = document.getElementById("compare-table");
@@ -640,7 +679,9 @@ function renderCompare() {
     ["Two passports", d => "Australia: " + d.visaAu + " India: " + d.visaIn],
     ["You gain", d => d.gain],
     ["You miss", d => d.miss],
-    ["Indicative flights", d => d.cost ? d.cost.summary + " Not used to order the list." : "Not priced"],
+    ["Indian passports from Bengaluru", d => flightNote(d, "Flights from Bengaluru")],
+    ["Australian passports from Melbourne", d => flightNote(d, "Flights from Melbourne")],
+    ["Fees on the Indian passports", d => feeNote(d)],
     ["Not included", d => (DATA.method.excluded || []).concat((d.cost && d.cost.excludes) || []).join("; ")]
   ];
   table.innerHTML = `<table><thead><tr><th></th>${cols.map(d => `<th>${esc(d.name)}</th>`).join("")}</tr></thead><tbody>
